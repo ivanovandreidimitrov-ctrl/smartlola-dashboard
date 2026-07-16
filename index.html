@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0a0e1a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+  <title>SmartLola 🧭</title>
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <span class="logo">🧭</span>
+        <div>
+          <h1>SmartLola</h1>
+          <span class="subtitle" id="connection-status">● Conectare...</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <span class="model-badge" id="model-badge">GLM-5.2</span>
+      </div>
+    </header>
+
+    <!-- Tab Navigation -->
+    <nav class="tabs">
+      <button class="tab active" data-tab="dashboard">📊 Dashboard</button>
+      <button class="tab" data-tab="guda">💰 Guda</button>
+      <button class="tab" data-tab="atlas">🏗 Atlas</button>
+      <button class="tab" data-tab="agents">🤖 Agenți</button>
+    </nav>
+
+    <!-- Dashboard Tab -->
+    <section class="tab-content active" id="tab-dashboard">
+      <div class="status-grid">
+        <div class="status-card" id="sys-health">
+          <div class="card-icon">🟢</div>
+          <div class="card-body">
+            <div class="card-title">Sistem</div>
+            <div class="card-value" id="sys-status">Verificare...</div>
+            <div class="card-detail" id="sys-detail"></div>
+          </div>
+        </div>
+        <div class="status-card" id="andrei-status">
+          <div class="card-icon">👤</div>
+          <div class="card-body">
+            <div class="card-title">Andrei</div>
+            <div class="card-value" id="andrei-state">—</div>
+            <div class="card-detail" id="andrei-detail"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat-box">
+          <div class="stat-label">Cheltuieli</div>
+          <div class="stat-value" id="stat-expenses">€0</div>
+          <div class="stat-sub" id="stat-expenses-count">0 intrări</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Ore lucrate</div>
+          <div class="stat-value" id="stat-hours">0h</div>
+          <div class="stat-sub" id="stat-hours-count">0 zile</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Pending</div>
+          <div class="stat-value" id="stat-pending">0</div>
+          <div class="stat-sub">evenimente</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>⚡ Acțiuni rapide</h3>
+        <div class="action-grid">
+          <button class="action-btn" onclick="quickAction('expense')">
+            <span class="action-icon">💰</span>
+            <span>Înregistrează cheltuială</span>
+          </button>
+          <button class="action-btn" onclick="quickAction('hours')">
+            <span class="action-icon">⏰</span>
+            <span>Adaugă ore</span>
+          </button>
+          <button class="action-btn" onclick="quickAction('report')">
+            <span class="action-icon">📊</span>
+            <span>Raport financiar</span>
+          </button>
+          <button class="action-btn" onclick="quickAction('santier')">
+            <span class="action-icon">🏗</span>
+            <span>Program șantier</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>📋 Evenimente recente</h3>
+        <div id="recent-events" class="event-list">
+          <div class="empty-state">Se încarcă...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guda Tab -->
+    <section class="tab-content" id="tab-guda">
+      <div class="section">
+        <h3>💰 Cheltuieli — <span id="guda-view-label">Astăzi</span></h3>
+        <div class="view-toggle">
+          <button class="guda-view-btn active" data-view="today" onclick="setGudaView('today')">📅 Ultima zi</button>
+          <button class="guda-view-btn" data-view="month" onclick="setGudaView('month')">📆 Luna curentă</button>
+          <button class="guda-view-btn" data-view="total" onclick="setGudaView('total')">📊 Total</button>
+        </div>
+        <div class="big-number" id="guda-total">€0.00</div>
+        <div class="split-row">
+          <div class="split-box shared">
+            <div class="split-label">Shared</div>
+            <div class="split-value" id="guda-shared">€0</div>
+          </div>
+          <div class="split-box andrei">
+            <div class="split-label">Andrei only</div>
+            <div class="split-value" id="guda-andrei">€0</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>📈 Pe categorii</h3>
+        <div id="guda-categories" class="category-bars">
+          <div class="empty-state">Se încarcă...</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>📜 Ultimele cheltuieli</h3>
+        <div id="guda-recent" class="expense-list">
+          <div class="empty-state">Se încarcă...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Atlas Tab -->
+    <section class="tab-content" id="tab-atlas">
+      <div class="section">
+        <h3>🏗 Ore lucrate — <span id="atlas-view-label">Luna curentă</span></h3>
+        <div class="view-toggle">
+          <button class="atlas-view-btn active" data-view="current-month" onclick="setAtlasView('current-month')">📆 Luna curentă</button>
+          <button class="atlas-view-btn" data-view="all" onclick="setAtlasView('all')">📊 Total</button>
+        </div>
+        <div class="big-number" id="atlas-total-hours">0h</div>
+        <div class="stat-sub" id="atlas-days">0 zile confirmate</div>
+      </div>
+
+      <div class="section">
+        <h3>📅 Pe luni</h3>
+        <div id="atlas-monthly" class="month-bars">
+          <div class="empty-state">Se încarcă...</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>🔨 Ultimele zile pe șantier</h3>
+        <div id="atlas-recent" class="work-list">
+          <div class="empty-state">Se încarcă...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agents Tab -->
+    <section class="tab-content" id="tab-agents">
+      <div class="section">
+        <h3>🤖 Echipa SmartLola</h3>
+        <div id="agents-list" class="agents-grid">
+          <div class="empty-state">Se încarcă...</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>⚙️ Sistem</h3>
+        <div class="sys-info" id="sys-info">
+          <div class="empty-state">Se încarcă...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Action Modal -->
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="modal-title">Acțiune</h3>
+          <button class="modal-close" onclick="closeModal()">✕</button>
+        </div>
+        <div class="modal-body" id="modal-body"></div>
+      </div>
+    </div>
+
+    <!-- Notification toast -->
+    <div id="toast" class="toast hidden"></div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

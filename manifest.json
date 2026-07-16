@@ -1,0 +1,27 @@
+{
+  "name": "SmartLola Dashboard",
+  "short_name": "SmartLola",
+  "description": "SmartLola 2.0 — Agent dashboard for finances, worksite, and AI coordination",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0e1a",
+  "theme_color": "#0a0e1a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "business", "utilities"],
+  "lang": "ro",
+  "dir": "ltr"
+}
