@@ -1,0 +1,486 @@
+{
+  "generated_at": "2026-07-18T04:59:59.739Z",
+  "system_health": {
+    "gateway": "up",
+    "model": "glm-5.2:cloud",
+    "wifi_adapter": "D-Link DWA-125 USB",
+    "dns": "8.8.8.8 / 8.8.4.4",
+    "whatsapp": "linked",
+    "ollama": "local"
+  },
+  "db_stats": {
+    "expenses": 49,
+    "expenses_total": 1885.94,
+    "expenses_shared": 1628,
+    "expenses_andrei_only": 257.94,
+    "expenses_month": 5,
+    "expenses_month_total": 95.79,
+    "ore_lucrate": 0,
+    "ore_total": 0,
+    "ore_month": 0,
+    "ore_month_total": 0,
+    "pending": 0
+  },
+  "expenses": [
+    {
+      "id": 58,
+      "date": "2026-07-16",
+      "amount": 43.54,
+      "category": "alimente",
+      "description": "Lidl - acqua, carote, pesto, banane, alimenti",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 57,
+      "date": "2026-07-15",
+      "amount": 12.08,
+      "category": "alimente",
+      "description": "Bennet Pavone Canavese — pesche, siciliano, mortadella, crudo, cipollotti, prezzemolo, peperoncini, cetrioli, sacchetti",
+      "source": "manual",
+      "split": "shared"
+    },
+    {
+      "id": 55,
+      "date": "2026-07-14",
+      "amount": 3.4,
+      "category": "alimente",
+      "description": "Panetteria Borgesio (prodotti da forno)",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 54,
+      "date": "2026-07-14",
+      "amount": 17.97,
+      "category": "alimente",
+      "description": "IN's mercato alimente (legume, lactate, băuturi)",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 53,
+      "date": "2026-07-14",
+      "amount": 18.8,
+      "category": "alimente",
+      "description": "Lidl Ivrea alimente (acqua efferv. x18, biscotti, zucchine, aceto mele, patate 2.06kg, latte x3, pomodori, anguria, shopper bio)",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 56,
+      "date": "2026-06-20",
+      "amount": 4.6,
+      "category": "cafea",
+      "description": "LE.RO S.n.c bar (cappuccino, crema caffè)",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 50,
+      "date": "2026-06-16",
+      "amount": 41.72,
+      "category": "servicii",
+      "description": "Regione Piemonte - tributi/IMU (pagoPA, scad. MAR-2027, CF VNVLNE79E66Z129Q)",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 48,
+      "date": "2026-06-11",
+      "amount": 16.11,
+      "category": "alimente",
+      "description": "Alimente",
+      "source": "manual",
+      "split": "shared"
+    },
+    {
+      "id": 49,
+      "date": "2026-06-09",
+      "amount": 15.06,
+      "category": "alimente",
+      "description": "Lidl Ivrea alimente (shopper, banane, kefir, cornetto albicocca, quartirolo, chardonnay, latte, acqua efferv.)",
+      "source": "manual",
+      "split": "shared"
+    },
+    {
+      "id": 47,
+      "date": "2026-06-09",
+      "amount": 43,
+      "category": "divertisment",
+      "description": "Bilet di chiesa saggio dans (Matei)",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 46,
+      "date": "2026-06-08",
+      "amount": 16,
+      "category": "alimente",
+      "description": "Alimente card (Elena)",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 45,
+      "date": "2026-06-08",
+      "amount": 50,
+      "category": "alimente",
+      "description": "Alimente card (Elena)",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 39,
+      "date": "2026-06-07",
+      "amount": 221.94,
+      "category": "transport",
+      "description": "Wizz Air TRN-OTP / OTP-TRN (bilet avion)",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 42,
+      "date": "2026-06-06",
+      "amount": 2,
+      "category": "alimente",
+      "description": "Lapte",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 36,
+      "date": "2026-06-06",
+      "amount": 3.69,
+      "category": "alimente",
+      "description": "D Più Samone: yogurt greco bianco",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 35,
+      "date": "2026-06-06",
+      "amount": 7.8,
+      "category": "alimente",
+      "description": "Panetteria Borgesio - Banchette: prodotti da forno",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 34,
+      "date": "2026-06-06",
+      "amount": 8.23,
+      "category": "alimente",
+      "description": "iN's mercato - Banchette di Ivrea: kefir x6, mele Fuji",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 44,
+      "date": "2026-06-04",
+      "amount": 9.5,
+      "category": "alimente",
+      "description": "Pizza (Elena)",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 41,
+      "date": "2026-06-04",
+      "amount": 6.99,
+      "category": "imbracaminte",
+      "description": "Tezenis Ivrea: leggings cotone",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 33,
+      "date": "2026-06-03",
+      "amount": 28,
+      "category": "transport",
+      "description": "Autoricambi Capellaro — Ricambi/Accessori auto",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 21,
+      "date": "2026-05-21",
+      "amount": 180.18,
+      "category": "servicii",
+      "description": "Taxa regionala Regione Piemonte (PagoPA, 12 luni, scad Apr-2027)",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 32,
+      "date": "2026-05-20",
+      "amount": 236,
+      "category": "sănătate",
+      "description": "Mediobanca Premier — Bonific trattamento neuropsicomotorio (fattura 30-2026)",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 30,
+      "date": "2026-05-19",
+      "amount": 21.43,
+      "category": "alimente",
+      "description": "Lidl Ivrea",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 31,
+      "date": "2026-05-18",
+      "amount": 7.88,
+      "category": "alimente",
+      "description": "D Più Samone",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 29,
+      "date": "2026-05-17",
+      "amount": 0.94,
+      "category": "alimente",
+      "description": "iN's mercato",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 9,
+      "date": "2026-05-10",
+      "amount": 9.09,
+      "category": "alimente",
+      "description": "iN's mercato — Banchette di Ivrea: patate €2.49, piselli €1.79, latte PET €1.25, kefir x4 €3.56",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 19,
+      "date": "2026-04-02",
+      "amount": 2,
+      "category": "servicii",
+      "description": "copie cheie",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 17,
+      "date": "2026-04-02",
+      "amount": 4,
+      "category": "cafea",
+      "description": "cafea",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 12,
+      "date": "2026-04-02",
+      "amount": 7.95,
+      "category": "alimente",
+      "description": "EuroSpin alimente",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 40,
+      "date": "2026-03-30",
+      "amount": 52.03,
+      "category": "alimente",
+      "description": "Conad Casaliggi Settimo Vittone: mele, grana, coppa, pizza, cornetti, costine, pesto, mortadella, prosciutto",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 18,
+      "date": "2026-03-26",
+      "amount": 100,
+      "category": "motorină",
+      "description": "ENI motorina (2x50€)",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 16,
+      "date": "2026-03-26",
+      "amount": 9,
+      "category": "alimente",
+      "description": "MD alimente pranz",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 15,
+      "date": "2026-03-26",
+      "amount": 17.59,
+      "category": "alimente",
+      "description": "Lidl alimente",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 11,
+      "date": "2026-03-26",
+      "amount": 2.5,
+      "category": "cafea",
+      "description": "cafea bar",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 14,
+      "date": "2026-03-25",
+      "amount": 3.8,
+      "category": "alimente",
+      "description": "cafea bar",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 13,
+      "date": "2026-03-25",
+      "amount": 10.5,
+      "category": "alimente",
+      "description": "IN'S mercato alimente",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 10,
+      "date": "2026-03-25",
+      "amount": 5.5,
+      "category": "alimente",
+      "description": "MD alimente pranz",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 23,
+      "date": "2026-03-24",
+      "amount": 12.5,
+      "category": "muncă",
+      "description": "Ribes lamiere + siliconare",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 7,
+      "date": "2026-03-24",
+      "amount": 2.5,
+      "category": "muncă",
+      "description": "grebla unelte",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 6,
+      "date": "2026-03-24",
+      "amount": 2.5,
+      "category": "cafea",
+      "description": "cafea bar",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 5,
+      "date": "2026-03-24",
+      "amount": 7.5,
+      "category": "alimente",
+      "description": "pizza pranz",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 22,
+      "date": "2026-03-23",
+      "amount": 59.79,
+      "category": "utilități",
+      "description": "Samone condominiu",
+      "source": "elena",
+      "split": "shared"
+    },
+    {
+      "id": 4,
+      "date": "2026-03-23",
+      "amount": 2.6,
+      "category": "cafea",
+      "description": "cafea la bar",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 3,
+      "date": "2026-03-23",
+      "amount": 8.29,
+      "category": "alimente",
+      "description": "DPiu",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 2,
+      "date": "2026-03-23",
+      "amount": 15,
+      "category": "îmbrăcăminte",
+      "description": "pantaloni",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 1,
+      "date": "2026-03-23",
+      "amount": 51.5,
+      "category": "alimente",
+      "description": "Lidl alimente",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 28,
+      "date": "2025-10-20",
+      "amount": 129.12,
+      "category": "utilități",
+      "description": "F24 Samone 2024 - IMU rata 2 (cod 0606)",
+      "source": "andrei",
+      "split": "andrei-only"
+    },
+    {
+      "id": 27,
+      "date": "2025-10-20",
+      "amount": 128.82,
+      "category": "utilități",
+      "description": "F24 Samone 2024 - IMU rata 1 (cod 0506)",
+      "source": "andrei",
+      "split": "andrei-only"
+    },
+    {
+      "id": 20,
+      "date": "2025-04-04",
+      "amount": 225,
+      "category": "sănătate",
+      "description": "Trattamento Neuropsicomotorio Marzo 2025 - Sara Rosella Germano (Fattura 47-2025)",
+      "source": "andrei",
+      "split": "shared"
+    }
+  ],
+  "ore_lucrate": [],
+  "categories": {
+    "alimente": 437.18,
+    "cafea": 16.2,
+    "servicii": 223.9,
+    "divertisment": 43,
+    "transport": 249.94,
+    "imbracaminte": 6.99,
+    "sănătate": 461,
+    "motorină": 100,
+    "muncă": 15,
+    "utilități": 317.73,
+    "îmbrăcăminte": 15
+  },
+  "ore_by_month": {},
+  "backup": {
+    "last_backup": "auto 02:00 Europe/Rome",
+    "next_backup": "02:00 Europe/Rome"
+  }
+}
