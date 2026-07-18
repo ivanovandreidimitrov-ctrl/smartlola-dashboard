@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T13:51:10.487Z",
+  "generated_at": "2026-07-18T19:47:26.657Z",
   "system_health": {
     "gateway": "up",
     "model": "glm-5.2:cloud",
@@ -9,12 +9,12 @@
     "ollama": "local"
   },
   "db_stats": {
-    "expenses": 50,
-    "expenses_total": 1903.35,
-    "expenses_shared": 1645.41,
+    "expenses": 51,
+    "expenses_total": 1908.35,
+    "expenses_shared": 1650.41,
     "expenses_andrei_only": 257.94,
-    "expenses_month": 6,
-    "expenses_month_total": 113.2,
+    "expenses_month": 7,
+    "expenses_month_total": 118.2,
     "ore_lucrate": 29,
     "ore_total": 252.5,
     "ore_month": 3,
@@ -22,6 +22,15 @@
     "pending": 0
   },
   "expenses": [
+    {
+      "id": 60,
+      "date": "2026-07-18",
+      "amount": 5,
+      "category": "alimente",
+      "description": "Lidl (test SmartLola 2.0)",
+      "source": "andrei",
+      "split": "shared"
+    },
     {
       "id": 59,
       "date": "2026-07-18",
@@ -795,7 +804,7 @@
     }
   ],
   "categories": {
-    "alimente": 454.59,
+    "alimente": 459.59,
     "cafea": 16.2,
     "servicii": 223.9,
     "divertisment": 43,
