@@ -44,20 +44,14 @@ document.addEventListener('DOMContentLoaded', () => {
 // === DATA LOADING ===
 async function loadData() {
   try {
-    // Try to fetch from local API (if served from gateway)
-    // Fallback: load from status.json
-    await Promise.all([
-      loadStatus(),
-      loadExpenses(),
-      loadOreLucrate(),
-      loadAgents()
-    ]);
+    // Load from status.json (static file generated from Guda DB)
+    await loadStatusJson();
+    loadAgents();
     setConnected(true);
     renderAll();
   } catch (e) {
     console.error('Load error:', e);
     setConnected(false);
-    // Render with whatever we have
     renderAll();
   }
 }
@@ -74,49 +68,17 @@ function setConnected(connected) {
   }
 }
 
-async function loadStatus() {
-  try {
-    const resp = await fetch('api/status');
-    if (resp.ok) {
-      state.status = await resp.json();
-      state.pending = state.status?.db_stats?.pending || 0;
-      console.log('Status loaded');
-    }
-  } catch (e) {
-    console.error('API status error:', e.message);
-  }
-}
-
-async function loadExpenses() {
-  try {
-    const resp = await fetch('api/expenses');
-    if (resp.ok) {
-      const data = await resp.json();
-      state.expenses = data.expenses || [];
-      console.log('Loaded', state.expenses.length, 'expenses');
-    } else {
-      console.error('API expenses status:', resp.status);
-    }
-  } catch (e) {
-    console.error('API expenses error:', e.message);
-    state.expenses = state.expenses || [];
-  }
-}
-
-async function loadOreLucrate() {
-  try {
-    const resp = await fetch('api/ore');
-    if (resp.ok) {
-      const data = await resp.json();
-      state.ore_lucrate = data.ore || [];
-      console.log('Loaded', state.ore_lucrate.length, 'ore entries');
-    } else {
-      console.error('API ore status:', resp.status);
-    }
-  } catch (e) {
-    console.error('API ore error:', e.message);
-    state.ore_lucrate = state.ore_lucrate || [];
-  }
+async function loadStatusJson() {
+  // Fetch status.json with cache-busting
+  const resp = await fetch('status.json?t=' + Date.now());
+  if (!resp.ok) throw new Error('status.json HTTP ' + resp.status);
+  const data = await resp.json();
+  state.status = data;
+  state.expenses = data.expenses || [];
+  state.ore_lucrate = data.ore_lucrate || [];
+  state.pending = data.db_stats?.pending || 0;
+  state.events = []; // events not in status.json yet
+  console.log('Loaded status.json:', data.expenses?.length, 'expenses,', data.ore_lucrate?.length, 'ore');
 }
 
 function loadAgents() {
