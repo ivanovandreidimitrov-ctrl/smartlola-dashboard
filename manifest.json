@@ -2,7 +2,7 @@
   "name": "SmartLola Dashboard",
   "short_name": "SmartLola",
   "description": "SmartLola 2.0 — Agent dashboard for finances, worksite, and AI coordination",
-  "start_url": "/index.html",
+  "start_url": ".",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0a0e1a",
