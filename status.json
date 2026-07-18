@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T04:59:59.739Z",
+  "generated_at": "2026-07-18T05:00:38.453Z",
   "system_health": {
     "gateway": "up",
     "model": "glm-5.2:cloud",
@@ -15,10 +15,10 @@
     "expenses_andrei_only": 257.94,
     "expenses_month": 5,
     "expenses_month_total": 95.79,
-    "ore_lucrate": 0,
-    "ore_total": 0,
-    "ore_month": 0,
-    "ore_month_total": 0,
+    "ore_lucrate": 29,
+    "ore_total": 252.5,
+    "ore_month": 3,
+    "ore_month_total": 30,
     "pending": 0
   },
   "expenses": [
@@ -464,7 +464,327 @@
       "split": "shared"
     }
   ],
-  "ore_lucrate": [],
+  "ore_lucrate": [
+    {
+      "id": 29,
+      "date": "2026-07-17",
+      "santier": "Biella - Cond Miramonti",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 10.5,
+      "mezzo": "Renault 529",
+      "note": "Ilie ferie, Florin permesso. Sergiu+Marcello Settimo Vittone Abeyta, Giovanni+Tahiru+Leonardo Aosta Cond Ancien Bazar.",
+      "confirmat": 1
+    },
+    {
+      "id": 28,
+      "date": "2026-07-16",
+      "santier": "Biella - Cond Miramonti",
+      "ora_start": "06:30",
+      "ora_end": "17:30",
+      "ore_efective": 10,
+      "mezzo": "Renault 529",
+      "note": "Posa lattoneria + ritiro fornitura Galvani. Ilie in ferie.",
+      "confirmat": 1
+    },
+    {
+      "id": 27,
+      "date": "2026-07-15",
+      "santier": "Aosta - Cond Ancien Bazar - Cilea",
+      "ora_start": "06:30",
+      "ora_end": "17:00",
+      "ore_efective": 9.5,
+      "mezzo": "Renault 529",
+      "note": "Prima zi dupa concediu. Pana la 17 confirmat de Andrei.",
+      "confirmat": 1
+    },
+    {
+      "id": 26,
+      "date": "2026-06-23",
+      "santier": "Biella - Cond Miramonti",
+      "ora_start": "07:00",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": "Iveco",
+      "note": "Ilie+Serghiu+Tahiru Gressan-Cond Brenva (Renault 529), Florin+Giovanni+Marcello Cervinia (Fisso 613)",
+      "confirmat": 1
+    },
+    {
+      "id": 25,
+      "date": "2026-06-22",
+      "santier": "Biella - Cond Miramonti",
+      "ora_start": "07:00",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": "Iveco",
+      "note": "Ilie+Serghiu Valtournenche-Les Marcs (Renault 529), Florin+Tahiru Cervinia (Fisso 613), Giovanni vizita medicala 8:30 apoi Cervinia, Marcello vizita medicala Ivrea 11:30",
+      "confirmat": 1
+    },
+    {
+      "id": 24,
+      "date": "2026-06-19",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": null,
+      "note": "Ora final așteptată",
+      "confirmat": 0
+    },
+    {
+      "id": 23,
+      "date": "2026-06-18",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 9.5,
+      "mezzo": "Iveco",
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 22,
+      "date": "2026-06-17",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 9.5,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 21,
+      "date": "2026-06-16",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 9.5,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 20,
+      "date": "2026-06-15",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 9.5,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 19,
+      "date": "2026-06-13",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 10,
+      "mezzo": "Iveco 645",
+      "note": "Sâmbătă",
+      "confirmat": 1
+    },
+    {
+      "id": 18,
+      "date": "2026-06-12",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 9,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 17,
+      "date": "2026-06-11",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "17:30",
+      "ore_efective": 9.5,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 16,
+      "date": "2026-06-10",
+      "santier": "Gaglianico - Vetreria Biellese",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 10,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 15,
+      "date": "2026-06-05",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": "3 Posti 645",
+      "note": "Portare massetto Castello Settimo",
+      "confirmat": 1
+    },
+    {
+      "id": 14,
+      "date": "2026-06-04",
+      "santier": "Gaglianico - Vetreria Biellese",
+      "ora_start": "07:00",
+      "ora_end": "17:00",
+      "ore_efective": 9,
+      "mezzo": "Renault 529",
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 13,
+      "date": "2026-06-03",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "19:00",
+      "ore_efective": 11,
+      "mezzo": "Iveco",
+      "note": "Șantier propriu",
+      "confirmat": 1
+    },
+    {
+      "id": 12,
+      "date": "2026-05-29",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 10.5,
+      "mezzo": "Iveco",
+      "note": "Propriul șantier, Iveco start 6:30",
+      "confirmat": 1
+    },
+    {
+      "id": 11,
+      "date": "2026-05-28",
+      "santier": "Gaglianico - Vetreria Biellese",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 10,
+      "mezzo": "Renault 529",
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 10,
+      "date": "2026-05-27",
+      "santier": "Chatillon - Cond Les Cles",
+      "ora_start": "07:00",
+      "ora_end": "17:30",
+      "ore_efective": 9.5,
+      "mezzo": "Fisso 613",
+      "note": "În locul lui Giovanni",
+      "confirmat": 1
+    },
+    {
+      "id": 9,
+      "date": "2026-05-20",
+      "santier": "Gaglianico",
+      "ora_start": "07:00",
+      "ora_end": "15:30",
+      "ore_efective": 7.5,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 8,
+      "date": "2026-05-19",
+      "santier": "Settimo Vittone/Gaglianico",
+      "ora_start": "07:00",
+      "ora_end": "16:00",
+      "ore_efective": 8,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 7,
+      "date": "2026-05-18",
+      "santier": "Gaglianico - Vetreria Biellese",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 10,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 6,
+      "date": "2026-05-16",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "15:00",
+      "ore_efective": 7,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-05-15",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 4,
+      "date": "2026-05-14",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-05-13",
+      "santier": "Gressoney",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 2,
+      "date": "2026-05-12",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    },
+    {
+      "id": 1,
+      "date": "2026-05-11",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "19:00",
+      "ore_efective": 11,
+      "mezzo": null,
+      "note": null,
+      "confirmat": 1
+    }
+  ],
   "categories": {
     "alimente": 437.18,
     "cafea": 16.2,
@@ -478,7 +798,11 @@
     "utilități": 317.73,
     "îmbrăcăminte": 15
   },
-  "ore_by_month": {},
+  "ore_by_month": {
+    "2026-07": 30,
+    "2026-06": 107,
+    "2026-05": 115.5
+  },
   "backup": {
     "last_backup": "auto 02:00 Europe/Rome",
     "next_backup": "02:00 Europe/Rome"
