@@ -122,15 +122,28 @@ function renderDashboard() {
     document.getElementById('andrei-detail').textContent = andrei.last_activity ? formatTime(andrei.last_activity) : '';
   }
 
-  // Stats
+  // Stats — luna curentă
+  const thisMonth = new Date().toISOString().slice(0, 7);
+  const expMonth = state.expenses.filter(e => (e.date || '').startsWith(thisMonth));
+  const expMonthTotal = expMonth.reduce((s, e) => s + e.amount, 0);
+  document.getElementById('stat-expenses-month').textContent = '€' + expMonthTotal.toFixed(0);
+  document.getElementById('stat-expenses-month-count').textContent = expMonth.length + ' intrări';
+
+  const oreMonth = state.ore_lucrate.filter(o => (o.date || '').startsWith(thisMonth));
+  const oreMonthTotal = oreMonth.reduce((s, o) => s + (o.ore_efective || 0), 0);
+  const oreMonthDays = oreMonth.filter(o => o.ore_efective).length;
+  document.getElementById('stat-hours-month').textContent = oreMonthTotal.toFixed(0) + 'h';
+  document.getElementById('stat-hours-month-count').textContent = oreMonthDays + ' zile';
+
+  // Stats — total general
   const expTotal = state.expenses.reduce((s, e) => s + e.amount, 0);
-  document.getElementById('stat-expenses').textContent = '€' + expTotal.toFixed(0);
-  document.getElementById('stat-expenses-count').textContent = state.expenses.length + ' intrări';
+  document.getElementById('stat-expenses-total').textContent = '€' + expTotal.toFixed(0);
+  document.getElementById('stat-expenses-total-count').textContent = state.expenses.length + ' intrări';
 
   const oreTotal = state.ore_lucrate.reduce((s, o) => s + (o.ore_efective || 0), 0);
   const oreDays = state.ore_lucrate.filter(o => o.ore_efective).length;
-  document.getElementById('stat-hours').textContent = oreTotal.toFixed(0) + 'h';
-  document.getElementById('stat-hours-count').textContent = oreDays + ' zile';
+  document.getElementById('stat-hours-total').textContent = oreTotal.toFixed(0) + 'h';
+  document.getElementById('stat-hours-total-count').textContent = oreDays + ' zile';
 
   document.getElementById('stat-pending').textContent = state.pending;
 
