@@ -26,22 +26,6 @@
     },
     {
       "date": "2026-07-18",
-      "description": "Conad 15.50 euro",
-      "amount": 15.5,
-      "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
-    },
-    {
-      "date": "2026-07-18",
-      "description": "Lidl (test SmartLola 2.0)",
-      "amount": 5.0,
-      "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
-    },
-    {
-      "date": "2026-07-18",
       "description": "Lidl Ivrea — latte, mostarda, biscotti caramel, mozzarella",
       "amount": 17.41,
       "category": "alimente",
@@ -1146,7 +1130,7 @@
     }
   ],
   "db_stats": {
-    "expenses": 143,
-    "expenses_total": 11887.3
+    "expenses": 141,
+    "expenses_total": 11866.8
   }
 }
