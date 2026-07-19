@@ -1,6 +1,38 @@
 {
   "expenses": [
     {
+      "date": "2026-07-19",
+      "description": "IKEA Collegno — Pizza Margherita x2",
+      "amount": 3.9,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-19",
+      "description": "Florivcom Alimentari Rivarolo C.se — alimentari",
+      "amount": 15.3,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-19",
+      "description": "IKEA Collegno — Angolo Occasione, SKADIS, UPPERATTA (mobili/accessori casa)",
+      "amount": 198.29,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-19",
+      "description": "IKEA Collegno — Pizza Margherita, bevanda, patatine fritte",
+      "amount": 9.75,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
       "date": "2026-07-18",
       "description": "POS-IN'S MERCATO - CDC 175CAVAGLIA'",
       "amount": 1.49,
@@ -1130,7 +1162,7 @@
     }
   ],
   "db_stats": {
-    "expenses": 141,
-    "expenses_total": 11866.8
+    "expenses": 145,
+    "expenses_total": 12094.04
   }
 }
