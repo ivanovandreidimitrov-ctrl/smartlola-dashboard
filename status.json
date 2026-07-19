@@ -1161,8 +1161,244 @@
       "source": "andrei"
     }
   ],
+  "ore_lucrate": [
+    {
+      "date": "2026-07-17",
+      "santier": "Biella - Cond Miramonti",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 10.5,
+      "mezzo": "Renault 529"
+    },
+    {
+      "date": "2026-07-16",
+      "santier": "Biella - Cond Miramonti",
+      "ora_start": "06:30",
+      "ora_end": "17:30",
+      "ore_efective": 10.0,
+      "mezzo": "Renault 529"
+    },
+    {
+      "date": "2026-07-15",
+      "santier": "Aosta - Cond Ancien Bazar - Cilea",
+      "ora_start": "06:30",
+      "ora_end": "17:00",
+      "ore_efective": 9.5,
+      "mezzo": "Renault 529"
+    },
+    {
+      "date": "2026-06-23",
+      "santier": "Biella - Cond Miramonti",
+      "ora_start": "07:00",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": "Iveco"
+    },
+    {
+      "date": "2026-06-22",
+      "santier": "Biella - Cond Miramonti",
+      "ora_start": "07:00",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": "Iveco"
+    },
+    {
+      "date": "2026-06-19",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": null
+    },
+    {
+      "date": "2026-06-18",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 9.5,
+      "mezzo": "Iveco"
+    },
+    {
+      "date": "2026-06-17",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 9.5,
+      "mezzo": null
+    },
+    {
+      "date": "2026-06-16",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 9.5,
+      "mezzo": null
+    },
+    {
+      "date": "2026-06-15",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 9.5,
+      "mezzo": null
+    },
+    {
+      "date": "2026-06-13",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 10.0,
+      "mezzo": "Iveco 645"
+    },
+    {
+      "date": "2026-06-12",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 9.0,
+      "mezzo": null
+    },
+    {
+      "date": "2026-06-11",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "17:30",
+      "ore_efective": 9.5,
+      "mezzo": null
+    },
+    {
+      "date": "2026-06-10",
+      "santier": "Gaglianico - Vetreria Biellese",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 10.0,
+      "mezzo": null
+    },
+    {
+      "date": "2026-06-05",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": "3 Posti 645"
+    },
+    {
+      "date": "2026-06-04",
+      "santier": "Gaglianico - Vetreria Biellese",
+      "ora_start": "07:00",
+      "ora_end": "17:00",
+      "ore_efective": 9.0,
+      "mezzo": "Renault 529"
+    },
+    {
+      "date": "2026-06-03",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "19:00",
+      "ore_efective": 11.0,
+      "mezzo": "Iveco"
+    },
+    {
+      "date": "2026-05-29",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 10.5,
+      "mezzo": "Iveco"
+    },
+    {
+      "date": "2026-05-28",
+      "santier": "Gaglianico - Vetreria Biellese",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 10.0,
+      "mezzo": "Renault 529"
+    },
+    {
+      "date": "2026-05-27",
+      "santier": "Chatillon - Cond Les Cles",
+      "ora_start": "07:00",
+      "ora_end": "17:30",
+      "ore_efective": 9.5,
+      "mezzo": "Fisso 613"
+    },
+    {
+      "date": "2026-05-20",
+      "santier": "Gaglianico",
+      "ora_start": "07:00",
+      "ora_end": "15:30",
+      "ore_efective": 7.5,
+      "mezzo": null
+    },
+    {
+      "date": "2026-05-19",
+      "santier": "Settimo Vittone/Gaglianico",
+      "ora_start": "07:00",
+      "ora_end": "16:00",
+      "ore_efective": 8.0,
+      "mezzo": null
+    },
+    {
+      "date": "2026-05-18",
+      "santier": "Gaglianico - Vetreria Biellese",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 10.0,
+      "mezzo": null
+    },
+    {
+      "date": "2026-05-16",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "15:00",
+      "ore_efective": 7.0,
+      "mezzo": null
+    },
+    {
+      "date": "2026-05-15",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": null
+    },
+    {
+      "date": "2026-05-14",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": null
+    },
+    {
+      "date": "2026-05-13",
+      "santier": "Gressoney",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": null
+    },
+    {
+      "date": "2026-05-12",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": null
+    },
+    {
+      "date": "2026-05-11",
+      "santier": "Cervinia - Cond Cielo Alto",
+      "ora_start": "07:00",
+      "ora_end": "19:00",
+      "ore_efective": 11.0,
+      "mezzo": null
+    }
+  ],
   "db_stats": {
     "expenses": 145,
-    "expenses_total": 12094.04
+    "expenses_total": 12094.04,
+    "ore_lucrate": 29,
+    "ore_total": 252.5
   }
 }
