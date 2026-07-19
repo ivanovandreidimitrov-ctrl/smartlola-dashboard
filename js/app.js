@@ -247,12 +247,13 @@ function renderGuda() {
     `).join('');
   }
 
-  // Recent expenses (show all filtered, max 15)
+  // Recent expenses — sortat descrescător după dată (cea mai recentă prima)
   const recentEl = document.getElementById('guda-recent');
   if (filtered.length === 0) {
     recentEl.innerHTML = '<div class="empty-state">Nicio cheltuială</div>';
   } else {
-    recentEl.innerHTML = filtered.slice(-15).reverse().map(e => `
+    const sortedExp = [...filtered].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    recentEl.innerHTML = sortedExp.slice(0, 15).map(e => `
       <div class="expense-item">
         <div class="expense-left">
           <div class="expense-desc">${escapeHtml(e.description || '')}</div>
