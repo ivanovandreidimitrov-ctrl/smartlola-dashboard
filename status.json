@@ -1163,6 +1163,14 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-07-20",
+      "santier": "Aosta - Cond Sorreley",
+      "ora_start": "07:00",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": "Renault 529"
+    },
+    {
       "date": "2026-07-17",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "06:30",
@@ -1398,7 +1406,7 @@
   "db_stats": {
     "expenses": 145,
     "expenses_total": 12094.04,
-    "ore_lucrate": 29,
+    "ore_lucrate": 30,
     "ore_total": 252.5
   }
 }

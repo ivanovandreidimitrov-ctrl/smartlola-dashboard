@@ -335,7 +335,8 @@ function renderAtlas() {
   if (filtered.length === 0) {
     recentEl.innerHTML = '<div class="empty-state">Niciun entry pentru luna curentă</div>';
   } else {
-    recentEl.innerHTML = filtered.slice(-15).reverse().map(o => {
+    const sortedOre = [...filtered].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    recentEl.innerHTML = sortedOre.slice(0, 15).map(o => {
       const d = (o.date || '').split('-');
       return `
         <div class="work-item">
