@@ -1,6 +1,14 @@
 {
   "expenses": [
     {
+      "date": "2026-07-20",
+      "description": "IN's mercato Ivrea — kefir, pomodori oblunghi, peperoncini rossi, angurie",
+      "amount": 10.99,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
       "date": "2026-07-19",
       "description": "IKEA Collegno — Pizza Margherita x2",
       "amount": 3.9,
@@ -1494,11 +1502,11 @@
     }
   ],
   "db": {
-    "expenses": 145,
-    "expenses_total": 12094.04,
+    "expenses": 146,
+    "expenses_total": 12105.03,
     "ore_lucrate": 30,
     "ore_total": 252.5,
-    "pending": 2,
+    "pending": 0,
     "speza_offers": 274
   },
   "agents": [
@@ -1544,5 +1552,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-20T13:14:27.735691"
+  "lastUpdate": "2026-07-20T21:41:51.576807"
 }
