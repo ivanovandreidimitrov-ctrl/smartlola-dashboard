@@ -1168,7 +1168,10 @@
       "ora_start": "07:00",
       "ora_end": null,
       "ore_efective": null,
-      "mezzo": "Renault 529"
+      "mezzo": "Renault 529",
+      "ore_normal": 0,
+      "ore_guida": 0,
+      "ore_extra": 0
     },
     {
       "date": "2026-07-17",
@@ -1176,7 +1179,10 @@
       "ora_start": "06:30",
       "ora_end": "18:00",
       "ore_efective": 10.5,
-      "mezzo": "Renault 529"
+      "mezzo": "Renault 529",
+      "ore_normal": 8.0,
+      "ore_guida": 0.5,
+      "ore_extra": 2.0
     },
     {
       "date": "2026-07-16",
@@ -1184,7 +1190,10 @@
       "ora_start": "06:30",
       "ora_end": "17:30",
       "ore_efective": 10.0,
-      "mezzo": "Renault 529"
+      "mezzo": "Renault 529",
+      "ore_normal": 8.0,
+      "ore_guida": 0.5,
+      "ore_extra": 1.5
     },
     {
       "date": "2026-07-15",
@@ -1192,7 +1201,10 @@
       "ora_start": "06:30",
       "ora_end": "17:00",
       "ore_efective": 9.5,
-      "mezzo": "Renault 529"
+      "mezzo": "Renault 529",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5
     },
     {
       "date": "2026-06-23",
@@ -1200,7 +1212,10 @@
       "ora_start": "07:00",
       "ora_end": null,
       "ore_efective": null,
-      "mezzo": "Iveco"
+      "mezzo": "Iveco",
+      "ore_normal": 0,
+      "ore_guida": 0,
+      "ore_extra": 0
     },
     {
       "date": "2026-06-22",
@@ -1208,7 +1223,10 @@
       "ora_start": "07:00",
       "ora_end": null,
       "ore_efective": null,
-      "mezzo": "Iveco"
+      "mezzo": "Iveco",
+      "ore_normal": 0,
+      "ore_guida": 0,
+      "ore_extra": 0
     },
     {
       "date": "2026-06-19",
@@ -1216,7 +1234,10 @@
       "ora_start": "07:00",
       "ora_end": null,
       "ore_efective": null,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 0,
+      "ore_guida": 0,
+      "ore_extra": 0
     },
     {
       "date": "2026-06-18",
@@ -1224,7 +1245,10 @@
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 9.5,
-      "mezzo": "Iveco"
+      "mezzo": "Iveco",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5
     },
     {
       "date": "2026-06-17",
@@ -1232,7 +1256,10 @@
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 9.5,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5
     },
     {
       "date": "2026-06-16",
@@ -1240,7 +1267,10 @@
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 9.5,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5
     },
     {
       "date": "2026-06-15",
@@ -1248,7 +1278,10 @@
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 9.5,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5
     },
     {
       "date": "2026-06-13",
@@ -1256,7 +1289,10 @@
       "ora_start": "07:00",
       "ora_end": "18:00",
       "ore_efective": 10.0,
-      "mezzo": "Iveco 645"
+      "mezzo": "Iveco 645",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.0
     },
     {
       "date": "2026-06-12",
@@ -1264,7 +1300,10 @@
       "ora_start": "07:00",
       "ora_end": "18:00",
       "ore_efective": 9.0,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0
     },
     {
       "date": "2026-06-11",
@@ -1272,7 +1311,10 @@
       "ora_start": "07:00",
       "ora_end": "17:30",
       "ore_efective": 9.5,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5
     },
     {
       "date": "2026-06-10",
@@ -1280,7 +1322,10 @@
       "ora_start": "07:00",
       "ora_end": "18:00",
       "ore_efective": 10.0,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 0.5,
+      "ore_extra": 1.5
     },
     {
       "date": "2026-06-05",
@@ -1288,7 +1333,10 @@
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 10.5,
-      "mezzo": "3 Posti 645"
+      "mezzo": "3 Posti 645",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5
     },
     {
       "date": "2026-06-04",
@@ -1296,7 +1344,10 @@
       "ora_start": "07:00",
       "ora_end": "17:00",
       "ore_efective": 9.0,
-      "mezzo": "Renault 529"
+      "mezzo": "Renault 529",
+      "ore_normal": 8.0,
+      "ore_guida": 0.5,
+      "ore_extra": 0.5
     },
     {
       "date": "2026-06-03",
@@ -1304,7 +1355,10 @@
       "ora_start": "07:00",
       "ora_end": "19:00",
       "ore_efective": 11.0,
-      "mezzo": "Iveco"
+      "mezzo": "Iveco",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.0
     },
     {
       "date": "2026-05-29",
@@ -1312,7 +1366,10 @@
       "ora_start": "06:30",
       "ora_end": "18:00",
       "ore_efective": 10.5,
-      "mezzo": "Iveco"
+      "mezzo": "Iveco",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5
     },
     {
       "date": "2026-05-28",
@@ -1320,7 +1377,10 @@
       "ora_start": "07:00",
       "ora_end": "18:00",
       "ore_efective": 10.0,
-      "mezzo": "Renault 529"
+      "mezzo": "Renault 529",
+      "ore_normal": 8.0,
+      "ore_guida": 0.5,
+      "ore_extra": 1.5
     },
     {
       "date": "2026-05-27",
@@ -1328,7 +1388,10 @@
       "ora_start": "07:00",
       "ora_end": "17:30",
       "ore_efective": 9.5,
-      "mezzo": "Fisso 613"
+      "mezzo": "Fisso 613",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5
     },
     {
       "date": "2026-05-20",
@@ -1336,7 +1399,10 @@
       "ora_start": "07:00",
       "ora_end": "15:30",
       "ore_efective": 7.5,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 7.0,
+      "ore_guida": 0.5,
+      "ore_extra": 0
     },
     {
       "date": "2026-05-19",
@@ -1344,7 +1410,10 @@
       "ora_start": "07:00",
       "ora_end": "16:00",
       "ore_efective": 8.0,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 7.5,
+      "ore_guida": 0.5,
+      "ore_extra": 0
     },
     {
       "date": "2026-05-18",
@@ -1352,7 +1421,10 @@
       "ora_start": "07:00",
       "ora_end": "18:00",
       "ore_efective": 10.0,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 0.5,
+      "ore_extra": 1.5
     },
     {
       "date": "2026-05-16",
@@ -1360,7 +1432,10 @@
       "ora_start": "07:00",
       "ora_end": "15:00",
       "ore_efective": 7.0,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 6.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0
     },
     {
       "date": "2026-05-15",
@@ -1368,7 +1443,10 @@
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 10.5,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5
     },
     {
       "date": "2026-05-14",
@@ -1376,7 +1454,10 @@
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 10.5,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5
     },
     {
       "date": "2026-05-13",
@@ -1384,7 +1465,10 @@
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 10.5,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5
     },
     {
       "date": "2026-05-12",
@@ -1392,7 +1476,10 @@
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 10.5,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5
     },
     {
       "date": "2026-05-11",
@@ -1400,13 +1487,62 @@
       "ora_start": "07:00",
       "ora_end": "19:00",
       "ore_efective": 11.0,
-      "mezzo": null
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.0
     }
   ],
-  "db_stats": {
+  "db": {
     "expenses": 145,
     "expenses_total": 12094.04,
     "ore_lucrate": 30,
-    "ore_total": 252.5
-  }
+    "ore_total": 252.5,
+    "pending": 2,
+    "speza_offers": 274
+  },
+  "agents": [
+    {
+      "name": "Lola",
+      "emoji": "🧭",
+      "role": "Coordonare",
+      "active": true,
+      "model": "GLM-5.2"
+    },
+    {
+      "name": "Guda",
+      "emoji": "💰",
+      "role": "Finanțe",
+      "active": true,
+      "model": "GLM-5.2"
+    },
+    {
+      "name": "Atlas",
+      "emoji": "🏗",
+      "role": "Lucrări",
+      "active": true,
+      "model": "GLM-5.2"
+    },
+    {
+      "name": "Echo",
+      "emoji": "👥",
+      "role": "Social",
+      "active": false,
+      "model": "-"
+    },
+    {
+      "name": "Prof",
+      "emoji": "🎓",
+      "role": "Documentare",
+      "active": false,
+      "model": "-"
+    }
+  ],
+  "system": {
+    "model": "GLM-5.2 Cloud",
+    "version": "OpenClaw 2026.7.1",
+    "platform": "Windows 10",
+    "node": "DESKTOP-IOHKTKV"
+  },
+  "lastUpdate": "2026-07-20T13:14:27.735691"
 }

@@ -294,9 +294,33 @@ function setAtlasView(view) {
 function renderAtlas() {
   const filtered = getAtlasFilteredOre();
   const totalOre = filtered.reduce((s, o) => s + (o.ore_efective || 0), 0);
+  const totalNormal = filtered.reduce((s, o) => s + (o.ore_normal || 0), 0);
+  const totalGuida = filtered.reduce((s, o) => s + (o.ore_guida || 0), 0);
+  const totalExtra = filtered.reduce((s, o) => s + (o.ore_extra || 0), 0);
   const confirmedDays = filtered.filter(o => o.ore_efective).length;
   document.getElementById('atlas-total-hours').textContent = totalOre.toFixed(1) + 'h';
   document.getElementById('atlas-days').textContent = confirmedDays + ' zile confirmate';
+
+  // Ore split (normale / guida / extra)
+  const splitEl = document.getElementById('atlas-ore-split');
+  if (splitEl) {
+    if (totalOre > 0) {
+      splitEl.innerHTML = `
+        <div class="ore-split-bar">
+          <div class="ore-split-segment normal" style="width:${(totalNormal/totalOre*100)}%" title="Normale: ${totalNormal.toFixed(1)}h"></div>
+          <div class="ore-split-segment guida" style="width:${(totalGuida/totalOre*100)}%" title="Guida: ${totalGuida.toFixed(1)}h"></div>
+          <div class="ore-split-segment extra" style="width:${(totalExtra/totalOre*100)}%" title="Extra: ${totalExtra.toFixed(1)}h"></div>
+        </div>
+        <div class="ore-split-legend">
+          <span class="legend-item"><span class="legend-dot normal"></span>Normale ${totalNormal.toFixed(1)}h</span>
+          <span class="legend-item"><span class="legend-dot guida"></span>Guida ${totalGuida.toFixed(1)}h</span>
+          <span class="legend-item"><span class="legend-dot extra"></span>Extra ${totalExtra.toFixed(1)}h</span>
+        </div>
+      `;
+    } else {
+      splitEl.innerHTML = '<div class="empty-state">Nicio oră confirmată</div>';
+    }
+  }
 
   // View label
   const labelEl = document.getElementById('atlas-view-label');
@@ -307,25 +331,31 @@ function renderAtlas() {
     btn.classList.toggle('active', btn.dataset.view === state.atlasView);
   });
 
-  // Monthly (always show all months for context)
+  // Monthly (always show all months for context) — with split
   const months = {};
   state.ore_lucrate.forEach(o => {
     const m = (o.date || '').substring(0, 7);
     if (!m) return;
-    months[m] = (months[m] || 0) + (o.ore_efective || 0);
+    if (!months[m]) months[m] = { normal: 0, guida: 0, extra: 0, total: 0 };
+    months[m].normal += (o.ore_normal || 0);
+    months[m].guida += (o.ore_guida || 0);
+    months[m].extra += (o.ore_extra || 0);
+    months[m].total += (o.ore_efective || 0);
   });
-  const maxMonth = Math.max(...Object.values(months), 1);
+  const maxMonth = Math.max(...Object.values(months).map(m => m.total), 1);
 
   const monthEl = document.getElementById('atlas-monthly');
-  monthEl.innerHTML = Object.entries(months).sort().map(([month, ore]) => {
+  monthEl.innerHTML = Object.entries(months).sort().map(([month, m]) => {
     const isCurrent = state.atlasView === 'current-month' && month === new Date().toISOString().slice(0, 7);
     return `
     <div class="month-bar ${isCurrent ? 'highlighted' : ''}">
       <span class="month-label">${month}</span>
       <div class="month-track">
-        <div class="month-fill" style="width:${(ore / maxMonth * 100)}%"></div>
+        <div class="month-fill normal" style="width:${(m.normal / maxMonth * 100)}%"></div>
+        <div class="month-fill guida" style="width:${(m.guida / maxMonth * 100)}%; margin-left:-${(m.normal / maxMonth * 100)}%"></div>
+        <div class="month-fill extra" style="width:${(m.extra / maxMonth * 100)}%; margin-left:-${((m.normal + m.guida) / maxMonth * 100)}%"></div>
       </div>
-      <span class="month-value">${ore.toFixed(0)}h</span>
+      <span class="month-value">${m.total.toFixed(0)}h</span>
     </div>
   `;
   }).join('') || '<div class="empty-state">Nicio dată</div>';
@@ -349,6 +379,7 @@ function renderAtlas() {
             <div class="work-detail">${o.ora_start || '?'} - ${o.ora_end || '?'} ${o.mezzo ? '| ' + escapeHtml(o.mezzo) : ''}</div>
           </div>
           <div class="work-hours">${o.ore_efective ? o.ore_efective + 'h' : '—'}</div>
+          <div class="work-split">${o.ore_efective ? `<span class="split-normal">N${o.ore_normal || 0}</span> <span class="split-guida">G${o.ore_guida || 0}</span> <span class="split-extra">E${o.ore_extra || 0}</span>` : ''}</div>
         </div>
       `;
     }).join('');

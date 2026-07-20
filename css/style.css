@@ -268,6 +268,32 @@ body {
   background: linear-gradient(90deg, var(--accent), var(--green));
 }
 
+/* Ore split — normale/guida/extra */
+.ore-split-container { margin-top: 12px; }
+.ore-split-bar { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: var(--bg-card); }
+.ore-split-segment { height: 100%; transition: width 0.5s; }
+.ore-split-segment.normal { background: var(--green); }
+.ore-split-segment.guida { background: var(--yellow); }
+.ore-split-segment.extra { background: var(--orange); }
+.ore-split-legend { display: flex; gap: 12px; margin-top: 8px; flex-wrap: wrap; }
+.legend-item { display: flex; align-items: center; gap: 4px; font-size: 11px; color: var(--text-dim); }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+.legend-dot.normal { background: var(--green); }
+.legend-dot.guida { background: var(--yellow); }
+.legend-dot.extra { background: var(--orange); }
+
+/* Work item split badges */
+.work-split { display: flex; gap: 4px; margin-top: 2px; }
+.split-normal, .split-guida, .split-extra { font-size: 9px; padding: 1px 4px; border-radius: 3px; font-weight: 600; }
+.split-normal { background: rgba(34,197,94,0.2); color: var(--green); }
+.split-guida { background: rgba(245,158,11,0.2); color: var(--yellow); }
+.split-extra { background: rgba(249,115,22,0.2); color: var(--orange); }
+
+/* Month bar split colors */
+.month-fill.normal { background: var(--green); }
+.month-fill.guida { background: var(--yellow); }
+.month-fill.extra { background: var(--orange); }
+
 /* Responsive */
 @media (max-width: 400px) {
   .stats-row { grid-template-columns: 1fr 1fr 1fr; }
