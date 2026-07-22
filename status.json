@@ -1,6 +1,22 @@
 {
   "expenses": [
     {
+      "date": "2026-07-22",
+      "description": "✅ **Speza a rulat acum** — 225 oferte noi extrase! DB total: **499 oferte** de la 8 magazine.\n\n📊 **Rezumat Speza — 21 Iulie 2026:**\n\n```\n| Magazin         | Oferte        | Highlight-uri             ",
+      "amount": 0.49,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-21",
+      "description": "Lidl Ivrea 21 Iul: anguria, acqua, piselli, latte, lasagne, fettuccine, mortadella, salametto, pomodoro, shopper bio, quartirolo, saltimbocca, succo tropicale",
+      "amount": 31.51,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
       "date": "2026-07-20",
       "description": "IN's mercato Ivrea — kefir, pomodori oblunghi, peperoncini rossi, angurie",
       "amount": 10.99,
@@ -58,9 +74,9 @@
     },
     {
       "date": "2026-07-18",
-      "description": "Penny",
+      "description": "Penny Market Biella — alimente (categoria corectata din imbracaminte)",
       "amount": 16.0,
-      "category": "imbracaminte",
+      "category": "alimente",
       "split": "shared",
       "source": "manual"
     },
@@ -106,9 +122,9 @@
     },
     {
       "date": "2026-07-16",
-      "description": "POS-Linear AssicurazioniBologna",
+      "description": "Linear Assicurazioni Bologna — asigurare duba Opel (categoria corectata din sanatate)",
       "amount": 439.97,
-      "category": "sanatate",
+      "category": "transport",
       "split": "shared",
       "source": "mediobanca"
     },
@@ -1171,15 +1187,37 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-07-21",
+      "santier": "Aosta - Cond Sorreley",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 10.5,
+      "mezzo": "Renault 529",
+      "ore_normal": 10.5,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0
+    },
+    {
       "date": "2026-07-20",
       "santier": "Aosta - Cond Sorreley",
       "ora_start": "07:00",
       "ora_end": null,
       "ore_efective": null,
       "mezzo": "Renault 529",
-      "ore_normal": 0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0
+    },
+    {
+      "date": "2026-07-19",
+      "santier": "Sâmbătă - ore straordinarie",
+      "ora_start": null,
+      "ora_end": null,
+      "ore_efective": 3.0,
+      "mezzo": null,
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 3.0
     },
     {
       "date": "2026-07-17",
@@ -1221,9 +1259,9 @@
       "ora_end": null,
       "ore_efective": null,
       "mezzo": "Iveco",
-      "ore_normal": 0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0
     },
     {
       "date": "2026-06-22",
@@ -1232,9 +1270,9 @@
       "ora_end": null,
       "ore_efective": null,
       "mezzo": "Iveco",
-      "ore_normal": 0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0
     },
     {
       "date": "2026-06-19",
@@ -1243,9 +1281,9 @@
       "ora_end": null,
       "ore_efective": null,
       "mezzo": null,
-      "ore_normal": 0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0
     },
     {
       "date": "2026-06-18",
@@ -1311,7 +1349,7 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0
+      "ore_extra": 0.0
     },
     {
       "date": "2026-06-11",
@@ -1410,7 +1448,7 @@
       "mezzo": null,
       "ore_normal": 7.0,
       "ore_guida": 0.5,
-      "ore_extra": 0
+      "ore_extra": 0.0
     },
     {
       "date": "2026-05-19",
@@ -1421,7 +1459,7 @@
       "mezzo": null,
       "ore_normal": 7.5,
       "ore_guida": 0.5,
-      "ore_extra": 0
+      "ore_extra": 0.0
     },
     {
       "date": "2026-05-18",
@@ -1443,7 +1481,7 @@
       "mezzo": null,
       "ore_normal": 6.0,
       "ore_guida": 1.0,
-      "ore_extra": 0
+      "ore_extra": 0.0
     },
     {
       "date": "2026-05-15",
@@ -1502,12 +1540,12 @@
     }
   ],
   "db": {
-    "expenses": 146,
-    "expenses_total": 12105.03,
-    "ore_lucrate": 30,
-    "ore_total": 252.5,
+    "expenses": 148,
+    "expenses_total": 12137.03,
+    "ore_lucrate": 32,
+    "ore_total": 266.0,
     "pending": 0,
-    "speza_offers": 274
+    "speza_offers": 499
   },
   "agents": [
     {
@@ -1532,6 +1570,13 @@
       "model": "GLM-5.2"
     },
     {
+      "name": "Spesa",
+      "emoji": "🛒",
+      "role": "Oferte & Cumpărături",
+      "active": true,
+      "model": "GLM-5.2"
+    },
+    {
       "name": "Echo",
       "emoji": "👥",
       "role": "Social",
@@ -1552,5 +1597,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-20T21:41:51.576807"
+  "lastUpdate": "2026-07-22T05:44:50.306316"
 }
