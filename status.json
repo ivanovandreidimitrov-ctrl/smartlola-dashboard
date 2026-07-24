@@ -1195,6 +1195,17 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-07-24",
+      "santier": "Pont-Saint-Martin - Cond La Residence",
+      "ora_start": "07:00",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": "Cestello",
+      "ore_normal": null,
+      "ore_guida": null,
+      "ore_extra": null
+    },
+    {
       "date": "2026-07-23",
       "santier": "Vigliano",
       "ora_start": "07:00",
@@ -1240,11 +1251,11 @@
     },
     {
       "date": "2026-07-19",
-      "santier": "Sâmbătă - ore straordinarie",
-      "ora_start": null,
-      "ora_end": null,
+      "santier": "Santhia",
+      "ora_start": "10:00",
+      "ora_end": "13:00",
       "ore_efective": 3.0,
-      "mezzo": null,
+      "mezzo": "Renault 529",
       "ore_normal": 0.0,
       "ore_guida": 0.0,
       "ore_extra": 3.0
@@ -1572,7 +1583,7 @@
   "db": {
     "expenses": 149,
     "expenses_total": 12154.24,
-    "ore_lucrate": 34,
+    "ore_lucrate": 35,
     "ore_total": 297.5,
     "pending": 0,
     "speza_offers": 499
@@ -1627,5 +1638,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-24T05:52:39.759107"
+  "lastUpdate": "2026-07-24T06:07:18.970983"
 }
