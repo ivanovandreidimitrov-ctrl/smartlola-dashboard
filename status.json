@@ -1,1604 +1,1768 @@
 {
+  "generated_at": "2026-07-24T03:25:03.166Z",
+  "system_health": {
+    "gateway": "up",
+    "model": "glm-5.2:cloud",
+    "wifi_adapter": "D-Link DWA-125 USB",
+    "dns": "8.8.8.8 / 8.8.4.4",
+    "whatsapp": "linked",
+    "ollama": "local"
+  },
+  "db_stats": {
+    "expenses": 149,
+    "expenses_total": 12154.24,
+    "expenses_shared": 11881.4,
+    "expenses_andrei_only": 272.84,
+    "expenses_month": 41,
+    "expenses_month_total": 1239.01,
+    "ore_lucrate": 34,
+    "ore_total": 297.5,
+    "ore_month": 8,
+    "ore_month_total": 75,
+    "pending": 0
+  },
   "expenses": [
     {
+      "id": 162,
+      "date": "2026-07-24",
+      "amount": 12.13,
+      "category": "alte",
+      "description": "Andrei, am deja datele actualizate — tocmai am rulat export-ul. Uite ce s-a propagat:\n\n**✅ Dashboard actualizat acum:**\n\n• Cheltuieli: 148 intrări (€12,137.03) — era 146 (€12,105.03)\n• Ore lucrate: 32",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 161,
+      "date": "2026-07-23",
+      "amount": 5.57,
+      "category": "alimente",
+      "description": "CONAD Casaliggi Settimo Vittone - latte, prosciutto cotto, pizza/bocaccia",
+      "source": "andrei",
+      "split": "shared"
+    },
+    {
+      "id": 159,
       "date": "2026-07-21",
-      "description": "Lidl Ivrea 21 Iul: anguria, acqua, piselli, latte, lasagne, fettuccine, mortadella, salametto, pomodoro, shopper bio, quartirolo, saltimbocca, succo tropicale",
       "amount": 31.51,
       "category": "alimente",
-      "split": "shared",
-      "source": "manual"
+      "description": "Lidl Ivrea 21 Iul: anguria, acqua, piselli, latte, lasagne, fettuccine, mortadella, salametto, pomodoro, shopper bio, quartirolo, saltimbocca, succo tropicale",
+      "source": "manual",
+      "split": "shared"
     },
     {
+      "id": 158,
       "date": "2026-07-20",
-      "description": "IN's mercato Ivrea — kefir, pomodori oblunghi, peperoncini rossi, angurie",
       "amount": 10.99,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "IN's mercato Ivrea — kefir, pomodori oblunghi, peperoncini rossi, angurie",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 157,
       "date": "2026-07-19",
-      "description": "IKEA Collegno — Pizza Margherita x2",
       "amount": 3.9,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "IKEA Collegno — Pizza Margherita x2",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 156,
       "date": "2026-07-19",
-      "description": "Florivcom Alimentari Rivarolo C.se — alimentari",
       "amount": 15.3,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Florivcom Alimentari Rivarolo C.se — alimentari",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 155,
       "date": "2026-07-19",
-      "description": "IKEA Collegno — Angolo Occasione, SKADIS, UPPERATTA (mobili/accessori casa)",
       "amount": 198.29,
       "category": "casa",
-      "split": "shared",
-      "source": "andrei"
+      "description": "IKEA Collegno — Angolo Occasione, SKADIS, UPPERATTA (mobili/accessori casa)",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 154,
       "date": "2026-07-19",
-      "description": "IKEA Collegno — Pizza Margherita, bevanda, patatine fritte",
       "amount": 9.75,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "IKEA Collegno — Pizza Margherita, bevanda, patatine fritte",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 69,
       "date": "2026-07-18",
-      "description": "POS-IN'S MERCATO - CDC 175CAVAGLIA'",
       "amount": 1.49,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "POS-IN'S MERCATO - CDC 175CAVAGLIA'",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 68,
       "date": "2026-07-18",
-      "description": "POS-PAGOPA-NEXICORSO SEMPIONE 55 YMILANO                                            20145 MI",
       "amount": 97.25,
       "category": "taxe",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "POS-PAGOPA-NEXICORSO SEMPIONE 55 YMILANO                                            20145 MI",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 62,
       "date": "2026-07-18",
-      "description": "Penny Market Biella — alimente (categoria corectata din imbracaminte)",
-      "amount": 16.0,
+      "amount": 16,
       "category": "alimente",
-      "split": "shared",
-      "source": "manual"
+      "description": "Penny Market Biella — alimente (categoria corectata din imbracaminte)",
+      "source": "manual",
+      "split": "shared"
     },
     {
+      "id": 59,
       "date": "2026-07-18",
-      "description": "Lidl Ivrea — latte, mostarda, biscotti caramel, mozzarella",
       "amount": 17.41,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Lidl Ivrea — latte, mostarda, biscotti caramel, mozzarella",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 73,
       "date": "2026-07-17",
-      "description": "POS-STADIUM PIZZERIA KEBA.BIELLA",
-      "amount": 8.0,
+      "amount": 8,
       "category": "divertisment",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "POS-STADIUM PIZZERIA KEBA.BIELLA",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 72,
       "date": "2026-07-17",
-      "description": "POS-PENNY MARKET S.R.L.BIELLA",
       "amount": 1.25,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "POS-PENNY MARKET S.R.L.BIELLA",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 71,
       "date": "2026-07-17",
-      "description": "POS-PENNY MARKET S.R.L.BIELLA",
       "amount": 1.25,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "POS-PENNY MARKET S.R.L.BIELLA",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 70,
       "date": "2026-07-17",
-      "description": "POS-LIDL 2551IVREA",
       "amount": 25.36,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "POS-LIDL 2551IVREA",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 75,
       "date": "2026-07-16",
-      "description": "Linear Assicurazioni Bologna — asigurare duba Opel (categoria corectata din sanatate)",
       "amount": 439.97,
       "category": "transport",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Linear Assicurazioni Bologna — asigurare duba Opel (categoria corectata din sanatate)",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 74,
       "date": "2026-07-16",
-      "description": "POS-D116 Vigliano BielleseVigliano Biel",
       "amount": 7.48,
       "category": "transport",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "POS-D116 Vigliano BielleseVigliano Biel",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 67,
       "date": "2026-07-16",
-      "description": "Penny Biella — guizza naturale 2L, latte PS fresco, coca cola 0.45L",
       "amount": 3.21,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Penny Biella — guizza naturale 2L, latte PS fresco, coca cola 0.45L",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 64,
       "date": "2026-07-16",
-      "description": "Bennet Vigliano Biellese — alette pollo sapor, pan pizza, latte intero micr, shopper bio",
       "amount": 7.47,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Bennet Vigliano Biellese — alette pollo sapor, pan pizza, latte intero micr, shopper bio",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 58,
       "date": "2026-07-16",
-      "description": "Lidl - acqua, carote, pesto, banane, alimenti",
       "amount": 43.54,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Lidl - acqua, carote, pesto, banane, alimenti",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 78,
       "date": "2026-07-15",
-      "description": "Pagam. POS - PAGAMENTO POS 10,99 RON DEL 11.07.2026 A (ROM) LUKOIL CARTA ****2575 CAU 98105 NDS 882363169",
       "amount": 2.11,
       "category": "transport",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 10,99 RON DEL 11.07.2026 A (ROM) LUKOIL CARTA ****2575 CAU 98105 NDS 882363169",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 77,
       "date": "2026-07-15",
-      "description": "POS-LIDL 511SAINT CHRISTO",
       "amount": 2.24,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "POS-LIDL 511SAINT CHRISTO",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 76,
       "date": "2026-07-15",
-      "description": "POS-TRAVAGLINI VITTORIO DPAVONE CANAVE",
       "amount": 27.3,
       "category": "sanatate",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "POS-TRAVAGLINI VITTORIO DPAVONE CANAVE",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 57,
       "date": "2026-07-15",
-      "description": "Bennet Pavone Canavese — pesche, siciliano, mortadella, crudo, cipollotti, prezzemolo, peperoncini, cetrioli, sacchetti",
       "amount": 12.08,
       "category": "alimente",
-      "split": "shared",
-      "source": "manual"
+      "description": "Bennet Pavone Canavese — pesche, siciliano, mortadella, crudo, cipollotti, prezzemolo, peperoncini, cetrioli, sacchetti",
+      "source": "manual",
+      "split": "shared"
     },
     {
+      "id": 55,
       "date": "2026-07-14",
-      "description": "Panetteria Borgesio (prodotti da forno)",
       "amount": 3.4,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Panetteria Borgesio (prodotti da forno)",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 54,
       "date": "2026-07-14",
-      "description": "IN's mercato alimente (legume, lactate, băuturi)",
       "amount": 17.97,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "IN's mercato alimente (legume, lactate, băuturi)",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 53,
       "date": "2026-07-14",
-      "description": "Lidl Ivrea alimente (acqua efferv. x18, biscotti, zucchine, aceto mele, patate 2.06kg, latte x3, pomodori, anguria, shopper bio)",
       "amount": 18.8,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Lidl Ivrea alimente (acqua efferv. x18, biscotti, zucchine, aceto mele, patate 2.06kg, latte x3, pomodori, anguria, shopper bio)",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 80,
       "date": "2026-07-13",
-      "description": "Pagam. POS - PAGAMENTO POS 120,00 RON DEL 10.07.2026 A (ROM) KEBAP SHOP CARTA ****2575 CAU 98105 NDS 881416503",
       "amount": 23.05,
       "category": "divertisment",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 120,00 RON DEL 10.07.2026 A (ROM) KEBAP SHOP CARTA ****2575 CAU 98105 NDS 881416503",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 79,
       "date": "2026-07-13",
-      "description": "Pagam. POS - PAGAMENTO POS 300,24 RON DEL 11.07.2026 A (ROM) ROMPETROL RC077 CHIA              CARTA ****2575 CAU 98105 NDS 881658065",
       "amount": 57.64,
       "category": "transport",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 300,24 RON DEL 11.07.2026 A (ROM) ROMPETROL RC077 CHIA              CARTA ****2575 CAU 98105 NDS 881658065",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 81,
       "date": "2026-07-09",
-      "description": "Pagam. POS - PAGAMENTO POS 20,44 RON DEL 07.07.2026 A (ROM) KAUFLAND 8970 BRAGAD               CARTA ****2575 CAU 98105 NDS 880463872",
       "amount": 3.92,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 20,44 RON DEL 07.07.2026 A (ROM) KAUFLAND 8970 BRAGAD               CARTA ****2575 CAU 98105 NDS 880463872",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 82,
       "date": "2026-07-07",
-      "description": "Pagam. POS - PAGAMENTO POS 37,98 RON DEL 04.07.2026 A (ROM) KAUFLAND 8970 BRAGAD               CARTA ****2575 CAU 98105 NDS 879840716",
       "amount": 7.29,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 37,98 RON DEL 04.07.2026 A (ROM) KAUFLAND 8970 BRAGAD               CARTA ****2575 CAU 98105 NDS 879840716",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 84,
       "date": "2026-07-06",
-      "description": "Pagam. POS - PAGAMENTO POS 95,73 RON DEL 04.07.2026 A (ROM) LIDL RO 0195 CARTA ****2575 CAU 98105 NDS 879425668",
       "amount": 18.37,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 95,73 RON DEL 04.07.2026 A (ROM) LIDL RO 0195 CARTA ****2575 CAU 98105 NDS 879425668",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 83,
       "date": "2026-07-06",
-      "description": "Pagam. POS - PAGAMENTO POS 260,94 RON DEL 04.07.2026 A (ROM) KAUFLAND 8970 BRAGAD              CARTA ****2575 CAU 98105 NDS 879425669",
       "amount": 50.07,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 260,94 RON DEL 04.07.2026 A (ROM) KAUFLAND 8970 BRAGAD              CARTA ****2575 CAU 98105 NDS 879425669",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 88,
       "date": "2026-07-02",
-      "description": "Pagam. POS - PAGAMENTO POS 13,49 RON DEL 30.06.2026 A (ROM) CARREFOUR ALEXANDRIE               CARTA ****2575 CAU 98105 NDS 878230866",
       "amount": 2.59,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 13,49 RON DEL 30.06.2026 A (ROM) CARREFOUR ALEXANDRIE               CARTA ****2575 CAU 98105 NDS 878230866",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 87,
       "date": "2026-07-02",
-      "description": "Pagam. POS - PAGAMENTO POS 83,32 RON DEL 30.06.2026 A (ROM) LEROY MERLIN ALEXAND               CARTA ****2575 CAU 98105 NDS 878230867",
       "amount": 15.97,
       "category": "casa",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 83,32 RON DEL 30.06.2026 A (ROM) LEROY MERLIN ALEXAND               CARTA ****2575 CAU 98105 NDS 878230867",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 86,
       "date": "2026-07-02",
-      "description": "Pagam. POS - PAGAMENTO POS 24,94 RON DEL 30.06.2026 A (ROM) G010 BRAGADIRU                     CARTA ****2575 CAU 98105 NDS 878230868",
       "amount": 4.78,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 24,94 RON DEL 30.06.2026 A (ROM) G010 BRAGADIRU                     CARTA ****2575 CAU 98105 NDS 878230868",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 85,
       "date": "2026-07-02",
-      "description": "Pagam. POS - PAGAMENTO POS 14,24 RON DEL 30.06.2026 A (ROM) KAUFLAND 5470 ODAI                 CARTA ****2575 CAU 98105 NDS 878230869",
       "amount": 2.73,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 14,24 RON DEL 30.06.2026 A (ROM) KAUFLAND 5470 ODAI                 CARTA ****2575 CAU 98105 NDS 878230869",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 91,
       "date": "2026-07-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 90,
       "date": "2026-07-01",
-      "description": "Pagam. POS - PAGAMENTO POS 3,00 RON DEL 29.06.2026 A (ROM) STB VALIDATOARE                     CARTA ****2575 CAU 98105 NDS 877918096",
       "amount": 0.58,
       "category": "transport",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 3,00 RON DEL 29.06.2026 A (ROM) STB VALIDATOARE                     CARTA ****2575 CAU 98105 NDS 877918096",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 89,
       "date": "2026-07-01",
-      "description": "Pagam. POS - PAGAMENTO POS 46,93 RON DEL 30.06.2026 A (ROM) G010 BRAGADIRU                     CARTA ****2575 CAU 98105 NDS 877967143",
-      "amount": 9.0,
+      "amount": 9,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 46,93 RON DEL 30.06.2026 A (ROM) G010 BRAGADIRU                     CARTA ****2575 CAU 98105 NDS 877967143",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 63,
       "date": "2026-06-25",
-      "description": "Penny Biella — Coca Cola PET 0.45L",
       "amount": 1.59,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Penny Biella — Coca Cola PET 0.45L",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 92,
       "date": "2026-06-22",
-      "description": "Bancomat - PRELIEVO E/C 120,00 EUR DEL 18.06.2026 A (ITA) POSTE ITALIANE CARTA ****2575 CAU 98005 NDS 874442933",
-      "amount": 120.0,
+      "amount": 120,
       "category": "altele",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Bancomat - PRELIEVO E/C 120,00 EUR DEL 18.06.2026 A (ITA) POSTE ITALIANE CARTA ****2575 CAU 98005 NDS 874442933",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 56,
       "date": "2026-06-20",
-      "description": "LE.RO S.n.c bar (cappuccino, crema caffè)",
       "amount": 4.6,
       "category": "cafea",
-      "split": "shared",
-      "source": "andrei"
+      "description": "LE.RO S.n.c bar (cappuccino, crema caffè)",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 94,
       "date": "2026-06-19",
-      "description": "Disposizione - RIF:221749821BEN. Alessandro Tioli materiali scuola",
-      "amount": 55.0,
+      "amount": 55,
       "category": "educatie",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Disposizione - RIF:221749821BEN. Alessandro Tioli materiali scuola",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 93,
       "date": "2026-06-19",
-      "description": "Bancomat - PRELIEVO E/C 20,00 EUR DEL 17.06.2026 A (ITA) MONTE DEI PASCHI DI CARTA ****2575 CAU 98005 NDS 874127625",
-      "amount": 20.0,
+      "amount": 20,
       "category": "altele",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Bancomat - PRELIEVO E/C 20,00 EUR DEL 17.06.2026 A (ITA) MONTE DEI PASCHI DI CARTA ****2575 CAU 98005 NDS 874127625",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 65,
       "date": "2026-06-17",
-      "description": "Lidl Ivrea — sacchetti ortofrutta bio, pomodoro oblungo, pane pita",
       "amount": 4.65,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Lidl Ivrea — sacchetti ortofrutta bio, pomodoro oblungo, pane pita",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 95,
       "date": "2026-06-16",
-      "description": "Disposizione - RIF:221544584BEN. Condominio Panorama panorama acconto 10\" condominio 2025-2026",
-      "amount": 154.0,
+      "amount": 154,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Disposizione - RIF:221544584BEN. Condominio Panorama panorama acconto 10\" condominio 2025-2026",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 66,
       "date": "2026-06-16",
-      "description": "Action Assago — martello gomma €3.99, set punte €3.49",
       "amount": 7.48,
       "category": "munca",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Action Assago — martello gomma €3.99, set punte €3.49",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 50,
       "date": "2026-06-16",
-      "description": "Regione Piemonte - tributi/IMU (pagoPA, scad. MAR-2027, CF VNVLNE79E66Z129Q)",
       "amount": 41.72,
       "category": "servicii",
-      "split": "shared",
-      "source": "elena"
+      "description": "Regione Piemonte - tributi/IMU (pagoPA, scad. MAR-2027, CF VNVLNE79E66Z129Q)",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 48,
       "date": "2026-06-11",
-      "description": "Alimente",
       "amount": 16.11,
       "category": "alimente",
-      "split": "shared",
-      "source": "manual"
+      "description": "Alimente",
+      "source": "manual",
+      "split": "shared"
     },
     {
+      "id": 49,
       "date": "2026-06-09",
-      "description": "Lidl Ivrea alimente (shopper, banane, kefir, cornetto albicocca, quartirolo, chardonnay, latte, acqua efferv.)",
       "amount": 15.06,
       "category": "alimente",
-      "split": "shared",
-      "source": "manual"
+      "description": "Lidl Ivrea alimente (shopper, banane, kefir, cornetto albicocca, quartirolo, chardonnay, latte, acqua efferv.)",
+      "source": "manual",
+      "split": "shared"
     },
     {
+      "id": 47,
       "date": "2026-06-09",
-      "description": "Bilet di chiesa saggio dans (Matei)",
-      "amount": 43.0,
+      "amount": 43,
       "category": "divertisment",
-      "split": "shared",
-      "source": "elena"
+      "description": "Bilet di chiesa saggio dans (Matei)",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 46,
       "date": "2026-06-08",
-      "description": "Alimente card (Elena)",
-      "amount": 16.0,
+      "amount": 16,
       "category": "alimente",
-      "split": "shared",
-      "source": "elena"
+      "description": "Alimente card (Elena)",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 45,
       "date": "2026-06-08",
-      "description": "Alimente card (Elena)",
-      "amount": 50.0,
+      "amount": 50,
       "category": "alimente",
-      "split": "shared",
-      "source": "elena"
+      "description": "Alimente card (Elena)",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 39,
       "date": "2026-06-07",
-      "description": "Wizz Air TRN-OTP / OTP-TRN (bilet avion)",
       "amount": 221.94,
       "category": "transport",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Wizz Air TRN-OTP / OTP-TRN (bilet avion)",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 42,
       "date": "2026-06-06",
-      "description": "Lapte",
-      "amount": 2.0,
+      "amount": 2,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Lapte",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 36,
       "date": "2026-06-06",
-      "description": "D Più Samone: yogurt greco bianco",
       "amount": 3.69,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "D Più Samone: yogurt greco bianco",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 35,
       "date": "2026-06-06",
-      "description": "Panetteria Borgesio - Banchette: prodotti da forno",
       "amount": 7.8,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Panetteria Borgesio - Banchette: prodotti da forno",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 34,
       "date": "2026-06-06",
-      "description": "iN's mercato - Banchette di Ivrea: kefir x6, mele Fuji",
       "amount": 8.23,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "iN's mercato - Banchette di Ivrea: kefir x6, mele Fuji",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 44,
       "date": "2026-06-04",
-      "description": "Pizza (Elena)",
       "amount": 9.5,
       "category": "alimente",
-      "split": "shared",
-      "source": "elena"
+      "description": "Pizza (Elena)",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 41,
       "date": "2026-06-04",
-      "description": "Tezenis Ivrea: leggings cotone",
       "amount": 6.99,
       "category": "imbracaminte",
-      "split": "shared",
-      "source": "elena"
+      "description": "Tezenis Ivrea: leggings cotone",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 33,
       "date": "2026-06-03",
-      "description": "Autoricambi Capellaro — Ricambi/Accessori auto",
-      "amount": 28.0,
+      "amount": 28,
       "category": "transport",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Autoricambi Capellaro — Ricambi/Accessori auto",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 96,
       "date": "2026-06-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 97,
       "date": "2026-05-29",
-      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 6260027984 -N.    1614131959",
       "amount": 139.09,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 6260027984 -N.    1614131959",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 98,
       "date": "2026-05-25",
-      "description": "Pagam. POS - PAGAMENTO POS 181,68 EUR DEL 21.05.2026 A (ITA) PAGOPA-NEXI CARTA ****2575 CAU 98105 NDS 865863829",
       "amount": 181.68,
       "category": "taxe",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 181,68 EUR DEL 21.05.2026 A (ITA) PAGOPA-NEXI CARTA ****2575 CAU 98105 NDS 865863829",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 99,
       "date": "2026-05-21",
-      "description": "Disposizione - RIF:219596185BEN. Condominio Panorama acconto 7' - 8' - 9' condominio 2025-2026",
-      "amount": 462.0,
+      "amount": 462,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Disposizione - RIF:219596185BEN. Condominio Panorama acconto 7' - 8' - 9' condominio 2025-2026",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 21,
       "date": "2026-05-21",
-      "description": "Taxa regionala Regione Piemonte (PagoPA, 12 luni, scad Apr-2027)",
       "amount": 180.18,
       "category": "servicii",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Taxa regionala Regione Piemonte (PagoPA, 12 luni, scad Apr-2027)",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 32,
       "date": "2026-05-20",
-      "description": "Mediobanca Premier — Bonific trattamento neuropsicomotorio (fattura 30-2026)",
-      "amount": 236.0,
+      "amount": 236,
       "category": "sanatate",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Mediobanca Premier — Bonific trattamento neuropsicomotorio (fattura 30-2026)",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 30,
       "date": "2026-05-19",
-      "description": "Lidl Ivrea",
       "amount": 21.43,
       "category": "alimente",
-      "split": "shared",
-      "source": "elena"
+      "description": "Lidl Ivrea",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 31,
       "date": "2026-05-18",
-      "description": "D Più Samone",
       "amount": 7.88,
       "category": "alimente",
-      "split": "shared",
-      "source": "elena"
+      "description": "D Più Samone",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 29,
       "date": "2026-05-17",
-      "description": "iN's mercato",
       "amount": 0.94,
       "category": "alimente",
-      "split": "shared",
-      "source": "elena"
+      "description": "iN's mercato",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 9,
       "date": "2026-05-10",
-      "description": "iN's mercato — Banchette di Ivrea: patate €2.49, piselli €1.79, latte PET €1.25, kefir x4 €3.56",
       "amount": 9.09,
       "category": "alimente",
-      "split": "shared",
-      "source": "elena"
+      "description": "iN's mercato — Banchette di Ivrea: patate €2.49, piselli €1.79, latte PET €1.25, kefir x4 €3.56",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 100,
       "date": "2026-05-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 101,
       "date": "2026-04-29",
-      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 7260032371 -N.    1611000984",
       "amount": 199.32,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 7260032371 -N.    1611000984",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 102,
       "date": "2026-04-28",
-      "description": "Bancomat - PRELIEVO E/C 20,00 EUR DEL 25.04.2026 A (ITA) BCC D'ALBA CARTA ****2575 CAU 98005 NDS 858546752",
-      "amount": 20.0,
+      "amount": 20,
       "category": "altele",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Bancomat - PRELIEVO E/C 20,00 EUR DEL 25.04.2026 A (ITA) BCC D'ALBA CARTA ****2575 CAU 98005 NDS 858546752",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 103,
       "date": "2026-04-27",
-      "description": "Pagam. POS - PAGAMENTO POS 115,90 EUR DEL 25.04.2026 A (ITA) PAGOPA-NEXI CARTA ****2575 CAU 98105 NDS 858210662",
       "amount": 115.9,
       "category": "taxe",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 115,90 EUR DEL 25.04.2026 A (ITA) PAGOPA-NEXI CARTA ****2575 CAU 98105 NDS 858210662",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 104,
       "date": "2026-04-20",
-      "description": "Pagam. POS - PAGAMENTO POS 189,98 EUR DEL 16.04.2026 A E (ITA) GRANDVISION                     CARTA ****2575 CAU 98105 NDS 855666775",
       "amount": 189.98,
       "category": "sanatate",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 189,98 EUR DEL 16.04.2026 A E (ITA) GRANDVISION                     CARTA ****2575 CAU 98105 NDS 855666775",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 19,
       "date": "2026-04-02",
-      "description": "copie cheie",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "andrei"
+      "description": "copie cheie",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 17,
       "date": "2026-04-02",
-      "description": "cafea",
-      "amount": 4.0,
+      "amount": 4,
       "category": "cafea",
-      "split": "shared",
-      "source": "andrei"
+      "description": "cafea",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 12,
       "date": "2026-04-02",
-      "description": "EuroSpin alimente",
       "amount": 7.95,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "EuroSpin alimente",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 105,
       "date": "2026-04-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 106,
       "date": "2026-03-31",
-      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 6260014623 -N.    1607632399",
       "amount": 136.48,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 6260014623 -N.    1607632399",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 40,
       "date": "2026-03-30",
-      "description": "Conad Casaliggi Settimo Vittone: mele, grana, coppa, pizza, cornetti, costine, pesto, mortadella, prosciutto",
       "amount": 52.03,
       "category": "alimente",
-      "split": "shared",
-      "source": "elena"
+      "description": "Conad Casaliggi Settimo Vittone: mele, grana, coppa, pizza, cornetti, costine, pesto, mortadella, prosciutto",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 18,
       "date": "2026-03-26",
-      "description": "ENI motorina (2x50€)",
-      "amount": 100.0,
+      "amount": 100,
       "category": "transport",
-      "split": "shared",
-      "source": "andrei"
+      "description": "ENI motorina (2x50€)",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 16,
       "date": "2026-03-26",
-      "description": "MD alimente pranz",
-      "amount": 9.0,
+      "amount": 9,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "MD alimente pranz",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 15,
       "date": "2026-03-26",
-      "description": "Lidl alimente",
       "amount": 17.59,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Lidl alimente",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 11,
       "date": "2026-03-26",
-      "description": "cafea bar",
       "amount": 2.5,
       "category": "cafea",
-      "split": "shared",
-      "source": "andrei"
+      "description": "cafea bar",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 14,
       "date": "2026-03-25",
-      "description": "cafea bar",
       "amount": 3.8,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "cafea bar",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 13,
       "date": "2026-03-25",
-      "description": "IN'S mercato alimente",
       "amount": 10.5,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "IN'S mercato alimente",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 10,
       "date": "2026-03-25",
-      "description": "MD alimente pranz",
       "amount": 5.5,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "MD alimente pranz",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 23,
       "date": "2026-03-24",
-      "description": "Ribes lamiere + siliconare",
       "amount": 12.5,
       "category": "munca",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Ribes lamiere + siliconare",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 7,
       "date": "2026-03-24",
-      "description": "grebla unelte",
       "amount": 2.5,
       "category": "munca",
-      "split": "shared",
-      "source": "andrei"
+      "description": "grebla unelte",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 6,
       "date": "2026-03-24",
-      "description": "cafea bar",
       "amount": 2.5,
       "category": "cafea",
-      "split": "shared",
-      "source": "andrei"
+      "description": "cafea bar",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 5,
       "date": "2026-03-24",
-      "description": "pizza pranz",
       "amount": 7.5,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "pizza pranz",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 107,
       "date": "2026-03-23",
-      "description": "Delega Unica - F24 WEB DEL 2026-03-23/00.12.",
       "amount": 132.58,
       "category": "taxe",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Delega Unica - F24 WEB DEL 2026-03-23/00.12.",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 22,
       "date": "2026-03-23",
-      "description": "Samone condominiu",
       "amount": 59.79,
       "category": "utilitati",
-      "split": "shared",
-      "source": "elena"
+      "description": "Samone condominiu",
+      "source": "elena",
+      "split": "shared"
     },
     {
+      "id": 4,
       "date": "2026-03-23",
-      "description": "cafea la bar",
       "amount": 2.6,
       "category": "cafea",
-      "split": "shared",
-      "source": "andrei"
+      "description": "cafea la bar",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 3,
       "date": "2026-03-23",
-      "description": "DPiu",
       "amount": 8.29,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "DPiu",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 2,
       "date": "2026-03-23",
-      "description": "pantaloni",
-      "amount": 15.0,
+      "amount": 15,
       "category": "imbracaminte",
-      "split": "shared",
-      "source": "andrei"
+      "description": "pantaloni",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 1,
       "date": "2026-03-23",
-      "description": "Lidl alimente",
       "amount": 51.5,
       "category": "alimente",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Lidl alimente",
+      "source": "andrei",
+      "split": "shared"
     },
     {
+      "id": 109,
       "date": "2026-03-05",
-      "description": "Pagam. POS - PAGAMENTO POS 5,80 USD DEL 03.03.2026 A (USA) OPENROUTER, INC                     CARTA ****2575 CAU 9E105 NDS 843421486",
       "amount": 5.03,
       "category": "servicii",
-      "split": "andrei-only",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 5,80 USD DEL 03.03.2026 A (USA) OPENROUTER, INC                     CARTA ****2575 CAU 9E105 NDS 843421486",
+      "source": "mediobanca",
+      "split": "andrei-only"
     },
     {
+      "id": 108,
       "date": "2026-03-05",
-      "description": "Pagam. POS - PAGAMENTO POS 2.300,00 EUR DEL 03.03.2026 A (ITA) NOTAIO ALDO PRESBITE            CARTA ****2575 CAU 98105 NDS 843421485",
-      "amount": 2300.0,
+      "amount": 2300,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 2.300,00 EUR DEL 03.03.2026 A (ITA) NOTAIO ALDO PRESBITE            CARTA ****2575 CAU 98105 NDS 843421485",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 110,
       "date": "2026-03-03",
-      "description": "Pagam. POS - PAGAMENTO POS 5,80 USD DEL 01.03.2026 A (USA) OPENROUTER, INC                     CARTA ****2575 CAU 9E105 NDS 842879559",
       "amount": 4.93,
       "category": "servicii",
-      "split": "andrei-only",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 5,80 USD DEL 01.03.2026 A (USA) OPENROUTER, INC                     CARTA ****2575 CAU 9E105 NDS 842879559",
+      "source": "mediobanca",
+      "split": "andrei-only"
     },
     {
+      "id": 112,
       "date": "2026-03-01",
-      "description": "Interessi - ADDEBITO INTERESSI",
       "amount": 0.08,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Interessi - ADDEBITO INTERESSI",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 111,
       "date": "2026-03-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 113,
       "date": "2026-02-24",
-      "description": "Pagam. POS - PAGAMENTO POS 5,80 USD DEL 22.02.2026 A (USA) OPENROUTER, INC                     CARTA ****2575 CAU 9E105 NDS 840884719",
       "amount": 4.94,
       "category": "servicii",
-      "split": "andrei-only",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 5,80 USD DEL 22.02.2026 A (USA) OPENROUTER, INC                     CARTA ****2575 CAU 9E105 NDS 840884719",
+      "source": "mediobanca",
+      "split": "andrei-only"
     },
     {
+      "id": 114,
       "date": "2026-02-23",
-      "description": "Delega Unica - F24 WEB DEL 2026-02-23/00.40.",
       "amount": 132.84,
       "category": "taxe",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Delega Unica - F24 WEB DEL 2026-02-23/00.40.",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 115,
       "date": "2026-02-09",
-      "description": "Disposizione - RIF:212470388BEN. sara rosella germano fattura n. 265-2025 data 19.12.2025",
-      "amount": 236.0,
+      "amount": 236,
       "category": "sanatate",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Disposizione - RIF:212470388BEN. sara rosella germano fattura n. 265-2025 data 19.12.2025",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 116,
       "date": "2026-02-05",
-      "description": "Pagam. POS - PAGAMENTO POS 401,58 EUR DEL 03.02.2026 A (ITA) PRIMA ASSICURAZIONI               CARTA ****2575 CAU 98105 NDS 835679112",
       "amount": 401.58,
       "category": "sanatate",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 401,58 EUR DEL 03.02.2026 A (ITA) PRIMA ASSICURAZIONI               CARTA ****2575 CAU 98105 NDS 835679112",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 117,
       "date": "2026-02-04",
-      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 6260001384 -N.    1603300631",
       "amount": 124.34,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 6260001384 -N.    1603300631",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 118,
       "date": "2026-02-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 119,
       "date": "2026-01-20",
-      "description": "Pagam. POS - PAGAMENTO POS 146,55 EUR DEL 17.01.2026 A E (ITA) BENNET 22 CARTA ****2575 CAU 98105 NDS 831363723",
       "amount": 146.55,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 146,55 EUR DEL 17.01.2026 A E (ITA) BENNET 22 CARTA ****2575 CAU 98105 NDS 831363723",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 120,
       "date": "2026-01-05",
-      "description": "Delega Unica - F24 WEB DEL 2026-01-05/10.52.",
       "amount": 145.2,
       "category": "taxe",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Delega Unica - F24 WEB DEL 2026-01-05/10.52.",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 121,
       "date": "2026-01-02",
-      "description": "Disposizione - RIF:209914192BEN. Condominio Panorama 6\" Acconto condominio 2025-2026",
-      "amount": 154.0,
+      "amount": 154,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Disposizione - RIF:209914192BEN. Condominio Panorama 6\" Acconto condominio 2025-2026",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 122,
       "date": "2026-01-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 123,
       "date": "2025-12-31",
-      "description": "Pagam. POS - PAGAMENTO POS 3,00 RON DEL 29.12.2025 A (ROM) STB VALIDATOARE                     CARTA ****2575 CAU 98105 NDS 826089197",
       "amount": 0.59,
       "category": "transport",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 3,00 RON DEL 29.12.2025 A (ROM) STB VALIDATOARE                     CARTA ****2575 CAU 98105 NDS 826089197",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 124,
       "date": "2025-12-30",
-      "description": "Pagam. POS - PAGAMENTO POS 1.076,14 RON DEL 28.12.2025 A (ROM) F TEI RAHOVA S5 C16             CARTA ****2575 CAU 98105 NDS 825765391",
       "amount": 212.24,
       "category": "altele",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 1.076,14 RON DEL 28.12.2025 A (ROM) F TEI RAHOVA S5 C16             CARTA ****2575 CAU 98105 NDS 825765391",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 127,
       "date": "2025-12-29",
-      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 7250112843 -N.    1535003201",
       "amount": 159.03,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 7250112843 -N.    1535003201",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 126,
       "date": "2025-12-29",
-      "description": "Pagam. POS - PAGAMENTO POS 165,38 EUR DEL 21.12.2025 A (DEU) PAYPAL ATPAUTOTEIL               CARTA ****2575 CAU 98105 NDS 824617291",
       "amount": 165.38,
       "category": "altele",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 165,38 EUR DEL 21.12.2025 A (DEU) PAYPAL ATPAUTOTEIL               CARTA ****2575 CAU 98105 NDS 824617291",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 125,
       "date": "2025-12-29",
-      "description": "Pagam. POS - PAGAMENTO POS 200,35 EUR DEL 25.12.2025 A (MLT) WIZZ AIRSPY4HQ                    CARTA ****2575 CAU 98105 NDS 825073486",
       "amount": 200.35,
       "category": "altele",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 200,35 EUR DEL 25.12.2025 A (MLT) WIZZ AIRSPY4HQ                    CARTA ****2575 CAU 98105 NDS 825073486",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 128,
       "date": "2025-12-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 129,
       "date": "2025-11-28",
-      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 6250063988 -N.    1532303493",
       "amount": 77.45,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 6250063988 -N.    1532303493",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 130,
       "date": "2025-11-20",
-      "description": "Disposizione - RIF:206602978BEN. Condominio Panorama 5\" acconto condominio 2025 - 2026",
-      "amount": 154.0,
+      "amount": 154,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Disposizione - RIF:206602978BEN. Condominio Panorama 5\" acconto condominio 2025 - 2026",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 131,
       "date": "2025-11-14",
-      "description": "Pagam. POS - PAGAMENTO POS 107,10 EUR DEL 12.11.2025 A (ITA) PAGOPA-NEXI CARTA ****2575 CAU 98105 NDS 812043162",
       "amount": 107.1,
       "category": "taxe",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 107,10 EUR DEL 12.11.2025 A (ITA) PAGOPA-NEXI CARTA ****2575 CAU 98105 NDS 812043162",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 132,
       "date": "2025-11-03",
-      "description": "Disposizione - RIF:205424090BEN. Condominio Panorama 4\"acconto condominio 2025-2026",
-      "amount": 154.0,
+      "amount": 154,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Disposizione - RIF:205424090BEN. Condominio Panorama 4\"acconto condominio 2025-2026",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 133,
       "date": "2025-11-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 134,
       "date": "2025-10-28",
-      "description": "Pagam. POS - PAGAMENTO POS 166,61 EUR DEL 25.10.2025 A E (ITA) BENNET 5 CARTA ****2575 CAU 98105 NDS 807335187",
       "amount": 166.61,
       "category": "alimente",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 166,61 EUR DEL 25.10.2025 A E (ITA) BENNET 5 CARTA ****2575 CAU 98105 NDS 807335187",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 28,
       "date": "2025-10-20",
-      "description": "F24 Samone 2024 - IMU rata 2 (cod 0606)",
       "amount": 129.12,
       "category": "utilitati",
-      "split": "andrei-only",
-      "source": "andrei"
+      "description": "F24 Samone 2024 - IMU rata 2 (cod 0606)",
+      "source": "andrei",
+      "split": "andrei-only"
     },
     {
+      "id": 27,
       "date": "2025-10-20",
-      "description": "F24 Samone 2024 - IMU rata 1 (cod 0506)",
       "amount": 128.82,
       "category": "utilitati",
-      "split": "andrei-only",
-      "source": "andrei"
+      "description": "F24 Samone 2024 - IMU rata 1 (cod 0506)",
+      "source": "andrei",
+      "split": "andrei-only"
     },
     {
+      "id": 135,
       "date": "2025-10-03",
-      "description": "Bancomat - PRELIEVO E/C 20,00 EUR DEL 01.10.2025 A E (ITA) ISP 2297-CASTE CARTA ****2575 CAU 98005 NDS 800353102",
-      "amount": 20.0,
+      "amount": 20,
       "category": "altele",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Bancomat - PRELIEVO E/C 20,00 EUR DEL 01.10.2025 A E (ITA) ISP 2297-CASTE CARTA ****2575 CAU 98005 NDS 800353102",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 136,
       "date": "2025-10-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 138,
       "date": "2025-09-29",
+      "amount": 154,
+      "category": "utilitati",
       "description": "Disposizione - RIF:203050777BEN. Condominio Panorama 2' acconto condominio anno 2025-2026",
-      "amount": 154.0,
-      "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 137,
       "date": "2025-09-29",
-      "description": "Disposizione - RIF:203050805BEN. Condominio Panorama 3' acconto condominio anno 2025-2026",
-      "amount": 154.0,
+      "amount": 154,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Disposizione - RIF:203050805BEN. Condominio Panorama 3' acconto condominio anno 2025-2026",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 139,
       "date": "2025-09-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 141,
       "date": "2025-08-27",
-      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 7250073608 -N.    1522629828",
       "amount": 165.08,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 7250073608 -N.    1522629828",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 140,
       "date": "2025-08-27",
-      "description": "Delega Unica - F24 WEB DEL 2025-08-27/08.52.",
       "amount": 127.67,
       "category": "taxe",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Delega Unica - F24 WEB DEL 2025-08-27/08.52.",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 142,
       "date": "2025-08-19",
-      "description": "Pagam. POS - PAGAMENTO POS 267,50 EUR DEL 16.08.2025 A (ITA) IKEA COLLEGNO                     CARTA ****2575 CAU 98105 NDS 787376810",
       "amount": 267.5,
       "category": "casa",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 267,50 EUR DEL 16.08.2025 A (ITA) IKEA COLLEGNO                     CARTA ****2575 CAU 98105 NDS 787376810",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 143,
       "date": "2025-08-15",
-      "description": "Addebito SDD - AGOS DUCATO S.P.A.  - PR. 75996953/001/01 15/08/25 -N.    1521821117",
       "amount": 134.53,
       "category": "altele",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito SDD - AGOS DUCATO S.P.A.  - PR. 75996953/001/01 15/08/25 -N.    1521821117",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 144,
       "date": "2025-08-04",
-      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 6250038845 -N.    1520445107",
       "amount": 44.3,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito SDD - Azienda Energia e Ga-Bolletta Nr. 6250038845 -N.    1520445107",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 145,
       "date": "2025-08-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 2.0,
+      "amount": 2,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 146,
       "date": "2025-07-28",
-      "description": "Pagam. POS - PAGAMENTO POS 100,00 EUR DEL 25.07.2025 A I (ITA) CASA DELLA GOMMA DI             CARTA ****2575 CAU 98105 NDS 780565979",
-      "amount": 100.0,
+      "amount": 100,
       "category": "altele",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 100,00 EUR DEL 25.07.2025 A I (ITA) CASA DELLA GOMMA DI             CARTA ****2575 CAU 98105 NDS 780565979",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 147,
       "date": "2025-07-22",
-      "description": "Pagam. POS - PAGAMENTO POS 219,11 EUR DEL 19.07.2025 A (ITA) PAYPAL ITLCOMPANYS               CARTA ****2575 CAU 98105 NDS 779037063",
       "amount": 219.11,
       "category": "altele",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 219,11 EUR DEL 19.07.2025 A (ITA) PAYPAL ITLCOMPANYS               CARTA ****2575 CAU 98105 NDS 779037063",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 151,
       "date": "2025-07-21",
-      "description": "Disposizione - RIF:198802363BEN. Sara Rosella Germano P.Iva09666360012 pagamento finale, fattura n 47-2025",
-      "amount": 100.0,
+      "amount": 100,
       "category": "sanatate",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Disposizione - RIF:198802363BEN. Sara Rosella Germano P.Iva09666360012 pagamento finale, fattura n 47-2025",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 150,
       "date": "2025-07-21",
-      "description": "Disposizione - RIF:198805103BEN. Condominio Panorama 1' acconto condominio anno 2025-2026",
       "amount": 154.26,
       "category": "utilitati",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Disposizione - RIF:198805103BEN. Condominio Panorama 1' acconto condominio anno 2025-2026",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 149,
       "date": "2025-07-21",
-      "description": "Bancomat - PRELIEVO E/C 70,00 EUR DEL 17.07.2025 A E (ITA) ISP 3303-CASTE CARTA ****2575 CAU 98005 NDS 778124377",
-      "amount": 70.0,
+      "amount": 70,
       "category": "altele",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Bancomat - PRELIEVO E/C 70,00 EUR DEL 17.07.2025 A E (ITA) ISP 3303-CASTE CARTA ****2575 CAU 98005 NDS 778124377",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 148,
       "date": "2025-07-21",
-      "description": "Pagam. POS - PAGAMENTO POS 399,64 EUR DEL 17.07.2025 A (ITA) SCALAPAY UNIEURO                 CARTA ****2575 CAU 98105 NDS 778124378",
       "amount": 399.64,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Pagam. POS - PAGAMENTO POS 399,64 EUR DEL 17.07.2025 A (ITA) SCALAPAY UNIEURO                 CARTA ****2575 CAU 98105 NDS 778124378",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 152,
       "date": "2025-07-01",
-      "description": "Addebito canone - Addebito canone conto corrente",
-      "amount": 1.0,
+      "amount": 1,
       "category": "servicii",
-      "split": "shared",
-      "source": "mediobanca"
+      "description": "Addebito canone - Addebito canone conto corrente",
+      "source": "mediobanca",
+      "split": "shared"
     },
     {
+      "id": 20,
       "date": "2025-04-04",
-      "description": "Trattamento Neuropsicomotorio Marzo 2025 - Sara Rosella Germano (Fattura 47-2025)",
-      "amount": 225.0,
+      "amount": 225,
       "category": "sanatate",
-      "split": "shared",
-      "source": "andrei"
+      "description": "Trattamento Neuropsicomotorio Marzo 2025 - Sara Rosella Germano (Fattura 47-2025)",
+      "source": "andrei",
+      "split": "shared"
     }
   ],
   "ore_lucrate": [
     {
+      "id": 34,
+      "date": "2026-07-23",
+      "santier": "Vigliano",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": null,
+      "note": "Cestello (ritirare cestello). Ora final 18:30 confirmata de Andrei prin mesaj vocal.",
+      "confirmat": 1
+    },
+    {
+      "id": 33,
       "date": "2026-07-22",
       "santier": "Aosta - Cond Sorreley",
       "ora_start": "06:30",
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "note": "Programma Cantieri 22 Iul: Ivanov+Sergiu+Leonardo, Aosta Cond Sorreley, 6:30. Mesaj vocal: terminat 18:00. Pauza 1h.",
+      "confirmat": 1
     },
     {
+      "id": 31,
       "date": "2026-07-21",
       "santier": "Aosta - Cond Sorreley",
       "ora_start": "06:30",
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
-      "ore_normal": 10.5,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0
+      "note": "Posa davanzali? Nu — programma nu specifica materiale/lucrari pt Sorreley. Confirmat de Andrei: lucrat pana la 18:00.",
+      "confirmat": 1
     },
     {
+      "id": 30,
       "date": "2026-07-20",
       "santier": "Aosta - Cond Sorreley",
       "ora_start": "07:00",
-      "ora_end": null,
-      "ore_efective": null,
+      "ora_end": "18:00",
+      "ore_efective": 10.5,
       "mezzo": "Renault 529",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0
+      "note": "Programma Cantieri 20 Iulie. 3 santiere. Ivanov pe Cond Sorreley cu Sergiu+Leonardo. Ora final 18:00 confirmata de Andrei prin mesaj vocal 23 Iulie.",
+      "confirmat": 1
     },
     {
+      "id": 32,
       "date": "2026-07-19",
       "santier": "Sâmbătă - ore straordinarie",
       "ora_start": null,
       "ora_end": null,
-      "ore_efective": 3.0,
+      "ore_efective": 3,
       "mezzo": null,
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 3.0
+      "note": "3 ore straordinarie sambata 19 Iulie. Confirmat de Andrei prin mesaj vocal.",
+      "confirmat": 1
     },
     {
+      "id": 29,
       "date": "2026-07-17",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "06:30",
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
-      "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 2.0
+      "note": "Ilie ferie, Florin permesso. Sergiu+Marcello Settimo Vittone Abeyta, Giovanni+Tahiru+Leonardo Aosta Cond Ancien Bazar.",
+      "confirmat": 1
     },
     {
+      "id": 28,
       "date": "2026-07-16",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "06:30",
       "ora_end": "17:30",
-      "ore_efective": 10.0,
+      "ore_efective": 10,
       "mezzo": "Renault 529",
-      "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "note": "Posa lattoneria + ritiro fornitura Galvani. Ilie in ferie.",
+      "confirmat": 1
     },
     {
+      "id": 27,
       "date": "2026-07-15",
       "santier": "Aosta - Cond Ancien Bazar - Cilea",
       "ora_start": "06:30",
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "Renault 529",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "note": "Prima zi dupa concediu. Pana la 17 confirmat de Andrei.",
+      "confirmat": 1
     },
     {
+      "id": 26,
       "date": "2026-06-23",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "07:00",
       "ora_end": null,
       "ore_efective": null,
       "mezzo": "Iveco",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0
+      "note": "Ilie+Serghiu+Tahiru Gressan-Cond Brenva (Renault 529), Florin+Giovanni+Marcello Cervinia (Fisso 613)",
+      "confirmat": 1
     },
     {
+      "id": 25,
       "date": "2026-06-22",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "07:00",
       "ora_end": null,
       "ore_efective": null,
       "mezzo": "Iveco",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0
+      "note": "Ilie+Serghiu Valtournenche-Les Marcs (Renault 529), Florin+Tahiru Cervinia (Fisso 613), Giovanni vizita medicala 8:30 apoi Cervinia, Marcello vizita medicala Ivrea 11:30",
+      "confirmat": 1
     },
     {
+      "id": 24,
       "date": "2026-06-19",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": null,
       "ore_efective": null,
       "mezzo": null,
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0
+      "note": "Ora final așteptată",
+      "confirmat": 0
     },
     {
+      "id": 23,
       "date": "2026-06-18",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": "Iveco",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 22,
       "date": "2026-06-17",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 21,
       "date": "2026-06-16",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 20,
       "date": "2026-06-15",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 19,
       "date": "2026-06-13",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "18:00",
-      "ore_efective": 10.0,
+      "ore_efective": 10,
       "mezzo": "Iveco 645",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "note": "Sâmbătă",
+      "confirmat": 1
     },
     {
+      "id": 18,
       "date": "2026-06-12",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "18:00",
-      "ore_efective": 9.0,
+      "ore_efective": 9,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.0
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 17,
       "date": "2026-06-11",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "17:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 16,
       "date": "2026-06-10",
       "santier": "Gaglianico - Vetreria Biellese",
       "ora_start": "07:00",
       "ora_end": "18:00",
-      "ore_efective": 10.0,
+      "ore_efective": 10,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 15,
       "date": "2026-06-05",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": "3 Posti 645",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "note": "Portare massetto Castello Settimo",
+      "confirmat": 1
     },
     {
+      "id": 14,
       "date": "2026-06-04",
       "santier": "Gaglianico - Vetreria Biellese",
       "ora_start": "07:00",
       "ora_end": "17:00",
-      "ore_efective": 9.0,
+      "ore_efective": 9,
       "mezzo": "Renault 529",
-      "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 0.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 13,
       "date": "2026-06-03",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "19:00",
-      "ore_efective": 11.0,
+      "ore_efective": 11,
       "mezzo": "Iveco",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.0
+      "note": "Șantier propriu",
+      "confirmat": 1
     },
     {
+      "id": 12,
       "date": "2026-05-29",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "06:30",
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Iveco",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "note": "Propriul șantier, Iveco start 6:30",
+      "confirmat": 1
     },
     {
+      "id": 11,
       "date": "2026-05-28",
       "santier": "Gaglianico - Vetreria Biellese",
       "ora_start": "07:00",
       "ora_end": "18:00",
-      "ore_efective": 10.0,
+      "ore_efective": 10,
       "mezzo": "Renault 529",
-      "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 10,
       "date": "2026-05-27",
       "santier": "Chatillon - Cond Les Cles",
       "ora_start": "07:00",
       "ora_end": "17:30",
       "ore_efective": 9.5,
       "mezzo": "Fisso 613",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "note": "În locul lui Giovanni",
+      "confirmat": 1
     },
     {
+      "id": 9,
       "date": "2026-05-20",
       "santier": "Gaglianico",
       "ora_start": "07:00",
       "ora_end": "15:30",
       "ore_efective": 7.5,
       "mezzo": null,
-      "ore_normal": 7.0,
-      "ore_guida": 0.5,
-      "ore_extra": 0.0
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 8,
       "date": "2026-05-19",
       "santier": "Settimo Vittone/Gaglianico",
       "ora_start": "07:00",
       "ora_end": "16:00",
-      "ore_efective": 8.0,
+      "ore_efective": 8,
       "mezzo": null,
-      "ore_normal": 7.5,
-      "ore_guida": 0.5,
-      "ore_extra": 0.0
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 7,
       "date": "2026-05-18",
       "santier": "Gaglianico - Vetreria Biellese",
       "ora_start": "07:00",
       "ora_end": "18:00",
-      "ore_efective": 10.0,
+      "ore_efective": 10,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 6,
       "date": "2026-05-16",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "15:00",
-      "ore_efective": 7.0,
+      "ore_efective": 7,
       "mezzo": null,
-      "ore_normal": 6.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.0
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 5,
       "date": "2026-05-15",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 4,
       "date": "2026-05-14",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 3,
       "date": "2026-05-13",
       "santier": "Gressoney",
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 2,
       "date": "2026-05-12",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "note": null,
+      "confirmat": 1
     },
     {
+      "id": 1,
       "date": "2026-05-11",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
       "ora_end": "19:00",
-      "ore_efective": 11.0,
+      "ore_efective": 11,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.0
+      "note": null,
+      "confirmat": 1
     }
   ],
-  "db": {
-    "expenses": 147,
-    "expenses_total": 12136.54,
-    "ore_lucrate": 33,
-    "ore_total": 276.5,
-    "pending": 0,
-    "speza_offers": 499
+  "categories": {
+    "alte": 12.13,
+    "alimente": 1008.0300000000001,
+    "casa": 481.76,
+    "taxe": 1040.22,
+    "divertisment": 74.05,
+    "transport": 858.3100000000001,
+    "sanatate": 1415.86,
+    "servicii": 2963.5199999999995,
+    "altele": 1281.6100000000001,
+    "cafea": 16.2,
+    "educatie": 55,
+    "utilitati": 2903.08,
+    "munca": 22.48,
+    "imbracaminte": 21.990000000000002
   },
-  "agents": [
-    {
-      "name": "Lola",
-      "emoji": "🧭",
-      "role": "Coordonare",
-      "active": true,
-      "model": "GLM-5.2"
-    },
-    {
-      "name": "Guda",
-      "emoji": "💰",
-      "role": "Finanțe",
-      "active": true,
-      "model": "GLM-5.2"
-    },
-    {
-      "name": "Atlas",
-      "emoji": "🏗",
-      "role": "Lucrări",
-      "active": true,
-      "model": "GLM-5.2"
-    },
-    {
-      "name": "Spesa",
-      "emoji": "🛒",
-      "role": "Oferte & Cumpărături",
-      "active": true,
-      "model": "GLM-5.2"
-    },
-    {
-      "name": "Echo",
-      "emoji": "👥",
-      "role": "Social",
-      "active": false,
-      "model": "-"
-    },
-    {
-      "name": "Prof",
-      "emoji": "🎓",
-      "role": "Documentare",
-      "active": false,
-      "model": "-"
-    }
-  ],
-  "system": {
-    "model": "GLM-5.2 Cloud",
-    "version": "OpenClaw 2026.7.1",
-    "platform": "Windows 10",
-    "node": "DESKTOP-IOHKTKV"
+  "ore_by_month": {
+    "2026-07": 75,
+    "2026-06": 107,
+    "2026-05": 115.5
   },
-  "lastUpdate": "2026-07-22T23:10:32.471353"
+  "backup": {
+    "last_backup": "auto 02:00 Europe/Rome",
+    "next_backup": "02:00 Europe/Rome"
+  }
 }
