@@ -1,14 +1,6 @@
 {
   "expenses": [
     {
-      "date": "2026-07-24",
-      "description": "Andrei, am deja datele actualizate — tocmai am rulat export-ul. Uite ce s-a propagat:\n\n**✅ Dashboard actualizat acum:**\n\n• Cheltuieli: 148 intrări (€12,137.03) — era 146 (€12,105.03)\n• Ore lucrate: 32",
-      "amount": 12.13,
-      "category": "alte",
-      "split": "shared",
-      "source": "andrei"
-    },
-    {
       "date": "2026-07-23",
       "description": "OVS Ivrea — îmbrăcăminte",
       "amount": 7.0,
@@ -1629,8 +1621,8 @@
     }
   ],
   "db": {
-    "expenses": 155,
-    "expenses_total": 12192.41,
+    "expenses": 154,
+    "expenses_total": 12180.28,
     "ore_lucrate": 35,
     "ore_total": 297.5,
     "pending": 0,
@@ -1686,5 +1678,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-24T06:07:49.407453"
+  "lastUpdate": "2026-07-24T07:16:00.443573"
 }
