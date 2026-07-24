@@ -1246,12 +1246,12 @@
       "date": "2026-07-24",
       "santier": "Pont-Saint-Martin - Cond La Residence",
       "ora_start": "07:00",
-      "ora_end": null,
-      "ore_efective": null,
+      "ora_end": "18:00",
+      "ore_efective": 10.0,
       "mezzo": "Cestello",
-      "ore_normal": null,
-      "ore_guida": null,
-      "ore_extra": null
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.0
     },
     {
       "date": "2026-07-23",
@@ -1632,7 +1632,7 @@
     "expenses": 155,
     "expenses_total": 12188.09,
     "ore_lucrate": 35,
-    "ore_total": 297.5,
+    "ore_total": 307.5,
     "pending": 0,
     "speza_offers": 221
   },
@@ -1686,5 +1686,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-24T19:45:58.299883"
+  "lastUpdate": "2026-07-24T19:46:04.898088"
 }
