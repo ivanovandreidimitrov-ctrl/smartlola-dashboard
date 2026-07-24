@@ -1634,7 +1634,7 @@
     "ore_lucrate": 35,
     "ore_total": 297.5,
     "pending": 0,
-    "speza_offers": 563
+    "speza_offers": 221
   },
   "agents": [
     {
@@ -1686,5 +1686,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-24T18:45:46.583485"
+  "lastUpdate": "2026-07-24T19:45:58.299883"
 }
