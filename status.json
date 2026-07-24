@@ -10,11 +10,27 @@
     },
     {
       "date": "2026-07-23",
+      "description": "OVS Ivrea — îmbrăcăminte",
+      "amount": 7.0,
+      "category": "îmbrăcăminte",
+      "split": "shared",
+      "source": "mediobanca"
+    },
+    {
+      "date": "2026-07-23",
       "description": "CONAD Casaliggi Settimo Vittone - latte, prosciutto cotto, pizza/bocaccia",
       "amount": 5.57,
       "category": "alimente",
       "split": "shared",
       "source": "andrei"
+    },
+    {
+      "date": "2026-07-22",
+      "description": "Bar Castoro St Christo — cafea/bar",
+      "amount": 3.6,
+      "category": "cafea",
+      "split": "shared",
+      "source": "mediobanca"
     },
     {
       "date": "2026-07-21",
@@ -26,11 +42,35 @@
     },
     {
       "date": "2026-07-20",
+      "description": "PayPal Google — abonament Google",
+      "amount": 1.99,
+      "category": "servicii",
+      "split": "shared",
+      "source": "mediobanca"
+    },
+    {
+      "date": "2026-07-20",
+      "description": "Gasoline Cafe — cafea/bar",
+      "amount": 2.6,
+      "category": "cafea",
+      "split": "shared",
+      "source": "mediobanca"
+    },
+    {
+      "date": "2026-07-20",
       "description": "IN's mercato Ivrea — kefir, pomodori oblunghi, peperoncini rossi, angurie",
       "amount": 10.99,
       "category": "alimente",
       "split": "shared",
       "source": "andrei"
+    },
+    {
+      "date": "2026-07-19",
+      "description": "TorinoNord — auto/taxe",
+      "amount": 4.8,
+      "category": "transport",
+      "split": "shared",
+      "source": "mediobanca"
     },
     {
       "date": "2026-07-19",
@@ -63,6 +103,14 @@
       "category": "alimente",
       "split": "shared",
       "source": "andrei"
+    },
+    {
+      "date": "2026-07-18",
+      "description": "Ollama — AI/cloud services",
+      "amount": 18.18,
+      "category": "servicii",
+      "split": "shared",
+      "source": "mediobanca"
     },
     {
       "date": "2026-07-18",
@@ -1581,8 +1629,8 @@
     }
   ],
   "db": {
-    "expenses": 149,
-    "expenses_total": 12154.24,
+    "expenses": 155,
+    "expenses_total": 12192.41,
     "ore_lucrate": 35,
     "ore_total": 297.5,
     "pending": 0,
@@ -1638,5 +1686,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-24T06:07:18.970983"
+  "lastUpdate": "2026-07-24T06:07:49.407453"
 }
