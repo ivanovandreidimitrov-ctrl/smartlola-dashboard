@@ -1,6 +1,14 @@
 {
   "expenses": [
     {
+      "date": "2026-07-24",
+      "description": "Conad — costine suino, pizza/focaccia, latte int",
+      "amount": 7.81,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
       "date": "2026-07-23",
       "description": "OVS Ivrea — îmbrăcăminte",
       "amount": 7.0,
@@ -1621,8 +1629,8 @@
     }
   ],
   "db": {
-    "expenses": 154,
-    "expenses_total": 12180.28,
+    "expenses": 155,
+    "expenses_total": 12188.09,
     "ore_lucrate": 35,
     "ore_total": 297.5,
     "pending": 0,
@@ -1678,5 +1686,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-24T07:16:00.443573"
+  "lastUpdate": "2026-07-24T17:58:47.509006"
 }
