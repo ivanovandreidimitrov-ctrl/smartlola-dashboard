@@ -2,6 +2,14 @@
   "expenses": [
     {
       "date": "2026-07-25",
+      "description": "Lidl Ivrea - kefir Milbona (oferta)",
+      "amount": 0.59,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
+      "date": "2026-07-25",
       "description": "Lidl Ivrea - ortfruit: pomodori 2.24, pesche 0.82, avocado 1.99, cipolle dorate 1.19, melone 2.29, cipolle rosse 2.29",
       "amount": 10.82,
       "category": "alimente",
@@ -1693,8 +1701,8 @@
     }
   ],
   "db": {
-    "expenses": 163,
-    "expenses_total": 12232.36,
+    "expenses": 164,
+    "expenses_total": 12232.95,
     "ore_lucrate": 35,
     "ore_total": 307.5,
     "pending": 0,
@@ -1750,5 +1758,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-25T09:20:26.716592"
+  "lastUpdate": "2026-07-25T09:20:41.046695"
 }
