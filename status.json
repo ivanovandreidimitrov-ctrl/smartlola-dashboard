@@ -1,6 +1,14 @@
 {
   "expenses": [
     {
+      "date": "2026-07-25",
+      "description": "Bună, poți reproducere captură imagine cu prețul de la kefir 0.59€",
+      "amount": 0.59,
+      "category": "alte",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
       "date": "2026-07-24",
       "description": "Conad — costine suino, pizza/focaccia, latte int",
       "amount": 7.81,
@@ -1629,8 +1637,8 @@
     }
   ],
   "db": {
-    "expenses": 155,
-    "expenses_total": 12188.09,
+    "expenses": 156,
+    "expenses_total": 12188.68,
     "ore_lucrate": 35,
     "ore_total": 307.5,
     "pending": 0,
@@ -1686,5 +1694,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-24T19:46:04.898088"
+  "lastUpdate": "2026-07-25T07:33:10.315055"
 }
