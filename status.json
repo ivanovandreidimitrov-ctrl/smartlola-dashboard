@@ -1,22 +1,6 @@
 {
   "expenses": [
     {
-      "date": "2026-07-25",
-      "description": "Vreau să îți spun că nu merită   să cheltui resurse (motorina, și timp dus întors) pentru oun kefir de 0.59€ , chiar dacă în ansamblu cumpărăturile valorează 50€",
-      "amount": 0.59,
-      "category": "motorină",
-      "split": "shared",
-      "source": "andrei"
-    },
-    {
-      "date": "2026-07-25",
-      "description": "Bună, poți reproducere captură imagine cu prețul de la kefir 0.59€",
-      "amount": 0.59,
-      "category": "alte",
-      "split": "shared",
-      "source": "andrei"
-    },
-    {
       "date": "2026-07-24",
       "description": "Conad — costine suino, pizza/focaccia, latte int",
       "amount": 7.81,
@@ -1645,8 +1629,8 @@
     }
   ],
   "db": {
-    "expenses": 157,
-    "expenses_total": 12189.27,
+    "expenses": 155,
+    "expenses_total": 12188.09,
     "ore_lucrate": 35,
     "ore_total": 307.5,
     "pending": 0,
@@ -1702,5 +1686,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-25T09:46:20.589162"
+  "lastUpdate": "2026-07-25T11:15:53.285801"
 }
