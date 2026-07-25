@@ -2,62 +2,6 @@
   "expenses": [
     {
       "date": "2026-07-25",
-      "description": "Lidl Ivrea - kefir Milbona (oferta)",
-      "amount": 0.59,
-      "category": "alimente",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
-      "date": "2026-07-25",
-      "description": "Lidl Ivrea - ortfruit: pomodori 2.24, pesche 0.82, avocado 1.99, cipolle dorate 1.19, melone 2.29, cipolle rosse 2.29",
-      "amount": 10.82,
-      "category": "alimente",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
-      "date": "2026-07-25",
-      "description": "Lidl Ivrea - lactate: panna 1.39, panna fresca 1.69, latte PS 1.50, latte intero 2.35",
-      "amount": 6.93,
-      "category": "alimente",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
-      "date": "2026-07-25",
-      "description": "Lidl Ivrea - panificatie/bevande: frollini 1.60, pinot chardonnay 0.28",
-      "amount": 1.88,
-      "category": "alimente",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
-      "date": "2026-07-25",
-      "description": "Lidl Ivrea - libro attivita bimbi (Matei)",
-      "amount": 4.49,
-      "category": "divertisment",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
-      "date": "2026-07-25",
-      "description": "Lidl Ivrea - casa: shopper biodegrad 5.98, sachi biodegrad 1.62, scotti carta 4.50",
-      "amount": 12.1,
-      "category": "casa",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
-      "date": "2026-07-25",
-      "description": "Lidl Ivrea - carne: macinato tacchino 5.98, macinato misto 0.89",
-      "amount": 6.87,
-      "category": "alimente",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
-      "date": "2026-07-25",
       "description": "Vreau să îți spun că nu merită   să cheltui resurse (motorina, și timp dus întors) pentru oun kefir de 0.59€ , chiar dacă în ansamblu cumpărăturile valorează 50€",
       "amount": 0.59,
       "category": "motorină",
@@ -1701,8 +1645,8 @@
     }
   ],
   "db": {
-    "expenses": 164,
-    "expenses_total": 12232.95,
+    "expenses": 157,
+    "expenses_total": 12189.27,
     "ore_lucrate": 35,
     "ore_total": 307.5,
     "pending": 0,
@@ -1758,5 +1702,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-25T09:20:41.046695"
+  "lastUpdate": "2026-07-25T09:46:20.589162"
 }
