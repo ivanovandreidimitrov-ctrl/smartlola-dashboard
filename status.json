@@ -1,6 +1,86 @@
 {
   "expenses": [
     {
+      "date": "2026-07-25",
+      "description": "Tigros Ivrea - carta igen 1.99, vileda spugna x2 2.58, shopper bio x2 0.02, shopper casse self 0.10",
+      "amount": 4.69,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-25",
+      "description": "Tigros Ivrea - stelline 0.59, latte 0.99, olio semi 1.59, cipollotti 1.33, mix orientale 1.00, olio semi 1.59, meloni 1.88",
+      "amount": 8.97,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-25",
+      "description": "Lidl Ivrea - cono panna latte x2 (0.89 cad)",
+      "amount": 1.78,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-25",
+      "description": "Panetteria Borgesio - prodotti da forno",
+      "amount": 5.2,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-24",
+      "description": "Carrefour Burolo - shopper bio 0.24, bobina ultra 2.29, sgr.spr marsigl 9.09, sgr.spr disinf x2 18.18 (sconto -12.30)",
+      "amount": 17.5,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-24",
+      "description": "Carrefour Burolo - jeans lav wolfridge",
+      "amount": 14.0,
+      "category": "imbracaminte",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-24",
+      "description": "Carrefour Burolo - tarallini finocchio",
+      "amount": 1.0,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-24",
+      "description": "Lidl Ivrea - libro attivita bimbi (Matei)",
+      "amount": 2.49,
+      "category": "divertisment",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-24",
+      "description": "Lidl Ivrea - shopper biodegrad 0.40, sacch ortofrutticoli 0.02, scott carta igen fam 4.99",
+      "amount": 5.41,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-24",
+      "description": "Lidl Ivrea - macinato tacchino 5.98, macinato misto 4.99, cono panna 0.89, panna fresca 1.39, pinot chardonnay 1.69, latte PS 1.19, latte intero 2.50, pomodori 2.35, pesche 1.99, avocado 0.99, frollini 4.38, cipolle dorate 1.19, susine 1.99, melone 2.29, cipolle rosse 2.49 (sconto -0.52)",
+      "amount": 36.3,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
       "date": "2026-07-24",
       "description": "Lidl Ivrea - macinato tacchino 5.98, macinato misto 4.99, cono panna 0.89, panna fresca 1.39, pinot chardonnay 1.69, latte PS 1.19, latte intero 2.50, pomodori 2.35, pesche 1.99, avocado 0.99, frollini 4.38, cipolle dorate 1.19, susine 1.99, melone 2.29, cipolle rosse 2.49 (sconto -0.52)",
       "amount": 36.3,
@@ -172,6 +252,14 @@
       "date": "2026-07-18",
       "description": "Lidl Ivrea — latte, mostarda, biscotti caramel, mozzarella",
       "amount": 17.41,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-17",
+      "description": "Penny - latte int fresco val",
+      "amount": 1.25,
       "category": "alimente",
       "split": "shared",
       "source": "andrei"
@@ -1661,8 +1749,8 @@
     }
   ],
   "db": {
-    "expenses": 159,
-    "expenses_total": 12268.59,
+    "expenses": 170,
+    "expenses_total": 12367.18,
     "ore_lucrate": 35,
     "ore_total": 307.5,
     "pending": 0,
@@ -1718,5 +1806,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-26T00:02:17.369816"
+  "lastUpdate": "2026-07-26T00:18:42.358163"
 }
