@@ -2,6 +2,14 @@
   "expenses": [
     {
       "date": "2026-07-25",
+      "description": "Lidl Ivrea - shopper, macinato, latte, panna, pomodori, pesche, avocado, scotti, frollini, cipolle, melone, libro bimbi",
+      "amount": 43.68,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
+      "date": "2026-07-25",
       "description": "Vreau să îți spun că nu merită   să cheltui resurse (motorina, și timp dus întors) pentru oun kefir de 0.59€ , chiar dacă în ansamblu cumpărăturile valorează 50€",
       "amount": 0.59,
       "category": "motorină",
@@ -1645,8 +1653,8 @@
     }
   ],
   "db": {
-    "expenses": 157,
-    "expenses_total": 12189.27,
+    "expenses": 158,
+    "expenses_total": 12232.95,
     "ore_lucrate": 35,
     "ore_total": 307.5,
     "pending": 0,
@@ -1702,5 +1710,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-25T07:45:16.181530"
+  "lastUpdate": "2026-07-25T09:15:57.972494"
 }
