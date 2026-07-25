@@ -2,6 +2,14 @@
   "expenses": [
     {
       "date": "2026-07-24",
+      "description": "Lidl Ivrea - macinato tacchino 5.98, macinato misto 4.99, cono panna 0.89, panna fresca 1.39, pinot chardonnay 1.69, latte PS 1.19, latte intero 2.50, pomodori 2.35, pesche 1.99, avocado 0.99, frollini 4.38, cipolle dorate 1.19, susine 1.99, melone 2.29, cipolle rosse 2.49 (sconto -0.52)",
+      "amount": 36.3,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
+      "date": "2026-07-24",
       "description": "Lidl Ivrea - libro attivita bimbi (Matei)",
       "amount": 2.49,
       "category": "divertisment",
@@ -1653,8 +1661,8 @@
     }
   ],
   "db": {
-    "expenses": 158,
-    "expenses_total": 12232.29,
+    "expenses": 159,
+    "expenses_total": 12268.59,
     "ore_lucrate": 35,
     "ore_total": 307.5,
     "pending": 0,
@@ -1710,5 +1718,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-26T00:01:56.793179"
+  "lastUpdate": "2026-07-26T00:02:17.369816"
 }
