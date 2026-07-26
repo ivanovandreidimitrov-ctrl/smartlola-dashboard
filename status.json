@@ -82,38 +82,6 @@
     },
     {
       "date": "2026-07-24",
-      "description": "Lidl Ivrea - macinato tacchino 5.98, macinato misto 4.99, cono panna 0.89, panna fresca 1.39, pinot chardonnay 1.69, latte PS 1.19, latte intero 2.50, pomodori 2.35, pesche 1.99, avocado 0.99, frollini 4.38, cipolle dorate 1.19, susine 1.99, melone 2.29, cipolle rosse 2.49 (sconto -0.52)",
-      "amount": 36.3,
-      "category": "alimente",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
-      "date": "2026-07-24",
-      "description": "Lidl Ivrea - libro attivita bimbi (Matei)",
-      "amount": 2.49,
-      "category": "divertisment",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
-      "date": "2026-07-24",
-      "description": "Lidl Ivrea - macinato tacchino 5.98, macinato misto 4.99, cono panna 0.89, panna fresca 1.39, pinot chardonnay 1.69, latte PS 1.19, latte intero 2.50, pomodori 2.35, pesche 1.99, avocado 0.99, frollini 4.38, cipolle dorate 1.19, susine 1.99, melone 2.29, cipolle rosse 2.49 (sconto -0.52)",
-      "amount": 36.3,
-      "category": "alimente",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
-      "date": "2026-07-24",
-      "description": "Lidl Ivrea - shopper biodegrad 0.40, sacch ortofrutticoli 0.02, scott carta igen fam 4.99",
-      "amount": 5.41,
-      "category": "casa",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
-      "date": "2026-07-24",
       "description": "Conad — costine suino, pizza/focaccia, latte int",
       "amount": 7.81,
       "category": "alimente",
@@ -269,14 +237,6 @@
       "description": "POS-STADIUM PIZZERIA KEBA.BIELLA",
       "amount": 8.0,
       "category": "divertisment",
-      "split": "shared",
-      "source": "mediobanca"
-    },
-    {
-      "date": "2026-07-17",
-      "description": "POS-PENNY MARKET S.R.L.BIELLA",
-      "amount": 1.25,
-      "category": "alimente",
       "split": "shared",
       "source": "mediobanca"
     },
@@ -1749,8 +1709,8 @@
     }
   ],
   "db": {
-    "expenses": 170,
-    "expenses_total": 12367.18,
+    "expenses": 165,
+    "expenses_total": 12285.43,
     "ore_lucrate": 35,
     "ore_total": 307.5,
     "pending": 0,
@@ -1806,5 +1766,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-26T00:18:42.358163"
+  "lastUpdate": "2026-07-26T03:15:48.726338"
 }
