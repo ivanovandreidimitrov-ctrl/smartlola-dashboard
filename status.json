@@ -25,14 +25,6 @@
       "source": "manual"
     },
     {
-      "date": "2026-07-28",
-      "description": "Lidl Ivrea 28/07 - da cancellare (sbagliato categoria)",
-      "amount": 45.48,
-      "category": "alimente",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
       "date": "2026-07-25",
       "description": "Tigros Ivrea - carta igen 1.99, vileda spugna x2 2.58, shopper bio x2 0.02, shopper casse self 0.10",
       "amount": 4.69,
@@ -1741,8 +1733,8 @@
     }
   ],
   "db": {
-    "expenses": 169,
-    "expenses_total": 12371.65,
+    "expenses": 168,
+    "expenses_total": 12326.17,
     "ore_lucrate": 35,
     "ore_total": 307.5,
     "pending": 0,
@@ -1798,5 +1790,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-28T20:45:56.168224"
+  "lastUpdate": "2026-07-28T23:15:58.373317"
 }
