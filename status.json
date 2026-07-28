@@ -2,6 +2,14 @@
   "expenses": [
     {
       "date": "2026-07-28",
+      "description": "Lidl Ivrea 28/07 - da cancellare (sbagliato categoria)",
+      "amount": 45.48,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
+      "date": "2026-07-28",
       "description": "Camping chair, acqua frizzante, Nesquik, lasagna, meloni x2, latte fresco, occhiali lettura, detersivo campeggio",
       "amount": 45.48,
       "category": "alimente",
@@ -1717,8 +1725,8 @@
     }
   ],
   "db": {
-    "expenses": 166,
-    "expenses_total": 12330.91,
+    "expenses": 167,
+    "expenses_total": 12376.39,
     "ore_lucrate": 35,
     "ore_total": 307.5,
     "pending": 0,
@@ -1774,5 +1782,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-28T20:32:39.725727"
+  "lastUpdate": "2026-07-28T20:37:17.637713"
 }
