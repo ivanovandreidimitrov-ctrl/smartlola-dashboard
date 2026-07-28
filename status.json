@@ -2,15 +2,31 @@
   "expenses": [
     {
       "date": "2026-07-28",
-      "description": "Lidl Ivrea 28/07 - da cancellare (sbagliato categoria)",
-      "amount": 45.48,
+      "description": "Lidl Ivrea - occhiali lettura",
+      "amount": 1.99,
+      "category": "imbracaminte",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
+      "date": "2026-07-28",
+      "description": "Lidl Ivrea - sedia campeggio,bucato campeggio",
+      "amount": 24.97,
+      "category": "divertisment",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
+      "date": "2026-07-28",
+      "description": "Lidl Ivrea - acqua frizzante,Nesquik,lasagna,meloni x2,latte fresco",
+      "amount": 13.78,
       "category": "alimente",
       "split": "shared",
       "source": "manual"
     },
     {
       "date": "2026-07-28",
-      "description": "Camping chair, acqua frizzante, Nesquik, lasagna, meloni x2, latte fresco, occhiali lettura, detersivo campeggio",
+      "description": "Lidl Ivrea 28/07 - da cancellare (sbagliato categoria)",
       "amount": 45.48,
       "category": "alimente",
       "split": "shared",
@@ -1725,8 +1741,8 @@
     }
   ],
   "db": {
-    "expenses": 167,
-    "expenses_total": 12376.39,
+    "expenses": 169,
+    "expenses_total": 12371.65,
     "ore_lucrate": 35,
     "ore_total": 307.5,
     "pending": 0,
@@ -1782,5 +1798,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-28T20:37:17.637713"
+  "lastUpdate": "2026-07-28T20:45:56.168224"
 }
