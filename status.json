@@ -1347,6 +1347,17 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-07-29",
+      "santier": "Banchette - Cond Mont Revel poi Biella",
+      "ora_start": "06:30",
+      "ora_end": "17:00",
+      "ore_efective": 9.5,
+      "mezzo": "Fisso 613",
+      "ore_normal": 8.0,
+      "ore_guida": 0.5,
+      "ore_extra": 1.0
+    },
+    {
       "date": "2026-07-28",
       "santier": "Pont-Saint-Martin - Cond La Residence",
       "ora_start": "07:00",
@@ -1757,8 +1768,8 @@
   "db": {
     "expenses": 168,
     "expenses_total": 12326.17,
-    "ore_lucrate": 37,
-    "ore_total": 327.0,
+    "ore_lucrate": 38,
+    "ore_total": 336.5,
     "pending": 0,
     "speza_offers": 221
   },
@@ -1812,5 +1823,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-29T08:34:40.828944"
+  "lastUpdate": "2026-07-29T22:38:25.517660"
 }
