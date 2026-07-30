@@ -1,6 +1,14 @@
 {
   "expenses": [
     {
+      "date": "2026-07-30",
+      "description": "2 ferestre pentru San Giuseppe — cost ferestre €1150 + transport Romania→Santia €150",
+      "amount": 1300.0,
+      "category": "muncă",
+      "split": "andrei-only",
+      "source": "manual"
+    },
+    {
       "date": "2026-07-28",
       "description": "Lidl Ivrea - occhiali lettura",
       "amount": 1.99,
@@ -1766,8 +1774,8 @@
     }
   ],
   "db": {
-    "expenses": 168,
-    "expenses_total": 12326.17,
+    "expenses": 169,
+    "expenses_total": 13626.17,
     "ore_lucrate": 38,
     "ore_total": 336.5,
     "pending": 0,
@@ -1823,5 +1831,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-29T22:38:25.517660"
+  "lastUpdate": "2026-07-30T12:12:29.271531"
 }
