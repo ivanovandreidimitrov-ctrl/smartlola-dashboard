@@ -1358,23 +1358,12 @@
       "date": "2026-07-31",
       "santier": "Settimo Vittone - Abeyta",
       "ora_start": "06:30",
-      "ora_end": null,
-      "ore_efective": null,
-      "mezzo": "Renault 529",
-      "ore_normal": null,
-      "ore_guida": null,
-      "ore_extra": null
-    },
-    {
-      "date": "2026-07-31",
-      "santier": "Test Fix",
-      "ora_start": "06:30",
       "ora_end": "17:30",
       "ore_efective": 10.0,
-      "mezzo": "Iveco",
+      "mezzo": "Renault 529",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.0
+      "ore_extra": 1.0
     },
     {
       "date": "2026-07-30",
@@ -1809,7 +1798,7 @@
   "db": {
     "expenses": 169,
     "expenses_total": 13626.17,
-    "ore_lucrate": 41,
+    "ore_lucrate": 40,
     "ore_total": 356.5,
     "pending": 0,
     "speza_offers": 221
@@ -1864,5 +1853,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-07-31T05:42:28.930787"
+  "lastUpdate": "2026-07-31T05:45:55.610048"
 }
