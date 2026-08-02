@@ -1,14 +1,6 @@
 {
   "expenses": [
     {
-      "date": "2026-07-30",
-      "description": "2 ferestre pentru San Giuseppe — cost ferestre €1150 + transport Romania→Santhia €150",
-      "amount": 1300,
-      "category": "muncă",
-      "split": "andrei-only",
-      "source": "manual"
-    },
-    {
       "date": "2026-07-28",
       "description": "Lidl Ivrea - occhiali lettura",
       "amount": 1.99,
@@ -970,26 +962,10 @@
     },
     {
       "date": "2026-03-05",
-      "description": "Pagam. POS - PAGAMENTO POS 5,80 USD DEL 03.03.2026 A (USA) OPENROUTER, INC                     CARTA ****2575 CAU 9E105 NDS 843421486",
-      "amount": 5.03,
-      "category": "servicii",
-      "split": "andrei-only",
-      "source": "mediobanca"
-    },
-    {
-      "date": "2026-03-05",
       "description": "Pagam. POS - PAGAMENTO POS 2.300,00 EUR DEL 03.03.2026 A (ITA) NOTAIO ALDO PRESBITE            CARTA ****2575 CAU 98105 NDS 843421485",
       "amount": 2300,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
-    },
-    {
-      "date": "2026-03-03",
-      "description": "Pagam. POS - PAGAMENTO POS 5,80 USD DEL 01.03.2026 A (USA) OPENROUTER, INC                     CARTA ****2575 CAU 9E105 NDS 842879559",
-      "amount": 4.93,
-      "category": "servicii",
-      "split": "andrei-only",
       "source": "mediobanca"
     },
     {
@@ -1006,14 +982,6 @@
       "amount": 2,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
-    },
-    {
-      "date": "2026-02-24",
-      "description": "Pagam. POS - PAGAMENTO POS 5,80 USD DEL 22.02.2026 A (USA) OPENROUTER, INC                     CARTA ****2575 CAU 9E105 NDS 840884719",
-      "amount": 4.94,
-      "category": "servicii",
-      "split": "andrei-only",
       "source": "mediobanca"
     },
     {
@@ -1183,22 +1151,6 @@
       "category": "alimente",
       "split": "shared",
       "source": "mediobanca"
-    },
-    {
-      "date": "2025-10-20",
-      "description": "F24 Samone 2024 - IMU rata 2 (cod 0606)",
-      "amount": 129.12,
-      "category": "utilitati",
-      "split": "andrei-only",
-      "source": "andrei"
-    },
-    {
-      "date": "2025-10-20",
-      "description": "F24 Samone 2024 - IMU rata 1 (cod 0506)",
-      "amount": 128.82,
-      "category": "utilitati",
-      "split": "andrei-only",
-      "source": "andrei"
     },
     {
       "date": "2025-10-03",
@@ -1987,5 +1939,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-08-02T18:10:17.038Z"
+  "lastUpdate": "2026-08-02T18:40:34.210Z"
 }
