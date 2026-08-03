@@ -294,6 +294,16 @@ body {
 .month-fill.guida { background: var(--yellow); }
 .month-fill.extra { background: var(--orange); }
 
+/* Export PDF button */
+.export-btn {
+  width: 100%; padding: 14px; margin-top: 8px;
+  background: var(--bg-card); color: var(--accent);
+  border: 1px solid var(--accent-dim); border-radius: var(--radius);
+  font-size: 14px; font-weight: 700; cursor: pointer;
+  transition: all 0.15s;
+}
+.export-btn:active { background: var(--accent-dim); transform: scale(0.98); }
+
 /* Responsive */
 @media (max-width: 400px) {
   .stats-row { grid-template-columns: 1fr 1fr 1fr; }

@@ -573,6 +573,154 @@ async function sendSantierRequest() {
   closeModal();
 }
 
+// === PDF EXPORT ===
+function exportGudaPDF() {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  const filtered = getGudaFilteredExpenses();
+  
+  if (filtered.length === 0) {
+    toast('Nicio cheltuială de exportat', 'error');
+    return;
+  }
+
+  // Header
+  doc.setFontSize(20);
+  doc.setTextColor(79, 158, 255);
+  doc.text('SmartLola \u00b7 Guda', 14, 20);
+  doc.setFontSize(11);
+  doc.setTextColor(139, 146, 168);
+  doc.text('Raport cheltuieli \u2014 ' + getGudaViewLabel(), 14, 28);
+  
+  // Summary
+  const total = filtered.reduce((s, e) => s + e.amount, 0);
+  const shared = filtered.filter(e => e.split === 'shared').reduce((s, e) => s + e.amount, 0);
+  const andreiOnly = filtered.filter(e => e.split === 'andrei-only').reduce((s, e) => s + e.amount, 0);
+  
+  doc.setFontSize(12);
+  doc.setTextColor(0, 0, 0);
+  doc.text('Total: \u20ac' + total.toFixed(2), 14, 40);
+  doc.text('Shared: \u20ac' + shared.toFixed(2), 14, 47);
+  doc.text('Andrei only: \u20ac' + andreiOnly.toFixed(2), 14, 54);
+  doc.text('Intr\u0103ri: ' + filtered.length, 14, 61);
+
+  // Table
+  const sorted = [...filtered].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  const rows = sorted.map(e => [
+    formatDate(e.date),
+    e.description || '',
+    e.category || '',
+    e.split || '',
+    e.source || '',
+    '\u20ac' + e.amount.toFixed(2)
+  ]);
+
+  doc.autoTable({
+    startY: 68,
+    head: [['Data', 'Descriere', 'Categorie', 'Split', 'Sursa', 'Sum\u0103']],
+    body: rows,
+    theme: 'striped',
+    headStyles: { fillColor: [79, 158, 255], fontSize: 9 },
+    bodyStyles: { fontSize: 9 },
+    alternateRowStyles: { fillColor: [240, 242, 248] },
+    columnStyles: {
+      0: { cellWidth: 22 },
+      1: { cellWidth: 'auto' },
+      2: { cellWidth: 25 },
+      3: { cellWidth: 22 },
+      4: { cellWidth: 18 },
+      5: { cellWidth: 22, halign: 'right' }
+    }
+  });
+
+  // Footer
+  const pageCount = doc.internal.getNumberOfPages();
+  for (let i = 1; i <= pageCount; i++) {
+    doc.setPage(i);
+    doc.setFontSize(8);
+    doc.setTextColor(150);
+    doc.text('SmartLola Dashboard \u00b7 ' + new Date().toLocaleString('ro-RO'), 14, doc.internal.pageSize.height - 8);
+  }
+
+  doc.save('guda-cheltuieli-' + new Date().toISOString().slice(0,10) + '.pdf');
+  toast('\u2705 PDF generat: ' + filtered.length + ' cheltuieli', 'success');
+}
+
+function exportAtlasPDF() {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  const filtered = getAtlasFilteredOre();
+  
+  if (filtered.length === 0) {
+    toast('Nicio or\u0103 de exportat', 'error');
+    return;
+  }
+
+  // Header
+  doc.setFontSize(20);
+  doc.setTextColor(79, 158, 255);
+  doc.text('SmartLola \u00b7 Atlas', 14, 20);
+  doc.setFontSize(11);
+  doc.setTextColor(139, 146, 168);
+  doc.text('Raport ore lucrate \u2014 ' + getAtlasViewLabel(), 14, 28);
+
+  // Summary
+  const totalOre = filtered.reduce((s, o) => s + (o.ore_efective || 0), 0);
+  const totalNormal = filtered.reduce((s, o) => s + (o.ore_normal || 0), 0);
+  const totalGuida = filtered.reduce((s, o) => s + (o.ore_guida || 0), 0);
+  const totalExtra = filtered.reduce((s, o) => s + (o.ore_extra || 0), 0);
+  const days = filtered.filter(o => o.ore_efective).length;
+
+  doc.setFontSize(12);
+  doc.setTextColor(0, 0, 0);
+  doc.text('Total ore: ' + totalOre.toFixed(1) + 'h', 14, 40);
+  doc.text('Zile confirmate: ' + days, 14, 47);
+  doc.text('Normale: ' + totalNormal.toFixed(1) + 'h | Guida: ' + totalGuida.toFixed(1) + 'h | Extra: ' + totalExtra.toFixed(1) + 'h', 14, 54);
+
+  // Table
+  const sorted = [...filtered].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  const rows = sorted.map(o => [
+    formatDate(o.date),
+    o.santier || '',
+    o.ora_start || '',
+    o.ora_end || '',
+    (o.ore_efective || 0).toFixed(1) + 'h',
+    o.mezzo || '',
+    o.colegi || ''
+  ]);
+
+  doc.autoTable({
+    startY: 61,
+    head: [['Data', '\u0218antier', 'Start', 'Final', 'Ore', 'Ma\u0219in\u0103', 'Colegi']],
+    body: rows,
+    theme: 'striped',
+    headStyles: { fillColor: [79, 158, 255], fontSize: 9 },
+    bodyStyles: { fontSize: 9 },
+    alternateRowStyles: { fillColor: [240, 242, 248] },
+    columnStyles: {
+      0: { cellWidth: 20 },
+      1: { cellWidth: 'auto' },
+      2: { cellWidth: 16 },
+      3: { cellWidth: 16 },
+      4: { cellWidth: 16, halign: 'right' },
+      5: { cellWidth: 22 },
+      6: { cellWidth: 'auto' }
+    }
+  });
+
+  // Footer
+  const pageCount = doc.internal.getNumberOfPages();
+  for (let i = 1; i <= pageCount; i++) {
+    doc.setPage(i);
+    doc.setFontSize(8);
+    doc.setTextColor(150);
+    doc.text('SmartLola Dashboard \u00b7 ' + new Date().toLocaleString('ro-RO'), 14, doc.internal.pageSize.height - 8);
+  }
+
+  doc.save('atlas-ore-' + new Date().toISOString().slice(0,10) + '.pdf');
+  toast('\u2705 PDF generat: ' + filtered.length + ' zile', 'success');
+}
+
 // === UTILS ===
 function toast(msg, type) {
   const t = document.getElementById('toast');
