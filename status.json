@@ -1,6 +1,14 @@
 {
   "expenses": [
     {
+      "date": "2026-08-05",
+      "description": "Bennet Vigliano Biellese - BIR.PORETTI 3 VAP.66ML x2, PANE INTEGRA AFF5, PESCHE NOCI POLPA GIALLA, SHOPPER BIO P2",
+      "amount": 6.31,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
       "date": "2026-07-28",
       "description": "Lidl Ivrea - occhiali lettura",
       "amount": 1.99,
@@ -1781,8 +1789,8 @@
     }
   ],
   "db": {
-    "expenses": 163,
-    "expenses_total": 12053.33,
+    "expenses": 164,
+    "expenses_total": 12059.64,
     "ore_lucrate": 43,
     "ore_total": 395.5,
     "pending": 0,
@@ -1838,5 +1846,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-08-04T22:37:12.432310"
+  "lastUpdate": "2026-08-06T06:45:47.831315"
 }
