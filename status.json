@@ -9,6 +9,86 @@
       "source": "andrei"
     },
     {
+      "date": "2026-08-04",
+      "description": "Lidl Biella - LATTE FRESCO PS, BANANE, ACQUA MINERALE NATUR x6",
+      "amount": 2.81,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-08-02",
+      "description": "Action Burolo - LEGO TARTARUGA, CARTA DA FORNO, SOLE MEMORY FOAM, SEMI GIRASOLE, SEMI CHIA, STAMPO GHIACCIO, ORGANIZER, CINTURA DONNA, HUGGIES 56pz, FAZZOLETTI x2, SPAZZOLA, CAVO USB-C, CIF CREMA",
+      "amount": 31.86,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-08-02",
+      "description": "Maxi Di Samone (D Più) - GELATO ALLA NOCCIOLA, SPUMANTE RIBOLLA GIALLA",
+      "amount": 5.88,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-31",
+      "description": "Tigros Ivrea - EUROVERDE MISTA, SALSICCIA x2, LATTE FRESCO x2, PANE A FETTE x2, CIPOLLOTTI, OLIO EV CL, PEPERONI, PATATE, MIX ORIENTALE, POMODORO, CETRIOLI, ANGURIE MINI, SHOPPER BIO x4, SHOPPER CASSE SELF (sconto -3.26)",
+      "amount": 30.68,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-31",
+      "description": "Conad Settimo Vittone - MOJITO SODA, ACQUA EFF.NAT x2, ORANSODA (sconto Carta Insieme -0.14)",
+      "amount": 1.74,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-30",
+      "description": "Conad Settimo Vittone - PIZZA/FOCACCIA, SUSINE METIS (sconto -0.81), LATTE MICROF.PS",
+      "amount": 5.64,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-29",
+      "description": "Lidl Ivrea - SHOPPER BIODEGRAD, PROSCIUTTO COTTO, GOUDA A FETTE, PANE PITA x4, ACQUA MIN.EFFERV x2, MELONE RETATO, LATTE DI KEFIR, POMODORI GRAPPOLO, SACCH.ORTOFR.BIO, LATTE FRESCO INTERO",
+      "amount": 10.48,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-28",
+      "description": "Conad Pont Saint Martin - ACQUA EFF.NAT, SHOPPER BIO, PIZZA/FOCACCIA, PROSCIUT.COTTO, LATTE MICROF.INT",
+      "amount": 6.84,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-28",
+      "description": "Lidl Ivrea - SEDIA DA CAMPEGGIO x2 (€19.98), OCCHIALI DA LETTURA (€1.99)",
+      "amount": 21.97,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-28",
+      "description": "Lidl Ivrea - ACQUA MIN.EFFERV x12, NESQUIK CACAO, LASAGNE BOLOGNESE, MELONE RETATO, MELONE GIALLO, LATTE FRESCO INTERO, BUCATO DA CAMPEGGIO",
+      "amount": 45.48,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
       "date": "2026-07-28",
       "description": "Lidl Ivrea - occhiali lettura",
       "amount": 1.99,
@@ -31,6 +111,54 @@
       "category": "alimente",
       "split": "shared",
       "source": "manual"
+    },
+    {
+      "date": "2026-07-27",
+      "description": "Maxi Di Samone (D Più) - AURORE LAZZARONI MAXI, YOGURT GRECO 10% BIANCO",
+      "amount": 6.38,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-27",
+      "description": "Conad Pont Saint Martin - ACQUA CONAD, PANE",
+      "amount": 0.77,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-27",
+      "description": "Conad Pont Saint Martin - SHOPPER BIO, LATTE MICROF.INT, ACQUA EFF.NAT x2, PIZZA/FOCACCIA x2",
+      "amount": 6.3,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-26",
+      "description": "iN's mercato Cavaglià - ARANCIATA 20% SUCCO, BEVAND.MIRTILLO NERO",
+      "amount": 1.49,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-26",
+      "description": "iN's mercato Banchette - JEANS UOMO",
+      "amount": 12.99,
+      "category": "imbracaminte",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-26",
+      "description": "iN's mercato Banchette - FAGIOLI BORLOTTI x6, SUCCO ANANAS, OLIO SEMI GIRASOLE, LATTE KEFIR x6, RICOTTA BIO x2, ZUCCHINE, SACCHETTO ORTOFRUTTA, CAROTE, 3 CONTENITORI",
+      "amount": 31.82,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
     },
     {
       "date": "2026-07-25",
@@ -252,6 +380,14 @@
       "date": "2026-07-18",
       "description": "Lidl Ivrea — latte, mostarda, biscotti caramel, mozzarella",
       "amount": 17.41,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-07-17",
+      "description": "Penny Biella - LATTE INT. FRESCO VAL",
+      "amount": 1.25,
       "category": "alimente",
       "split": "shared",
       "source": "andrei"
@@ -1789,8 +1925,8 @@
     }
   ],
   "db": {
-    "expenses": 164,
-    "expenses_total": 12059.64,
+    "expenses": 181,
+    "expenses_total": 12284.02,
     "ore_lucrate": 43,
     "ore_total": 395.5,
     "pending": 0,
@@ -1846,5 +1982,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-08-06T06:45:47.831315"
+  "lastUpdate": "2026-08-06T09:15:44.973365"
 }
