@@ -1451,6 +1451,17 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-08-06",
+      "santier": null,
+      "ora_start": "07:30",
+      "ora_end": "17:00",
+      "ore_efective": 9.5,
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 0.0,
+      "ore_extra": 1.5
+    },
+    {
       "date": "2026-08-04",
       "santier": "Cossato - Ritorcitura Buzio",
       "ora_start": "06:30",
@@ -1927,8 +1938,8 @@
   "db": {
     "expenses": 181,
     "expenses_total": 12284.02,
-    "ore_lucrate": 43,
-    "ore_total": 395.5,
+    "ore_lucrate": 44,
+    "ore_total": 405.0,
     "pending": 0,
     "speza_offers": 221
   },
@@ -1982,5 +1993,5 @@
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
-  "lastUpdate": "2026-08-06T19:27:12.147069"
+  "lastUpdate": "2026-08-06T19:55:24.264034"
 }
