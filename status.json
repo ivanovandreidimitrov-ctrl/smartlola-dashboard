@@ -1459,7 +1459,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 0.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-08-04",
@@ -1470,7 +1471,8 @@
       "mezzo": "Iveco",
       "ore_normal": 8.0,
       "ore_guida": 1.5,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": null
     },
     {
       "date": "2026-08-03",
@@ -1481,7 +1483,8 @@
       "mezzo": "Iveco",
       "ore_normal": 8.0,
       "ore_guida": 4.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": null
     },
     {
       "date": "2026-08-01",
@@ -1492,7 +1495,8 @@
       "mezzo": null,
       "ore_normal": 0.0,
       "ore_guida": 0.0,
-      "ore_extra": 4.5
+      "ore_extra": 4.5,
+      "colegi": null
     },
     {
       "date": "2026-07-31",
@@ -1503,7 +1507,8 @@
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Sergiu, Tahiru"
     },
     {
       "date": "2026-07-30",
@@ -1514,7 +1519,8 @@
       "mezzo": "Iveco",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Sergiu"
     },
     {
       "date": "2026-07-29",
@@ -1525,7 +1531,8 @@
       "mezzo": "Fisso 613",
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": null
     },
     {
       "date": "2026-07-28",
@@ -1536,7 +1543,8 @@
       "mezzo": "Cestello",
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-07-27",
@@ -1547,7 +1555,8 @@
       "mezzo": "Cestello",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-07-24",
@@ -1558,7 +1567,8 @@
       "mezzo": "Cestello",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-07-23",
@@ -1569,7 +1579,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-07-22",
@@ -1580,7 +1591,8 @@
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-07-21",
@@ -1591,7 +1603,8 @@
       "mezzo": "Renault 529",
       "ore_normal": 10.5,
       "ore_guida": 0.0,
-      "ore_extra": 0.0
+      "ore_extra": 0.0,
+      "colegi": "Sergiu, Leonardo"
     },
     {
       "date": "2026-07-20",
@@ -1602,7 +1615,8 @@
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Sergiu+Leonardo (Aosta Cond Sorreley, cu Ivanov). Alte echipe: Florin+Marcello Champorcher (Fisso 613), Giovanni+Tahiru Aosta Cond Sorreley & Ancien Bazaar (3 posti 645, ZTL)"
     },
     {
       "date": "2026-07-19",
@@ -1613,7 +1627,8 @@
       "mezzo": "Renault 529",
       "ore_normal": 0.0,
       "ore_guida": 0.0,
-      "ore_extra": 3.0
+      "ore_extra": 3.0,
+      "colegi": null
     },
     {
       "date": "2026-07-17",
@@ -1624,7 +1639,8 @@
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 2.0
+      "ore_extra": 2.0,
+      "colegi": "Singur"
     },
     {
       "date": "2026-07-16",
@@ -1635,7 +1651,8 @@
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Ivanov"
     },
     {
       "date": "2026-07-15",
@@ -1646,7 +1663,8 @@
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": "Florin+Leonard (Trausella), Sergiu+Marcello (Settimo Vittone), Giovanni+Tahiru (Aosta) | Ferie: Ilie"
     },
     {
       "date": "2026-06-23",
@@ -1657,7 +1675,8 @@
       "mezzo": "Iveco",
       "ore_normal": 0.0,
       "ore_guida": 0.0,
-      "ore_extra": 0.0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-06-22",
@@ -1668,7 +1687,8 @@
       "mezzo": "Iveco",
       "ore_normal": 0.0,
       "ore_guida": 0.0,
-      "ore_extra": 0.0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-06-19",
@@ -1679,7 +1699,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 0.0,
-      "ore_extra": 3.0
+      "ore_extra": 3.0,
+      "colegi": "Florin, Giovanni, Tahiru, Sergiu"
     },
     {
       "date": "2026-06-18",
@@ -1690,7 +1711,8 @@
       "mezzo": "Iveco",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-06-17",
@@ -1701,7 +1723,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-06-16",
@@ -1712,7 +1735,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-06-15",
@@ -1723,7 +1747,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-06-13",
@@ -1734,7 +1759,8 @@
       "mezzo": "Iveco 645",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Giovanni, Sergiu"
     },
     {
       "date": "2026-06-12",
@@ -1745,7 +1771,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-06-11",
@@ -1756,7 +1783,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-06-10",
@@ -1767,7 +1795,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-06-05",
@@ -1778,7 +1807,8 @@
       "mezzo": "3 Posti 645",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-06-04",
@@ -1789,7 +1819,8 @@
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": "Livio, Tahiru, Sergiu"
     },
     {
       "date": "2026-06-03",
@@ -1800,7 +1831,8 @@
       "mezzo": "Iveco",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.0
+      "ore_extra": 2.0,
+      "colegi": null
     },
     {
       "date": "2026-05-29",
@@ -1811,7 +1843,8 @@
       "mezzo": "Iveco",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-05-28",
@@ -1822,7 +1855,8 @@
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Livio, Ilie, Tahiru, Sergiu"
     },
     {
       "date": "2026-05-27",
@@ -1833,7 +1867,8 @@
       "mezzo": "Fisso 613",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-05-20",
@@ -1844,7 +1879,8 @@
       "mezzo": null,
       "ore_normal": 7.0,
       "ore_guida": 0.5,
-      "ore_extra": 0.0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-05-19",
@@ -1855,7 +1891,8 @@
       "mezzo": null,
       "ore_normal": 7.5,
       "ore_guida": 0.5,
-      "ore_extra": 0.0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-05-18",
@@ -1866,7 +1903,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Livio, Ilie, Tahiru, Sergiu"
     },
     {
       "date": "2026-05-16",
@@ -1877,7 +1915,8 @@
       "mezzo": null,
       "ore_normal": 6.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-05-15",
@@ -1888,7 +1927,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-05-14",
@@ -1899,7 +1939,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-05-13",
@@ -1910,7 +1951,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-05-12",
@@ -1921,7 +1963,8 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-05-11",
@@ -1932,9 +1975,18 @@
       "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.0
+      "ore_extra": 2.0,
+      "colegi": null
     }
   ],
+  "db_stats": {
+    "expenses": 181,
+    "expenses_total": 12284.02,
+    "ore_lucrate": 44,
+    "ore_total": 405.0,
+    "pending": 0,
+    "speza_offers": 221
+  },
   "db": {
     "expenses": 181,
     "expenses_total": 12284.02,
@@ -1942,6 +1994,29 @@
     "ore_total": 405.0,
     "pending": 0,
     "speza_offers": 221
+  },
+  "system_health": {
+    "gateway": "up",
+    "model": "GLM-5.2 Cloud",
+    "wifi": "D-Link DWA-125",
+    "wifi_adapter": "D-Link DWA-125",
+    "dns": "8.8.8.8 / 8.8.4.4",
+    "whatsapp": "active",
+    "ollama": "local"
+  },
+  "system": {
+    "model": "GLM-5.2 Cloud",
+    "version": "OpenClaw 2026.7.1",
+    "platform": "Windows 10",
+    "node": "DESKTOP-IOHKTKV"
+  },
+  "andrei": {
+    "status": "activ",
+    "last_activity": "2026-08-07T05:08:11.411173"
+  },
+  "backup": {
+    "last_backup": "—",
+    "next_backup": "02:00 RO"
   },
   "agents": [
     {
@@ -1977,21 +2052,15 @@
       "emoji": "👥",
       "role": "Social",
       "active": false,
-      "model": "-"
+      "model": "—"
     },
     {
       "name": "Prof",
       "emoji": "🎓",
       "role": "Documentare",
       "active": false,
-      "model": "-"
+      "model": "—"
     }
   ],
-  "system": {
-    "model": "GLM-5.2 Cloud",
-    "version": "OpenClaw 2026.7.1",
-    "platform": "Windows 10",
-    "node": "DESKTOP-IOHKTKV"
-  },
-  "lastUpdate": "2026-08-06T19:55:24.264034"
+  "lastUpdate": "2026-08-07T05:08:11.411214"
 }

@@ -76,7 +76,7 @@ async function loadStatusJson() {
   state.status = data;
   state.expenses = data.expenses || [];
   state.ore_lucrate = data.ore_lucrate || [];
-  state.pending = data.db_stats?.pending || 0;
+  state.pending = (data.db_stats || data.db || {}).pending || 0;
   state.events = []; // events not in status.json yet
   console.log('Loaded status.json:', data.expenses?.length, 'expenses,', data.ore_lucrate?.length, 'ore');
 }
@@ -112,14 +112,14 @@ function renderAll() {
 function renderDashboard() {
   // System health
   if (state.status) {
-    const sys = state.status.system_health || {};
-    document.getElementById('sys-status').textContent = sys.gateway === 'up' ? 'Online' : 'Probleme';
-    document.getElementById('sys-detail').textContent = `${sys.model || '—'} | WiFi: ${sys.wifi || '—'}`;
+    const sys = state.status.system_health || state.status.system || {};
+    document.getElementById('sys-status').textContent = sys.gateway === 'up' ? 'Online' : (sys.gateway ? 'Probleme' : '—');
+    document.getElementById('sys-detail').textContent = `${sys.model || '—'} | WiFi: ${sys.wifi || sys.wifi_adapter || '—'}`;
     
     // Andrei status
     const andrei = state.status.andrei || {};
-    document.getElementById('andrei-state').textContent = andrei.status || '—';
-    document.getElementById('andrei-detail').textContent = andrei.last_activity ? formatTime(andrei.last_activity) : '';
+    document.getElementById('andrei-state').textContent = andrei.status || 'activ';
+    document.getElementById('andrei-detail').textContent = andrei.last_activity ? 'Ultima activitate: ' + formatTime(andrei.last_activity) : 'Disponibil';
   }
 
   // Stats — luna curentă
@@ -400,8 +400,8 @@ function renderAgents() {
   // System info
   const sysEl = document.getElementById('sys-info');
   if (state.status) {
-    const sys = state.status.system_health || {};
-    const db = state.status.db_stats || {};
+    const sys = state.status.system_health || state.status.system || {};
+    const db = state.status.db_stats || state.status.db || {};
     const bk = state.status.backup || {};
     sysEl.innerHTML = [
       ['Model', sys.model || '—'],
