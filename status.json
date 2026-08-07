@@ -1,6 +1,14 @@
 {
   "expenses": [
     {
+      "date": "2026-08-07",
+      "description": "Tigros Ivrea - latte x2, ammoniaca, succo, pomodoro, peperoni, mix orientale, pop corn, mirtilli, concentrato, prugne, euroverde, mele gala, shopper bio x2, shopper casse self",
+      "amount": 22.68,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
       "date": "2026-08-06",
       "description": "D+ Samone - POS",
       "amount": 4.39,
@@ -2112,16 +2120,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 196,
-    "expenses_total": 12580.66,
+    "expenses": 197,
+    "expenses_total": 12603.34,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 196,
-    "expenses_total": 12580.66,
+    "expenses": 197,
+    "expenses_total": 12603.34,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
@@ -2144,7 +2152,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-07T06:52:07.887777"
+    "last_activity": "2026-08-07T18:46:02.785892"
   },
   "backup": {
     "last_backup": "—",
@@ -2194,5 +2202,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-07T06:52:07.887811"
+  "lastUpdate": "2026-08-07T18:46:02.785937"
 }
