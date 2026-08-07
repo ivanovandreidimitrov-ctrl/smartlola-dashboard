@@ -1,4 +1,4 @@
-const CACHE_NAME = 'smartlola-v5';
+const CACHE_NAME = 'smartlola-v6';
 const ASSETS = [
   '/',
   '/index.html',
