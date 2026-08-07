@@ -96,9 +96,9 @@
             <span class="action-icon">⏰</span>
             <span>Adaugă ore</span>
           </button>
-          <button class="action-btn" onclick="quickAction('report')">
-            <span class="action-icon">📊</span>
-            <span>Raport financiar</span>
+          <button class="action-btn" onclick="openPeriodFilter()">
+            <span class="action-icon">📅</span>
+            <span>Raport pe perioadă</span>
           </button>
           <button class="action-btn" onclick="quickAction('santier')">
             <span class="action-icon">🏗</span>
@@ -213,6 +213,39 @@
           <button class="modal-close" onclick="closeModal()">✕</button>
         </div>
         <div class="modal-body" id="modal-body"></div>
+      </div>
+    </div>
+
+    <!-- Period Report Modal -->
+    <div id="period-modal" class="modal hidden">
+      <div class="modal-content modal-large">
+        <div class="modal-header">
+          <h3>📅 Raport pe perioadă</h3>
+          <button class="modal-close" onclick="closePeriodModal()">✕</button>
+        </div>
+        <div class="modal-body" id="period-modal-body">
+          <div class="period-filter">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">De la</label>
+                <input type="date" class="form-input" id="period-from">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Până la</label>
+                <input type="date" class="form-input" id="period-to">
+              </div>
+            </div>
+            <div class="period-presets">
+              <button class="preset-btn" onclick="setPeriodPreset('today')">Astăzi</button>
+              <button class="preset-btn" onclick="setPeriodPreset('week')">Săptămâna</button>
+              <button class="preset-btn" onclick="setPeriodPreset('month')">Luna</button>
+              <button class="preset-btn" onclick="setPeriodPreset('year')">Anul</button>
+              <button class="preset-btn" onclick="setPeriodPreset('all')">Tot</button>
+            </div>
+            <button class="btn-primary" onclick="generatePeriodReport()">📊 Generează raport</button>
+          </div>
+          <div id="period-report" class="period-report hidden"></div>
+        </div>
       </div>
     </div>
 

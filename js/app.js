@@ -749,3 +749,326 @@ function monthShort(m) {
   const months = ['', 'Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Noi', 'Dec'];
   return months[parseInt(m)] || '';
 }
+
+// === PERIOD FILTER & REPORT ===
+function openPeriodFilter() {
+  const today = new Date().toISOString().slice(0, 10);
+  const firstOfMonth = new Date(new Date().getFullYear(), new Date().getMonth(), 1).toISOString().slice(0, 10);
+  document.getElementById('period-from').value = firstOfMonth;
+  document.getElementById('period-to').value = today;
+  document.getElementById('period-report').classList.add('hidden');
+  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('selected'));
+  document.querySelector('.preset-btn[data-preset="month"]')?.classList.add('selected');
+  document.getElementById('period-modal').classList.remove('hidden');
+}
+
+function closePeriodModal() {
+  document.getElementById('period-modal').classList.add('hidden');
+}
+
+function setPeriodPreset(preset) {
+  const today = new Date();
+  const todayStr = today.toISOString().slice(0, 10);
+  let from, to;
+  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('selected'));
+  event?.target?.classList?.add('selected');
+
+  switch(preset) {
+    case 'today':
+      from = to = todayStr;
+      break;
+    case 'week':
+      const weekStart = new Date(today);
+      weekStart.setDate(today.getDate() - today.getDay() + 1);
+      from = weekStart.toISOString().slice(0, 10);
+      to = todayStr;
+      break;
+    case 'month':
+      from = new Date(today.getFullYear(), today.getMonth(), 1).toISOString().slice(0, 10);
+      to = todayStr;
+      break;
+    case 'year':
+      from = today.getFullYear() + '-01-01';
+      to = todayStr;
+      break;
+    case 'all':
+      from = '2020-01-01';
+      to = '2099-12-31';
+      break;
+  }
+  document.getElementById('period-from').value = from;
+  document.getElementById('period-to').value = to;
+}
+
+function getPeriodFiltered() {
+  const from = document.getElementById('period-from').value;
+  const to = document.getElementById('period-to').value;
+  const expenses = state.expenses.filter(e => {
+    const d = e.date || '';
+    return d >= from && d <= to;
+  });
+  const ore = state.ore_lucrate.filter(o => {
+    const d = o.date || '';
+    return d >= from && d <= to;
+  });
+  return { expenses, ore, from, to };
+}
+
+function generatePeriodReport() {
+  const { expenses, ore, from, to } = getPeriodFiltered();
+  const reportEl = document.getElementById('period-report');
+
+  if (expenses.length === 0 && ore.length === 0) {
+    reportEl.innerHTML = '<div class="empty-state">Nicio dată în perioada selectată</div>';
+    reportEl.classList.remove('hidden');
+    return;
+  }
+
+  // Totale cheltuieli
+  const expTotal = expenses.reduce((s, e) => s + e.amount, 0);
+  const expShared = expenses.filter(e => e.split === 'shared').reduce((s, e) => s + e.amount, 0);
+  const expAndrei = expenses.filter(e => e.split === 'andrei-only').reduce((s, e) => s + e.amount, 0);
+
+  // Totale ore
+  const oreTotal = ore.reduce((s, o) => s + (o.ore_efective || 0), 0);
+  const oreNormal = ore.reduce((s, o) => s + (o.ore_normal || 0), 0);
+  const oreGuida = ore.reduce((s, o) => s + (o.ore_guida || 0), 0);
+  const oreExtra = ore.reduce((s, o) => s + (o.ore_extra || 0), 0);
+  const oreDays = ore.filter(o => o.ore_efective).length;
+
+  // Categorii
+  const cats = {};
+  expenses.forEach(e => {
+    cats[e.category] = (cats[e.category] || 0) + e.amount;
+  });
+  const maxCat = Math.max(...Object.values(cats), 1);
+  const catColors = {
+    alimente: '#22c55e', cafea: '#a9744f', motorină: '#3b82f6', muncă: '#f59e0b',
+    chirie: '#8b5cf6', utilități: '#06b6d4', transport: '#f97316', sănătate: '#ef4444',
+    îmbrăcăminte: '#ec4899', divertisment: '#a855f7', servicii: '#64748b', casă: '#8b5cf6',
+    alte: '#64748b'
+  };
+
+  // Per luni (cheltuieli)
+  const monthly = {};
+  expenses.forEach(e => {
+    const m = (e.date || '').substring(0, 7);
+    if (!m) return;
+    monthly[m] = (monthly[m] || 0) + e.amount;
+  });
+
+  // Per luni (ore)
+  const monthlyOre = {};
+  ore.forEach(o => {
+    const m = (o.date || '').substring(0, 7);
+    if (!m) return;
+    monthlyOre[m] = (monthlyOre[m] || 0) + (o.ore_efective || 0);
+  });
+
+  const fromLabel = formatDate(from);
+  const toLabel = formatDate(to);
+
+  let html = '';
+
+  // Header perioadă
+  html += `<div class="report-section">
+    <h4>Perioada: ${fromLabel} — ${toLabel}</h4>
+    <div class="report-grid">
+      <div class="report-mini">
+        <div class="report-mini-label">Cheltuieli</div>
+        <div class="report-mini-value" style="color:var(--accent)">€${expTotal.toFixed(2)}</div>
+      </div>
+      <div class="report-mini">
+        <div class="report-mini-label">Ore lucrate</div>
+        <div class="report-mini-value" style="color:var(--orange)">${oreTotal.toFixed(1)}h</div>
+      </div>
+      <div class="report-mini">
+        <div class="report-mini-label">Intrări cheltuieli</div>
+        <div class="report-mini-value">${expenses.length}</div>
+      </div>
+      <div class="report-mini">
+        <div class="report-mini-label">Zile lucrate</div>
+        <div class="report-mini-value">${oreDays}</div>
+      </div>
+    </div>
+  </div>`;
+
+  // Split cheltuieli
+  html += `<div class="report-section">
+    <h4>Split cheltuieli</h4>
+    <div class="report-grid">
+      <div class="report-mini">
+        <div class="report-mini-label">Shared</div>
+        <div class="report-mini-value" style="color:#22c55e">€${expShared.toFixed(2)}</div>
+      </div>
+      <div class="report-mini">
+        <div class="report-mini-label">Andrei only</div>
+        <div class="report-mini-value" style="color:#f59e0b">€${expAndrei.toFixed(2)}</div>
+      </div>
+    </div>
+  </div>`;
+
+  // Split ore
+  if (oreTotal > 0) {
+    html += `<div class="report-section">
+      <h4>Tip ore</h4>
+      <div class="report-grid">
+        <div class="report-mini">
+          <div class="report-mini-label">Normale</div>
+          <div class="report-mini-value">${oreNormal.toFixed(1)}h</div>
+        </div>
+        <div class="report-mini">
+          <div class="report-mini-label">Guida</div>
+          <div class="report-mini-value">${oreGuida.toFixed(1)}h</div>
+        </div>
+        <div class="report-mini">
+          <div class="report-mini-label">Extra</div>
+          <div class="report-mini-value">${oreExtra.toFixed(1)}h</div>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  // Categorii
+  if (Object.keys(cats).length > 0) {
+    html += `<div class="report-section">
+      <h4>Pe categorii</h4>`;
+    Object.entries(cats).sort((a, b) => b[1] - a[1]).forEach(([name, amount]) => {
+      const pct = (amount / maxCat * 100);
+      const color = catColors[name] || '#64748b';
+      html += `<div class="report-bar">
+        <span class="report-bar-label">${name}</span>
+        <div class="report-bar-track"><div class="report-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+        <span class="report-bar-value">€${amount.toFixed(0)}</span>
+      </div>`;
+    });
+    html += `</div>`;
+  }
+
+  // Lunar
+  const allMonths = new Set([...Object.keys(monthly), ...Object.keys(monthlyOre)]);
+  if (allMonths.size > 0) {
+    html += `<div class="report-section">
+      <h4>Pe luni</h4>
+      <table class="report-table">
+        <thead><tr><th>Luna</th><th style="text-align:right">Cheltuieli</th><th style="text-align:right">Ore</th></tr></thead>
+        <tbody>`;
+    [...allMonths].sort().forEach(m => {
+      html += `<tr><td>${m}</td><td style="text-align:right">€${(monthly[m]||0).toFixed(2)}</td><td style="text-align:right">${(monthlyOre[m]||0).toFixed(1)}h</td></tr>`;
+    });
+    html += `</tbody></table></div>`;
+  }
+
+  // Ultimele cheltuieli
+  if (expenses.length > 0) {
+    const sorted = [...expenses].sort((a, b) => (b.date||'').localeCompare(a.date||'')).slice(0, 10);
+    html += `<div class="report-section">
+      <h4>Ultimele ${sorted.length} cheltuieli</h4>
+      <table class="report-table">
+        <thead><tr><th>Data</th><th>Descriere</th><th style="text-align:right">Sumă</th></tr></thead>
+        <tbody>`;
+    sorted.forEach(e => {
+      html += `<tr><td>${formatDate(e.date)}</td><td>${escapeHtml((e.description||'').substring(0,40))}</td><td style="text-align:right">€${e.amount.toFixed(2)}</td></tr>`;
+    });
+    html += `</tbody></table></div>`;
+  }
+
+  // Butoane acțiuni
+  html += `<div class="report-actions">
+    <button class="export-btn" onclick="exportPeriodPDF()">📄 Export PDF</button>
+    <button class="export-btn" onclick="closePeriodModal()">✕ Închide</button>
+  </div>`;
+
+  reportEl.innerHTML = html;
+  reportEl.classList.remove('hidden');
+}
+
+function exportPeriodPDF() {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  const { expenses, ore, from, to } = getPeriodFiltered();
+
+  if (expenses.length === 0 && ore.length === 0) {
+    toast('Nimic de exportat', 'error');
+    return;
+  }
+
+  const expTotal = expenses.reduce((s, e) => s + e.amount, 0);
+  const expShared = expenses.filter(e => e.split === 'shared').reduce((s, e) => s + e.amount, 0);
+  const expAndrei = expenses.filter(e => e.split === 'andrei-only').reduce((s, e) => s + e.amount, 0);
+  const oreTotal = ore.reduce((s, o) => s + (o.ore_efective || 0), 0);
+  const oreDays = ore.filter(o => o.ore_efective).length;
+
+  // Header
+  doc.setFontSize(20);
+  doc.setTextColor(79, 158, 255);
+  doc.text('SmartLola \u00b7 Raport perioad\u0103', 14, 20);
+  doc.setFontSize(11);
+  doc.setTextColor(139, 146, 168);
+  doc.text(formatDate(from) + ' \u2014 ' + formatDate(to), 14, 28);
+
+  // Summary
+  doc.setFontSize(12);
+  doc.setTextColor(0, 0, 0);
+  let y = 40;
+  doc.text('Cheltuieli totale: \u20ac' + expTotal.toFixed(2), 14, y); y += 7;
+  doc.text('Shared: \u20ac' + expShared.toFixed(2) + '  |  Andrei only: \u20ac' + expAndrei.toFixed(2), 14, y); y += 7;
+  doc.text('Ore lucrate: ' + oreTotal.toFixed(1) + 'h (' + oreDays + ' zile)', 14, y); y += 7;
+  doc.text('Intr\u0103ri cheltuieli: ' + expenses.length, 14, y); y += 10;
+
+  // Table cheltuieli
+  if (expenses.length > 0) {
+    const sorted = [...expenses].sort((a, b) => (b.date||'').localeCompare(a.date||''));
+    const rows = sorted.map(e => [
+      formatDate(e.date),
+      (e.description || '').substring(0, 50),
+      e.category || '',
+      e.split || '',
+      '\u20ac' + e.amount.toFixed(2)
+    ]);
+    doc.autoTable({
+      startY: y,
+      head: [['Data', 'Descriere', 'Categorie', 'Split', 'Sum\u0103']],
+      body: rows,
+      theme: 'striped',
+      headStyles: { fillColor: [79, 158, 255], fontSize: 9 },
+      bodyStyles: { fontSize: 9 },
+      alternateRowStyles: { fillColor: [240, 242, 248] },
+      columnStyles: { 0: { cellWidth: 20 }, 4: { cellWidth: 22, halign: 'right' } }
+    });
+    y = doc.lastAutoTable.finalY + 10;
+  }
+
+  // Table ore
+  if (ore.length > 0) {
+    const sortedOre = [...ore].sort((a, b) => (b.date||'').localeCompare(a.date||''));
+    const oreRows = sortedOre.map(o => [
+      formatDate(o.date),
+      (o.santier || '').substring(0, 40),
+      o.ora_start || '', o.ora_end || '',
+      (o.ore_efective || 0).toFixed(1) + 'h'
+    ]);
+    doc.autoTable({
+      startY: y,
+      head: [['Data', '\u0218antier', 'Start', 'Final', 'Ore']],
+      body: oreRows,
+      theme: 'striped',
+      headStyles: { fillColor: [245, 158, 11], fontSize: 9 },
+      bodyStyles: { fontSize: 9 },
+      alternateRowStyles: { fillColor: [240, 242, 248] },
+      columnStyles: { 0: { cellWidth: 20 }, 4: { cellWidth: 18, halign: 'right' } }
+    });
+  }
+
+  // Footer
+  const pageCount = doc.internal.getNumberOfPages();
+  for (let i = 1; i <= pageCount; i++) {
+    doc.setPage(i);
+    doc.setFontSize(8);
+    doc.setTextColor(150);
+    doc.text('SmartLola Dashboard \u00b7 ' + new Date().toLocaleString('ro-RO'), 14, doc.internal.pageSize.height - 8);
+  }
+
+  doc.save('raport-perioada-' + from + '_' + to + '.pdf');
+  toast('\u2705 PDF generat', 'success');
+}
