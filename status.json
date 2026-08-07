@@ -1571,6 +1571,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-08-07",
+      "santier": "Cossato - Ritorcitura Buzio",
+      "ora_start": "06:00",
+      "ora_end": "15:00",
+      "ore_efective": 9.0,
+      "mezzo": "FISSO - 613",
+      "ore_normal": 9.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Ilie, Sergiu, Tahiru, Marcello"
+    },
+    {
       "date": "2026-08-06",
       "santier": null,
       "ora_start": "07:30",
@@ -2102,16 +2114,16 @@
   "db_stats": {
     "expenses": 196,
     "expenses_total": 12580.66,
-    "ore_lucrate": 44,
-    "ore_total": 405.0,
+    "ore_lucrate": 45,
+    "ore_total": 414.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
     "expenses": 196,
     "expenses_total": 12580.66,
-    "ore_lucrate": 44,
-    "ore_total": 405.0,
+    "ore_lucrate": 45,
+    "ore_total": 414.0,
     "pending": 0,
     "speza_offers": 221
   },
@@ -2132,7 +2144,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-07T06:20:56.666462"
+    "last_activity": "2026-08-07T06:22:06.356452"
   },
   "backup": {
     "last_backup": "—",
@@ -2182,5 +2194,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-07T06:20:56.666499"
+  "lastUpdate": "2026-08-07T06:22:06.356488"
 }
