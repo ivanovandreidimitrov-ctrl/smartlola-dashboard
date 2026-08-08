@@ -492,6 +492,13 @@ function quickAction(type) {
           <input type="time" class="form-input" id="hrs-end" value="18:00">
         </div>
       </div>
+      <div class="form-group">
+        <label class="form-label">🎤 Notă vocală (opțional)</label>
+        <div class="media-input-row">
+          <button class="media-btn" onclick="captureAudio()">🎤 Înregistrează</button>
+        </div>
+        <div id="media-preview" class="media-preview"></div>
+      </div>
       <button class="btn-primary" onclick="submitHours()">Adaugă</button>
     `;
   } else if (type === 'report') {
