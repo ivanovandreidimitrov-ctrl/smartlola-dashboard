@@ -1,6 +1,14 @@
 {
   "expenses": [
     {
+      "date": "2026-08-08",
+      "description": "Lidl Ivrea — acqua x18, pane pita x8, shopper bio, spumante brut, fish burger x2, nettare pesca, panna fresca, nettare pera, anguria box, riso basmati",
+      "amount": 26.67,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
       "date": "2026-08-07",
       "description": "Lidl Ivrea - uva sultanina, panna fresca, nettare pera, latte kefir x3, acqua efferv x6, shopper biodegrad",
       "amount": 8.32,
@@ -2128,16 +2136,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 198,
-    "expenses_total": 12611.66,
+    "expenses": 199,
+    "expenses_total": 12638.33,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 198,
-    "expenses_total": 12611.66,
+    "expenses": 199,
+    "expenses_total": 12638.33,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
@@ -2160,7 +2168,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-07T19:02:54.492214"
+    "last_activity": "2026-08-08T16:31:39.624094"
   },
   "backup": {
     "last_backup": "—",
@@ -2210,5 +2218,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-07T19:02:54.492253"
+  "lastUpdate": "2026-08-08T16:31:39.624130"
 }
