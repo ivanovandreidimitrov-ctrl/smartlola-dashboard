@@ -461,6 +461,15 @@ function quickAction(type) {
           </select>
         </div>
       </div>
+      <div class="form-group">
+        <label class="form-label">📷 Imagine (opțional)</label>
+        <div class="media-input-row">
+          <button class="media-btn" onclick="captureImage('camera')">📷 Foto</button>
+          <button class="media-btn" onclick="captureImage('gallery')">🖼️ Galerie</button>
+          <button class="media-btn" onclick="captureAudio()">🎤 Vocal</button>
+        </div>
+        <div id="media-preview" class="media-preview"></div>
+      </div>
       <button class="btn-primary" onclick="submitExpense()">Înregistrează</button>
     `;
   } else if (type === 'hours') {
@@ -519,24 +528,38 @@ async function submitExpense() {
     return;
   }
 
-  // Try API first, fallback to Telegram message
+  // If we have media, note it in the toast
+  const hasMedia = capturedImage || capturedAudio;
+  let mediaNote = '';
+  if (capturedImage) mediaNote += ' 📷';
+  if (capturedAudio) mediaNote += ' 🎤';
+
+  // Try API first
   try {
     const resp = await fetch('api/expense', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ amount, description: desc, category: cat, split, source: 'andrei' })
+      body: JSON.stringify({
+        amount, description: desc, category: cat, split, source: 'andrei',
+        image: capturedImage ? capturedImage.dataUrl : null,
+        audio: capturedAudio ? capturedAudio.name : null
+      })
     });
     if (resp.ok) {
-      toast('✅ Cheltuială înregistrată: €' + amount.toFixed(2), 'success');
+      toast('✅ Cheltuială înregistrată: €' + amount.toFixed(2) + mediaNote, 'success');
       closeModal();
+      capturedImage = null;
+      capturedAudio = null;
       loadData();
       return;
     }
   } catch (e) {}
 
   // Fallback: construct command for Telegram
-  toast('📋 Trimite pe Telegram: ' + desc + ' ' + amount + '€ [' + cat + '/' + split + ']', 'success');
+  toast('📋 Trimite pe Telegram: ' + desc + ' ' + amount + '€ [' + cat + '/' + split + ']' + mediaNote, 'success');
   closeModal();
+  capturedImage = null;
+  capturedAudio = null;
 }
 
 async function submitHours() {
@@ -750,8 +773,86 @@ function monthShort(m) {
   return months[parseInt(m)] || '';
 }
 
+// === REPORT TYPE (expenses vs hours) ===
+let reportType = 'expenses';
+
+function setReportType(type) {
+  reportType = type;
+  document.querySelectorAll('.report-type-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.rtype === type);
+  });
+}
+
+// === MEDIA (camera/gallery/audio) ===
+let capturedImage = null;
+let capturedAudio = null;
+
+function captureImage(source) {
+  const input = document.getElementById('hidden-file-input');
+  if (source === 'camera') {
+    input.setAttribute('capture', 'environment');
+  } else {
+    input.removeAttribute('capture');
+  }
+  input.value = '';
+  input.onchange = (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      capturedImage = { dataUrl: ev.target.result, name: file.name };
+      renderMediaPreview();
+    };
+    reader.readAsDataURL(file);
+  };
+  input.click();
+}
+
+function captureAudio() {
+  const input = document.getElementById('hidden-audio-input');
+  input.value = '';
+  input.onchange = (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    capturedAudio = { name: file.name, url: URL.createObjectURL(file) };
+    renderMediaPreview();
+  };
+  input.click();
+}
+
+function renderMediaPreview() {
+  const el = document.getElementById('media-preview');
+  if (!el) return;
+  let html = '';
+  if (capturedImage) {
+    html += `
+      <div class="media-thumb">
+        <img src="${capturedImage.dataUrl}">
+        <button class="media-remove" onclick="removeImage()">✕</button>
+      </div>
+    `;
+  }
+  if (capturedAudio) {
+    html += `
+      <div class="media-thumb audio-thumb">
+        <span>🎤 ${escapeHtml(capturedAudio.name)}</span>
+        <audio controls src="${capturedAudio.url}"></audio>
+        <button class="media-remove" onclick="removeAudio()">✕</button>
+      </div>
+    `;
+  }
+  el.innerHTML = html;
+}
+
+function removeImage() { capturedImage = null; renderMediaPreview(); }
+function removeAudio() { capturedAudio = null; renderMediaPreview(); }
+
 // === PERIOD FILTER & REPORT ===
 function openPeriodFilter() {
+  reportType = 'expenses';
+  document.querySelectorAll('.report-type-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.rtype === 'expenses');
+  });
   const today = new Date().toISOString().slice(0, 10);
   const firstOfMonth = new Date(new Date().getFullYear(), new Date().getMonth(), 1).toISOString().slice(0, 10);
   document.getElementById('period-from').value = firstOfMonth;
@@ -818,8 +919,16 @@ function generatePeriodReport() {
   const { expenses, ore, from, to } = getPeriodFiltered();
   const reportEl = document.getElementById('period-report');
 
-  if (expenses.length === 0 && ore.length === 0) {
-    reportEl.innerHTML = '<div class="empty-state">Nicio dată în perioada selectată</div>';
+  const showExpensesSection = reportType === 'expenses';
+  const showHoursSection = reportType === 'hours';
+
+  if (showExpensesSection && expenses.length === 0) {
+    reportEl.innerHTML = '<div class="empty-state">Nicio cheltuială în perioada selectată</div>';
+    reportEl.classList.remove('hidden');
+    return;
+  }
+  if (showHoursSection && ore.length === 0) {
+    reportEl.innerHTML = '<div class="empty-state">Nicio oră înregistrată în perioada selectată</div>';
     reportEl.classList.remove('hidden');
     return;
   }
@@ -873,43 +982,51 @@ function generatePeriodReport() {
   // Header perioadă
   html += `<div class="report-section">
     <h4>Perioada: ${fromLabel} — ${toLabel}</h4>
-    <div class="report-grid">
+    <div class="report-grid">`;
+  if (showExpensesSection) {
+    html += `
       <div class="report-mini">
         <div class="report-mini-label">Cheltuieli</div>
         <div class="report-mini-value" style="color:var(--accent)">€${expTotal.toFixed(2)}</div>
       </div>
       <div class="report-mini">
+        <div class="report-mini-label">Intrări</div>
+        <div class="report-mini-value">${expenses.length}</div>
+      </div>`;
+  }
+  if (showHoursSection) {
+    html += `
+      <div class="report-mini">
         <div class="report-mini-label">Ore lucrate</div>
         <div class="report-mini-value" style="color:var(--orange)">${oreTotal.toFixed(1)}h</div>
       </div>
       <div class="report-mini">
-        <div class="report-mini-label">Intrări cheltuieli</div>
-        <div class="report-mini-value">${expenses.length}</div>
-      </div>
-      <div class="report-mini">
-        <div class="report-mini-label">Zile lucrate</div>
+        <div class="report-mini-label">Zile</div>
         <div class="report-mini-value">${oreDays}</div>
-      </div>
-    </div>
+      </div>`;
+  }
+  html += `</div>
   </div>`;
 
   // Split cheltuieli
-  html += `<div class="report-section">
-    <h4>Split cheltuieli</h4>
-    <div class="report-grid">
-      <div class="report-mini">
-        <div class="report-mini-label">Shared</div>
-        <div class="report-mini-value" style="color:#22c55e">€${expShared.toFixed(2)}</div>
+  if (showExpensesSection) {
+    html += `<div class="report-section">
+      <h4>Split cheltuieli</h4>
+      <div class="report-grid">
+        <div class="report-mini">
+          <div class="report-mini-label">Shared</div>
+          <div class="report-mini-value" style="color:#22c55e">€${expShared.toFixed(2)}</div>
+        </div>
+        <div class="report-mini">
+          <div class="report-mini-label">Andrei only</div>
+          <div class="report-mini-value" style="color:#f59e0b">€${expAndrei.toFixed(2)}</div>
+        </div>
       </div>
-      <div class="report-mini">
-        <div class="report-mini-label">Andrei only</div>
-        <div class="report-mini-value" style="color:#f59e0b">€${expAndrei.toFixed(2)}</div>
-      </div>
-    </div>
-  </div>`;
+    </div>`;
+  }
 
   // Split ore
-  if (oreTotal > 0) {
+  if (showHoursSection && oreTotal > 0) {
     html += `<div class="report-section">
       <h4>Tip ore</h4>
       <div class="report-grid">
@@ -929,8 +1046,8 @@ function generatePeriodReport() {
     </div>`;
   }
 
-  // Categorii
-  if (Object.keys(cats).length > 0) {
+  // Categorii (doar pentru cheltuieli)
+  if (showExpensesSection && Object.keys(cats).length > 0) {
     html += `<div class="report-section">
       <h4>Pe categorii</h4>`;
     Object.entries(cats).sort((a, b) => b[1] - a[1]).forEach(([name, amount]) => {
@@ -946,21 +1063,27 @@ function generatePeriodReport() {
   }
 
   // Lunar
-  const allMonths = new Set([...Object.keys(monthly), ...Object.keys(monthlyOre)]);
+  const allMonths = new Set([...(showExpensesSection ? Object.keys(monthly) : []), ...(showHoursSection ? Object.keys(monthlyOre) : [])]);
   if (allMonths.size > 0) {
     html += `<div class="report-section">
       <h4>Pe luni</h4>
       <table class="report-table">
-        <thead><tr><th>Luna</th><th style="text-align:right">Cheltuieli</th><th style="text-align:right">Ore</th></tr></thead>
+        <thead><tr><th>Luna</th>`;
+    if (showExpensesSection) html += `<th style="text-align:right">Cheltuieli</th>`;
+    if (showHoursSection) html += `<th style="text-align:right">Ore</th>`;
+    html += `</tr></thead>
         <tbody>`;
     [...allMonths].sort().forEach(m => {
-      html += `<tr><td>${m}</td><td style="text-align:right">€${(monthly[m]||0).toFixed(2)}</td><td style="text-align:right">${(monthlyOre[m]||0).toFixed(1)}h</td></tr>`;
+      html += `<tr><td>${m}</td>`;
+      if (showExpensesSection) html += `<td style="text-align:right">€${(monthly[m]||0).toFixed(2)}</td>`;
+      if (showHoursSection) html += `<td style="text-align:right">${(monthlyOre[m]||0).toFixed(1)}h</td>`;
+      html += `</tr>`;
     });
     html += `</tbody></table></div>`;
   }
 
-  // Ultimele cheltuieli
-  if (expenses.length > 0) {
+  // Ultimele cheltuieli (doar pentru cheltuieli)
+  if (showExpensesSection && expenses.length > 0) {
     const sorted = [...expenses].sort((a, b) => (b.date||'').localeCompare(a.date||'')).slice(0, 10);
     html += `<div class="report-section">
       <h4>Ultimele ${sorted.length} cheltuieli</h4>
@@ -969,6 +1092,20 @@ function generatePeriodReport() {
         <tbody>`;
     sorted.forEach(e => {
       html += `<tr><td>${formatDate(e.date)}</td><td>${escapeHtml((e.description||'').substring(0,40))}</td><td style="text-align:right">€${e.amount.toFixed(2)}</td></tr>`;
+    });
+    html += `</tbody></table></div>`;
+  }
+
+  // Ultimele zile pe șantier (doar pentru ore)
+  if (showHoursSection && ore.length > 0) {
+    const sortedOre = [...ore].sort((a, b) => (b.date||'').localeCompare(a.date||'')).slice(0, 10);
+    html += `<div class="report-section">
+      <h4>Ultimele ${sortedOre.length} zile</h4>
+      <table class="report-table">
+        <thead><tr><th>Data</th><th>Șantier</th><th style="text-align:right">Ore</th></tr></thead>
+        <tbody>`;
+    sortedOre.forEach(o => {
+      html += `<tr><td>${formatDate(o.date)}</td><td>${escapeHtml((o.santier||'').substring(0,40))}</td><td style="text-align:right">${(o.ore_efective||0).toFixed(1)}h</td></tr>`;
     });
     html += `</tbody></table></div>`;
   }

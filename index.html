@@ -225,6 +225,13 @@
         </div>
         <div class="modal-body" id="period-modal-body">
           <div class="period-filter">
+            <div class="form-group">
+              <label class="form-label">Tip raport</label>
+              <div class="report-type-toggle">
+                <button class="report-type-btn active" data-rtype="expenses" onclick="setReportType('expenses')">💰 Cheltuieli</button>
+                <button class="report-type-btn" data-rtype="hours" onclick="setReportType('hours')">⏰ Ore lucrate</button>
+              </div>
+            </div>
             <div class="form-row">
               <div class="form-group">
                 <label class="form-label">De la</label>
@@ -248,6 +255,10 @@
         </div>
       </div>
     </div>
+
+    <!-- Hidden file inputs for media capture -->
+    <input type="file" id="hidden-file-input" accept="image/*" capture="environment" style="display:none">
+    <input type="file" id="hidden-audio-input" accept="audio/*" capture style="display:none">
 
     <!-- Notification toast -->
     <div id="toast" class="toast hidden"></div>
