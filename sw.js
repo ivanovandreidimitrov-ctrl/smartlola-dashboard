@@ -1,11 +1,12 @@
-const CACHE_NAME = 'smartlola-v6';
+const CACHE_NAME = 'smartlola-v7';
+const BASE = self.location.pathname.replace('/sw.js', '');
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/css/style.css',
-  '/js/app.js',
-  '/manifest.json',
-  '/status.json'
+  BASE + '/',
+  BASE + '/index.html',
+  BASE + '/css/style.css',
+  BASE + '/js/app.js',
+  BASE + '/manifest.json',
+  BASE + '/status.json'
 ];
 
 self.addEventListener('install', e => {
@@ -21,8 +22,11 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
-  // Network-first for status.json and app.js (always fresh data)
-  if (e.request.url.includes('status.json') || e.request.url.includes('app.js')) {
+  // Network-first for all critical files (always fresh)
+  if (e.request.url.includes('status.json') ||
+      e.request.url.includes('app.js') ||
+      e.request.url.includes('style.css') ||
+      e.request.url.includes('index.html')) {
     e.respondWith(
       fetch(e.request).then(resp => {
         if (resp.status === 200) {
@@ -34,7 +38,7 @@ self.addEventListener('fetch', e => {
     );
     return;
   }
-  // Cache-first for static assets
+  // Cache-first for other assets
   e.respondWith(
     caches.match(e.request).then(cached => {
       return cached || fetch(e.request).then(resp => {
