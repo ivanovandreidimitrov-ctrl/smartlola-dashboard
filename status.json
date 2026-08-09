@@ -34,6 +34,14 @@
     },
     {
       "date": "2026-08-06",
+      "description": "Importo personali",
+      "amount": 1.8,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
+      "date": "2026-08-06",
       "description": "Piadina con Lardo di Arnad",
       "amount": 9.0,
       "category": "alimente",
@@ -2152,16 +2160,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 201,
-    "expenses_total": 12651.92,
+    "expenses": 202,
+    "expenses_total": 12653.72,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 201,
-    "expenses_total": 12651.92,
+    "expenses": 202,
+    "expenses_total": 12653.72,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
@@ -2184,7 +2192,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-09T11:03:38.533505"
+    "last_activity": "2026-08-09T11:03:57.367308"
   },
   "backup": {
     "last_backup": "—",
@@ -2234,5 +2242,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-09T11:03:38.533542"
+  "lastUpdate": "2026-08-09T11:03:57.367355"
 }
