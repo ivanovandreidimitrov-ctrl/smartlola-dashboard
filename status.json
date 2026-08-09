@@ -1,6 +1,14 @@
 {
   "expenses": [
     {
+      "date": "2026-08-09",
+      "description": "2x Tortel Superfi Carne, Cavolo, Sacchetto ortofrutta, 6x Latte Kefir, 2x Ricotta Bio, Lievito Fresco",
+      "amount": 12.81,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
       "date": "2026-08-08",
       "description": "Pignoletto DOC Spumante, Acqua Sant'Anna, MixMatch -1.54",
       "amount": 4.59,
@@ -2160,16 +2168,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 202,
-    "expenses_total": 12653.72,
+    "expenses": 203,
+    "expenses_total": 12666.53,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 202,
-    "expenses_total": 12653.72,
+    "expenses": 203,
+    "expenses_total": 12666.53,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
@@ -2192,7 +2200,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-09T11:03:57.367308"
+    "last_activity": "2026-08-09T11:31:02.896317"
   },
   "backup": {
     "last_backup": "—",
@@ -2242,5 +2250,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-09T11:03:57.367355"
+  "lastUpdate": "2026-08-09T11:31:02.896355"
 }
