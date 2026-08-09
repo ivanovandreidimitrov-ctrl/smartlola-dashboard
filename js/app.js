@@ -493,9 +493,11 @@ function quickAction(type) {
         </div>
       </div>
       <div class="form-group">
-        <label class="form-label">🎤 Notă vocală (opțional)</label>
+        <label class="form-label">📎 Atașament (opțional)</label>
         <div class="media-input-row">
-          <button class="media-btn" onclick="captureAudio()">🎤 Înregistrează</button>
+          <button class="media-btn" onclick="captureImage('camera')">📷 Foto</button>
+          <button class="media-btn" onclick="captureImage('gallery')">🖼️ Galerie</button>
+          <button class="media-btn" onclick="captureAudio()">🎤 Vocal</button>
         </div>
         <div id="media-preview" class="media-preview"></div>
       </div>
