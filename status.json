@@ -34,6 +34,14 @@
     },
     {
       "date": "2026-08-06",
+      "description": "Piadina con Lardo di Arnad",
+      "amount": 9.0,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
+      "date": "2026-08-06",
       "description": "D+ Samone - POS",
       "amount": 4.39,
       "category": "alimente",
@@ -2144,16 +2152,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 200,
-    "expenses_total": 12642.92,
+    "expenses": 201,
+    "expenses_total": 12651.92,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 200,
-    "expenses_total": 12642.92,
+    "expenses": 201,
+    "expenses_total": 12651.92,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
@@ -2176,7 +2184,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-09T11:00:16.783083"
+    "last_activity": "2026-08-09T11:03:38.533505"
   },
   "backup": {
     "last_backup": "—",
@@ -2226,5 +2234,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-09T11:00:16.783121"
+  "lastUpdate": "2026-08-09T11:03:38.533542"
 }
