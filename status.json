@@ -2,6 +2,14 @@
   "expenses": [
     {
       "date": "2026-08-08",
+      "description": "Pignoletto DOC Spumante, Acqua Sant'Anna, MixMatch -1.54",
+      "amount": 4.59,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
+      "date": "2026-08-08",
       "description": "Lidl Ivrea — acqua x18, pane pita x8, shopper bio, spumante brut, fish burger x2, nettare pesca, panna fresca, nettare pera, anguria box, riso basmati",
       "amount": 26.67,
       "category": "alimente",
@@ -2136,16 +2144,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 199,
-    "expenses_total": 12638.33,
+    "expenses": 200,
+    "expenses_total": 12642.92,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 199,
-    "expenses_total": 12638.33,
+    "expenses": 200,
+    "expenses_total": 12642.92,
     "ore_lucrate": 45,
     "ore_total": 414.0,
     "pending": 0,
@@ -2168,7 +2176,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-08T19:16:34.712313"
+    "last_activity": "2026-08-09T11:00:16.783083"
   },
   "backup": {
     "last_backup": "—",
@@ -2218,5 +2226,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-08T19:16:34.712349"
+  "lastUpdate": "2026-08-09T11:00:16.783121"
 }
