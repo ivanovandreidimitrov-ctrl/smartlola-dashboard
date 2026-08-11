@@ -1715,6 +1715,30 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-08-12",
+      "santier": "Cossato Ritorcitura Buzio",
+      "ora_start": "06:00",
+      "ora_end": "16:00",
+      "ore_efective": 10.0,
+      "mezzo": "Fisso - 613",
+      "ore_normal": 8.0,
+      "ore_guida": 2.0,
+      "ore_extra": 0.0,
+      "colegi": null
+    },
+    {
+      "date": "2026-08-11",
+      "santier": "Cossato Ritorcitura Buzio",
+      "ora_start": "06:00",
+      "ora_end": "16:00",
+      "ore_efective": 10.0,
+      "mezzo": "Fisso - 613",
+      "ore_normal": 8.0,
+      "ore_guida": 2.0,
+      "ore_extra": 0.0,
+      "colegi": null
+    },
+    {
       "date": "2026-08-10",
       "santier": "Cossato - Ritorcitura Buzio",
       "ora_start": "06:00",
@@ -1725,6 +1749,18 @@
       "ore_guida": 0.0,
       "ore_extra": 2.0,
       "colegi": "Ilie, Tahiru, Marcello"
+    },
+    {
+      "date": "2026-08-10",
+      "santier": "Cossato Ritorcitura Buzio",
+      "ora_start": "06:00",
+      "ora_end": "16:00",
+      "ore_efective": 10.0,
+      "mezzo": "Fisso - 613",
+      "ore_normal": 8.0,
+      "ore_guida": 2.0,
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-08-08",
@@ -2282,16 +2318,16 @@
   "db_stats": {
     "expenses": 214,
     "expenses_total": 12685.53,
-    "ore_lucrate": 47,
-    "ore_total": 430.0,
+    "ore_lucrate": 50,
+    "ore_total": 460.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
     "expenses": 214,
     "expenses_total": 12685.53,
-    "ore_lucrate": 47,
-    "ore_total": 430.0,
+    "ore_lucrate": 50,
+    "ore_total": 460.0,
     "pending": 0,
     "speza_offers": 221
   },
@@ -2312,7 +2348,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-10T21:45:46.176798"
+    "last_activity": "2026-08-11T19:01:23.210306"
   },
   "backup": {
     "last_backup": "—",
@@ -2362,5 +2398,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-10T21:45:46.176834"
+  "lastUpdate": "2026-08-11T19:01:23.210342"
 }
