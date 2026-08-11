@@ -145,16 +145,60 @@ td.cap { color: #b0bdd1; white-space: nowrap; }
   <td class="bar-cell" colspan="10"><div class="bar active" style="left:0%; width:5%;">S1</div></td>
 </tr>
 <tr>
+  <td class="cap">  1a. Schema DB + API contracts</td>
+  <td class="bar-cell" colspan="10"><div class="bar active" style="left:0%; width:4%;">S1</div></td>
+</tr>
+<tr>
+  <td class="cap">  1b. Stack decizii (Cloudflare Workers + D1 + Pages)</td>
+  <td class="bar-cell" colspan="10"><div class="bar active" style="left:1%; width:3%;">S1</div></td>
+</tr>
+<tr>
   <td class="cap">2. Auth multi-user (email+parolă, Google OAuth 2.0)</td>
   <td class="bar-cell" colspan="10"><div class="bar planned" style="left:5%; width:8%;">S1-S2</div></td>
+</tr>
+<tr>
+  <td class="cap">  2a. Înregistrare email+parolă (bcrypt, JWT)</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:5%; width:4%;">S1</div></td>
+</tr>
+<tr>
+  <td class="cap">  2b. Google OAuth 2.0 (Sign in with Google)</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:7%; width:4%;">S1-S2</div></td>
+</tr>
+<tr>
+  <td class="cap">  2c. Session management + refresh tokens</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:9%; width:4%;">S2</div></td>
 </tr>
 <tr>
   <td class="cap">3. API proxy (Cloudflare Worker)</td>
   <td class="bar-cell" colspan="10"><div class="bar planned" style="left:10%; width:8%;">S2-S3</div></td>
 </tr>
 <tr>
+  <td class="cap">  3a. Routing + rate limiting</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:10%; width:4%;">S2</div></td>
+</tr>
+<tr>
+  <td class="cap">  3b. CORS + security headers</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:12%; width:3%;">S2-S3</div></td>
+</tr>
+<tr>
+  <td class="cap">  3c. API keys pentru servicii externe (Groq, OCR)</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:14%; width:3%;">S3</div></td>
+</tr>
+<tr>
   <td class="cap">4. DB multi-user (D1)</td>
   <td class="bar-cell" colspan="10"><div class="bar planned" style="left:13%; width:7%;">S2-S3</div></td>
+</tr>
+<tr>
+  <td class="cap">  4a. Schema: users, expenses, categories, cards</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:13%; width:4%;">S2</div></td>
+</tr>
+<tr>
+  <td class="cap">  4b. Row-level isolation (per user_id)</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:15%; width:3%;">S2-S3</div></td>
+</tr>
+<tr>
+  <td class="cap">  4c. Migrations + seed data</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:17%; width:3%;">S3</div></td>
 </tr>
 
 <tr><td colspan="11" class="phase-header">🤖 Faza 2 — AI Integration (S4-S5)</td></tr>
@@ -163,12 +207,44 @@ td.cap { color: #b0bdd1; white-space: nowrap; }
   <td class="bar-cell" colspan="10"><div class="bar planned" style="left:20%; width:7%;">S4</div></td>
 </tr>
 <tr>
+  <td class="cap">  5a. Upload foto → Cloudflare R2</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:20%; width:3%;">S4</div></td>
+</tr>
+<tr>
+  <td class="cap">  5b. OCR pipeline (qwen3.5 → JSON structurat)</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:22%; width:3%;">S4</div></td>
+</tr>
+<tr>
+  <td class="cap">  5c. Validare sumă + categorizare auto</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:24%; width:3%;">S4</div></td>
+</tr>
+<tr>
   <td class="cap">6. Audio transcriere (Groq)</td>
   <td class="bar-cell" colspan="10"><div class="bar planned" style="left:25%; width:5%;">S4-S5</div></td>
 </tr>
 <tr>
+  <td class="cap">  6a. Upload audio → Groq Whisper API</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:25%; width:3%;">S4</div></td>
+</tr>
+<tr>
+  <td class="cap">  6b. Parsing text → structură cheltuială</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:27%; width:3%;">S4-S5</div></td>
+</tr>
+<tr>
   <td class="cap">7. PDF extragere date</td>
   <td class="bar-cell" colspan="10"><div class="bar planned" style="left:28%; width:7%;">S5</div></td>
+</tr>
+<tr>
+  <td class="cap">  7a. Upload PDF (extras bancar, factură)</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:28%; width:3%;">S5</div></td>
+</tr>
+<tr>
+  <td class="cap">  7b. Parsing tranzacții → categorizare</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:30%; width:3%;">S5</div></td>
+</tr>
+<tr>
+  <td class="cap">  7c. Deduplicare + match cu bonuri existente</td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:32%; width:3%;">S5</div></td>
 </tr>
 
 <tr><td colspan="11" class="phase-header">📱 Faza 3 — Platform (S6-S7)</td></tr>
@@ -177,20 +253,76 @@ td.cap { color: #b0bdd1; white-space: nowrap; }
   <td class="bar-cell" colspan="10"><div class="bar future" style="left:35%; width:7%;">S6</div></td>
 </tr>
 <tr>
+  <td class="cap">  8a. Service Worker + cache strategie</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:35%; width:3%;">S6</div></td>
+</tr>
+<tr>
+  <td class="cap">  8b. IndexedDB local → D1 cloud sync</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:37%; width:3%;">S6</div></td>
+</tr>
+<tr>
+  <td class="cap">  8c. Conflict resolution (last-write-wins + UI)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:39%; width:3%;">S6</div></td>
+</tr>
+<tr>
   <td class="cap">9. Monetizare (freemium?)</td>
   <td class="bar-cell" colspan="10"><div class="bar future" style="left:40%; width:5%;">S6-S7</div></td>
+</tr>
+<tr>
+  <td class="cap">  9a. Plan gratuit vs premium (limite?)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:40%; width:3%;">S6</div></td>
+</tr>
+<tr>
+  <td class="cap">  9b. Stripe/payments integration</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:42%; width:3%;">S6-S7</div></td>
 </tr>
 <tr>
   <td class="cap">10. Legal (GDPR pan-EU, privacy policy IT/RO/EN, Google OAuth în PP)</td>
   <td class="bar-cell" colspan="10"><div class="bar future" style="left:42%; width:5%;">S7</div></td>
 </tr>
 <tr>
+  <td class="cap">  10a. Privacy policy (IT/RO/EN)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:42%; width:2%;">S7</div></td>
+</tr>
+<tr>
+  <td class="cap">  10b. Cookie consent + consimțământ înregistrare</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:43%; width:2%;">S7</div></td>
+</tr>
+<tr>
+  <td class="cap">  10c. Derepturi utilizator (acces, ștergere, export)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:44%; width:2%;">S7</div></td>
+</tr>
+<tr>
+  <td class="cap">  10d. Google OAuth în privacy policy</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:45%; width:2%;">S7</div></td>
+</tr>
+<tr>
   <td class="cap">11. Deploy (CI/CD, domeniu)</td>
   <td class="bar-cell" colspan="10"><div class="bar future" style="left:45%; width:5%;">S7</div></td>
 </tr>
 <tr>
-  <td class="cap">12. Mobile (PWA sau React Native?)</td>
+  <td class="cap">  11a. CI/CD pipeline (GitHub Actions → Cloudflare Pages)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:45%; width:3%;">S7</div></td>
+</tr>
+<tr>
+  <td class="cap">  11b. Domeniu + SSL + DNS</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:47%; width:3%;">S7</div></td>
+</tr>
+<tr>
+  <td class="cap">12. Mobile (PWA + smartwatch)</td>
   <td class="bar-cell" colspan="10"><div class="bar future" style="left:47%; width:8%;">S7-S8</div></td>
+</tr>
+<tr>
+  <td class="cap">  12a. PWA installable (manifest + icons)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:47%; width:3%;">S7</div></td>
+</tr>
+<tr>
+  <td class="cap">  12b. Smartwatch notifications (Apple Watch + Wear OS)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:49%; width:3%;">S7-S8</div></td>
+</tr>
+<tr>
+  <td class="cap">  12c. Haptic feedback pe ceas</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:51%; width:3%;">S8</div></td>
 </tr>
 
 <tr><td colspan="11" class="phase-header">✨ Faza 4 — Polish + Launch (S8-S10)</td></tr>
@@ -199,16 +331,60 @@ td.cap { color: #b0bdd1; white-space: nowrap; }
   <td class="bar-cell" colspan="10"><div class="bar future" style="left:55%; width:7%;">S8</div></td>
 </tr>
 <tr>
+  <td class="cap">  13a. Tutorial interactiv (3 pași)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:55%; width:4%;">S8</div></td>
+</tr>
+<tr>
+  <td class="cap">  13b. Animată Lottie (brand SmartLola)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:57%; width:3%;">S8</div></td>
+</tr>
+<tr>
   <td class="cap">14. Prezentare YouTube</td>
   <td class="bar-cell" colspan="10"><div class="bar future" style="left:60%; width:7%;">S8-S9</div></td>
+</tr>
+<tr>
+  <td class="cap">  14a. Script + storyboard</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:60%; width:3%;">S8</div></td>
+</tr>
+<tr>
+  <td class="cap">  14b. Înregistrare + editare</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:62%; width:3%;">S8-S9</div></td>
+</tr>
+<tr>
+  <td class="cap">  14c. Thumbnail + SEO + publicare</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:64%; width:3%;">S9</div></td>
 </tr>
 <tr>
   <td class="cap">15. Swipe Launch (gest nativ)</td>
   <td class="bar-cell" colspan="10"><div class="bar future" style="left:65%; width:7%;">S9</div></td>
 </tr>
 <tr>
-  <td class="cap">16. Geodetecție + Card Fidelitate</td>
+  <td class="cap">  15a. Swipe stânga=șterge, dreapta=confirmă</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:65%; width:4%;">S9</div></td>
+</tr>
+<tr>
+  <td class="cap">  15b. Haptic feedback la swipe</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:67%; width:3%;">S9</div></td>
+</tr>
+<tr>
+  <td class="cap">16. Geodetecție + Card Fidelitate + Smartwatch</td>
   <td class="bar-cell" colspan="10"><div class="bar future" style="left:70%; width:10%;">S9-S10</div></td>
+</tr>
+<tr>
+  <td class="cap">  16a. Geofencing (perimetre magazine)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:70%; width:3%;">S9</div></td>
+</tr>
+<tr>
+  <td class="cap">  16b. Card fidelitate pe telefon (barcode/QR)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:72%; width:3%;">S9-S10</div></td>
+</tr>
+<tr>
+  <td class="cap">  16c. Card fidelitate pe smartwatch (vibrare + display)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:74%; width:3%;">S10</div></td>
+</tr>
+<tr>
+  <td class="cap">  16d. Push simultan telefon + ceas</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" style="left:76%; width:3%;">S10</div></td>
 </tr>
 
 </table>
