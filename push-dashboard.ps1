@@ -21,7 +21,8 @@ if (-not $token) {
 Set-Location $repoPath
 
 # Set remote cu token
-git remote set-url origin "https://${token}@github.com/ivanovandreidimitrov-ctrl/smartlola-dashboard.git"
+$env:GIT_TERMINAL_PROMPT = 0
+git remote set-url origin "https://x-access-token:${token}@github.com/ivanovandreidimitrov-ctrl/smartlola-dashboard.git"
 
 # Add + commit daca e mesaj
 if ($args.Count -ge 1) {
