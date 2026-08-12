@@ -2,6 +2,14 @@
   "expenses": [
     {
       "date": "2026-08-12",
+      "description": "Tigros Ivrea - peperoni ros, shopper bio x3, passata Cirio, passata Rodolfi, latte fresco, passata Mutt, pere Carmen, noci sgusciate, pomodoro ram, zucchine, cetrioli, oral-b filo, mix orientale, rucola, sconti vari",
+      "amount": 27.39,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-08-12",
       "description": "Lidl Ivrea - latte fresco intero, sconto 20%, merendina al latte, acqua efferv. x6",
       "amount": 3.91,
       "category": "alimente",
@@ -2312,16 +2320,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 215,
-    "expenses_total": 12689.44,
+    "expenses": 216,
+    "expenses_total": 12716.83,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 215,
-    "expenses_total": 12689.44,
+    "expenses": 216,
+    "expenses_total": 12716.83,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
@@ -2344,7 +2352,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-12T16:41:31.557728"
+    "last_activity": "2026-08-12T18:43:39.016027"
   },
   "backup": {
     "last_backup": "—",
@@ -2394,5 +2402,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-12T16:41:31.557765"
+  "lastUpdate": "2026-08-12T18:43:39.016063"
 }
