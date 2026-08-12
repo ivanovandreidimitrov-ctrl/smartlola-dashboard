@@ -31,10 +31,21 @@ if ($args.Count -ge 1) {
     git commit -m $msg 2>$null
 }
 
-# Push
-git push origin main 2>&1
+# Pull --rebase pentru a evita non-fast-forward rejection
+& git pull --rebase origin main 2>&1 | Out-Null
 
-# Curata token-ul din remote URL imediat
+# Push
+$pushOutput = & git push origin main 2>&1
+$pushExit = $LASTEXITCODE
+
+# Curata token-ul din remote URL imediat (indiferent de rezultat)
 git remote set-url origin "https://github.com/ivanovandreidimitrov-ctrl/smartlola-dashboard.git"
 
+if ($pushExit -ne 0) {
+    Write-Host "❌ Push eșuat (exit $pushExit):"
+    Write-Host $pushOutput
+    exit $pushExit
+}
+
 Write-Host "✅ Push complet. Token curatat din git config."
+Write-Host $pushOutput
