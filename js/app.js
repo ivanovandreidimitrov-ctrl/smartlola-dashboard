@@ -543,29 +543,63 @@ async function submitExpense() {
   if (capturedImage) mediaNote += ' 📷';
   if (capturedAudio) mediaNote += ' 🎤';
 
-  // Try API first
+  // Send to Cloudflare Worker (R2 queue)
   try {
-    const resp = await fetch('api/expense', {
+    // If we have an image, upload it first
+    if (capturedImage) {
+      const formData = new FormData();
+      formData.append('file', capturedImage.blob, capturedImage.name || 'receipt.jpg');
+      formData.append('meta', JSON.stringify({ amount, description: desc, category: cat, split, source: 'andrei' }));
+      await fetch('https://smartlola-guda.smartlola.workers.dev/upload', {
+        method: 'POST',
+        body: formData
+      });
+      toast('✅ Bon trimis pentru procesare: €' + amount.toFixed(2) + mediaNote, 'success');
+      closeModal();
+      capturedImage = null;
+      capturedAudio = null;
+      return;
+    }
+
+    // If we have audio, upload it
+    if (capturedAudio) {
+      const formData = new FormData();
+      formData.append('file', capturedAudio.blob, capturedAudio.name || 'voice.webm');
+      formData.append('meta', JSON.stringify({ amount, description: desc, category: cat, split, source: 'andrei' }));
+      await fetch('https://smartlola-guda.smartlola.workers.dev/upload', {
+        method: 'POST',
+        body: formData
+      });
+      toast('✅ Vocal trimis pentru procesare: €' + amount.toFixed(2) + mediaNote, 'success');
+      closeModal();
+      capturedImage = null;
+      capturedAudio = null;
+      return;
+    }
+
+    // Text-only expense → POST /expense
+    const resp = await fetch('https://smartlola-guda.smartlola.workers.dev/expense', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         amount, description: desc, category: cat, split, source: 'andrei',
-        image: capturedImage ? capturedImage.dataUrl : null,
-        audio: capturedAudio ? capturedAudio.name : null
+        store: desc.split(' ')[0] || null
       })
     });
     if (resp.ok) {
+      const result = await resp.json();
       toast('✅ Cheltuială înregistrată: €' + amount.toFixed(2) + mediaNote, 'success');
       closeModal();
       capturedImage = null;
       capturedAudio = null;
-      loadData();
       return;
     }
-  } catch (e) {}
+  } catch (e) {
+    console.error('Worker error:', e);
+  }
 
   // Fallback: construct command for Telegram
-  toast('📋 Trimite pe Telegram: ' + desc + ' ' + amount + '€ [' + cat + '/' + split + ']' + mediaNote, 'success');
+  toast('⚠️ Nu am putut trimite. Trimite pe Telegram: ' + desc + ' ' + amount + '€ [' + cat + '/' + split + ']' + mediaNote, 'success');
   closeModal();
   capturedImage = null;
   capturedAudio = null;
@@ -809,7 +843,7 @@ function captureImage(source) {
     if (!file) return;
     const reader = new FileReader();
     reader.onload = (ev) => {
-      capturedImage = { dataUrl: ev.target.result, name: file.name };
+      capturedImage = { dataUrl: ev.target.result, name: file.name, blob: file };
       renderMediaPreview();
     };
     reader.readAsDataURL(file);
@@ -823,7 +857,7 @@ function captureAudio() {
   input.onchange = (e) => {
     const file = e.target.files[0];
     if (!file) return;
-    capturedAudio = { name: file.name, url: URL.createObjectURL(file) };
+    capturedAudio = { name: file.name, url: URL.createObjectURL(file), blob: file };
     renderMediaPreview();
   };
   input.click();
