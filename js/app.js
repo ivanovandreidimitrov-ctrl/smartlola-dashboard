@@ -2,7 +2,8 @@
 const API = {
   base: window.location.origin,
   db: null,
-  gateway: null
+  gateway: null,
+  worker: 'https://smartlola-guda.smartlola.workers.dev'
 };
 
 // === STATE ===
