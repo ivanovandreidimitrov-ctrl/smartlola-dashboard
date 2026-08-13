@@ -1,14 +1,6 @@
 {
   "expenses": [
     {
-      "date": "2026-08-13",
-      "description": "Test poll script",
-      "amount": 1.0,
-      "category": "alimente",
-      "split": "shared",
-      "source": "elena"
-    },
-    {
       "date": "2026-08-12",
       "description": "Tigros Ivrea - peperoni ros, shopper bio x3, passata Cirio, passata Rodolfi, latte fresco, passata Mutt, pere Carmen, noci sgusciate, pomodoro ram, zucchine, cetrioli, oral-b filo, mix orientale, rucola, sconti vari",
       "amount": 27.39,
@@ -2328,16 +2320,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 217,
-    "expenses_total": 12717.83,
+    "expenses": 216,
+    "expenses_total": 12716.83,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 217,
-    "expenses_total": 12717.83,
+    "expenses": 216,
+    "expenses_total": 12716.83,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
@@ -2360,7 +2352,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-13T05:45:53.553117"
+    "last_activity": "2026-08-13T06:46:09.977304"
   },
   "backup": {
     "last_backup": "—",
@@ -2410,5 +2402,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-13T05:45:53.553180"
+  "lastUpdate": "2026-08-13T06:46:09.977338"
 }
