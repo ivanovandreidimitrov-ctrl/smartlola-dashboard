@@ -2,6 +2,14 @@
   "expenses": [
     {
       "date": "2026-08-14",
+      "description": "VENTILATORE RICARICABIL (ventilator reîncărcabil)",
+      "amount": 9.9,
+      "category": "casă",
+      "split": "shared",
+      "source": "manual"
+    },
+    {
+      "date": "2026-08-14",
       "description": "AMACA IN COTONE 200X100CM (hamacă bumbac) - sconto 30%",
       "amount": 10.43,
       "category": "casă",
@@ -2336,16 +2344,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 218,
-    "expenses_total": 12737.69,
+    "expenses": 219,
+    "expenses_total": 12747.59,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 218,
-    "expenses_total": 12737.69,
+    "expenses": 219,
+    "expenses_total": 12747.59,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
@@ -2368,7 +2376,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-14T10:53:26.469907"
+    "last_activity": "2026-08-14T12:04:48.505465"
   },
   "backup": {
     "last_backup": "—",
@@ -2418,5 +2426,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-14T10:53:26.469942"
+  "lastUpdate": "2026-08-14T12:04:48.505504"
 }
