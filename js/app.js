@@ -530,26 +530,20 @@ function closeModal() {
 const WORKER_URL = 'https://smartlola-guda.smartlola.workers.dev';
 
 async function submitExpense() {
-  const amount = parseFloat(document.getElementById('exp-amount').value);
-  const desc = document.getElementById('exp-desc').value;
-  const cat = document.getElementById('exp-cat').value;
-  const split = document.getElementById('exp-split').value;
+  const amountEl = document.getElementById('exp-amount');
+  const descEl = document.getElementById('exp-desc');
+  const catEl = document.getElementById('exp-cat');
+  const splitEl = document.getElementById('exp-split');
+  const amount = parseFloat(amountEl.value);
+  const desc = descEl.value;
+  const cat = catEl.value;
+  const split = splitEl.value;
   const store = document.getElementById('exp-store') ? document.getElementById('exp-store').value : (desc ? desc.split(' ')[0] : null);
 
-  if (!amount || !desc) {
-    toast('Completează suma și descrierea', 'error');
-    return;
-  }
-
-  const hasMedia = capturedImage || capturedAudio;
-  let mediaNote = '';
-  if (capturedImage) mediaNote += ' 📷';
-  if (capturedAudio) mediaNote += ' 🎤';
-
-  try {
-    // === Cu imagine: flux 2-pași (upload → OCR → confirm) ===
-    if (capturedImage) {
-      const btn = document.querySelector('.btn-primary');
+  // Cu poză: nu cere sumă/descriere — OCR le extrage
+  if (capturedImage) {
+    const btn = document.querySelector('.btn-primary');
+    try {
       if (btn) { btn.disabled = true; btn.textContent = '📤 Trimitem bonul...'; }
 
       // 1. Upload
@@ -568,9 +562,9 @@ async function submitExpense() {
       const procData = await procRes.json();
 
       // 3. Auto-complete cu rezultat OCR
-      let ocrAmount = amount;
-      let ocrDesc = desc;
-      let ocrStore = store;
+      let ocrAmount = amount || 0;
+      let ocrDesc = desc || '';
+      let ocrStore = store || null;
       let ocrCat = cat;
       if (procData.ok && procData.ocr) {
         if (procData.ocr.amount) ocrAmount = parseFloat(procData.ocr.amount.toString().replace(',', '.'));
@@ -579,13 +573,19 @@ async function submitExpense() {
         if (procData.ocr.category) ocrCat = procData.ocr.category;
       }
 
-      // 4. Confirmă
+      // Actualizează câmpurile cu datele OCR
+      if (amountEl) amountEl.value = ocrAmount || '';
+      if (descEl) descEl.value = ocrDesc || '';
+      if (ocrStore && document.getElementById('exp-store')) document.getElementById('exp-store').value = ocrStore;
+      if (ocrCat) { for (let i = 0; i < catEl.options.length; i++) { if (catEl.options[i].value === ocrCat || catEl.options[i].text.toLowerCase().includes(ocrCat.toLowerCase())) { catEl.selectedIndex = i; break; } } }
+
+      // 4. Confirmă direct cu datele OCR
       if (btn) { btn.textContent = '✅ Confirmă...'; }
       const confRes = await fetch(WORKER_URL + '/confirm/' + itemId, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          amount: ocrAmount, description: ocrDesc, category: ocrCat,
+          amount: ocrAmount, description: ocrDesc || 'Bon', category: ocrCat,
           split, store: ocrStore, source: 'andrei',
           date: new Date().toISOString().slice(0, 10)
         })
@@ -593,30 +593,52 @@ async function submitExpense() {
       const confData = await confRes.json();
       if (!confData.ok) throw new Error(confData.error || 'Confirm failed');
 
-      toast('✅ Bon procesat și înregistrat: €' + ocrAmount.toFixed(2) + ' 📷', 'success');
+      toast('✅ Bon procesat: €' + (ocrAmount || 0).toFixed(2) + ' — ' + (ocrDesc || '').substring(0, 30) + ' 📷', 'success');
       closeModal();
       capturedImage = null;
       capturedAudio = null;
       return;
+    } catch (e) {
+      console.error('Worker error:', e);
+      if (btn) { btn.disabled = false; btn.textContent = 'Înregistrează'; }
+      toast('⚠️ Eroare OCR: ' + e.message + '. Completează manual și apasă din nou.', 'error');
+      return;
     }
+  }
 
-    // === Cu vocal: upload (transcriere pe PC) ===
-    if (capturedAudio) {
+  // Cu vocal: upload (transcriere pe PC)
+  if (capturedAudio) {
+    if (!amount || !desc) {
+      toast('Completează suma și descrierea pentru vocal', 'error');
+      return;
+    }
+    try {
       const formData = new FormData();
       formData.append('file', capturedAudio.blob, capturedAudio.name || 'voice.webm');
       formData.append('meta', JSON.stringify({ source: 'andrei', type: 'audio' }));
       const uploadRes = await fetch(WORKER_URL + '/upload', { method: 'POST', body: formData });
       const uploadData = await uploadRes.json();
       if (!uploadData.ok) throw new Error(uploadData.error || 'Upload failed');
-
       toast('✅ Vocal trimis: €' + amount.toFixed(2) + ' 🎤 (transcriere pe PC)', 'success');
       closeModal();
       capturedImage = null;
       capturedAudio = null;
       return;
+    } catch (e) {
+      console.error('Worker error:', e);
+      toast('⚠️ Eroare: ' + e.message, 'error');
+      return;
     }
+  }
 
-    // === Fără imagine: cheltuială text direct ===
+  // Fără imagine: cere sumă + descriere
+  if (!amount || !desc) {
+    toast('Completează suma și descrierea, sau atașează o poză', 'error');
+    return;
+  }
+
+  // Text direct → POST /expense
+  try {
     const resp = await fetch(WORKER_URL + '/expense', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -627,7 +649,7 @@ async function submitExpense() {
       })
     });
     if (resp.ok) {
-      toast('✅ Cheltuială înregistrată: €' + amount.toFixed(2) + mediaNote, 'success');
+      toast('✅ Cheltuială înregistrată: €' + amount.toFixed(2), 'success');
       closeModal();
       capturedImage = null;
       capturedAudio = null;
@@ -638,7 +660,6 @@ async function submitExpense() {
     toast('⚠️ Eroare: ' + e.message + '. Trimite pe Telegram: ' + desc + ' ' + amount + '€', 'error');
   }
 }
-
 async function submitHours() {
   const date = document.getElementById('hrs-date').value;
   const santier = document.getElementById('hrs-santier').value;
