@@ -527,68 +527,106 @@ function closeModal() {
   document.getElementById('modal').classList.add('hidden');
 }
 
+const WORKER_URL = 'https://smartlola-guda.smartlola.workers.dev';
+
 async function submitExpense() {
   const amount = parseFloat(document.getElementById('exp-amount').value);
   const desc = document.getElementById('exp-desc').value;
   const cat = document.getElementById('exp-cat').value;
   const split = document.getElementById('exp-split').value;
+  const store = document.getElementById('exp-store') ? document.getElementById('exp-store').value : (desc ? desc.split(' ')[0] : null);
 
   if (!amount || !desc) {
     toast('Completează suma și descrierea', 'error');
     return;
   }
 
-  // If we have media, note it in the toast
   const hasMedia = capturedImage || capturedAudio;
   let mediaNote = '';
   if (capturedImage) mediaNote += ' 📷';
   if (capturedAudio) mediaNote += ' 🎤';
 
-  // Send to Cloudflare Worker (R2 queue)
   try {
-    // If we have an image, upload it first
+    // === Cu imagine: flux 2-pași (upload → OCR → confirm) ===
     if (capturedImage) {
+      const btn = document.querySelector('.btn-primary');
+      if (btn) { btn.disabled = true; btn.textContent = '📤 Trimitem bonul...'; }
+
+      // 1. Upload
       const formData = new FormData();
       formData.append('file', capturedImage.blob, capturedImage.name || 'receipt.jpg');
-      formData.append('meta', JSON.stringify({ amount, description: desc, category: cat, split, source: 'andrei' }));
-      await fetch('https://smartlola-guda.smartlola.workers.dev/upload', {
+      formData.append('meta', JSON.stringify({ source: 'andrei', type: 'image' }));
+      const uploadRes = await fetch(WORKER_URL + '/upload', { method: 'POST', body: formData });
+      const uploadData = await uploadRes.json();
+      if (!uploadData.ok) throw new Error(uploadData.error || 'Upload failed');
+      const itemId = uploadData.id;
+
+      if (btn) { btn.textContent = '🔍 OCR procesează...'; }
+
+      // 2. OCR
+      const procRes = await fetch(WORKER_URL + '/process/' + itemId, { method: 'POST' });
+      const procData = await procRes.json();
+
+      // 3. Auto-complete cu rezultat OCR
+      let ocrAmount = amount;
+      let ocrDesc = desc;
+      let ocrStore = store;
+      let ocrCat = cat;
+      if (procData.ok && procData.ocr) {
+        if (procData.ocr.amount) ocrAmount = parseFloat(procData.ocr.amount.toString().replace(',', '.'));
+        if (procData.ocr.description) ocrDesc = procData.ocr.description;
+        if (procData.ocr.store) ocrStore = procData.ocr.store;
+        if (procData.ocr.category) ocrCat = procData.ocr.category;
+      }
+
+      // 4. Confirmă
+      if (btn) { btn.textContent = '✅ Confirmă...'; }
+      const confRes = await fetch(WORKER_URL + '/confirm/' + itemId, {
         method: 'POST',
-        body: formData
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          amount: ocrAmount, description: ocrDesc, category: ocrCat,
+          split, store: ocrStore, source: 'andrei',
+          date: new Date().toISOString().slice(0, 10)
+        })
       });
-      toast('✅ Bon trimis pentru procesare: €' + amount.toFixed(2) + mediaNote, 'success');
+      const confData = await confRes.json();
+      if (!confData.ok) throw new Error(confData.error || 'Confirm failed');
+
+      toast('✅ Bon procesat și înregistrat: €' + ocrAmount.toFixed(2) + ' 📷', 'success');
       closeModal();
       capturedImage = null;
       capturedAudio = null;
       return;
     }
 
-    // If we have audio, upload it
+    // === Cu vocal: upload (transcriere pe PC) ===
     if (capturedAudio) {
       const formData = new FormData();
       formData.append('file', capturedAudio.blob, capturedAudio.name || 'voice.webm');
-      formData.append('meta', JSON.stringify({ amount, description: desc, category: cat, split, source: 'andrei' }));
-      await fetch('https://smartlola-guda.smartlola.workers.dev/upload', {
-        method: 'POST',
-        body: formData
-      });
-      toast('✅ Vocal trimis pentru procesare: €' + amount.toFixed(2) + mediaNote, 'success');
+      formData.append('meta', JSON.stringify({ source: 'andrei', type: 'audio' }));
+      const uploadRes = await fetch(WORKER_URL + '/upload', { method: 'POST', body: formData });
+      const uploadData = await uploadRes.json();
+      if (!uploadData.ok) throw new Error(uploadData.error || 'Upload failed');
+
+      toast('✅ Vocal trimis: €' + amount.toFixed(2) + ' 🎤 (transcriere pe PC)', 'success');
       closeModal();
       capturedImage = null;
       capturedAudio = null;
       return;
     }
 
-    // Text-only expense → POST /expense
-    const resp = await fetch('https://smartlola-guda.smartlola.workers.dev/expense', {
+    // === Fără imagine: cheltuială text direct ===
+    const resp = await fetch(WORKER_URL + '/expense', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         amount, description: desc, category: cat, split, source: 'andrei',
-        store: desc.split(' ')[0] || null
+        store: store,
+        date: new Date().toISOString().slice(0, 10)
       })
     });
     if (resp.ok) {
-      const result = await resp.json();
       toast('✅ Cheltuială înregistrată: €' + amount.toFixed(2) + mediaNote, 'success');
       closeModal();
       capturedImage = null;
@@ -597,13 +635,8 @@ async function submitExpense() {
     }
   } catch (e) {
     console.error('Worker error:', e);
+    toast('⚠️ Eroare: ' + e.message + '. Trimite pe Telegram: ' + desc + ' ' + amount + '€', 'error');
   }
-
-  // Fallback: construct command for Telegram
-  toast('⚠️ Nu am putut trimite. Trimite pe Telegram: ' + desc + ' ' + amount + '€ [' + cat + '/' + split + ']' + mediaNote, 'success');
-  closeModal();
-  capturedImage = null;
-  capturedAudio = null;
 }
 
 async function submitHours() {
