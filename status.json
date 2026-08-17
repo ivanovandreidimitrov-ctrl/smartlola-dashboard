@@ -1,6 +1,38 @@
 {
   "expenses": [
     {
+      "date": "2026-08-17",
+      "description": "AMACA IN COTONE 200X100CM 22,00%",
+      "amount": 10.43,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-08-17",
+      "description": "ARANCANTA BARBECQUA",
+      "amount": 1.9,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-08-17",
+      "description": "ACQUA MINI EPERV: RISO, BASMATI VALORE SCONTI SUBTOTALE",
+      "amount": 26.67,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
+      "date": "2026-08-17",
+      "description": "Pagamento elettronico",
+      "amount": 9.9,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei"
+    },
+    {
       "date": "2026-08-14",
       "description": "VENTILATORE RICARICABIL (ventilator reîncărcabil)",
       "amount": 9.9,
@@ -2336,16 +2368,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 218,
-    "expenses_total": 12737.16,
+    "expenses": 222,
+    "expenses_total": 12786.06,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 218,
-    "expenses_total": 12737.16,
+    "expenses": 222,
+    "expenses_total": 12786.06,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
@@ -2368,7 +2400,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-17T20:23:27.646091"
+    "last_activity": "2026-08-17T22:35:22.008745"
   },
   "backup": {
     "last_backup": "—",
@@ -2418,5 +2450,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-17T20:23:27.646129"
+  "lastUpdate": "2026-08-17T22:35:22.008784"
 }
