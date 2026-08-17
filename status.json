@@ -17,14 +17,6 @@
       "source": "manual"
     },
     {
-      "date": "2026-08-14",
-      "description": "AMACA IN COTONE 200X100CM (hamacă bumbac) - sconto 30%",
-      "amount": 10.43,
-      "category": "casă",
-      "split": "shared",
-      "source": "manual"
-    },
-    {
       "date": "2026-08-12",
       "description": "Tigros Ivrea - peperoni ros, shopper bio x3, passata Cirio, passata Rodolfi, latte fresco, passata Mutt, pere Carmen, noci sgusciate, pomodoro ram, zucchine, cetrioli, oral-b filo, mix orientale, rucola, sconti vari",
       "amount": 27.39,
@@ -2344,16 +2336,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 219,
-    "expenses_total": 12747.59,
+    "expenses": 218,
+    "expenses_total": 12737.16,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 219,
-    "expenses_total": 12747.59,
+    "expenses": 218,
+    "expenses_total": 12737.16,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
@@ -2376,7 +2368,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-14T12:04:48.505465"
+    "last_activity": "2026-08-17T20:23:27.646091"
   },
   "backup": {
     "last_backup": "—",
@@ -2426,5 +2418,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-14T12:04:48.505504"
+  "lastUpdate": "2026-08-17T20:23:27.646129"
 }
