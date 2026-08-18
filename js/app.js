@@ -254,19 +254,24 @@ function renderGuda() {
     recentEl.innerHTML = '<div class="empty-state">Nicio cheltuială</div>';
   } else {
     const sortedExp = [...filtered].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-    recentEl.innerHTML = sortedExp.slice(0, 15).map(e => `
+    recentEl.innerHTML = sortedExp.slice(0, 50).map(e => {
+      const store = e.store || (e.description || '').split(' ')[0].replace(/[^a-zA-Z0-9]/g, '');
+      const d = (e.date || '').split('-');
+      const dayMonth = d[2] + '/' + d[1];
+      return `
       <div class="expense-item">
         <div class="expense-left">
           <div class="expense-desc">${escapeHtml(e.description || '')}</div>
           <div class="expense-meta">
-            ${formatDate(e.date)} | 
+            <span class="expense-date">${dayMonth}</span>
+            ${store ? `<span class="expense-store">${escapeHtml(store)}</span>` : ''}
             <span class="badge ${e.split}">${e.split}</span>
             ${e.source ? `<span class="badge ${e.source}">${e.source}</span>` : ''}
           </div>
         </div>
         <div class="expense-amount">€${e.amount.toFixed(2)}</div>
       </div>
-    `).join('');
+    `;}).join('');
   }
 }
 

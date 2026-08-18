@@ -133,15 +133,30 @@ body {
 .cat-fill { height: 100%; border-radius: 4px; transition: width 0.5s; }
 .cat-amount { width: 70px; font-weight: 700; font-size: 12px; }
 
-/* Expense list */
+/* Expense list — scrollable */
+.expense-list {
+  max-height: 420px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-right: 4px;
+}
+.expense-list::-webkit-scrollbar { width: 4px; }
+.expense-list::-webkit-scrollbar-track { background: transparent; }
+.expense-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
 .expense-item {
   display: flex; justify-content: space-between; align-items: center;
   padding: 10px 12px; background: var(--bg-card); border-radius: 8px;
   border: 1px solid var(--border);
 }
-.expense-left { flex: 1; }
-.expense-desc { font-size: 13px; font-weight: 600; }
-.expense-meta { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+.expense-left { flex: 1; min-width: 0; }
+.expense-desc { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.expense-meta { font-size: 11px; color: var(--text-dim); margin-top: 3px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.expense-date { font-weight: 600; color: var(--text-dim); }
+.expense-store {
+  font-size: 10px; padding: 1px 6px; border-radius: 4px;
+  background: rgba(139,146,168,0.15); color: var(--text-dim); font-weight: 600;
+}
 .expense-amount { font-size: 15px; font-weight: 800; white-space: nowrap; }
 .badge { font-size: 9px; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
 .badge.shared { background: var(--accent-dim); color: var(--accent); }

@@ -6,7 +6,8 @@
       "amount": 10.43,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Bricofer"
     },
     {
       "date": "2026-08-17",
@@ -14,7 +15,8 @@
       "amount": 1.9,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "CARREFOR MARKET"
     },
     {
       "date": "2026-08-17",
@@ -22,7 +24,8 @@
       "amount": 26.67,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lodi"
     },
     {
       "date": "2026-08-17",
@@ -30,7 +33,8 @@
       "amount": 9.9,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Bricofer"
     },
     {
       "date": "2026-08-14",
@@ -38,7 +42,8 @@
       "amount": 9.9,
       "category": "casă",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": "Bricofer Banchette"
     },
     {
       "date": "2026-08-14",
@@ -46,7 +51,8 @@
       "amount": 10.43,
       "category": "casă",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": "Bricofer Banchette"
     },
     {
       "date": "2026-08-12",
@@ -54,7 +60,8 @@
       "amount": 27.39,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros"
     },
     {
       "date": "2026-08-12",
@@ -62,7 +69,8 @@
       "amount": 3.91,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl"
     },
     {
       "date": "2026-08-10",
@@ -70,7 +78,8 @@
       "amount": 0.01,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -78,7 +87,8 @@
       "amount": 0.49,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -86,7 +96,8 @@
       "amount": 0.82,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -94,7 +105,8 @@
       "amount": 1.69,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -102,7 +114,8 @@
       "amount": 1.49,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -110,7 +123,8 @@
       "amount": 2.76,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -118,7 +132,8 @@
       "amount": 3.79,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -126,7 +141,8 @@
       "amount": 3.99,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -134,7 +150,8 @@
       "amount": 2.19,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -142,7 +159,8 @@
       "amount": 0.58,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -150,7 +168,8 @@
       "amount": 1.19,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-09",
@@ -158,7 +177,8 @@
       "amount": 12.81,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-08",
@@ -166,7 +186,8 @@
       "amount": 4.59,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-08",
@@ -174,7 +195,8 @@
       "amount": 26.67,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-07",
@@ -182,7 +204,8 @@
       "amount": 8.32,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-07",
@@ -190,7 +213,8 @@
       "amount": 22.68,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-06",
@@ -198,7 +222,8 @@
       "amount": 1.8,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-06",
@@ -206,7 +231,8 @@
       "amount": 9.0,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-06",
@@ -214,7 +240,8 @@
       "amount": 4.39,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-06",
@@ -222,7 +249,8 @@
       "amount": 1.8,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-06",
@@ -230,7 +258,8 @@
       "amount": 9.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-05",
@@ -238,7 +267,8 @@
       "amount": 25.25,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-05",
@@ -246,7 +276,8 @@
       "amount": 6.31,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Bennet Vigliano Biellese"
     },
     {
       "date": "2026-08-04",
@@ -254,7 +285,8 @@
       "amount": 2.81,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Biella"
     },
     {
       "date": "2026-08-03",
@@ -262,7 +294,8 @@
       "amount": 3.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-03",
@@ -270,7 +303,8 @@
       "amount": 11.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-03",
@@ -278,7 +312,8 @@
       "amount": 2.39,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-03",
@@ -286,7 +321,8 @@
       "amount": 27.73,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-03",
@@ -294,7 +330,8 @@
       "amount": 13.51,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-03",
@@ -302,7 +339,8 @@
       "amount": 148.66,
       "category": "divertisment",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-02",
@@ -310,7 +348,8 @@
       "amount": 31.86,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Action Burolo"
     },
     {
       "date": "2026-08-02",
@@ -318,7 +357,8 @@
       "amount": 5.88,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Maxi Di Samone"
     },
     {
       "date": "2026-08-01",
@@ -326,7 +366,8 @@
       "amount": 31.82,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-31",
@@ -334,7 +375,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-31",
@@ -342,7 +384,8 @@
       "amount": 9.27,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-31",
@@ -350,7 +393,8 @@
       "amount": 30.68,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-07-31",
@@ -358,7 +402,8 @@
       "amount": 1.74,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad Settimo Vittone"
     },
     {
       "date": "2026-07-30",
@@ -366,7 +411,8 @@
       "amount": 4.22,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-30",
@@ -374,7 +420,8 @@
       "amount": 2.6,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-30",
@@ -382,7 +429,8 @@
       "amount": 5.64,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad Settimo Vittone"
     },
     {
       "date": "2026-07-29",
@@ -390,7 +438,8 @@
       "amount": 10.48,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-07-28",
@@ -398,7 +447,8 @@
       "amount": 6.84,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad Pont Saint Martin"
     },
     {
       "date": "2026-07-28",
@@ -406,7 +456,8 @@
       "amount": 21.97,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-07-28",
@@ -414,7 +465,8 @@
       "amount": 45.48,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-07-28",
@@ -422,7 +474,8 @@
       "amount": 1.99,
       "category": "imbracaminte",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-28",
@@ -430,7 +483,8 @@
       "amount": 24.97,
       "category": "divertisment",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-28",
@@ -438,7 +492,8 @@
       "amount": 13.78,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-27",
@@ -446,7 +501,8 @@
       "amount": 6.38,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Maxi Di Samone"
     },
     {
       "date": "2026-07-27",
@@ -454,7 +510,8 @@
       "amount": 0.77,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad Pont Saint Martin"
     },
     {
       "date": "2026-07-27",
@@ -462,7 +519,8 @@
       "amount": 6.3,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad Pont Saint Martin"
     },
     {
       "date": "2026-07-26",
@@ -470,7 +528,8 @@
       "amount": 1.49,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "iN's mercato Cavaglià"
     },
     {
       "date": "2026-07-26",
@@ -478,7 +537,8 @@
       "amount": 12.99,
       "category": "imbracaminte",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "iN's mercato Banchette"
     },
     {
       "date": "2026-07-26",
@@ -486,7 +546,8 @@
       "amount": 31.82,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "iN's mercato Banchette"
     },
     {
       "date": "2026-07-25",
@@ -494,7 +555,8 @@
       "amount": 4.69,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-25",
@@ -502,7 +564,8 @@
       "amount": 8.97,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-25",
@@ -510,7 +573,8 @@
       "amount": 1.78,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-25",
@@ -518,7 +582,8 @@
       "amount": 5.2,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -526,7 +591,8 @@
       "amount": 17.5,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -534,7 +600,8 @@
       "amount": 14.0,
       "category": "imbracaminte",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -542,7 +609,8 @@
       "amount": 1.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -550,7 +618,8 @@
       "amount": 2.49,
       "category": "divertisment",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -558,7 +627,8 @@
       "amount": 5.41,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -566,7 +636,8 @@
       "amount": 36.3,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -574,7 +645,8 @@
       "amount": 7.81,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": "Conad"
     },
     {
       "date": "2026-07-23",
@@ -582,7 +654,8 @@
       "amount": 7.0,
       "category": "îmbrăcăminte",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "OVS"
     },
     {
       "date": "2026-07-23",
@@ -590,7 +663,8 @@
       "amount": 5.57,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-22",
@@ -598,7 +672,8 @@
       "amount": 3.6,
       "category": "cafea",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "Bar Castoro"
     },
     {
       "date": "2026-07-21",
@@ -606,7 +681,8 @@
       "amount": 31.51,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-20",
@@ -614,7 +690,8 @@
       "amount": 1.99,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "Google"
     },
     {
       "date": "2026-07-20",
@@ -622,7 +699,8 @@
       "amount": 2.6,
       "category": "cafea",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "Gasoline Cafe"
     },
     {
       "date": "2026-07-20",
@@ -630,7 +708,8 @@
       "amount": 10.99,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-19",
@@ -638,7 +717,8 @@
       "amount": 4.8,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "TorinoNord"
     },
     {
       "date": "2026-07-19",
@@ -646,7 +726,8 @@
       "amount": 3.9,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-19",
@@ -654,7 +735,8 @@
       "amount": 15.3,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-19",
@@ -662,7 +744,8 @@
       "amount": 198.29,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-19",
@@ -670,7 +753,8 @@
       "amount": 9.75,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-18",
@@ -678,7 +762,8 @@
       "amount": 18.18,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "Ollama"
     },
     {
       "date": "2026-07-18",
@@ -686,7 +771,8 @@
       "amount": 1.49,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-18",
@@ -694,7 +780,8 @@
       "amount": 97.25,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-18",
@@ -702,7 +789,8 @@
       "amount": 16.0,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-18",
@@ -710,7 +798,8 @@
       "amount": 17.41,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-17",
@@ -718,7 +807,8 @@
       "amount": 1.25,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Penny Biella"
     },
     {
       "date": "2026-07-17",
@@ -726,7 +816,8 @@
       "amount": 1.25,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-17",
@@ -734,7 +825,8 @@
       "amount": 8.0,
       "category": "divertisment",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-17",
@@ -742,7 +834,8 @@
       "amount": 1.25,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-17",
@@ -750,7 +843,8 @@
       "amount": 25.36,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-16",
@@ -758,7 +852,8 @@
       "amount": 439.97,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-16",
@@ -766,7 +861,8 @@
       "amount": 7.48,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-16",
@@ -774,7 +870,8 @@
       "amount": 3.21,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-16",
@@ -782,7 +879,8 @@
       "amount": 7.47,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-16",
@@ -790,7 +888,8 @@
       "amount": 43.54,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-15",
@@ -798,7 +897,8 @@
       "amount": 2.11,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-15",
@@ -806,7 +906,8 @@
       "amount": 2.24,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-15",
@@ -814,7 +915,8 @@
       "amount": 27.3,
       "category": "sanatate",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-15",
@@ -822,7 +924,8 @@
       "amount": 12.08,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-14",
@@ -830,7 +933,8 @@
       "amount": 3.4,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-14",
@@ -838,7 +942,8 @@
       "amount": 17.97,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-14",
@@ -846,7 +951,8 @@
       "amount": 18.8,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-13",
@@ -854,7 +960,8 @@
       "amount": 23.05,
       "category": "divertisment",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-13",
@@ -862,7 +969,8 @@
       "amount": 57.64,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-09",
@@ -870,7 +978,8 @@
       "amount": 3.92,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-07",
@@ -878,7 +987,8 @@
       "amount": 7.29,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-06",
@@ -886,7 +996,8 @@
       "amount": 18.37,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-06",
@@ -894,7 +1005,8 @@
       "amount": 50.07,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-02",
@@ -902,7 +1014,8 @@
       "amount": 2.59,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-02",
@@ -910,7 +1023,8 @@
       "amount": 15.97,
       "category": "casa",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-02",
@@ -918,7 +1032,8 @@
       "amount": 4.78,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-02",
@@ -926,7 +1041,8 @@
       "amount": 2.73,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-01",
@@ -934,7 +1050,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-01",
@@ -942,7 +1059,8 @@
       "amount": 0.58,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-01",
@@ -950,7 +1068,8 @@
       "amount": 9.0,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-06-25",
@@ -958,7 +1077,8 @@
       "amount": 1.59,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-22",
@@ -966,7 +1086,8 @@
       "amount": 120.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-06-20",
@@ -974,7 +1095,8 @@
       "amount": 4.6,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-19",
@@ -982,7 +1104,8 @@
       "amount": 55.0,
       "category": "educatie",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-06-19",
@@ -990,7 +1113,8 @@
       "amount": 20.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-06-17",
@@ -998,7 +1122,8 @@
       "amount": 4.65,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-16",
@@ -1006,7 +1131,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-06-16",
@@ -1014,7 +1140,8 @@
       "amount": 7.48,
       "category": "munca",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-16",
@@ -1022,7 +1149,8 @@
       "amount": 41.72,
       "category": "servicii",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-11",
@@ -1030,7 +1158,8 @@
       "amount": 16.11,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-06-09",
@@ -1038,7 +1167,8 @@
       "amount": 15.06,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-06-09",
@@ -1046,7 +1176,8 @@
       "amount": 43.0,
       "category": "divertisment",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-08",
@@ -1054,7 +1185,8 @@
       "amount": 16.0,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-08",
@@ -1062,7 +1194,8 @@
       "amount": 50.0,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-07",
@@ -1070,7 +1203,8 @@
       "amount": 221.94,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-06",
@@ -1078,7 +1212,8 @@
       "amount": 2.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-06",
@@ -1086,7 +1221,8 @@
       "amount": 3.69,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-06",
@@ -1094,7 +1230,8 @@
       "amount": 7.8,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-06",
@@ -1102,7 +1239,8 @@
       "amount": 8.23,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-04",
@@ -1110,7 +1248,8 @@
       "amount": 9.5,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-04",
@@ -1118,7 +1257,8 @@
       "amount": 6.99,
       "category": "imbracaminte",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-03",
@@ -1126,7 +1266,8 @@
       "amount": 28.0,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-01",
@@ -1134,7 +1275,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-05-29",
@@ -1142,7 +1284,8 @@
       "amount": 139.09,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-05-25",
@@ -1150,7 +1293,8 @@
       "amount": 181.68,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-05-21",
@@ -1158,7 +1302,8 @@
       "amount": 462.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-05-21",
@@ -1166,7 +1311,8 @@
       "amount": 180.18,
       "category": "servicii",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-05-20",
@@ -1174,7 +1320,8 @@
       "amount": 236.0,
       "category": "sanatate",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-05-19",
@@ -1182,7 +1329,8 @@
       "amount": 21.43,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-05-18",
@@ -1190,7 +1338,8 @@
       "amount": 7.88,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-05-17",
@@ -1198,7 +1347,8 @@
       "amount": 0.94,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-05-10",
@@ -1206,7 +1356,8 @@
       "amount": 9.09,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-05-01",
@@ -1214,7 +1365,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-04-29",
@@ -1222,7 +1374,8 @@
       "amount": 199.32,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-04-28",
@@ -1230,7 +1383,8 @@
       "amount": 20.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-04-27",
@@ -1238,7 +1392,8 @@
       "amount": 115.9,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-04-20",
@@ -1246,7 +1401,8 @@
       "amount": 189.98,
       "category": "sanatate",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-04-02",
@@ -1254,7 +1410,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-04-02",
@@ -1262,7 +1419,8 @@
       "amount": 4.0,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-04-02",
@@ -1270,7 +1428,8 @@
       "amount": 7.95,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-04-01",
@@ -1278,7 +1437,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-03-31",
@@ -1286,7 +1446,8 @@
       "amount": 136.48,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-03-30",
@@ -1294,7 +1455,8 @@
       "amount": 52.03,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-03-26",
@@ -1302,7 +1464,8 @@
       "amount": 100.0,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-26",
@@ -1310,7 +1473,8 @@
       "amount": 9.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-26",
@@ -1318,7 +1482,8 @@
       "amount": 17.59,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-26",
@@ -1326,7 +1491,8 @@
       "amount": 2.5,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-25",
@@ -1334,7 +1500,8 @@
       "amount": 3.8,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-25",
@@ -1342,7 +1509,8 @@
       "amount": 10.5,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-25",
@@ -1350,7 +1518,8 @@
       "amount": 5.5,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-24",
@@ -1358,7 +1527,8 @@
       "amount": 12.5,
       "category": "munca",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-24",
@@ -1366,7 +1536,8 @@
       "amount": 2.5,
       "category": "munca",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Ribes"
     },
     {
       "date": "2026-03-24",
@@ -1374,7 +1545,8 @@
       "amount": 2.5,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-24",
@@ -1382,7 +1554,8 @@
       "amount": 7.5,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-23",
@@ -1390,7 +1563,8 @@
       "amount": 132.58,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-03-23",
@@ -1398,7 +1572,8 @@
       "amount": 59.79,
       "category": "utilitati",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-03-23",
@@ -1406,7 +1581,8 @@
       "amount": 2.6,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-23",
@@ -1414,7 +1590,8 @@
       "amount": 8.29,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "DPiu"
     },
     {
       "date": "2026-03-23",
@@ -1422,7 +1599,8 @@
       "amount": 15.0,
       "category": "imbracaminte",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-23",
@@ -1430,7 +1608,8 @@
       "amount": 51.5,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl"
     },
     {
       "date": "2026-03-05",
@@ -1438,7 +1617,8 @@
       "amount": 2300.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-03-01",
@@ -1446,7 +1626,8 @@
       "amount": 0.08,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-03-01",
@@ -1454,7 +1635,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-02-23",
@@ -1462,7 +1644,8 @@
       "amount": 132.84,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-02-09",
@@ -1470,7 +1653,8 @@
       "amount": 236.0,
       "category": "sanatate",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-02-05",
@@ -1478,7 +1662,8 @@
       "amount": 401.58,
       "category": "sanatate",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-02-04",
@@ -1486,7 +1671,8 @@
       "amount": 124.34,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-02-01",
@@ -1494,7 +1680,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-01-20",
@@ -1502,7 +1689,8 @@
       "amount": 146.55,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-01-05",
@@ -1510,7 +1698,8 @@
       "amount": 145.2,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-01-02",
@@ -1518,7 +1707,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-01-01",
@@ -1526,7 +1716,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-31",
@@ -1534,7 +1725,8 @@
       "amount": 0.59,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-30",
@@ -1542,7 +1734,8 @@
       "amount": 212.24,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-29",
@@ -1550,7 +1743,8 @@
       "amount": 159.03,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-29",
@@ -1558,7 +1752,8 @@
       "amount": 165.38,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-29",
@@ -1566,7 +1761,8 @@
       "amount": 200.35,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-01",
@@ -1574,7 +1770,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-11-28",
@@ -1582,7 +1779,8 @@
       "amount": 77.45,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-11-20",
@@ -1590,7 +1788,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-11-14",
@@ -1598,7 +1797,8 @@
       "amount": 107.1,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-11-03",
@@ -1606,7 +1806,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-11-01",
@@ -1614,7 +1815,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-10-28",
@@ -1622,7 +1824,8 @@
       "amount": 166.61,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-10-03",
@@ -1630,7 +1833,8 @@
       "amount": 20.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-10-01",
@@ -1638,7 +1842,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-09-29",
@@ -1646,7 +1851,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-09-29",
@@ -1654,7 +1860,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-09-01",
@@ -1662,7 +1869,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-27",
@@ -1670,7 +1878,8 @@
       "amount": 165.08,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-27",
@@ -1678,7 +1887,8 @@
       "amount": 127.67,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-19",
@@ -1686,7 +1896,8 @@
       "amount": 267.5,
       "category": "casa",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-15",
@@ -1694,7 +1905,8 @@
       "amount": 134.53,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-04",
@@ -1702,7 +1914,8 @@
       "amount": 44.3,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-01",
@@ -1710,7 +1923,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-28",
@@ -1718,7 +1932,8 @@
       "amount": 100.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-22",
@@ -1726,7 +1941,8 @@
       "amount": 219.11,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-21",
@@ -1734,7 +1950,8 @@
       "amount": 100.0,
       "category": "sanatate",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-21",
@@ -1742,7 +1959,8 @@
       "amount": 154.26,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-21",
@@ -1750,7 +1968,8 @@
       "amount": 70.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-21",
@@ -1758,7 +1977,8 @@
       "amount": 399.64,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-01",
@@ -1766,7 +1986,8 @@
       "amount": 1.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-04-04",
@@ -1774,7 +1995,8 @@
       "amount": 225.0,
       "category": "sanatate",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     }
   ],
   "ore_lucrate": [
@@ -2400,7 +2622,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-17T22:35:22.008745"
+    "last_activity": "2026-08-18T05:05:51.877659"
   },
   "backup": {
     "last_backup": "—",
@@ -2450,5 +2672,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-17T22:35:22.008784"
+  "lastUpdate": "2026-08-18T05:05:51.877696"
 }
