@@ -22,9 +22,10 @@ let state = {
 // === INIT ===
 document.addEventListener('DOMContentLoaded', () => {
   // Register service worker
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').catch(e => console.error('SW:', e));
-  }
+  // SW dezactivat temporar pentru debug
+  // if ('serviceWorker' in navigator) {
+  //   navigator.serviceWorker.register('sw.js').catch(e => console.error('SW:', e));
+  // }
 
   // Tab navigation
   document.querySelectorAll('.tab').forEach(tab => {
