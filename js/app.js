@@ -721,14 +721,7 @@ async function submitExpense() {
     toast('⚠️ Eroare: ' + e.message + '. Trimite pe Telegram: ' + desc + ' ' + amount + '€', 'error');
   }
 }
-      capturedAudio = null;
-      return;
-    }
-  } catch (e) {
-    console.error('Worker error:', e);
-    toast('⚠️ Eroare: ' + e.message + '. Trimite pe Telegram: ' + desc + ' ' + amount + '€', 'error');
-  }
-}
+
 async function submitHours() {
   const date = document.getElementById('hrs-date').value;
   const santier = document.getElementById('hrs-santier').value;
