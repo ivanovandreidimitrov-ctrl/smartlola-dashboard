@@ -1,6 +1,15 @@
 {
   "expenses": [
     {
+      "date": "2026-08-18",
+      "description": "GIUNTO PES.ANG + LASTR.ANG. + SUPPORTO filettati",
+      "amount": 21.3,
+      "category": "muncă",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Bricook Bollengo"
+    },
+    {
       "date": "2026-08-17",
       "description": "AMACA IN COTONE 200X100CM 22,00%",
       "amount": 10.43,
@@ -2590,16 +2599,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 222,
-    "expenses_total": 12786.06,
+    "expenses": 223,
+    "expenses_total": 12807.36,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
     "speza_offers": 221
   },
   "db": {
-    "expenses": 222,
-    "expenses_total": 12786.06,
+    "expenses": 223,
+    "expenses_total": 12807.36,
     "ore_lucrate": 49,
     "ore_total": 448.0,
     "pending": 0,
@@ -2622,7 +2631,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-18T05:05:51.877659"
+    "last_activity": "2026-08-18T17:36:20.570034"
   },
   "backup": {
     "last_backup": "—",
@@ -2672,5 +2681,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-18T05:05:51.877696"
+  "lastUpdate": "2026-08-18T17:36:20.570069"
 }
