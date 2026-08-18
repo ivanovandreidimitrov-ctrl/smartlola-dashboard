@@ -587,7 +587,6 @@ async function processReceipt() {
       const procRes = await fetch(WORKER_URL + '/process/' + itemId, { method: 'POST' });
       const procData = await procRes.json();
       console.log('WORKER RESPONSE:', JSON.stringify(procData));
-      alert('DEBUG WORKER: ' + JSON.stringify(procData).substring(0, 400));
       if (procData.ok && procData.ocr) {
         if (procData.ocr.transcript) {
           // E transcriere vocal
