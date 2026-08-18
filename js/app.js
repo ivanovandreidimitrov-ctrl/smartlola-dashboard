@@ -613,11 +613,18 @@ async function processReceipt() {
               break;
             }
           }
+        } else if (procData.ocr.error) {
+          // Eroare Groq — afișează în descriere ca să vedem ce e
+          if (descEl) descEl.value = '[Eroare transcriere: ' + procData.ocr.error.substring(0, 150) + ']';
+          if (statusEl) { statusEl.className = 'ocr-status error'; statusEl.textContent = '⚠️ ' + procData.ocr.error.substring(0, 100); }
         } else if (procData.ocr.amount) {
           // E OCR bon (fallback)
           if (amountEl) amountEl.value = procData.ocr.amount.toString().replace(',', '.');
           if (procData.ocr.description && descEl) descEl.value = procData.ocr.description;
           if (procData.ocr.store && storeEl) storeEl.value = procData.ocr.store;
+        } else {
+          // Răspuns gol sau necunoscut — afișează raw
+          if (descEl) descEl.value = '[Răspuns worker: ' + JSON.stringify(procData.ocr).substring(0, 150) + ']';
         }
       }
 
