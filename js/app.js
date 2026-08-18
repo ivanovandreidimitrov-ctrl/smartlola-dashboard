@@ -435,12 +435,31 @@ function quickAction(type) {
   if (type === 'expense') {
     body.innerHTML = `
       <div class="form-group">
-        <label class="form-label">Sumă (€)</label>
-        <input type="number" step="0.01" class="form-input" id="exp-amount" placeholder="0.00" inputmode="decimal">
+        <label class="form-label">📷 Imagine bon (opțional)</label>
+        <div class="media-input-row">
+          <button class="media-btn" onclick="captureImage('camera')">📷 Foto</button>
+          <button class="media-btn" onclick="captureImage('gallery')">🖼️ Galerie</button>
+          <button class="media-btn" onclick="captureAudio()">🎤 Vocal</button>
+        </div>
+        <div id="media-preview" class="media-preview"></div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Sumă (€)</label>
+          <input type="number" step="0.01" class="form-input" id="exp-amount" placeholder="0.00" inputmode="decimal">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Data</label>
+          <input type="date" class="form-input" id="exp-date" value="${new Date().toISOString().slice(0,10)}">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Magazin</label>
+        <input type="text" class="form-input" id="exp-store" placeholder="Ex: Lidl, Conad, Penny">
       </div>
       <div class="form-group">
         <label class="form-label">Descriere</label>
-        <input type="text" class="form-input" id="exp-desc" placeholder="Ex: Lidl alimente">
+        <input type="text" class="form-input" id="exp-desc" placeholder="Ex: alimente săptămânale">
       </div>
       <div class="form-row">
         <div class="form-group">
@@ -456,6 +475,7 @@ function quickAction(type) {
             <option value="îmbrăcăminte">Îmbrăcăminte</option>
             <option value="divertisment">Divertisment</option>
             <option value="servicii">Servicii</option>
+            <option value="casă">Casă</option>
             <option value="alte">Alte</option>
           </select>
         </div>
@@ -467,16 +487,8 @@ function quickAction(type) {
           </select>
         </div>
       </div>
-      <div class="form-group">
-        <label class="form-label">📷 Imagine (opțional)</label>
-        <div class="media-input-row">
-          <button class="media-btn" onclick="captureImage('camera')">📷 Foto</button>
-          <button class="media-btn" onclick="captureImage('gallery')">🖼️ Galerie</button>
-          <button class="media-btn" onclick="captureAudio()">🎤 Vocal</button>
-        </div>
-        <div id="media-preview" class="media-preview"></div>
-      </div>
-      <button class="btn-primary" onclick="submitExpense()">Înregistrează</button>
+      <div id="ocr-status" class="ocr-status hidden"></div>
+      <button class="btn-primary" id="btn-action" onclick="handleExpenseAction()">🔍 Procesare</button>
     `;
   } else if (type === 'hours') {
     body.innerHTML = `
@@ -526,87 +538,134 @@ function quickAction(type) {
   }
 
   document.getElementById('modal').classList.remove('hidden');
+  expensePhase = 'process';
+  window._pendingItemId = null;
 }
 
 function closeModal() {
   document.getElementById('modal').classList.add('hidden');
+  expensePhase = 'process';
+  window._pendingItemId = null;
 }
 
 const WORKER_URL = 'https://smartlola-guda.smartlola.workers.dev';
+
+// === SINGLE BUTTON — Procesare → Înregistrare ===
+let expensePhase = 'process'; // 'process' | 'submit'
+
+function handleExpenseAction() {
+  if (expensePhase === 'process') {
+    processReceipt();
+  } else {
+    submitExpense();
+  }
+}
+
+// === PROCESS RECEIPT (OCR only — step 1) ===
+async function processReceipt() {
+  if (!capturedImage) {
+    toast('📷 Atașează o poză a bonului mai întâi', 'error');
+    return;
+  }
+  const btn = document.getElementById('btn-process');
+  const statusEl = document.getElementById('ocr-status');
+  try {
+    if (btn) { btn.disabled = true; btn.textContent = '📤 Trimitem bonul...'; }
+    if (statusEl) { statusEl.className = 'ocr-status'; statusEl.textContent = '⏳ Procesăm bonul...'; }
+
+    // 1. Upload
+    const formData = new FormData();
+    formData.append('file', capturedImage.blob, capturedImage.name || 'receipt.jpg');
+    formData.append('meta', JSON.stringify({ source: 'andrei', type: 'image' }));
+    const uploadRes = await fetch(WORKER_URL + '/upload', { method: 'POST', body: formData });
+    const uploadData = await uploadRes.json();
+    if (!uploadData.ok) throw new Error(uploadData.error || 'Upload failed');
+    const itemId = uploadData.id;
+
+    if (btn) { btn.textContent = '🔍 OCR procesează...'; }
+
+    // 2. OCR
+    const procRes = await fetch(WORKER_URL + '/process/' + itemId, { method: 'POST' });
+    const procData = await procRes.json();
+
+    // 3. Completează câmpurile cu rezultat OCR
+    const amountEl = document.getElementById('exp-amount');
+    const descEl = document.getElementById('exp-desc');
+    const storeEl = document.getElementById('exp-store');
+    const dateEl = document.getElementById('exp-date');
+    const catEl = document.getElementById('exp-cat');
+
+    if (procData.ok && procData.ocr) {
+      if (procData.ocr.amount && amountEl) amountEl.value = procData.ocr.amount.toString().replace(',', '.');
+      if (procData.ocr.description && descEl) descEl.value = procData.ocr.description;
+      if (procData.ocr.store && storeEl) storeEl.value = procData.ocr.store;
+      if (procData.ocr.category && catEl) {
+        for (let i = 0; i < catEl.options.length; i++) {
+          if (catEl.options[i].value === procData.ocr.category || catEl.options[i].text.toLowerCase().includes(procData.ocr.category.toLowerCase())) {
+            catEl.selectedIndex = i; break;
+          }
+        }
+      }
+    }
+
+    // Salvez itemId pentru confirmare ulterioară
+    window._pendingItemId = itemId;
+
+    // Schimbă butonul în faza 2
+    const btnAction = document.getElementById('btn-action');
+    if (btnAction) { btnAction.textContent = '✅ Înregistrare'; }
+    expensePhase = 'submit';
+
+    if (statusEl) {
+      statusEl.className = 'ocr-status success';
+      statusEl.textContent = '✅ Bon procesat — verifică datele și apasă Înregistrare';
+    }
+    toast('✅ OCR complet — verifică câmpurile', 'success');
+  } catch (e) {
+    console.error('OCR error:', e);
+    if (btn) { btn.disabled = false; btn.textContent = '🔍 Procesare'; }
+    if (statusEl) { statusEl.className = 'ocr-status error'; statusEl.textContent = '⚠️ Eroare OCR: ' + e.message; }
+    toast('⚠️ Eroare OCR: ' + e.message + '. Completează manual.', 'error');
+  }
+}
 
 async function submitExpense() {
   const amountEl = document.getElementById('exp-amount');
   const descEl = document.getElementById('exp-desc');
   const catEl = document.getElementById('exp-cat');
   const splitEl = document.getElementById('exp-split');
-  const amount = parseFloat(amountEl.value);
-  const desc = descEl.value;
-  const cat = catEl.value;
-  const split = splitEl.value;
-  const store = document.getElementById('exp-store') ? document.getElementById('exp-store').value : (desc ? desc.split(' ')[0] : null);
+  const storeEl = document.getElementById('exp-store');
+  const dateEl = document.getElementById('exp-date');
+  const amount = parseFloat(amountEl?.value);
+  const desc = descEl?.value;
+  const cat = catEl?.value;
+  const split = splitEl?.value;
+  const store = storeEl?.value || null;
+  const date = dateEl?.value || new Date().toISOString().slice(0, 10);
 
-  // Cu poză: nu cere sumă/descriere — OCR le extrage
-  if (capturedImage) {
-    const btn = document.querySelector('.btn-primary');
+  // Cu imagine procesată: confirmă prin worker
+  if (capturedImage && window._pendingItemId) {
+    const btn = document.getElementById('btn-action');
     try {
-      if (btn) { btn.disabled = true; btn.textContent = '📤 Trimitem bonul...'; }
-
-      // 1. Upload
-      const formData = new FormData();
-      formData.append('file', capturedImage.blob, capturedImage.name || 'receipt.jpg');
-      formData.append('meta', JSON.stringify({ source: 'andrei', type: 'image' }));
-      const uploadRes = await fetch(WORKER_URL + '/upload', { method: 'POST', body: formData });
-      const uploadData = await uploadRes.json();
-      if (!uploadData.ok) throw new Error(uploadData.error || 'Upload failed');
-      const itemId = uploadData.id;
-
-      if (btn) { btn.textContent = '🔍 OCR procesează...'; }
-
-      // 2. OCR
-      const procRes = await fetch(WORKER_URL + '/process/' + itemId, { method: 'POST' });
-      const procData = await procRes.json();
-
-      // 3. Auto-complete cu rezultat OCR
-      let ocrAmount = amount || 0;
-      let ocrDesc = desc || '';
-      let ocrStore = store || null;
-      let ocrCat = cat;
-      if (procData.ok && procData.ocr) {
-        if (procData.ocr.amount) ocrAmount = parseFloat(procData.ocr.amount.toString().replace(',', '.'));
-        if (procData.ocr.description) ocrDesc = procData.ocr.description;
-        if (procData.ocr.store) ocrStore = procData.ocr.store;
-        if (procData.ocr.category) ocrCat = procData.ocr.category;
-      }
-
-      // Actualizează câmpurile cu datele OCR
-      if (amountEl) amountEl.value = ocrAmount || '';
-      if (descEl) descEl.value = ocrDesc || '';
-      if (ocrStore && document.getElementById('exp-store')) document.getElementById('exp-store').value = ocrStore;
-      if (ocrCat) { for (let i = 0; i < catEl.options.length; i++) { if (catEl.options[i].value === ocrCat || catEl.options[i].text.toLowerCase().includes(ocrCat.toLowerCase())) { catEl.selectedIndex = i; break; } } }
-
-      // 4. Confirmă direct cu datele OCR
-      if (btn) { btn.textContent = '✅ Confirmă...'; }
-      const confRes = await fetch(WORKER_URL + '/confirm/' + itemId, {
+      if (btn) { btn.disabled = true; btn.textContent = '⏳ Înregistrăm...'; }
+      const confRes = await fetch(WORKER_URL + '/confirm/' + window._pendingItemId, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          amount: ocrAmount, description: ocrDesc || 'Bon', category: ocrCat,
-          split, store: ocrStore, source: 'andrei',
-          date: new Date().toISOString().slice(0, 10)
+          amount: amount || 0, description: desc || 'Bon', category: cat,
+          split, store, source: 'andrei', date
         })
       });
       const confData = await confRes.json();
       if (!confData.ok) throw new Error(confData.error || 'Confirm failed');
-
-      toast('✅ Bon procesat: €' + (ocrAmount || 0).toFixed(2) + ' — ' + (ocrDesc || '').substring(0, 30) + ' 📷', 'success');
+      toast('✅ Bon înregistrat: €' + (amount || 0).toFixed(2) + ' — ' + (desc || '').substring(0, 30), 'success');
       closeModal();
-      capturedImage = null;
-      capturedAudio = null;
+      capturedImage = null; capturedAudio = null; window._pendingItemId = null;
       return;
     } catch (e) {
-      console.error('Worker error:', e);
-      if (btn) { btn.disabled = false; btn.textContent = 'Înregistrează'; }
-      toast('⚠️ Eroare OCR: ' + e.message + '. Completează manual și apasă din nou.', 'error');
+      console.error('Confirm error:', e);
+      if (btn) { btn.disabled = false; btn.textContent = '✅ Înregistrare'; }
+      toast('⚠️ Eroare: ' + e.message, 'error');
       return;
     }
   }
@@ -626,8 +685,7 @@ async function submitExpense() {
       if (!uploadData.ok) throw new Error(uploadData.error || 'Upload failed');
       toast('✅ Vocal trimis: €' + amount.toFixed(2) + ' 🎤 (transcriere pe PC)', 'success');
       closeModal();
-      capturedImage = null;
-      capturedAudio = null;
+      capturedImage = null; capturedAudio = null; window._pendingItemId = null;
       return;
     } catch (e) {
       console.error('Worker error:', e);
@@ -649,14 +707,20 @@ async function submitExpense() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         amount, description: desc, category: cat, split, source: 'andrei',
-        store: store,
-        date: new Date().toISOString().slice(0, 10)
+        store, date
       })
     });
     if (resp.ok) {
       toast('✅ Cheltuială înregistrată: €' + amount.toFixed(2), 'success');
       closeModal();
-      capturedImage = null;
+      capturedImage = null; capturedAudio = null; window._pendingItemId = null;
+      return;
+    }
+  } catch (e) {
+    console.error('Worker error:', e);
+    toast('⚠️ Eroare: ' + e.message + '. Trimite pe Telegram: ' + desc + ' ' + amount + '€', 'error');
+  }
+}
       capturedAudio = null;
       return;
     }
