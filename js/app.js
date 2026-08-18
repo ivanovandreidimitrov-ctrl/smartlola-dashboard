@@ -585,12 +585,8 @@ async function processReceipt() {
       if (btnAction) { btnAction.textContent = '🔍 Extragem datele...'; }
       const procRes = await fetch(WORKER_URL + '/process/' + itemId, { method: 'POST' });
       const procData = await procRes.json();
-
-      const amountEl = document.getElementById('exp-amount');
-      const descEl = document.getElementById('exp-desc');
-      const storeEl = document.getElementById('exp-store');
-      const catEl = document.getElementById('exp-cat');
-
+      console.log('WORKER RESPONSE:', JSON.stringify(procData));
+      // Alert cu date pentru debug
       if (procData.ok && procData.ocr) {
         if (procData.ocr.transcript) {
           // E transcriere vocal
