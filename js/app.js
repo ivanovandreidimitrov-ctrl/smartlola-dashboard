@@ -561,16 +561,94 @@ function handleExpenseAction() {
   }
 }
 
-// === PROCESS RECEIPT (OCR only — step 1) ===
+// === PROCESS RECEIPT / VOICE (step 1) ===
 async function processReceipt() {
-  if (!capturedImage) {
-    toast('📷 Atașează o poză a bonului mai întâi', 'error');
+  const statusEl = document.getElementById('ocr-status');
+  const btnAction = document.getElementById('btn-action');
+
+  // === VOICE ===
+  if (capturedAudio && !capturedImage) {
+    try {
+      if (btnAction) { btnAction.disabled = true; btnAction.textContent = '🎤 Transcriem...'; }
+      if (statusEl) { statusEl.className = 'ocr-status'; statusEl.textContent = '⏳ Transcriem vocalul...'; }
+
+      // Upload vocal la worker
+      const formData = new FormData();
+      formData.append('file', capturedAudio.blob, capturedAudio.name || 'voice.m4a');
+      formData.append('meta', JSON.stringify({ source: 'andrei', type: 'audio' }));
+      const uploadRes = await fetch(WORKER_URL + '/upload', { method: 'POST', body: formData });
+      const uploadData = await uploadRes.json();
+      if (!uploadData.ok) throw new Error(uploadData.error || 'Upload failed');
+      const itemId = uploadData.id;
+
+      // Procesează vocal
+      if (btnAction) { btnAction.textContent = '🔍 Extragem datele...'; }
+      const procRes = await fetch(WORKER_URL + '/process/' + itemId, { method: 'POST' });
+      const procData = await procRes.json();
+
+      const amountEl = document.getElementById('exp-amount');
+      const descEl = document.getElementById('exp-desc');
+      const storeEl = document.getElementById('exp-store');
+      const catEl = document.getElementById('exp-cat');
+
+      if (procData.ok && procData.ocr) {
+        if (procData.ocr.transcript) {
+          // E transcriere vocal
+          const transcript = procData.ocr.transcript;
+          if (descEl) descEl.value = transcript.substring(0, 200);
+          if (statusEl) { statusEl.className = 'ocr-status success'; statusEl.textContent = '🎤 Transcriere: "' + transcript.substring(0, 80) + '"'; }
+
+          // Extrage sumă din transcript (caută numere urmate de € sau lei)
+          const amountMatch = transcript.match(/(\d+[.,]\d{1,2})\s*(?:€|euro|lei|euro\b)/i) || transcript.match(/(\d+)\s*(?:€|euro|lei)/i);
+          if (amountMatch && amountEl) amountEl.value = amountMatch[1].replace(',', '.');
+
+          // Extrage magazin (primul cuvânt sau cuvânt înainte de număr)
+          const storeMatch = transcript.match(/^([A-Za-z]+)/);
+          if (storeMatch && storeEl) storeEl.value = storeMatch[1];
+
+          // Încearcă categorie din transcript
+          const catMap = { 'alimente': 'alimente', 'cafea': 'cafea', 'motorina': 'motorină', 'benzina': 'motorină', 'munca': 'muncă', 'lidl': 'alimente', 'conad': 'alimente', 'penny': 'alimente', 'ikea': 'casă' };
+          const lowerTranscript = transcript.toLowerCase();
+          for (const [key, val] of Object.entries(catMap)) {
+            if (lowerTranscript.includes(key)) {
+              for (let i = 0; i < catEl.options.length; i++) {
+                if (catEl.options[i].value === val) { catEl.selectedIndex = i; break; }
+              }
+              break;
+            }
+          }
+        } else if (procData.ocr.amount) {
+          // E OCR bon (fallback)
+          if (amountEl) amountEl.value = procData.ocr.amount.toString().replace(',', '.');
+          if (procData.ocr.description && descEl) descEl.value = procData.ocr.description;
+          if (procData.ocr.store && storeEl) storeEl.value = procData.ocr.store;
+        }
+      }
+
+      window._pendingItemId = itemId;
+      if (btnAction) { btnAction.disabled = false; btnAction.textContent = '✅ Înregistrare'; }
+      expensePhase = 'submit';
+      if (statusEl && !statusEl.textContent.includes('Transcriere')) {
+        statusEl.className = 'ocr-status success';
+        statusEl.textContent = '✅ Procesat — verifică datele și apasă Înregistrare';
+      }
+      toast('✅ Vocal procesat — verifică câmpurile', 'success');
+    } catch (e) {
+      console.error('Voice process error:', e);
+      if (btnAction) { btnAction.disabled = false; btnAction.textContent = '🔍 Procesare'; }
+      if (statusEl) { statusEl.className = 'ocr-status error'; statusEl.textContent = '⚠️ Eroare transcriere: ' + e.message; }
+      toast('⚠️ Eroare: ' + e.message, 'error');
+    }
     return;
   }
-  const btn = document.getElementById('btn-process');
-  const statusEl = document.getElementById('ocr-status');
+
+  // === IMAGE (OCR) ===
+  if (!capturedImage) {
+    toast('📷 Atașează o poză sau un vocal', 'error');
+    return;
+  }
   try {
-    if (btn) { btn.disabled = true; btn.textContent = '📤 Trimitem bonul...'; }
+    if (btnAction) { btnAction.disabled = true; btnAction.textContent = '📤 Trimitem bonul...'; }
     if (statusEl) { statusEl.className = 'ocr-status'; statusEl.textContent = '⏳ Procesăm bonul...'; }
 
     // 1. Upload
@@ -582,7 +660,7 @@ async function processReceipt() {
     if (!uploadData.ok) throw new Error(uploadData.error || 'Upload failed');
     const itemId = uploadData.id;
 
-    if (btn) { btn.textContent = '🔍 OCR procesează...'; }
+    if (btnAction) { btnAction.textContent = '🔍 OCR procesează...'; }
 
     // 2. OCR
     const procRes = await fetch(WORKER_URL + '/process/' + itemId, { method: 'POST' });
@@ -612,8 +690,7 @@ async function processReceipt() {
     window._pendingItemId = itemId;
 
     // Schimbă butonul în faza 2
-    const btnAction = document.getElementById('btn-action');
-    if (btnAction) { btnAction.textContent = '✅ Înregistrare'; }
+    if (btnAction) { btnAction.disabled = false; btnAction.textContent = '✅ Înregistrare'; }
     expensePhase = 'submit';
 
     if (statusEl) {
@@ -623,7 +700,7 @@ async function processReceipt() {
     toast('✅ OCR complet — verifică câmpurile', 'success');
   } catch (e) {
     console.error('OCR error:', e);
-    if (btn) { btn.disabled = false; btn.textContent = '🔍 Procesare'; }
+    if (btnAction) { btnAction.disabled = false; btnAction.textContent = '🔍 Procesare'; }
     if (statusEl) { statusEl.className = 'ocr-status error'; statusEl.textContent = '⚠️ Eroare OCR: ' + e.message; }
     toast('⚠️ Eroare OCR: ' + e.message + '. Completează manual.', 'error');
   }
