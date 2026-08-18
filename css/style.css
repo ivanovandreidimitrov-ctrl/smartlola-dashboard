@@ -103,7 +103,8 @@ body {
 .action-icon { font-size: 28px; }
 
 /* Event list */
-.event-list, .expense-list, .work-list { display: flex; flex-direction: column; gap: 8px; }
+.event-list, .work-list { display: flex; flex-direction: column; gap: 8px; }
+.expense-list { display: flex; flex-direction: column; gap: 8px; }
 .event-item {
   display: flex; gap: 10px; padding: 10px 12px; background: var(--bg-card);
   border-radius: 8px; border: 1px solid var(--border); font-size: 13px;
@@ -138,7 +139,9 @@ body {
   max-height: 420px;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
   padding-right: 4px;
+  position: relative;
 }
 .expense-list::-webkit-scrollbar { width: 4px; }
 .expense-list::-webkit-scrollbar-track { background: transparent; }
