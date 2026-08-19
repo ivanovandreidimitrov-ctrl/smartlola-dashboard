@@ -2298,6 +2298,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-08-19",
+      "santier": "Cossato Ritorcitura Buzio",
+      "ora_start": "06:30",
+      "ora_end": "17:00",
+      "ore_efective": 9.5,
+      "mezzo": "Fisso - 613",
+      "ore_normal": 8.0,
+      "ore_guida": 0.0,
+      "ore_extra": 1.5,
+      "colegi": "Leonardo, Ivanov"
+    },
+    {
       "date": "2026-08-18",
       "santier": "Cossato Ritorcitura Buzio",
       "ora_start": "06:30",
@@ -2901,16 +2913,16 @@
   "db_stats": {
     "expenses": 255,
     "expenses_total": 12895.79,
-    "ore_lucrate": 50,
-    "ore_total": 458.5,
+    "ore_lucrate": 51,
+    "ore_total": 468.0,
     "pending": 0,
     "speza_offers": 280
   },
   "db": {
     "expenses": 255,
     "expenses_total": 12895.79,
-    "ore_lucrate": 50,
-    "ore_total": 458.5,
+    "ore_lucrate": 51,
+    "ore_total": 468.0,
     "pending": 0,
     "speza_offers": 280
   },
@@ -2931,7 +2943,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-19T19:00:20.586047"
+    "last_activity": "2026-08-19T20:45:52.543501"
   },
   "backup": {
     "last_backup": "—",
@@ -2981,5 +2993,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-19T19:00:20.586083"
+  "lastUpdate": "2026-08-19T20:45:52.543537"
 }
