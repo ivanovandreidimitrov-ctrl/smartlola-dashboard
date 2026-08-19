@@ -1,6 +1,87 @@
 {
   "expenses": [
     {
+      "date": "2026-08-19",
+      "description": "PANE PITA",
+      "amount": 2.07,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "ACQUA MIN.EFFERV.",
+      "amount": 1.62,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "SALAMETTO CACCIATORE",
+      "amount": 2.69,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "SALAMETTO PICCANTE",
+      "amount": 1.89,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "KEFIR XXL",
+      "amount": 5.94,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "MSC FISH BURGER",
+      "amount": 4.58,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "PAELLA",
+      "amount": 7.58,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "YOGURT GRECA CREMOSO",
+      "amount": 2.99,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "SHOPPER BIODEGRAD.",
+      "amount": 0.2,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
       "date": "2026-08-18",
       "description": "GIUNTO PES.ANG + LASTR.ANG. + SUPPORTO filettati",
       "amount": 21.3,
@@ -2611,16 +2692,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 223,
-    "expenses_total": 12807.36,
+    "expenses": 232,
+    "expenses_total": 12836.92,
     "ore_lucrate": 50,
     "ore_total": 458.5,
     "pending": 0,
     "speza_offers": 280
   },
   "db": {
-    "expenses": 223,
-    "expenses_total": 12807.36,
+    "expenses": 232,
+    "expenses_total": 12836.92,
     "ore_lucrate": 50,
     "ore_total": 458.5,
     "pending": 0,
@@ -2643,7 +2724,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-19T10:45:57.834328"
+    "last_activity": "2026-08-19T18:00:21.413292"
   },
   "backup": {
     "last_backup": "—",
@@ -2693,5 +2774,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-19T10:45:57.834363"
+  "lastUpdate": "2026-08-19T18:00:21.413328"
 }
