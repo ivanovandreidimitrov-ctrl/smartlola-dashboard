@@ -83,6 +83,150 @@
     },
     {
       "date": "2026-08-18",
+      "description": "SHOPPER CASSE SELF",
+      "amount": 0.2,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "UVA BIANCA",
+      "amount": 3.98,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "SHOPPER BIO",
+      "amount": 0.01,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "POMODORO OBLUNGO ROS",
+      "amount": 2.1,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "PRIMIA CARTA IGIENICA",
+      "amount": 1.99,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "PRIMIA BOBINA ASCIUG",
+      "amount": 3.49,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "PRIMIA INSALATA MIXTA",
+      "amount": 1.0,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "PRIMIA MIX ORIENTALE",
+      "amount": 1.0,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "PAGNOTTA VARESINA",
+      "amount": 1.99,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "CIPOLLOTTI GR.200",
+      "amount": 1.29,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "PROSCIUTTO COTTO",
+      "amount": 2.5,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "PRIMIA CACIOTTA GR.1",
+      "amount": 1.29,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "PRIMIA ANANAS LT.1",
+      "amount": 1.69,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "PRIMIA ARANCIA LT.1",
+      "amount": 1.69,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "SCONTO VALORE OLIO",
+      "amount": -3.26,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "DESANTIS OLIO EV CL",
+      "amount": 7.65,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-18",
       "description": "GIUNTO PES.ANG + LASTR.ANG. + SUPPORTO filettati",
       "amount": 21.3,
       "category": "muncă",
@@ -2755,16 +2899,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 239,
-    "expenses_total": 12867.18,
+    "expenses": 255,
+    "expenses_total": 12895.79,
     "ore_lucrate": 50,
     "ore_total": 458.5,
     "pending": 0,
     "speza_offers": 280
   },
   "db": {
-    "expenses": 239,
-    "expenses_total": 12867.18,
+    "expenses": 255,
+    "expenses_total": 12895.79,
     "ore_lucrate": 50,
     "ore_total": 458.5,
     "pending": 0,
@@ -2787,7 +2931,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-19T18:45:52.297516"
+    "last_activity": "2026-08-19T19:00:20.586047"
   },
   "backup": {
     "last_backup": "—",
@@ -2837,5 +2981,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-19T18:45:52.297550"
+  "lastUpdate": "2026-08-19T19:00:20.586083"
 }
