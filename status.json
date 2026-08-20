@@ -1,6 +1,15 @@
 {
   "expenses": [
     {
+      "date": "2026-08-20",
+      "description": "SCOPA REGOLAB. ACCIAIO",
+      "amount": 12.0,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "DOMUS EDILIZIA S.R.L. Montalto Dora"
+    },
+    {
       "date": "2026-08-19",
       "description": "PANE PITA",
       "amount": 2.07,
@@ -2911,16 +2920,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 255,
-    "expenses_total": 12895.79,
+    "expenses": 256,
+    "expenses_total": 12907.79,
     "ore_lucrate": 51,
     "ore_total": 468.0,
     "pending": 0,
     "speza_offers": 280
   },
   "db": {
-    "expenses": 255,
-    "expenses_total": 12895.79,
+    "expenses": 256,
+    "expenses_total": 12907.79,
     "ore_lucrate": 51,
     "ore_total": 468.0,
     "pending": 0,
@@ -2943,7 +2952,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-19T20:45:52.543501"
+    "last_activity": "2026-08-20T10:00:34.552063"
   },
   "backup": {
     "last_backup": "—",
@@ -2993,5 +3002,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-19T20:45:52.543537"
+  "lastUpdate": "2026-08-20T10:00:34.552096"
 }
