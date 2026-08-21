@@ -21,11 +21,10 @@ let state = {
 
 // === INIT ===
 document.addEventListener('DOMContentLoaded', () => {
-  // Register service worker
-  // SW dezactivat temporar pentru debug
-  // if ('serviceWorker' in navigator) {
-  //   navigator.serviceWorker.register('sw.js').catch(e => console.error('SW:', e));
-  // }
+  // Register service worker (auto-deregisters to clear old caches)
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(e => console.error('SW:', e));
+  }
 
   // Tab navigation
   document.querySelectorAll('.tab').forEach(tab => {
