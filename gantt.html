@@ -19,7 +19,9 @@ th, td { padding: 6px 8px; text-align: left; border-bottom: 1px solid #1a2030; }
 th { background: #111726; color: #6b7a90; font-weight: 600; position: sticky; top: 0; }
 td.cap { color: #b0bdd1; white-space: nowrap; }
 .bar-cell { position: relative; height: 28px; min-width: 400px; }
-.bar { position: absolute; height: 20px; top: 4px; border-radius: 4px; display: flex; align-items: center; padding: 0 8px; font-size: 0.7rem; font-weight: 600; white-space: nowrap; overflow: hidden; }
+.bar { position: absolute; height: 20px; top: 4px; border-radius: 4px; display: flex; align-items: center; padding: 0 8px; font-size: 0.7rem; font-weight: 600; white-space: nowrap; overflow: hidden; cursor: pointer; transition: all 0.2s; }
+.bar:hover { filter: brightness(1.2); transform: scaleY(1.1); }
+.bar:active { transform: scaleY(0.95); }
 .done { background: linear-gradient(90deg, #2e7d32, #4caf50); color: #fff; }
 .active { background: linear-gradient(90deg, #1565c0, #42a5f5); color: #fff; }
 .planned { background: linear-gradient(90deg, #6a1b9a, #ab47bc); color: #fff; }
@@ -29,17 +31,33 @@ td.cap { color: #b0bdd1; white-space: nowrap; }
 .legend-item { display: flex; align-items: center; gap: 4px; font-size: 0.75rem; color: #8b9bb5; }
 .legend-dot { width: 12px; height: 12px; border-radius: 3px; }
 .phase-header { background: #1a2030; color: #82b1ff; font-weight: 700; font-size: 0.85rem; padding: 8px; }
+.progress-row { display: flex; align-items: center; gap: 8px; margin: 8px 0; font-size: 0.8rem; color: #8b9bb5; }
+.progress-bar-bg { flex: 1; height: 8px; background: #1a2030; border-radius: 4px; overflow: hidden; }
+.progress-bar-fill { height: 100%; background: linear-gradient(90deg, #64ffda, #82b1ff); transition: width 0.4s; }
+.progress-pct { font-weight: 700; color: #64ffda; min-width: 40px; text-align: right; }
+.actions { display: flex; gap: 8px; margin: 12px 0; flex-wrap: wrap; }
+.btn { padding: 6px 14px; background: #1a2030; border: 1px solid #2a3548; border-radius: 8px; cursor: pointer; font-size: 0.8rem; color: #8b9bb5; }
+.btn:hover { background: #1e3a5f; border-color: #64ffda; color: #64ffda; }
+.btn-danger { border-color: #f44336; color: #f44336; }
+.btn-danger:hover { background: #3a1a1a; color: #f44336; }
+.toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #1e3a5f; color: #64ffda; padding: 8px 20px; border-radius: 8px; font-size: 0.85rem; opacity: 0; transition: opacity 0.3s; pointer-events: none; z-index: 999; }
+.toast.show { opacity: 1; }
 @media (max-width: 600px) { th, td { font-size: 0.7rem; padding: 4px; } .bar { font-size: 0.65rem; } }
 </style>
 </head>
 <body>
 
 <h1>🧭 SmartLola — Gantt</h1>
-<div class="sub">Ultima actualizare: 11 August 2026</div>
+<div class="sub" id="lastUpdate">Ultima actualizare: —</div>
 
 <div class="tab-bar">
   <div class="tab active" onclick="showTab('overview')">📊 Overview proiecte</div>
   <div class="tab" onclick="showTab('saas')">🚀 SaaS — 16 capitole</div>
+</div>
+
+<div class="actions">
+  <div class="btn" onclick="resetProgress()">🔄 Reset progres</div>
+  <div class="btn btn-danger" onclick="exportData()">📥 Export JSON</div>
 </div>
 
 <!-- TAB 1: OVERVIEW -->
@@ -59,56 +77,56 @@ td.cap { color: #b0bdd1; white-space: nowrap; }
 <tr>
   <td class="cap">🔧 Infra zilnică (OpenClaw, Guda, WhatsApp)</td>
   <td class="bar-cell" colspan="7">
-    <div class="bar done" style="left:0%; width:100%;">Continuu — întreținere zilnică</div>
+    <div class="bar done" data-id="infra" style="left:0%; width:100%;" onclick="cycleStatus(this)">Continuu — întreținere zilnică</div>
   </td>
 </tr>
 
 <tr>
   <td class="cap">📊 Dashboard PWA (live)</td>
   <td class="bar-cell" colspan="7">
-    <div class="bar active" style="left:0%; width:100%;">Modificări la cerere — îmbunătățiri continue</div>
+    <div class="bar active" data-id="dashboard" style="left:0%; width:100%;" onclick="cycleStatus(this)">Modificări la cerere — îmbunătățiri continue</div>
   </td>
 </tr>
 
 <tr>
   <td class="cap">🩺 Deep Diagnostic Skill</td>
   <td class="bar-cell" colspan="7">
-    <div class="bar done" style="left:0%; width:8%;">✅ Gata</div>
+    <div class="bar done" data-id="diagnostic" style="left:0%; width:8%;" onclick="cycleStatus(this)">✅ Gata</div>
   </td>
 </tr>
 
 <tr>
   <td class="cap">🚀 SmartLola SaaS — Design Doc</td>
   <td class="bar-cell" colspan="7">
-    <div class="bar active" style="left:0%; width:8%;">Săpt. 1</div>
+    <div class="bar active" data-id="saas-design" style="left:0%; width:8%;" onclick="cycleStatus(this)">Săpt. 1</div>
   </td>
 </tr>
 
 <tr>
   <td class="cap">🚀 SmartLola SaaS — Dezvoltare</td>
   <td class="bar-cell" colspan="7">
-    <div class="bar planned" style="left:8%; width:40%;">Sep — Nov (Cap. 1-12)</div>
+    <div class="bar planned" data-id="saas-dev" style="left:8%; width:40%;" onclick="cycleStatus(this)">Sep — Nov (Cap. 1-12)</div>
   </td>
 </tr>
 
 <tr>
   <td class="cap">🚀 SmartLola SaaS — Polish + Launch</td>
   <td class="bar-cell" colspan="7">
-    <div class="bar future" style="left:48%; width:25%;">Dec — Ian (Cap. 13-16)</div>
+    <div class="bar future" data-id="saas-launch" style="left:48%; width:25%;" onclick="cycleStatus(this)">Dec — Ian (Cap. 13-16)</div>
   </td>
 </tr>
 
 <tr>
   <td class="cap">📚 ChatGPT Export — Faza 2 (periere)</td>
   <td class="bar-cell" colspan="7">
-    <div class="bar planned" style="left:0%; width:12%;">Când am timp</div>
+    <div class="bar planned" data-id="chatgpt" style="left:0%; width:12%;" onclick="cycleStatus(this)">Când am timp</div>
   </td>
 </tr>
 
 <tr>
   <td class="cap">📄 Agent CV & Job Hunter</td>
   <td class="bar-cell" colspan="7">
-    <div class="bar future" style="left:20%; width:15%;">După SaaS launch</div>
+    <div class="bar future" data-id="cv-hunter" style="left:20%; width:15%;" onclick="cycleStatus(this)">După SaaS launch</div>
   </td>
 </tr>
 
@@ -124,6 +142,12 @@ td.cap { color: #b0bdd1; white-space: nowrap; }
 
 <!-- TAB 2: SAAS DETAIL -->
 <div id="saas" class="gantt" style="display:none;">
+<div class="progress-row">
+  <span>Progres SaaS:</span>
+  <div class="progress-bar-bg"><div class="progress-bar-fill" id="saasProgress"></div></div>
+  <span class="progress-pct" id="saasProgressPct">0%</span>
+</div>
+
 <table>
 <tr>
   <th>Capitol</th>
@@ -142,249 +166,249 @@ td.cap { color: #b0bdd1; white-space: nowrap; }
 <tr><td colspan="11" class="phase-header">📐 Faza 1 — Fundație (S1-S3)</td></tr>
 <tr>
   <td class="cap">1. Arhitectură</td>
-  <td class="bar-cell" colspan="10"><div class="bar active" style="left:0%; width:5%;">S1</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar active" data-id="c1" style="left:0%; width:5%;" onclick="cycleStatus(this)">S1</div></td>
 </tr>
 <tr>
   <td class="cap">  1a. Schema DB + API contracts</td>
-  <td class="bar-cell" colspan="10"><div class="bar active" style="left:0%; width:4%;">S1</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar active" data-id="c1a" style="left:0%; width:4%;" onclick="cycleStatus(this)">S1</div></td>
 </tr>
 <tr>
   <td class="cap">  1b. Stack decizii (Cloudflare Workers + D1 + Pages)</td>
-  <td class="bar-cell" colspan="10"><div class="bar active" style="left:1%; width:3%;">S1</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar active" data-id="c1b" style="left:1%; width:3%;" onclick="cycleStatus(this)">S1</div></td>
 </tr>
 <tr>
   <td class="cap">2. Auth multi-user (email+parolă, Google OAuth 2.0)</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:5%; width:8%;">S1-S2</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c2" style="left:5%; width:8%;" onclick="cycleStatus(this)">S1-S2</div></td>
 </tr>
 <tr>
   <td class="cap">  2a. Înregistrare email+parolă (bcrypt, JWT)</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:5%; width:4%;">S1</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c2a" style="left:5%; width:4%;" onclick="cycleStatus(this)">S1</div></td>
 </tr>
 <tr>
   <td class="cap">  2b. Google OAuth 2.0 (Sign in with Google)</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:7%; width:4%;">S1-S2</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c2b" style="left:7%; width:4%;" onclick="cycleStatus(this)">S1-S2</div></td>
 </tr>
 <tr>
   <td class="cap">  2c. Session management + refresh tokens</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:9%; width:4%;">S2</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c2c" style="left:9%; width:4%;" onclick="cycleStatus(this)">S2</div></td>
 </tr>
 <tr>
   <td class="cap">3. API proxy (Cloudflare Worker)</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:10%; width:8%;">S2-S3</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c3" style="left:10%; width:8%;" onclick="cycleStatus(this)">S2-S3</div></td>
 </tr>
 <tr>
   <td class="cap">  3a. Routing + rate limiting</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:10%; width:4%;">S2</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c3a" style="left:10%; width:4%;" onclick="cycleStatus(this)">S2</div></td>
 </tr>
 <tr>
   <td class="cap">  3b. CORS + security headers</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:12%; width:3%;">S2-S3</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c3b" style="left:12%; width:3%;" onclick="cycleStatus(this)">S2-S3</div></td>
 </tr>
 <tr>
   <td class="cap">  3c. API keys pentru servicii externe (Groq, OCR)</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:14%; width:3%;">S3</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c3c" style="left:14%; width:3%;" onclick="cycleStatus(this)">S3</div></td>
 </tr>
 <tr>
   <td class="cap">4. DB multi-user (D1)</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:13%; width:7%;">S2-S3</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c4" style="left:13%; width:7%;" onclick="cycleStatus(this)">S2-S3</div></td>
 </tr>
 <tr>
   <td class="cap">  4a. Schema: users, expenses, categories, cards</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:13%; width:4%;">S2</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c4a" style="left:13%; width:4%;" onclick="cycleStatus(this)">S2</div></td>
 </tr>
 <tr>
   <td class="cap">  4b. Row-level isolation (per user_id)</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:15%; width:3%;">S2-S3</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c4b" style="left:15%; width:3%;" onclick="cycleStatus(this)">S2-S3</div></td>
 </tr>
 <tr>
   <td class="cap">  4c. Migrations + seed data</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:17%; width:3%;">S3</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c4c" style="left:17%; width:3%;" onclick="cycleStatus(this)">S3</div></td>
 </tr>
 
 <tr><td colspan="11" class="phase-header">🤖 Faza 2 — AI Integration (S4-S5)</td></tr>
 <tr>
   <td class="cap">5. OCR bon (qwen3.5 cloud)</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:20%; width:7%;">S4</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c5" style="left:20%; width:7%;" onclick="cycleStatus(this)">S4</div></td>
 </tr>
 <tr>
   <td class="cap">  5a. Upload foto → Cloudflare R2</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:20%; width:3%;">S4</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c5a" style="left:20%; width:3%;" onclick="cycleStatus(this)">S4</div></td>
 </tr>
 <tr>
   <td class="cap">  5b. OCR pipeline (qwen3.5 → JSON structurat)</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:22%; width:3%;">S4</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c5b" style="left:22%; width:3%;" onclick="cycleStatus(this)">S4</div></td>
 </tr>
 <tr>
   <td class="cap">  5c. Validare sumă + categorizare auto</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:24%; width:3%;">S4</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c5c" style="left:24%; width:3%;" onclick="cycleStatus(this)">S4</div></td>
 </tr>
 <tr>
   <td class="cap">6. Audio transcriere (Groq)</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:25%; width:5%;">S4-S5</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c6" style="left:25%; width:5%;" onclick="cycleStatus(this)">S4-S5</div></td>
 </tr>
 <tr>
   <td class="cap">  6a. Upload audio → Groq Whisper API</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:25%; width:3%;">S4</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c6a" style="left:25%; width:3%;" onclick="cycleStatus(this)">S4</div></td>
 </tr>
 <tr>
   <td class="cap">  6b. Parsing text → structură cheltuială</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:27%; width:3%;">S4-S5</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c6b" style="left:27%; width:3%;" onclick="cycleStatus(this)">S4-S5</div></td>
 </tr>
 <tr>
   <td class="cap">7. PDF extragere date</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:28%; width:7%;">S5</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c7" style="left:28%; width:7%;" onclick="cycleStatus(this)">S5</div></td>
 </tr>
 <tr>
   <td class="cap">  7a. Upload PDF (extras bancar, factură)</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:28%; width:3%;">S5</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c7a" style="left:28%; width:3%;" onclick="cycleStatus(this)">S5</div></td>
 </tr>
 <tr>
   <td class="cap">  7b. Parsing tranzacții → categorizare</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:30%; width:3%;">S5</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c7b" style="left:30%; width:3%;" onclick="cycleStatus(this)">S5</div></td>
 </tr>
 <tr>
   <td class="cap">  7c. Deduplicare + match cu bonuri existente</td>
-  <td class="bar-cell" colspan="10"><div class="bar planned" style="left:32%; width:3%;">S5</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar planned" data-id="c7c" style="left:32%; width:3%;" onclick="cycleStatus(this)">S5</div></td>
 </tr>
 
 <tr><td colspan="11" class="phase-header">📱 Faza 3 — Platform (S6-S7)</td></tr>
 <tr>
   <td class="cap">8. PWA offline + sync</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:35%; width:7%;">S6</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c8" style="left:35%; width:7%;" onclick="cycleStatus(this)">S6</div></td>
 </tr>
 <tr>
   <td class="cap">  8a. Service Worker + cache strategie</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:35%; width:3%;">S6</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c8a" style="left:35%; width:3%;" onclick="cycleStatus(this)">S6</div></td>
 </tr>
 <tr>
   <td class="cap">  8b. IndexedDB local → D1 cloud sync</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:37%; width:3%;">S6</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c8b" style="left:37%; width:3%;" onclick="cycleStatus(this)">S6</div></td>
 </tr>
 <tr>
   <td class="cap">  8c. Conflict resolution (last-write-wins + UI)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:39%; width:3%;">S6</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c8c" style="left:39%; width:3%;" onclick="cycleStatus(this)">S6</div></td>
 </tr>
 <tr>
   <td class="cap">9. Monetizare (freemium?)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:40%; width:5%;">S6-S7</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c9" style="left:40%; width:5%;" onclick="cycleStatus(this)">S6-S7</div></td>
 </tr>
 <tr>
   <td class="cap">  9a. Plan gratuit vs premium (limite?)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:40%; width:3%;">S6</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c9a" style="left:40%; width:3%;" onclick="cycleStatus(this)">S6</div></td>
 </tr>
 <tr>
   <td class="cap">  9b. Stripe/payments integration</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:42%; width:3%;">S6-S7</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c9b" style="left:42%; width:3%;" onclick="cycleStatus(this)">S6-S7</div></td>
 </tr>
 <tr>
-  <td class="cap">10. Legal (GDPR pan-EU, privacy policy IT/RO/EN, Google OAuth în PP)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:42%; width:5%;">S7</div></td>
+  <td class="cap">10. Legal (GDPR pan-EU, privacy policy IT/RO/EN)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c10" style="left:42%; width:5%;" onclick="cycleStatus(this)">S7</div></td>
 </tr>
 <tr>
   <td class="cap">  10a. Privacy policy (IT/RO/EN)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:42%; width:2%;">S7</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c10a" style="left:42%; width:2%;" onclick="cycleStatus(this)">S7</div></td>
 </tr>
 <tr>
-  <td class="cap">  10b. Cookie consent + consimțământ înregistrare</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:43%; width:2%;">S7</div></td>
+  <td class="cap">  10b. Cookie consent + consimțământ</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c10b" style="left:43%; width:2%;" onclick="cycleStatus(this)">S7</div></td>
 </tr>
 <tr>
-  <td class="cap">  10c. Derepturi utilizator (acces, ștergere, export)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:44%; width:2%;">S7</div></td>
+  <td class="cap">  10c. Drepturi utilizator (acces, ștergere, export)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c10c" style="left:44%; width:2%;" onclick="cycleStatus(this)">S7</div></td>
 </tr>
 <tr>
   <td class="cap">  10d. Google OAuth în privacy policy</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:45%; width:2%;">S7</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c10d" style="left:45%; width:2%;" onclick="cycleStatus(this)">S7</div></td>
 </tr>
 <tr>
   <td class="cap">11. Deploy (CI/CD, domeniu)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:45%; width:5%;">S7</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c11" style="left:45%; width:5%;" onclick="cycleStatus(this)">S7</div></td>
 </tr>
 <tr>
-  <td class="cap">  11a. CI/CD pipeline (GitHub Actions → Cloudflare Pages)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:45%; width:3%;">S7</div></td>
+  <td class="cap">  11a. CI/CD pipeline (GitHub Actions → CF Pages)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c11a" style="left:45%; width:3%;" onclick="cycleStatus(this)">S7</div></td>
 </tr>
 <tr>
-  <td class="cap">  11b. Domeniu + SSL + DNS</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:47%; width:3%;">S7</div></td>
+  <td class="cap">  11b. Domeniu + SSL + DNS</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c11b" style="left:47%; width:3%;" onclick="cycleStatus(this)">S7</div></td>
 </tr>
 <tr>
   <td class="cap">12. Mobile (PWA + smartwatch)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:47%; width:8%;">S7-S8</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c12" style="left:47%; width:8%;" onclick="cycleStatus(this)">S7-S8</div></td>
 </tr>
 <tr>
   <td class="cap">  12a. PWA installable (manifest + icons)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:47%; width:3%;">S7</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c12a" style="left:47%; width:3%;" onclick="cycleStatus(this)">S7</div></td>
 </tr>
 <tr>
   <td class="cap">  12b. Smartwatch notifications (Apple Watch + Wear OS)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:49%; width:3%;">S7-S8</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c12b" style="left:49%; width:3%;" onclick="cycleStatus(this)">S7-S8</div></td>
 </tr>
 <tr>
   <td class="cap">  12c. Haptic feedback pe ceas</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:51%; width:3%;">S8</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c12c" style="left:51%; width:3%;" onclick="cycleStatus(this)">S8</div></td>
 </tr>
 
 <tr><td colspan="11" class="phase-header">✨ Faza 4 — Polish + Launch (S8-S10)</td></tr>
 <tr>
   <td class="cap">13. Onboarding animat</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:55%; width:7%;">S8</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c13" style="left:55%; width:7%;" onclick="cycleStatus(this)">S8</div></td>
 </tr>
 <tr>
   <td class="cap">  13a. Tutorial interactiv (3 pași)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:55%; width:4%;">S8</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c13a" style="left:55%; width:4%;" onclick="cycleStatus(this)">S8</div></td>
 </tr>
 <tr>
-  <td class="cap">  13b. Animată Lottie (brand SmartLola)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:57%; width:3%;">S8</div></td>
+  <td class="cap">  13b. Animație Lottie (brand SmartLola)</td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c13b" style="left:57%; width:3%;" onclick="cycleStatus(this)">S8</div></td>
 </tr>
 <tr>
   <td class="cap">14. Prezentare YouTube</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:60%; width:7%;">S8-S9</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c14" style="left:60%; width:7%;" onclick="cycleStatus(this)">S8-S9</div></td>
 </tr>
 <tr>
   <td class="cap">  14a. Script + storyboard</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:60%; width:3%;">S8</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c14a" style="left:60%; width:3%;" onclick="cycleStatus(this)">S8</div></td>
 </tr>
 <tr>
   <td class="cap">  14b. Înregistrare + editare</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:62%; width:3%;">S8-S9</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c14b" style="left:62%; width:3%;" onclick="cycleStatus(this)">S8-S9</div></td>
 </tr>
 <tr>
   <td class="cap">  14c. Thumbnail + SEO + publicare</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:64%; width:3%;">S9</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c14c" style="left:64%; width:3%;" onclick="cycleStatus(this)">S9</div></td>
 </tr>
 <tr>
   <td class="cap">15. Swipe Launch (gest nativ)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:65%; width:7%;">S9</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c15" style="left:65%; width:7%;" onclick="cycleStatus(this)">S9</div></td>
 </tr>
 <tr>
   <td class="cap">  15a. Swipe stânga=șterge, dreapta=confirmă</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:65%; width:4%;">S9</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c15a" style="left:65%; width:4%;" onclick="cycleStatus(this)">S9</div></td>
 </tr>
 <tr>
   <td class="cap">  15b. Haptic feedback la swipe</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:67%; width:3%;">S9</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c15b" style="left:67%; width:3%;" onclick="cycleStatus(this)">S9</div></td>
 </tr>
 <tr>
   <td class="cap">16. Geodetecție + Card Fidelitate + Smartwatch</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:70%; width:10%;">S9-S10</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c16" style="left:70%; width:10%;" onclick="cycleStatus(this)">S9-S10</div></td>
 </tr>
 <tr>
   <td class="cap">  16a. Geofencing (perimetre magazine)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:70%; width:3%;">S9</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c16a" style="left:70%; width:3%;" onclick="cycleStatus(this)">S9</div></td>
 </tr>
 <tr>
   <td class="cap">  16b. Card fidelitate pe telefon (barcode/QR)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:72%; width:3%;">S9-S10</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c16b" style="left:72%; width:3%;" onclick="cycleStatus(this)">S9-S10</div></td>
 </tr>
 <tr>
   <td class="cap">  16c. Card fidelitate pe smartwatch (vibrare + display)</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:74%; width:3%;">S10</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c16c" style="left:74%; width:3%;" onclick="cycleStatus(this)">S10</div></td>
 </tr>
 <tr>
   <td class="cap">  16d. Push simultan telefon + ceas</td>
-  <td class="bar-cell" colspan="10"><div class="bar future" style="left:76%; width:3%;">S10</div></td>
+  <td class="bar-cell" colspan="10"><div class="bar future" data-id="c16d" style="left:76%; width:3%;" onclick="cycleStatus(this)">S10</div></td>
 </tr>
 
 </table>
@@ -403,19 +427,149 @@ td.cap { color: #b0bdd1; white-space: nowrap; }
   👤 Andrei — decizii, testare pe telefon, feedback, direcție<br><br>
   <strong style="color:#64ffda;">Target:</strong> App pan-european — descărcabil din orice țară UE (IT, RO, FR, ES, SI...)<br>
   <strong style="color:#64ffda;">Auth:</strong> Email+parolă + Sign in with Google (OAuth 2.0)<br>
-  <strong style="color:#64ffda;">Legal:</strong> GDPR pan-EU (o singură conformitate, nu 27) — privacy policy IT/RO/EN, Cloudflare EU-only, SCC<br>
+  <strong style="color:#64ffda;">Legal:</strong> GDPR pan-EU — privacy policy IT/RO/EN, Cloudflare EU-only, SCC<br>
   <strong style="color:#64ffda;">Durată estimată:</strong> 10 săptămâni (Aug — Oct 2026)<br>
   <strong style="color:#64ffda;">Cost:</strong> ~0€ (Cloudflare plan gratuit)
 </div>
 </div>
 
+<div class="toast" id="toast"></div>
+
 <script>
+// === Gantt funcțional — progres persisten în localStorage ===
+const STORAGE_KEY = 'smartlola-gantt-status';
+const STATUS_CYCLE = ['future', 'planned', 'active', 'done'];
+const STATUS_LABELS = { future: 'Viitor', planned: 'Planificat', active: 'În progres', done: 'Gata' };
+const STATUS_CLASSES = { future: 'future', planned: 'planned', active: 'active', done: 'done' };
+
+// Load saved statuses
+function loadStatuses() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
+  catch { return {}; }
+}
+
+// Save statuses
+function saveStatuses(statuses) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(statuses));
+  localStorage.setItem(STORAGE_KEY + '-updated', new Date().toISOString());
+}
+
+// Apply saved statuses to bars
+function applyStatuses() {
+  const statuses = loadStatuses();
+  document.querySelectorAll('.bar[data-id]').forEach(bar => {
+    const id = bar.dataset.id;
+    if (statuses[id]) {
+      // Remove existing status classes
+      bar.classList.remove('done', 'active', 'planned', 'future');
+      bar.classList.add(STATUS_CLASSES[statuses[id]]);
+    }
+  });
+  updateProgress();
+  updateTimestamp();
+}
+
+// Cycle status on click: future → planned → active → done → future
+function cycleStatus(bar) {
+  const id = bar.dataset.id;
+  if (!id) return;
+  const statuses = loadStatuses();
+  const current = statuses[id] || getCurrentStatusFromBar(bar);
+  const currentIdx = STATUS_CYCLE.indexOf(current);
+  const next = STATUS_CYCLE[(currentIdx + 1) % STATUS_CYCLE.length];
+  statuses[id] = next;
+  saveStatuses(statuses);
+  bar.classList.remove('done', 'active', 'planned', 'future');
+  bar.classList.add(STATUS_CLASSES[next]);
+  updateProgress();
+  updateTimestamp();
+  showToast(`${id}: ${STATUS_LABELS[next]}`);
+}
+
+// Get current status from CSS class
+function getCurrentStatusFromBar(bar) {
+  if (bar.classList.contains('done')) return 'done';
+  if (bar.classList.contains('active')) return 'active';
+  if (bar.classList.contains('planned')) return 'planned';
+  return 'future';
+}
+
+// Calculate SaaS progress (only c1xx-c16xx)
+function updateProgress() {
+  const bars = document.querySelectorAll('#saas .bar[data-id]');
+  if (!bars.length) return;
+  let total = 0, doneCount = 0, activeCount = 0;
+  bars.forEach(bar => {
+    const id = bar.dataset.id;
+    // Only count sub-chapters (have a letter suffix like c1a, c2b)
+    if (!/^c\d+[a-d]$/.test(id)) return;
+    total++;
+    const status = loadStatuses()[id] || getCurrentStatusFromBar(bar);
+    if (status === 'done') doneCount++;
+    else if (status === 'active') activeCount += 0.5; // half credit for in-progress
+  });
+  const pct = total > 0 ? Math.round(((doneCount + activeCount) / total) * 100) : 0;
+  const fill = document.getElementById('saasProgress');
+  const pctEl = document.getElementById('saasProgressPct');
+  if (fill) fill.style.width = pct + '%';
+  if (pctEl) pctEl.textContent = pct + '%';
+}
+
+// Update timestamp
+function updateTimestamp() {
+  const saved = localStorage.getItem(STORAGE_KEY + '-updated');
+  const el = document.getElementById('lastUpdate');
+  if (saved && el) {
+    const d = new Date(saved);
+    el.textContent = 'Ultima actualizare: ' + d.toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' }) + ' ' + d.toLocaleTimeString('ro-RO', { hour: '2-digit', minute: '2-digit' });
+  } else {
+    const d = new Date();
+    el.textContent = 'Ultima actualizare: ' + d.toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+}
+
+// Reset all progress
+function resetProgress() {
+  if (confirm('Sigur vrei să resetezi tot progresul?')) {
+    localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(STORAGE_KEY + '-updated');
+    location.reload();
+  }
+}
+
+// Export JSON
+function exportData() {
+  const statuses = loadStatuses();
+  const data = { updated: localStorage.getItem(STORAGE_KEY + '-updated'), statuses };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'gantt-status.json';
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('Export descărcat');
+}
+
+// Toast
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+// Tab switching
 function showTab(tab) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.gantt').forEach(g => g.style.display = 'none');
   document.getElementById(tab).style.display = 'block';
-  event.target.classList.add('active');
+  if (event && event.target) event.target.classList.add('active');
+  updateProgress();
 }
+
+// Init on load
+applyStatuses();
 </script>
 </body>
 </html>
