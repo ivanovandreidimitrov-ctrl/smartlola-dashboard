@@ -2,6 +2,15 @@
   "expenses": [
     {
       "date": "2026-08-21",
+      "description": "POS OSPEDALE IVREA DEA IVREA (spital)",
+      "amount": 36.15,
+      "category": "sanatate",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Ospedale Ivrea"
+    },
+    {
+      "date": "2026-08-21",
       "description": "CIPOLLOTTI GR.200",
       "amount": 1.29,
       "category": "alimente",
@@ -65,6 +74,42 @@
     },
     {
       "date": "2026-08-20",
+      "description": "DISPOSIZIONE RIF:226095832 BEN. Andrei Elena Intesa giroconto (transfer Elena)",
+      "amount": 998.0,
+      "category": "transfer",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Intesa (giroconto)"
+    },
+    {
+      "date": "2026-08-20",
+      "description": "POS PAYPAL *GOOGLE GOOGLE Dublin",
+      "amount": 1.99,
+      "category": "servicii",
+      "split": "shared",
+      "source": "andrei",
+      "store": "PayPal Google"
+    },
+    {
+      "date": "2026-08-20",
+      "description": "POS Amazon.it LUXEMBOURG",
+      "amount": 70.84,
+      "category": "divertisment",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Amazon.it"
+    },
+    {
+      "date": "2026-08-20",
+      "description": "POS Amazon.it LUXEMBOURG",
+      "amount": 26.0,
+      "category": "divertisment",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Amazon.it"
+    },
+    {
+      "date": "2026-08-20",
       "description": "RICAMBI/ACCESSORI AUTO",
       "amount": 50.0,
       "category": "auto",
@@ -80,6 +125,96 @@
       "split": "shared",
       "source": "andrei",
       "store": "DOMUS EDILIZIA S.R.L. Montalto Dora"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "POS UNICOOP TIRRENO S.C.",
+      "amount": 3.8,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Unicoop Tirreno"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "POS ESSELUNGA CARRARA TU",
+      "amount": 12.48,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Esselunga Carrara"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "POS 12CDT-CDT TRATTA A (tren)",
+      "amount": 14.1,
+      "category": "transport",
+      "split": "shared",
+      "source": "andrei",
+      "store": "12CDT-CDT Tratta A"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "POS IN'S MERCATO SPA CDC",
+      "amount": 19.38,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "IN'S MERCATO SPA"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "POS IVREA",
+      "amount": 19.2,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Ivrea (POS)"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "POS SILARIO NORD MYCHEF",
+      "amount": 4.4,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Silario Nord MyChef"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "POS SILARIO NORD MYCHEF",
+      "amount": 3.0,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Silario Nord MyChef"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "POS LAVAGNA COMMERC.",
+      "amount": 10.5,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lavagna Comm."
+    },
+    {
+      "date": "2026-08-19",
+      "description": "POS ASPIT SARZANA (autostrada)",
+      "amount": 7.5,
+      "category": "transport",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Aspit Sarzana"
+    },
+    {
+      "date": "2026-08-19",
+      "description": "POS ENI 34305 (carburant)",
+      "amount": 75.01,
+      "category": "auto",
+      "split": "shared",
+      "source": "andrei",
+      "store": "ENI 34305"
     },
     {
       "date": "2026-08-19",
@@ -161,6 +296,15 @@
       "split": "shared",
       "source": "andrei",
       "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "POS ASSOCIAZIONE DI PUBB",
+      "amount": 2.2,
+      "category": "divertisment",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Associazione di Pubb"
     },
     {
       "date": "2026-08-18",
@@ -317,6 +461,42 @@
     },
     {
       "date": "2026-08-17",
+      "description": "POS BLUESKY",
+      "amount": 6.0,
+      "category": "servicii",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Bluesky"
+    },
+    {
+      "date": "2026-08-17",
+      "description": "POS SUPERMERCATO MARGHER",
+      "amount": 30.69,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Supermercato Margher"
+    },
+    {
+      "date": "2026-08-17",
+      "description": "POS ASSOCIAZIONE DI PUBB",
+      "amount": 2.5,
+      "category": "divertisment",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Associazione di Pubb"
+    },
+    {
+      "date": "2026-08-17",
+      "description": "POS ASSOCIAZIONE DI PUBB",
+      "amount": 3.7,
+      "category": "divertisment",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Associazione di Pubb"
+    },
+    {
+      "date": "2026-08-17",
       "description": "AMACA IN COTONE 200X100CM 22,00%",
       "amount": 10.43,
       "category": "alimente",
@@ -350,6 +530,105 @@
       "split": "shared",
       "source": "andrei",
       "store": "Bricofer"
+    },
+    {
+      "date": "2026-08-14",
+      "description": "POS PAYPAL VERY MOBILE (ricarica telefon)",
+      "amount": 1.99,
+      "category": "servicii",
+      "split": "shared",
+      "source": "andrei",
+      "store": "PayPal Very Mobile"
+    },
+    {
+      "date": "2026-08-14",
+      "description": "POS SAT GENOVA OVEST (autostrada)",
+      "amount": 28.0,
+      "category": "transport",
+      "split": "shared",
+      "source": "andrei",
+      "store": "SAT Genova Ovest"
+    },
+    {
+      "date": "2026-08-14",
+      "description": "POS NUOVA SIDAP SRL 9177",
+      "amount": 3.9,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Nuova Sidap SRL"
+    },
+    {
+      "date": "2026-08-14",
+      "description": "POS GENOVA FOOD KIOSK",
+      "amount": 1.7,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Genova Food Kiosk"
+    },
+    {
+      "date": "2026-08-14",
+      "description": "POS GENOVA FOOD CO WORKE",
+      "amount": 1.8,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Genova Food Co Worke"
+    },
+    {
+      "date": "2026-08-14",
+      "description": "POS GENOVA FOOD KIOSK",
+      "amount": 12.25,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Genova Food Kiosk"
+    },
+    {
+      "date": "2026-08-14",
+      "description": "POS ASPIT SANTHIA (autostrada)",
+      "amount": 12.9,
+      "category": "transport",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Aspit Santhia"
+    },
+    {
+      "date": "2026-08-14",
+      "description": "POS CARREFOUR 0752",
+      "amount": 3.78,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Carrefour 0752"
+    },
+    {
+      "date": "2026-08-14",
+      "description": "POS TECHSHOP",
+      "amount": 15.0,
+      "category": "divertisment",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Techshop"
+    },
+    {
+      "date": "2026-08-14",
+      "description": "POS TECHSHOP",
+      "amount": 20.0,
+      "category": "divertisment",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Techshop"
+    },
+    {
+      "date": "2026-08-14",
+      "description": "POS DISTRIBUTORE CONAD",
+      "amount": 63.62,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Distributore Conad"
     },
     {
       "date": "2026-08-14",
@@ -389,6 +668,15 @@
     },
     {
       "date": "2026-08-12",
+      "description": "POS BAR FANTE DI CUORI D",
+      "amount": 2.0,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Bar Fante di Cuori"
+    },
+    {
+      "date": "2026-08-12",
       "description": "Tigros Ivrea - peperoni ros, shopper bio x3, passata Cirio, passata Rodolfi, latte fresco, passata Mutt, pere Carmen, noci sgusciate, pomodoro ram, zucchine, cetrioli, oral-b filo, mix orientale, rucola, sconti vari",
       "amount": 27.39,
       "category": "alimente",
@@ -404,6 +692,15 @@
       "split": "shared",
       "source": "andrei",
       "store": "Lidl"
+    },
+    {
+      "date": "2026-08-11",
+      "description": "POS D+",
+      "amount": 1.99,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "D+"
     },
     {
       "date": "2026-08-11",
@@ -449,6 +746,15 @@
       "split": "shared",
       "source": "andrei",
       "store": "Penny Market Borgofranco"
+    },
+    {
+      "date": "2026-08-10",
+      "description": "POS D+",
+      "amount": 4.59,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "D+"
     },
     {
       "date": "2026-08-10",
@@ -596,6 +902,15 @@
     },
     {
       "date": "2026-08-06",
+      "description": "PRELIEVO E/C 500 EUR (retragere ATM)",
+      "amount": 500.0,
+      "category": "numerar",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Banca Sella SPA"
+    },
+    {
+      "date": "2026-08-06",
       "description": "Importo personali",
       "amount": 1.8,
       "category": "alimente",
@@ -668,6 +983,60 @@
     },
     {
       "date": "2026-08-03",
+      "description": "POS LIDL 565",
+      "amount": 4.22,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl 565"
+    },
+    {
+      "date": "2026-08-03",
+      "description": "POS GASOLINE CAFE DI GI",
+      "amount": 2.6,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Gasoline Cafe"
+    },
+    {
+      "date": "2026-08-03",
+      "description": "POS CONAD CITY",
+      "amount": 5.64,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Conad City"
+    },
+    {
+      "date": "2026-08-03",
+      "description": "POS CONAD CITY",
+      "amount": 1.74,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Conad City"
+    },
+    {
+      "date": "2026-08-03",
+      "description": "POS CONAD CITY",
+      "amount": 9.27,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Conad City"
+    },
+    {
+      "date": "2026-08-03",
+      "description": "POS TIGROS SPA",
+      "amount": 30.68,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros SPA"
+    },
+    {
+      "date": "2026-08-03",
       "description": "Bee Karin - POS",
       "amount": 3.0,
       "category": "alimente",
@@ -737,6 +1106,15 @@
       "split": "shared",
       "source": "andrei",
       "store": "Maxi Di Samone"
+    },
+    {
+      "date": "2026-08-01",
+      "description": "ADDEBITO CANONE CONTO CORRENTE",
+      "amount": 2.0,
+      "category": "servicii",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Mediobanca Premier"
     },
     {
       "date": "2026-08-01",
@@ -3016,16 +3394,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 264,
-    "expenses_total": 12970.99,
+    "expenses": 306,
+    "expenses_total": 15048.1,
     "ore_lucrate": 53,
     "ore_total": 486.0,
     "pending": 0,
     "speza_offers": 280
   },
   "db": {
-    "expenses": 264,
-    "expenses_total": 12970.99,
+    "expenses": 306,
+    "expenses_total": 15048.1,
     "ore_lucrate": 53,
     "ore_total": 486.0,
     "pending": 0,
@@ -3048,7 +3426,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-22T05:45:47.554173"
+    "last_activity": "2026-08-22T07:45:50.326059"
   },
   "backup": {
     "last_backup": "—",
@@ -3098,5 +3476,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-22T05:45:47.554207"
+  "lastUpdate": "2026-08-22T07:45:50.326094"
 }
