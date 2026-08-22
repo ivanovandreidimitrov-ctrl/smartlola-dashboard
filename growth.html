@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartLola — Growth</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0e1a; color: #e0e6ed; padding: 12px; }
+h1 { font-size: 1.4rem; margin-bottom: 4px; color: #64ffda; }
+.sub { font-size: 0.8rem; color: #6b7a90; margin-bottom: 16px; }
+.card { background: #111726; border: 1px solid #1a2030; border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+.card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.agent-emoji { font-size: 1.5rem; }
+.agent-name { font-size: 1.1rem; font-weight: 700; color: #82b1ff; }
+.agent-status { font-size: 0.75rem; padding: 2px 8px; border-radius: 8px; margin-left: auto; }
+.status-active { background: #1b3a2b; color: #4caf50; }
+.status-pending { background: #3a3520; color: #ff9800; }
+.status-inactive { background: #2a1a1a; color: #f44336; }
+.section { margin-bottom: 10px; }
+.section-title { font-size: 0.85rem; color: #64ffda; margin-bottom: 6px; font-weight: 600; }
+.item { font-size: 0.8rem; color: #b0bdd1; padding: 4px 0; border-bottom: 1px solid #1a2030; }
+.item:last-child { border-bottom: none; }
+.km-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+.km-col { background: #0a0e1a; border-radius: 8px; padding: 8px; }
+.km-col-title { font-size: 0.7rem; font-weight: 700; margin-bottom: 4px; }
+.km-good { color: #4caf50; }
+.km-partial { color: #ff9800; }
+.km-gap { color: #f44336; }
+.km-item { font-size: 0.7rem; color: #8b9bb5; padding: 2px 0; }
+.tag { display: inline-block; background: #1a2030; color: #82b1ff; font-size: 0.7rem; padding: 2px 8px; border-radius: 8px; margin: 2px; }
+.actions { margin-top: 12px; }
+.action { background: #111726; border-left: 3px solid #64ffda; padding: 8px 12px; margin-bottom: 8px; border-radius: 0 8px 8px 0; }
+.action-title { font-size: 0.85rem; font-weight: 600; color: #e0e6ed; }
+.action-meta { font-size: 0.7rem; color: #6b7a90; margin-top: 2px; }
+.priority-high { border-left-color: #f44336; }
+.priority-medium { border-left-color: #ff9800; }
+.priority-low { border-left-color: #64ffda; }
+.back-link { display: inline-block; margin-bottom: 12px; color: #82b1ff; text-decoration: none; font-size: 0.85rem; }
+@media (max-width: 600px) { .km-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<a href="index.html" class="back-link">← Dashboard</a>
+<h1>🧭 SmartLola — Growth</h1>
+<div class="sub">Cercetare, cunoaștere, învățare, perfecționare — actualizat 22 Aug 2026</div>
+
+<!-- LOLA -->
+<div class="card">
+  <div class="card-header">
+    <span class="agent-emoji">🧭</span>
+    <span class="agent-name">Lola</span>
+    <span class="agent-status status-active">Activ</span>
+  </div>
+  <div class="section">
+    <div class="section-title">🔬 Surse de informare</div>
+    <div class="item">docs.openclaw.ai — OpenClaw docs</div>
+    <div class="item">github.com/openclaw — Releases</div>
+    <div class="item">ollama.com/blog — Modele noi</div>
+    <div class="item">NotebookLM: SCIA, Claude Code, Multi-Agent</div>
+  </div>
+  <div class="section">
+    <div class="section-title">📚 Knowledge Map</div>
+    <div class="km-grid">
+      <div class="km-col">
+        <div class="km-col-title km-good">✅ Știu bine</div>
+        <div class="km-item">OpenClaw config/tools</div>
+        <div class="km-item">Guda DB</div>
+        <div class="km-item">Dashboard PWA</div>
+        <div class="km-item">NotebookLM</div>
+      </div>
+      <div class="km-col">
+        <div class="km-col-title km-partial">⚠️ Parțial</div>
+        <div class="km-item">SaaS design doc</div>
+        <div class="km-item">Claude Code</div>
+        <div class="km-item">Vision/OCR</div>
+      </div>
+      <div class="km-col">
+        <div class="km-col-title km-gap">❌ Goluri</div>
+        <div class="km-item">Cloudflare Workers/D1</div>
+        <div class="km-item">Stripe/payments</div>
+        <div class="km-item">Geolocation API</div>
+        <div class="km-item">PWA offline + sync</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- GUDA -->
+<div class="card">
+  <div class="card-header">
+    <span class="agent-emoji">💰</span>
+    <span class="agent-name">Guda</span>
+    <span class="agent-status status-active">Activ</span>
+  </div>
+  <div class="section">
+    <div class="section-title">🔬 Surse de informare</div>
+    <div class="item">agenziaentrante.gov.it — Fiscalitate IT</div>
+    <div class="item">fiscooggi.it — News fiscal</div>
+    <div class="item">ilsole24ore.com/tasse — Taxe</div>
+  </div>
+  <div class="section">
+    <div class="section-title">📚 Knowledge Map</div>
+    <div class="km-grid">
+      <div class="km-col">
+        <div class="km-col-title km-good">✅ Știu bine</div>
+        <div class="km-item">Înregistrare cheltuieli</div>
+        <div class="km-item">Guda DB (306 intrări)</div>
+        <div class="km-item">Rapoarte lunare</div>
+        <div class="km-item">Permisiuni Elena</div>
+      </div>
+      <div class="km-col">
+        <div class="km-col-title km-partial">⚠️ Parțial</div>
+        <div class="km-item">IMU/F24</div>
+        <div class="km-item">Deduceri básic</div>
+      </div>
+      <div class="km-col">
+        <div class="km-col-title km-gap">❌ Goluri</div>
+        <div class="km-item">Modello 730/2026</div>
+        <div class="km-item">Deduceri șantier</div>
+        <div class="km-item">Fiscalitate RO-IT</div>
+        <div class="km-item">Software contabil SaaS</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ATLAS -->
+<div class="card">
+  <div class="card-header">
+    <span class="agent-emoji">🏗</span>
+    <span class="agent-name">Atlas</span>
+    <span class="agent-status status-active">Activ</span>
+  </div>
+  <div class="section">
+    <div class="section-title">🔬 Surse de informare</div>
+    <div class="item">regione.piemonte.it/territorio — Edilizia</div>
+    <div class="item">comune.ivrea.to.it — Urbanistica</div>
+    <div class="item">sicurassicura.it — Siguranță șantier</div>
+  </div>
+  <div class="section">
+    <div class="section-title">📚 Knowledge Map</div>
+    <div class="km-grid">
+      <div class="km-col">
+        <div class="km-col-title km-good">✅ Știu bine</div>
+        <div class="km-item">Programme Cantieri</div>
+        <div class="km-item">Calcul ore</div>
+        <div class="km-item">Mezzi (4 vehicule)</div>
+        <div class="km-item">Echipă (7 persoane)</div>
+      </div>
+      <div class="km-col">
+        <div class="km-col-title km-partial">⚠️ Parțial</div>
+        <div class="km-item">SCIA Ivrea</div>
+        <div class="km-item">Consolidări</div>
+      </div>
+      <div class="km-col">
+        <div class="km-col-title km-gap">❌ Goluri</div>
+        <div class="km-item">Anti-sismic zone C</div>
+        <div class="km-item">Cofraje polistiren</div>
+        <div class="km-item">DPI detalii</div>
+        <div class="km-item">Materiali noi</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CODEX -->
+<div class="card">
+  <div class="card-header">
+    <span class="agent-emoji">💻</span>
+    <span class="agent-name">Codex</span>
+    <span class="agent-status status-active">Activ</span>
+  </div>
+  <div class="section">
+    <div class="section-title">🔬 Surse de informare</div>
+    <div class="item">developers.cloudflare.com — CF docs</div>
+    <div class="item">blog.cloudflare.com — CF blog</div>
+    <div class="item">developer.mozilla.org — MDN</div>
+  </div>
+  <div class="section">
+    <div class="section-title">📚 Knowledge Map</div>
+    <div class="km-grid">
+      <div class="km-col">
+        <div class="km-col-title km-good">✅ Știu bine</div>
+        <div class="km-item">GitHub (push/pull/commit)</div>
+        <div class="km-item">Dashboard PWA</div>
+        <div class="km-item">Python + Node.js</div>
+      </div>
+      <div class="km-col">
+        <div class="km-col-title km-partial">⚠️ Parțial</div>
+        <div class="km-item">Cloudflare Workers</div>
+        <div class="km-item">PWA offline SW</div>
+      </div>
+      <div class="km-col">
+        <div class="km-col-title km-gap">❌ Goluri</div>
+        <div class="km-item">Cloudflare D1/R2</div>
+        <div class="km-item">Stripe API</div>
+        <div class="km-item">Geolocation API</div>
+        <div class="km-item">OAuth 2.0</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROF -->
+<div class="card">
+  <div class="card-header">
+    <span class="agent-emoji">🎓</span>
+    <span class="agent-name">Prof</span>
+    <span class="agent-status status-pending">Pending</span>
+  </div>
+  <div class="section">
+    <div class="section-title">🔬 Surse de informare</div>
+    <div class="item">interno.gov.it — Ministero Interno</div>
+    <div class="item">prefettura.it/to — Prefettura Torino</div>
+    <div class="item">istat.it — Statistici</div>
+  </div>
+  <div class="section">
+    <div class="section-title">📚 Knowledge Map</div>
+    <div class="km-grid">
+      <div class="km-col">
+        <div class="km-col-title km-good">✅ Știu bine</div>
+        <div class="km-item">Birocrație IT general</div>
+        <div class="km-item">Documente básic</div>
+      </div>
+      <div class="km-col">
+        <div class="km-col-title km-partial">⚠️ Parțial</div>
+        <div class="km-item">Cetățenie jure sanguinis</div>
+        <div class="km-item">Residența</div>
+      </div>
+      <div class="km-col">
+        <div class="km-col-title km-gap">❌ Goluri</div>
+        <div class="km-item">Modello 730</div>
+        <div class="km-item">Recunoaștere diplome</div>
+        <div class="km-item">Procedure cittadinanza</div>
+        <div class="km-item">Drepturi contractuale</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- AGENTI VIITORI -->
+<div class="card">
+  <div class="card-header">
+    <span class="agent-emoji">🆕</span>
+    <span class="agent-name">Agenți viitori</span>
+    <span class="agent-status status-inactive">Neactivi</span>
+  </div>
+  <div class="section">
+    <div class="section-title">În așteptare — definiție + activare</div>
+    <div class="item">🛒 <strong>Speza</strong> — oferte, prețuri, magazine (are dashboard live)</div>
+    <div class="item">📷 <strong>Vision Agent</strong> — prelucrare imagine, OCR volantini</div>
+    <div class="item">💼 <strong>Sales Agent</strong> — promovare cofraje polistiren</div>
+    <div class="item">📈 <strong>Agent Venituri</strong> — investiții, venit pasiv (prioritate HIGH)</div>
+    <div class="item">👥 <strong>Echo</strong> — social, activități</div>
+    <div class="item">📚 <strong>Knowledge Manager</strong> — NotebookLM</div>
+  </div>
+</div>
+
+<!-- ACȚIUNI PENDING -->
+<div class="card">
+  <div class="card-header">
+    <span class="agent-emoji">📌</span>
+    <span class="agent-name">Acțiuni pending</span>
+  </div>
+  <div class="actions">
+    <div class="action priority-high">
+      <div class="action-title">📈 Agent Venituri — venit pasic → renunțare munca fizică</div>
+      <div class="action-meta">Prioritate: HIGH | Reminder: 25 Aug | Status: pending</div>
+    </div>
+    <div class="action priority-medium">
+      <div class="action-title">📦 Inițializare .growth/ pentru toți agenții</div>
+      <div class="action-meta">Prioritate: MEDIUM | Deadline: 24 Aug | Status: în curs</div>
+    </div>
+    <div class="action priority-medium">
+      <div class="action-title">🚀 Activare Prof + Speza în OpenClaw</div>
+      <div class="action-meta">Prioritate: MEDIUM | Deadline: 26 Aug | Status: pending</div>
+    </div>
+    <div class="action priority-high">
+      <div class="action-title">👻 Fantome → agenți reali (nu curățare, activare)</div>
+      <div class="action-meta">Prioritate: HIGH | Deadline: 30 Aug / 15 Sep | Status: pending</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
