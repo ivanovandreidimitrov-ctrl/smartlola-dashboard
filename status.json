@@ -1,6 +1,69 @@
 {
   "expenses": [
     {
+      "date": "2026-08-21",
+      "description": "CIPOLLOTTI GR.200",
+      "amount": 1.29,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-21",
+      "description": "COTOLETTE DI SUINO",
+      "amount": 7.1,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-21",
+      "description": "SHOPPER BIO OF 60PER",
+      "amount": 0.01,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-21",
+      "description": "MELANZANE LUNGHE",
+      "amount": 1.43,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-21",
+      "description": "SHOPPER BIO OF 60PER",
+      "amount": 0.01,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-21",
+      "description": "FINOCCHI",
+      "amount": 2.27,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
+      "date": "2026-08-21",
+      "description": "TIGROS LATTE FRES.IN",
+      "amount": 1.09,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
       "date": "2026-08-20",
       "description": "RICAMBI/ACCESSORI AUTO",
       "amount": 50.0,
@@ -2329,15 +2392,15 @@
     },
     {
       "date": "2026-08-20",
-      "santier": "Cossato Ritorcitura Buzio",
+      "santier": "Biella - Cond Miramonti",
       "ora_start": "06:30",
       "ora_end": "17:00",
       "ore_efective": 9.5,
-      "mezzo": "Fisso - 613",
+      "mezzo": null,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
       "ore_extra": 1.5,
-      "colegi": "Leonardo, Marcello"
+      "colegi": null
     },
     {
       "date": "2026-08-19",
@@ -2953,16 +3016,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 257,
-    "expenses_total": 12957.79,
+    "expenses": 264,
+    "expenses_total": 12970.99,
     "ore_lucrate": 53,
     "ore_total": 486.0,
     "pending": 0,
     "speza_offers": 280
   },
   "db": {
-    "expenses": 257,
-    "expenses_total": 12957.79,
+    "expenses": 264,
+    "expenses_total": 12970.99,
     "ore_lucrate": 53,
     "ore_total": 486.0,
     "pending": 0,
@@ -2985,7 +3048,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-21T06:20:43.215880"
+    "last_activity": "2026-08-22T05:45:47.554173"
   },
   "backup": {
     "last_backup": "—",
@@ -3035,5 +3098,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-21T06:20:43.215919"
+  "lastUpdate": "2026-08-22T05:45:47.554207"
 }
