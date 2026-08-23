@@ -1,6 +1,87 @@
 {
   "expenses": [
     {
+      "date": "2026-08-22",
+      "description": "Shopper biodegrad. 3pz",
+      "amount": 0.3,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-22",
+      "description": "Melone retato 1.382kg x1.59 (sconto Lidl Plus -0.56)",
+      "amount": 1.64,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-22",
+      "description": "Pesche noci XXL",
+      "amount": 1.99,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-22",
+      "description": "Melanzane 1.598kg x1.69",
+      "amount": 2.7,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-22",
+      "description": "Ananas 2.836kg x1.19 (sconto Lidl Plus -0.56)",
+      "amount": 2.81,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-22",
+      "description": "Melanzane 2.462kg x1.69",
+      "amount": 4.16,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-22",
+      "description": "Pagnottina",
+      "amount": 0.99,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-22",
+      "description": "Kefir XXL 3pz",
+      "amount": 2.97,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-22",
+      "description": "Merluzzetti atlantici 2pz",
+      "amount": 5.3,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
       "date": "2026-08-21",
       "description": "POS OSPEDALE IVREA DEA IVREA (spital)",
       "amount": 36.15,
@@ -3406,16 +3487,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 306,
-    "expenses_total": 15048.1,
+    "expenses": 315,
+    "expenses_total": 15070.96,
     "ore_lucrate": 54,
     "ore_total": 494.0,
     "pending": 0,
     "speza_offers": 280
   },
   "db": {
-    "expenses": 306,
-    "expenses_total": 15048.1,
+    "expenses": 315,
+    "expenses_total": 15070.96,
     "ore_lucrate": 54,
     "ore_total": 494.0,
     "pending": 0,
@@ -3438,7 +3519,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-22T22:17:37.085752"
+    "last_activity": "2026-08-23T10:45:46.731651"
   },
   "backup": {
     "last_backup": "—",
@@ -3488,5 +3569,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-22T22:17:37.085901"
+  "lastUpdate": "2026-08-23T10:45:46.731687"
 }
