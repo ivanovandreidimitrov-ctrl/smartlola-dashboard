@@ -3009,6 +3009,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-08-24",
+      "santier": "Biella",
+      "ora_start": "06:30",
+      "ora_end": "17:30",
+      "ore_efective": 11.0,
+      "mezzo": "auto",
+      "ore_normal": 8.0,
+      "ore_guida": 2.0,
+      "ore_extra": 1.0,
+      "colegi": "Leonardo"
+    },
+    {
       "date": "2026-08-22",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "07:00",
@@ -3660,16 +3672,16 @@
   "db_stats": {
     "expenses": 334,
     "expenses_total": 15118.38,
-    "ore_lucrate": 54,
-    "ore_total": 494.0,
+    "ore_lucrate": 55,
+    "ore_total": 505.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
     "expenses": 334,
     "expenses_total": 15118.38,
-    "ore_lucrate": 54,
-    "ore_total": 494.0,
+    "ore_lucrate": 55,
+    "ore_total": 505.0,
     "pending": 0,
     "speza_offers": 249
   },
@@ -3690,7 +3702,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-24T20:55:40.963923"
+    "last_activity": "2026-08-24T21:24:15.228314"
   },
   "backup": {
     "last_backup": "—",
@@ -3740,5 +3752,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-24T20:55:40.963975"
+  "lastUpdate": "2026-08-24T21:24:15.228355"
 }
