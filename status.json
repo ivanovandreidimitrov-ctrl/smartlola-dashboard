@@ -2,6 +2,150 @@
   "expenses": [
     {
       "date": "2026-08-24",
+      "description": "Sconto Lidl Plus (feta + uva)",
+      "amount": -1.56,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Banane 1.182kg",
+      "amount": 1.16,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Carote XXL 1250g",
+      "amount": 1.19,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Sacch. ortofr. biograd x2",
+      "amount": 0.02,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Uva red globe 1.208kg",
+      "amount": 3.61,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Sacchetti congel. 3L",
+      "amount": 1.29,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Mirtilli rossi essic.",
+      "amount": 1.89,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Preparato per paella",
+      "amount": 2.15,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Pane pita x4",
+      "amount": 2.76,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Pate funghi melavza",
+      "amount": 1.59,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Gorgonzola piccante",
+      "amount": 2.49,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Mozzarella multipack",
+      "amount": 5.49,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Feta greca DOP",
+      "amount": 2.39,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Noci sgusciate XXL x2",
+      "amount": 9.98,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Acqua min. effervesc. x12",
+      "amount": 3.24,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Shopper biodegradabile x2",
+      "amount": 0.2,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-24",
       "description": "Patate spicchi, involtini pollo, kefir bianco 480g, rusticone olio EVO",
       "amount": 7.3,
       "category": "alimente",
@@ -3514,16 +3658,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 318,
-    "expenses_total": 15080.49,
+    "expenses": 334,
+    "expenses_total": 15118.38,
     "ore_lucrate": 54,
     "ore_total": 494.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 318,
-    "expenses_total": 15080.49,
+    "expenses": 334,
+    "expenses_total": 15118.38,
     "ore_lucrate": 54,
     "ore_total": 494.0,
     "pending": 0,
@@ -3546,7 +3690,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-24T15:45:47.634451"
+    "last_activity": "2026-08-24T20:55:40.963923"
   },
   "backup": {
     "last_backup": "—",
@@ -3596,5 +3740,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-24T15:45:47.634502"
+  "lastUpdate": "2026-08-24T20:55:40.963975"
 }
