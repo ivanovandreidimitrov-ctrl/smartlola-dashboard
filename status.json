@@ -1,6 +1,24 @@
 {
   "expenses": [
     {
+      "date": "2026-08-24",
+      "description": "Ciambella 55g x2",
+      "amount": 0.98,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Penny Market Biella"
+    },
+    {
+      "date": "2026-08-24",
+      "description": "Latte int. fresco val",
+      "amount": 1.25,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Penny Market Biella"
+    },
+    {
       "date": "2026-08-22",
       "description": "Shopper biodegrad. 3pz",
       "amount": 0.3,
@@ -3487,16 +3505,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 315,
-    "expenses_total": 15070.96,
+    "expenses": 317,
+    "expenses_total": 15073.19,
     "ore_lucrate": 54,
     "ore_total": 494.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 315,
-    "expenses_total": 15070.96,
+    "expenses": 317,
+    "expenses_total": 15073.19,
     "ore_lucrate": 54,
     "ore_total": 494.0,
     "pending": 0,
@@ -3519,7 +3537,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-24T08:01:42.206872"
+    "last_activity": "2026-08-24T11:00:19.357028"
   },
   "backup": {
     "last_backup": "—",
@@ -3569,5 +3587,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-24T08:01:42.206907"
+  "lastUpdate": "2026-08-24T11:00:19.357085"
 }
