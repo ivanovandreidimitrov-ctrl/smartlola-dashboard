@@ -2,6 +2,15 @@
   "expenses": [
     {
       "date": "2026-08-24",
+      "description": "Patate spicchi, involtini pollo, kefir bianco 480g, rusticone olio EVO",
+      "amount": 7.3,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Penny Market Biella"
+    },
+    {
+      "date": "2026-08-24",
       "description": "Ciambella 55g x2",
       "amount": 0.98,
       "category": "alimente",
@@ -3505,16 +3514,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 317,
-    "expenses_total": 15073.19,
+    "expenses": 318,
+    "expenses_total": 15080.49,
     "ore_lucrate": 54,
     "ore_total": 494.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 317,
-    "expenses_total": 15073.19,
+    "expenses": 318,
+    "expenses_total": 15080.49,
     "ore_lucrate": 54,
     "ore_total": 494.0,
     "pending": 0,
@@ -3537,7 +3546,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-24T11:00:19.357028"
+    "last_activity": "2026-08-24T15:45:47.634451"
   },
   "backup": {
     "last_backup": "—",
@@ -3587,5 +3596,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-24T11:00:19.357085"
+  "lastUpdate": "2026-08-24T15:45:47.634502"
 }
