@@ -10,6 +10,15 @@
       "store": null
     },
     {
+      "date": "2026-08-26",
+      "description": "Tigros Ivrea — pane a fette ai cereali, latte fres.in",
+      "amount": 3.08,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual",
+      "store": null
+    },
+    {
       "date": "2026-08-25",
       "description": "Tigros Ivrea - bifteck, pomodoro, prosciutto cotto, salsiccia, peperoni, cetrioli, insalata, uova, mele gala, shopper bio",
       "amount": 58.32,
@@ -3688,16 +3697,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 336,
-    "expenses_total": 15179.78,
+    "expenses": 337,
+    "expenses_total": 15182.86,
     "ore_lucrate": 55,
     "ore_total": 505.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 336,
-    "expenses_total": 15179.78,
+    "expenses": 337,
+    "expenses_total": 15182.86,
     "ore_lucrate": 55,
     "ore_total": 505.0,
     "pending": 0,
@@ -3720,7 +3729,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-26T19:05:37.627194"
+    "last_activity": "2026-08-26T19:05:56.105101"
   },
   "backup": {
     "last_backup": "—",
@@ -3770,5 +3779,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-26T19:05:37.627229"
+  "lastUpdate": "2026-08-26T19:05:56.105139"
 }
