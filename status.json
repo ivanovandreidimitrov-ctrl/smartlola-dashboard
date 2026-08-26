@@ -2,6 +2,15 @@
   "expenses": [
     {
       "date": "2026-08-26",
+      "description": "DdT #9531 — Domus Edilizia, SR Scorrevole PVC 100mm x2 + SR Ispezione Lineare PVC 100mm x2 (Baltea Group)",
+      "amount": 49.2,
+      "category": "muncă",
+      "split": "andrei-only",
+      "source": "manual",
+      "store": null
+    },
+    {
+      "date": "2026-08-26",
       "description": "Tigros Ivrea — pane a fette ai cereali, latte fres.in",
       "amount": 3.08,
       "category": "alimente",
@@ -3697,16 +3706,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 337,
-    "expenses_total": 15182.86,
+    "expenses": 338,
+    "expenses_total": 15232.06,
     "ore_lucrate": 55,
     "ore_total": 505.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 337,
-    "expenses_total": 15182.86,
+    "expenses": 338,
+    "expenses_total": 15232.06,
     "ore_lucrate": 55,
     "ore_total": 505.0,
     "pending": 0,
@@ -3729,7 +3738,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-26T19:05:56.105101"
+    "last_activity": "2026-08-26T19:57:36.520295"
   },
   "backup": {
     "last_backup": "—",
@@ -3779,5 +3788,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-26T19:05:56.105139"
+  "lastUpdate": "2026-08-26T19:57:36.520351"
 }
