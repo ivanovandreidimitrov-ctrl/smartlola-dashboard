@@ -3045,6 +3045,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-08-26",
+      "santier": "Valtournenche",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": "Renault 529",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Tahiru"
+    },
+    {
       "date": "2026-08-24",
       "santier": "Biella",
       "ora_start": "06:30",
@@ -3708,16 +3720,16 @@
   "db_stats": {
     "expenses": 338,
     "expenses_total": 15232.06,
-    "ore_lucrate": 55,
-    "ore_total": 505.0,
+    "ore_lucrate": 56,
+    "ore_total": 515.5,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
     "expenses": 338,
     "expenses_total": 15232.06,
-    "ore_lucrate": 55,
-    "ore_total": 505.0,
+    "ore_lucrate": 56,
+    "ore_total": 515.5,
     "pending": 0,
     "speza_offers": 249
   },
@@ -3738,7 +3750,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-26T19:57:36.520295"
+    "last_activity": "2026-08-26T20:00:33.129614"
   },
   "backup": {
     "last_backup": "—",
@@ -3788,5 +3800,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-26T19:57:36.520351"
+  "lastUpdate": "2026-08-26T20:00:33.129651"
 }
