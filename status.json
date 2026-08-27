@@ -19,29 +19,11 @@
       "store": null
     },
     {
-      "date": "2026-08-27",
-      "description": "CONAD 27/08: latte, pizza/focaccia, nettare, salam mil",
-      "amount": 6.67,
-      "category": "alimente",
-      "split": "shared",
-      "source": "manual",
-      "store": null
-    },
-    {
       "date": "2026-08-26",
       "description": "DdT #9531 — Domus Edilizia, SR Scorrevole PVC 100mm x2 + SR Ispezione Lineare PVC 100mm x2 (Baltea Group)",
       "amount": 49.2,
       "category": "muncă",
       "split": "andrei-only",
-      "source": "manual",
-      "store": null
-    },
-    {
-      "date": "2026-08-26",
-      "description": "Tigros Ivrea — pane a fette ai cereali, latte fres.in",
-      "amount": 3.08,
-      "category": "alimente",
-      "split": "shared",
       "source": "manual",
       "store": null
     },
@@ -337,15 +319,6 @@
       "date": "2026-08-21",
       "description": "COTOLETTE DI SUINO",
       "amount": 7.1,
-      "category": "alimente",
-      "split": "shared",
-      "source": "andrei",
-      "store": "Tigros Ivrea"
-    },
-    {
-      "date": "2026-08-21",
-      "description": "SHOPPER BIO OF 60PER",
-      "amount": 0.01,
       "category": "alimente",
       "split": "shared",
       "source": "andrei",
@@ -3072,6 +3045,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-08-27",
+      "santier": "Valtournenche",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 11.0,
+      "mezzo": null,
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
+    },
+    {
       "date": "2026-08-26",
       "santier": "Valtournenche",
       "ora_start": "07:00",
@@ -3082,6 +3067,18 @@
       "ore_guida": 0.0,
       "ore_extra": 0.0,
       "colegi": "Tahiru"
+    },
+    {
+      "date": "2026-08-26",
+      "santier": "Valtournenche",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 11.5,
+      "mezzo": null,
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-08-24",
@@ -3745,18 +3742,18 @@
     }
   ],
   "db_stats": {
-    "expenses": 341,
-    "expenses_total": 15250.61,
-    "ore_lucrate": 56,
-    "ore_total": 515.5,
+    "expenses": 338,
+    "expenses_total": 15240.85,
+    "ore_lucrate": 58,
+    "ore_total": 538.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 341,
-    "expenses_total": 15250.61,
-    "ore_lucrate": 56,
-    "ore_total": 515.5,
+    "expenses": 338,
+    "expenses_total": 15240.85,
+    "ore_lucrate": 58,
+    "ore_total": 538.0,
     "pending": 0,
     "speza_offers": 249
   },
@@ -3777,7 +3774,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-27T18:37:05.560748"
+    "last_activity": "2026-08-27T18:45:50.568609"
   },
   "backup": {
     "last_backup": "—",
@@ -3827,5 +3824,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-27T18:37:05.560784"
+  "lastUpdate": "2026-08-27T18:45:50.568645"
 }
