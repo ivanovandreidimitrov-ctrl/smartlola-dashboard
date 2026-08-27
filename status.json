@@ -1,6 +1,15 @@
 {
   "expenses": [
     {
+      "date": "2026-08-27",
+      "description": "CONAD 27/08: latte, pizza/focaccia, nettare, salam mil",
+      "amount": 6.67,
+      "category": "alimente",
+      "split": "shared",
+      "source": "manual",
+      "store": null
+    },
+    {
       "date": "2026-08-26",
       "description": "DdT #9531 — Domus Edilizia, SR Scorrevole PVC 100mm x2 + SR Ispezione Lineare PVC 100mm x2 (Baltea Group)",
       "amount": 49.2,
@@ -3718,16 +3727,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 338,
-    "expenses_total": 15232.06,
+    "expenses": 339,
+    "expenses_total": 15238.73,
     "ore_lucrate": 56,
     "ore_total": 515.5,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 338,
-    "expenses_total": 15232.06,
+    "expenses": 339,
+    "expenses_total": 15238.73,
     "ore_lucrate": 56,
     "ore_total": 515.5,
     "pending": 0,
@@ -3750,7 +3759,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-26T20:00:33.129614"
+    "last_activity": "2026-08-27T13:52:59.727603"
   },
   "backup": {
     "last_backup": "—",
@@ -3800,5 +3809,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-26T20:00:33.129651"
+  "lastUpdate": "2026-08-27T13:52:59.727638"
 }
