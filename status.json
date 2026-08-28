@@ -2,6 +2,15 @@
   "expenses": [
     {
       "date": "2026-08-28",
+      "description": "PANE PITA x4 @0.69",
+      "amount": 2.76,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-08-28",
       "description": "ACQUA MIN.EFFERV. 1.62, PROSECCO SPUMANTE 3.99",
       "amount": 5.61,
       "category": "alimente",
@@ -3751,16 +3760,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 339,
-    "expenses_total": 15246.46,
+    "expenses": 340,
+    "expenses_total": 15249.22,
     "ore_lucrate": 58,
     "ore_total": 538.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 339,
-    "expenses_total": 15246.46,
+    "expenses": 340,
+    "expenses_total": 15249.22,
     "ore_lucrate": 58,
     "ore_total": 538.0,
     "pending": 0,
@@ -3783,7 +3792,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-28T20:00:39.228227"
+    "last_activity": "2026-08-28T20:15:59.275330"
   },
   "backup": {
     "last_backup": "—",
@@ -3833,5 +3842,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-28T20:00:39.228266"
+  "lastUpdate": "2026-08-28T20:15:59.275368"
 }
