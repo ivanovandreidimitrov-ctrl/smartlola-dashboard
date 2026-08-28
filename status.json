@@ -1,6 +1,15 @@
 {
   "expenses": [
     {
+      "date": "2026-08-28",
+      "description": "ACQUA MIN.EFFERV. 1.62, PROSECCO SPUMANTE 3.99",
+      "amount": 5.61,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
       "date": "2026-08-27",
       "description": "Lidl Ivrea 27/08: birra lager, acqua effervesc., prosciutto cotto",
       "amount": 5.21,
@@ -3742,16 +3751,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 338,
-    "expenses_total": 15240.85,
+    "expenses": 339,
+    "expenses_total": 15246.46,
     "ore_lucrate": 58,
     "ore_total": 538.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 338,
-    "expenses_total": 15240.85,
+    "expenses": 339,
+    "expenses_total": 15246.46,
     "ore_lucrate": 58,
     "ore_total": 538.0,
     "pending": 0,
@@ -3774,7 +3783,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-27T18:45:50.568609"
+    "last_activity": "2026-08-28T20:00:39.228227"
   },
   "backup": {
     "last_backup": "—",
@@ -3824,5 +3833,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-27T18:45:50.568645"
+  "lastUpdate": "2026-08-28T20:00:39.228266"
 }
