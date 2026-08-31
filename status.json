@@ -3063,6 +3063,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-08-31",
+      "santier": "Pre-Saint-Didier (Cond Les Ancolies)",
+      "ora_start": "06:30",
+      "ora_end": "17:30",
+      "ore_efective": 10.5,
+      "mezzo": null,
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
+    },
+    {
       "date": "2026-08-30",
       "santier": "D deposit / magazin",
       "ora_start": "07:00",
@@ -3786,16 +3798,16 @@
   "db_stats": {
     "expenses": 340,
     "expenses_total": 15249.22,
-    "ore_lucrate": 60,
-    "ore_total": 553.0,
+    "ore_lucrate": 61,
+    "ore_total": 563.5,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
     "expenses": 340,
     "expenses_total": 15249.22,
-    "ore_lucrate": 60,
-    "ore_total": 553.0,
+    "ore_lucrate": 61,
+    "ore_total": 563.5,
     "pending": 0,
     "speza_offers": 249
   },
@@ -3816,7 +3828,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-31T13:02:33.210756"
+    "last_activity": "2026-09-01T01:02:31.485807"
   },
   "backup": {
     "last_backup": "—",
@@ -3866,5 +3878,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-31T13:02:33.210793"
+  "lastUpdate": "2026-09-01T01:02:31.485842"
 }
