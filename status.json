@@ -3063,6 +3063,30 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-08-30",
+      "santier": "D deposit / magazin",
+      "ora_start": "07:00",
+      "ora_end": "12:00",
+      "ore_efective": 5.0,
+      "mezzo": null,
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
+    },
+    {
+      "date": "2026-08-29",
+      "santier": "Morgex / La Vache Rit",
+      "ora_start": "07:00",
+      "ora_end": "17:00",
+      "ore_efective": 10.0,
+      "mezzo": null,
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
+    },
+    {
       "date": "2026-08-27",
       "santier": "Valtournenche",
       "ora_start": "07:00",
@@ -3762,16 +3786,16 @@
   "db_stats": {
     "expenses": 340,
     "expenses_total": 15249.22,
-    "ore_lucrate": 58,
-    "ore_total": 538.0,
+    "ore_lucrate": 60,
+    "ore_total": 553.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
     "expenses": 340,
     "expenses_total": 15249.22,
-    "ore_lucrate": 58,
-    "ore_total": 538.0,
+    "ore_lucrate": 60,
+    "ore_total": 553.0,
     "pending": 0,
     "speza_offers": 249
   },
@@ -3792,7 +3816,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-08-28T20:15:59.275330"
+    "last_activity": "2026-08-31T13:02:33.210756"
   },
   "backup": {
     "last_backup": "—",
@@ -3842,5 +3866,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-08-28T20:15:59.275368"
+  "lastUpdate": "2026-08-31T13:02:33.210793"
 }
