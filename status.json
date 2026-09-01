@@ -605,6 +605,24 @@
     },
     {
       "date": "2026-08-18",
+      "description": "Caffe Espresso",
+      "amount": 7.1,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tabaccheria"
+    },
+    {
+      "date": "2026-08-18",
+      "description": "PAN SOFFIOUF EDAMER FETTE 150GP PROSC. COTTO GRANGUSTILATTE FRESCO AQU DIGINGER DI",
+      "amount": 7.76,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "UNES - VICINI DI SPESA"
+    },
+    {
+      "date": "2026-08-18",
       "description": "POS ASSOCIAZIONE DI PUBB",
       "amount": 2.2,
       "category": "divertisment",
@@ -3796,16 +3814,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 340,
-    "expenses_total": 15249.22,
+    "expenses": 342,
+    "expenses_total": 15264.08,
     "ore_lucrate": 61,
     "ore_total": 563.5,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 340,
-    "expenses_total": 15249.22,
+    "expenses": 342,
+    "expenses_total": 15264.08,
     "ore_lucrate": 61,
     "ore_total": 563.5,
     "pending": 0,
@@ -3828,7 +3846,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-01T01:02:31.485807"
+    "last_activity": "2026-09-01T07:05:53.745029"
   },
   "backup": {
     "last_backup": "—",
@@ -3878,5 +3896,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-01T01:02:31.485842"
+  "lastUpdate": "2026-09-01T07:05:53.745067"
 }
