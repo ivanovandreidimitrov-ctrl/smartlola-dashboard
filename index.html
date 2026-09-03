@@ -165,7 +165,13 @@
         <h3>🏗 Ore lucrate — <span id="atlas-view-label">Luna curentă</span></h3>
         <div class="view-toggle">
           <button class="atlas-view-btn active" data-view="current-month" onclick="setAtlasView('current-month')">📆 Luna curentă</button>
+          <button class="atlas-view-btn" data-view="prev-month" onclick="setAtlasView('prev-month')">🗓️ Luna trecută</button>
           <button class="atlas-view-btn" data-view="all" onclick="setAtlasView('all')">📊 Total</button>
+        </div>
+        <div id="atlas-month-selector" class="period-presets" style="display:none;margin-bottom:12px">
+          <select id="atlas-month-select" class="form-input" style="width:100%" onchange="setAtlasView('specific-month')">
+            <option value="">— Selectează luna —</option>
+          </select>
         </div>
         <div class="big-number" id="atlas-total-hours">0h</div>
         <div class="stat-sub" id="atlas-days">0 zile confirmate</div>

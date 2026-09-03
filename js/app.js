@@ -279,21 +279,66 @@ function getAtlasFilteredOre() {
   if (state.atlasView === 'current-month') {
     const thisMonth = new Date().toISOString().slice(0, 7);
     return state.ore_lucrate.filter(o => (o.date || '').startsWith(thisMonth));
+  } else if (state.atlasView === 'specific-month') {
+    const sel = document.getElementById('atlas-month-select');
+    const month = sel ? sel.value : '';
+    if (!month) return [];
+    return state.ore_lucrate.filter(o => (o.date || '').startsWith(month));
+  } else if (state.atlasView === 'prev-month') {
+    const now = new Date();
+    const prev = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+    const prevMonth = prev.toISOString().slice(0, 7);
+    return state.ore_lucrate.filter(o => (o.date || '').startsWith(prevMonth));
   }
   return state.ore_lucrate;
 }
 
 function getAtlasViewLabel() {
+  const monthNames = ['', 'Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Noi', 'Dec'];
   if (state.atlasView === 'current-month') {
     const now = new Date();
-    const months = ['', 'Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Noi', 'Dec'];
-    return months[now.getMonth() + 1] + ' ' + now.getFullYear();
+    return monthNames[now.getMonth() + 1] + ' ' + now.getFullYear();
+  } else if (state.atlasView === 'prev-month') {
+    const now = new Date();
+    const prev = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+    return monthNames[prev.getMonth() + 1] + ' ' + prev.getFullYear();
+  } else if (state.atlasView === 'specific-month') {
+    const sel = document.getElementById('atlas-month-select');
+    if (sel && sel.value) {
+      const [y, m] = sel.value.split('-');
+      return monthNames[parseInt(m)] + ' ' + y;
+    }
+    return 'Selectează luna';
   }
   return 'Total';
 }
 
 function setAtlasView(view) {
   state.atlasView = view;
+  // Show/hide month selector
+  const selEl = document.getElementById('atlas-month-selector');
+  if (selEl) {
+    selEl.style.display = (view === 'specific-month') ? 'block' : 'none';
+  }
+  // Populate dropdown if empty
+  if (view === 'specific-month') {
+    const sel = document.getElementById('atlas-month-select');
+    if (sel && sel.options.length <= 1) {
+      const months = {};
+      state.ore_lucrate.forEach(o => {
+        const m = (o.date || '').substring(0, 7);
+        if (m) months[m] = (months[m] || 0) + 1;
+      });
+      const monthNames = ['', 'Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Noi', 'Dec'];
+      Object.keys(months).sort().reverse().forEach(m => {
+        const [y, mo] = m.split('-');
+        const opt = document.createElement('option');
+        opt.value = m;
+        opt.textContent = monthNames[parseInt(mo)] + ' ' + y + ' (' + months[m] + ' intrări)';
+        sel.appendChild(opt);
+      });
+    }
+  }
   renderAtlas();
 }
 
