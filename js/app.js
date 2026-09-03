@@ -179,8 +179,9 @@ function getGudaFilteredExpenses() {
   } else if (state.gudaView === 'month') {
     return state.expenses.filter(e => (e.date || '').startsWith(thisMonth));
   } else if (state.gudaView === 'prev-month') {
-    const prev = new Date(now.getFullYear(), now.getMonth() - 1, 1);
-    const prevMonth = prev.toISOString().slice(0, 7);
+    const y = now.getMonth() === 0 ? now.getFullYear() - 1 : now.getFullYear();
+    const m = now.getMonth() === 0 ? 12 : now.getMonth();
+    const prevMonth = y + '-' + String(m).padStart(2, '0');
     return state.expenses.filter(e => (e.date || '').startsWith(prevMonth));
   } else if (state.gudaView === 'specific-month') {
     const sel = document.getElementById('guda-month-select');
@@ -203,8 +204,9 @@ function getGudaViewLabel() {
     return monthNames[now.getMonth() + 1] + ' ' + now.getFullYear();
   } else if (state.gudaView === 'prev-month') {
     const now = new Date();
-    const prev = new Date(now.getFullYear(), now.getMonth() - 1, 1);
-    return monthNames[prev.getMonth() + 1] + ' ' + prev.getFullYear();
+    const y = now.getMonth() === 0 ? now.getFullYear() - 1 : now.getFullYear();
+    const m = now.getMonth() === 0 ? 12 : now.getMonth();
+    return monthNames[m] + ' ' + y;
   } else if (state.gudaView === 'specific-month') {
     const sel = document.getElementById('guda-month-select');
     if (sel && sel.value) {
@@ -328,8 +330,9 @@ function getAtlasFilteredOre() {
     return state.ore_lucrate.filter(o => (o.date || '').startsWith(month));
   } else if (state.atlasView === 'prev-month') {
     const now = new Date();
-    const prev = new Date(now.getFullYear(), now.getMonth() - 1, 1);
-    const prevMonth = prev.toISOString().slice(0, 7);
+    const y = now.getMonth() === 0 ? now.getFullYear() - 1 : now.getFullYear();
+    const m = now.getMonth() === 0 ? 12 : now.getMonth();
+    const prevMonth = y + '-' + String(m).padStart(2, '0');
     return state.ore_lucrate.filter(o => (o.date || '').startsWith(prevMonth));
   }
   return state.ore_lucrate;
@@ -342,8 +345,9 @@ function getAtlasViewLabel() {
     return monthNames[now.getMonth() + 1] + ' ' + now.getFullYear();
   } else if (state.atlasView === 'prev-month') {
     const now = new Date();
-    const prev = new Date(now.getFullYear(), now.getMonth() - 1, 1);
-    return monthNames[prev.getMonth() + 1] + ' ' + prev.getFullYear();
+    const y = now.getMonth() === 0 ? now.getFullYear() - 1 : now.getFullYear();
+    const m = now.getMonth() === 0 ? 12 : now.getMonth();
+    return monthNames[m] + ' ' + y;
   } else if (state.atlasView === 'specific-month') {
     const sel = document.getElementById('atlas-month-select');
     if (sel && sel.value) {
