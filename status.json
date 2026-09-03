@@ -3099,6 +3099,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-09-02",
+      "santier": "Settimo Vittone - Castello",
+      "ora_start": "06:30",
+      "ora_end": "17:30",
+      "ore_efective": 10.5,
+      "mezzo": "Iveco",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Sergiu"
+    },
+    {
       "date": "2026-08-31",
       "santier": "Pre-Saint-Didier (Cond Les Ancolies)",
       "ora_start": "06:30",
@@ -3834,16 +3846,16 @@
   "db_stats": {
     "expenses": 344,
     "expenses_total": 15293.97,
-    "ore_lucrate": 61,
-    "ore_total": 563.5,
+    "ore_lucrate": 62,
+    "ore_total": 574.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
     "expenses": 344,
     "expenses_total": 15293.97,
-    "ore_lucrate": 61,
-    "ore_total": 563.5,
+    "ore_lucrate": 62,
+    "ore_total": 574.0,
     "pending": 0,
     "speza_offers": 249
   },
@@ -3864,7 +3876,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-03T19:08:51.109154"
+    "last_activity": "2026-09-03T21:42:25.551741"
   },
   "backup": {
     "last_backup": "—",
@@ -3914,5 +3926,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-03T19:08:51.109192"
+  "lastUpdate": "2026-09-03T21:42:25.551780"
 }
