@@ -1,6 +1,24 @@
 {
   "expenses": [
     {
+      "date": "2026-09-03",
+      "description": "Gustul de Acasa Ivrea — negro icre sarate (caviar 10%)",
+      "amount": 5.5,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Gustul de Acasa Ivrea"
+    },
+    {
+      "date": "2026-09-03",
+      "description": "Tigros Ivrea — carta igienica, uova, succo limone, fettine coppa, salsiccia, latte, melanzane, peperoni, misticanza, mix orientale, pomodoro, shopper bio x3",
+      "amount": 24.39,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros Ivrea"
+    },
+    {
       "date": "2026-08-28",
       "description": "PANE PITA x4 @0.69",
       "amount": 2.76,
@@ -3814,16 +3832,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 342,
-    "expenses_total": 15264.08,
+    "expenses": 344,
+    "expenses_total": 15293.97,
     "ore_lucrate": 61,
     "ore_total": 563.5,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 342,
-    "expenses_total": 15264.08,
+    "expenses": 344,
+    "expenses_total": 15293.97,
     "ore_lucrate": 61,
     "ore_total": 563.5,
     "pending": 0,
@@ -3846,7 +3864,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-01T07:05:53.745029"
+    "last_activity": "2026-09-03T19:08:51.109154"
   },
   "backup": {
     "last_backup": "—",
@@ -3896,5 +3914,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-01T07:05:53.745067"
+  "lastUpdate": "2026-09-03T19:08:51.109192"
 }
