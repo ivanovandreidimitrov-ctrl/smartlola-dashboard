@@ -178,20 +178,40 @@ function getGudaFilteredExpenses() {
     return state.expenses.filter(e => e.date === lastDate);
   } else if (state.gudaView === 'month') {
     return state.expenses.filter(e => (e.date || '').startsWith(thisMonth));
+  } else if (state.gudaView === 'prev-month') {
+    const prev = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+    const prevMonth = prev.toISOString().slice(0, 7);
+    return state.expenses.filter(e => (e.date || '').startsWith(prevMonth));
+  } else if (state.gudaView === 'specific-month') {
+    const sel = document.getElementById('guda-month-select');
+    const month = sel ? sel.value : '';
+    if (!month) return [];
+    return state.expenses.filter(e => (e.date || '').startsWith(month));
   } else {
     return state.expenses;
   }
 }
 
 function getGudaViewLabel() {
+  const monthNames = ['', 'Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Noi', 'Dec'];
   if (state.gudaView === 'today') {
     const dates = state.expenses.map(e => e.date).filter(Boolean).sort();
     if (dates.length === 0) return 'Nicio dată';
     return formatDate(dates[dates.length - 1]);
   } else if (state.gudaView === 'month') {
     const now = new Date();
-    const months = ['', 'Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Noi', 'Dec'];
-    return months[now.getMonth() + 1] + ' ' + now.getFullYear();
+    return monthNames[now.getMonth() + 1] + ' ' + now.getFullYear();
+  } else if (state.gudaView === 'prev-month') {
+    const now = new Date();
+    const prev = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+    return monthNames[prev.getMonth() + 1] + ' ' + prev.getFullYear();
+  } else if (state.gudaView === 'specific-month') {
+    const sel = document.getElementById('guda-month-select');
+    if (sel && sel.value) {
+      const [y, m] = sel.value.split('-');
+      return monthNames[parseInt(m)] + ' ' + y;
+    }
+    return 'Selectează luna';
   } else {
     return 'Total';
   }
@@ -199,6 +219,28 @@ function getGudaViewLabel() {
 
 function setGudaView(view) {
   state.gudaView = view;
+  const selEl = document.getElementById('guda-month-selector');
+  if (selEl) {
+    selEl.style.display = (view === 'specific-month') ? 'block' : 'none';
+  }
+  if (view === 'specific-month') {
+    const sel = document.getElementById('guda-month-select');
+    if (sel && sel.options.length <= 1) {
+      const months = {};
+      state.expenses.forEach(e => {
+        const m = (e.date || '').substring(0, 7);
+        if (m) months[m] = (months[m] || 0) + 1;
+      });
+      const monthNames = ['', 'Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Noi', 'Dec'];
+      Object.keys(months).sort().reverse().forEach(m => {
+        const [y, mo] = m.split('-');
+        const opt = document.createElement('option');
+        opt.value = m;
+        opt.textContent = monthNames[parseInt(mo)] + ' ' + y + ' (' + months[m] + ' intrări)';
+        sel.appendChild(opt);
+      });
+    }
+  }
   renderGuda();
 }
 

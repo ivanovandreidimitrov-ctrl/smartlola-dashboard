@@ -125,7 +125,13 @@
         <div class="view-toggle">
           <button class="guda-view-btn active" data-view="today" onclick="setGudaView('today')">📅 Ultima zi</button>
           <button class="guda-view-btn" data-view="month" onclick="setGudaView('month')">📆 Luna curentă</button>
+          <button class="guda-view-btn" data-view="prev-month" onclick="setGudaView('prev-month')">🗓️ Luna trecută</button>
           <button class="guda-view-btn" data-view="total" onclick="setGudaView('total')">📊 Total</button>
+        </div>
+        <div id="guda-month-selector" class="period-presets" style="display:none;margin-bottom:12px">
+          <select id="guda-month-select" class="form-input" style="width:100%" onchange="setGudaView('specific-month')">
+            <option value="">— Selectează luna —</option>
+          </select>
         </div>
         <div class="big-number" id="guda-total">€0.00</div>
         <div class="split-row">
