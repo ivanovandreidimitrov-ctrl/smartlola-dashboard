@@ -376,13 +376,18 @@ function setAtlasView(view) {
         if (m) months[m] = (months[m] || 0) + 1;
       });
       const monthNames = ['', 'Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Noi', 'Dec'];
-      Object.keys(months).sort().reverse().forEach(m => {
+      const sortedMonths = Object.keys(months).sort().reverse();
+      sortedMonths.forEach(m => {
         const [y, mo] = m.split('-');
         const opt = document.createElement('option');
         opt.value = m;
         opt.textContent = monthNames[parseInt(mo)] + ' ' + y + ' (' + months[m] + ' intrări)';
         sel.appendChild(opt);
       });
+      // Auto-selectează ultima lună cu date
+      if (sortedMonths.length > 0 && !sel.value) {
+        sel.value = sortedMonths[0];
+      }
     }
   }
   renderAtlas();
