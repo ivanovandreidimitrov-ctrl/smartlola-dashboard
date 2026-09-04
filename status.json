@@ -2,6 +2,24 @@
   "expenses": [
     {
       "date": "2026-09-04",
+      "description": "Pane pita + pesto basilico + pesche nettarine + shopper bio",
+      "amount": 5.13,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Lidl Ivrea"
+    },
+    {
+      "date": "2026-09-04",
+      "description": "Pop corn Carrefour + Cincișor metodo lento",
+      "amount": 1.88,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Carrefour Market Ivrea"
+    },
+    {
+      "date": "2026-09-04",
       "description": "Pizza/focaccia + pancetta affumicata",
       "amount": 5.24,
       "category": "alimente",
@@ -3889,16 +3907,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 345,
-    "expenses_total": 15299.21,
+    "expenses": 347,
+    "expenses_total": 15306.22,
     "ore_lucrate": 65,
     "ore_total": 603.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 345,
-    "expenses_total": 15299.21,
+    "expenses": 347,
+    "expenses_total": 15306.22,
     "ore_lucrate": 65,
     "ore_total": 603.0,
     "pending": 0,
@@ -3921,7 +3939,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-04T13:50:57.050342"
+    "last_activity": "2026-09-04T19:49:45.334902"
   },
   "backup": {
     "last_backup": "—",
@@ -3971,5 +3989,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-04T13:50:57.050380"
+  "lastUpdate": "2026-09-04T19:49:45.334958"
 }
