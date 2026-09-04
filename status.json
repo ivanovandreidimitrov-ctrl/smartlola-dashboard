@@ -5164,11 +5164,15 @@
   ],
   "ore_lucrate": [
     {
+<<<<<<< HEAD
       "id": 67,
+=======
+>>>>>>> 054d5ae (Auto-sync 04 Sep 07:48: ore_lucrate: 62 → 65, ore_total: 574.0 → 603.0)
       "date": "2026-09-04",
       "santier": "Settimo Vittone Castello",
       "ora_start": "06:30",
       "ora_end": "17:30",
+<<<<<<< HEAD
       "ore_efective": 10,
       "mezzo": "Iveco",
       "colegi": "Sergiu",
@@ -5183,12 +5187,23 @@
     },
     {
       "id": 66,
+=======
+      "ore_efective": 10.0,
+      "mezzo": "Iveco",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Sergiu"
+    },
+    {
+>>>>>>> 054d5ae (Auto-sync 04 Sep 07:48: ore_lucrate: 62 → 65, ore_total: 574.0 → 603.0)
       "date": "2026-09-03",
       "santier": "Settimo Vittone Castello",
       "ora_start": "07:00",
       "ora_end": "17:30",
       "ore_efective": 9.5,
       "mezzo": "Iveco",
+<<<<<<< HEAD
       "colegi": "Sergiu",
       "note": null,
       "sursa": "andrei",
@@ -5201,6 +5216,14 @@
     },
     {
       "id": 64,
+=======
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Sergiu"
+    },
+    {
+>>>>>>> 054d5ae (Auto-sync 04 Sep 07:48: ore_lucrate: 62 → 65, ore_total: 574.0 → 603.0)
       "date": "2026-09-02",
       "santier": "Settimo Vittone - Castello",
       "ora_start": "06:30",
@@ -5218,13 +5241,17 @@
       "ore_extra": 0
     },
     {
+<<<<<<< HEAD
       "id": 65,
+=======
+>>>>>>> 054d5ae (Auto-sync 04 Sep 07:48: ore_lucrate: 62 → 65, ore_total: 574.0 → 603.0)
       "date": "2026-09-01",
       "santier": "Aosta Cond Sorreley",
       "ora_start": "06:30",
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "Iveco",
+<<<<<<< HEAD
       "colegi": "Tahiru",
       "note": null,
       "sursa": "andrei",
@@ -5237,6 +5264,14 @@
     },
     {
       "id": 63,
+=======
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Tahiru"
+    },
+    {
+>>>>>>> 054d5ae (Auto-sync 04 Sep 07:48: ore_lucrate: 62 → 65, ore_total: 574.0 → 603.0)
       "date": "2026-08-31",
       "santier": "Pre-Saint-Didier (Cond Les Ancolies)",
       "ora_start": "06:30",
@@ -6346,10 +6381,93 @@
     "expenses": 344,
     "expenses_total": 15293.97,
     "ore_lucrate": 65,
+<<<<<<< HEAD
     "ore_total": 603
   },
   "backup": {
     "last_backup": "auto",
     "next_backup": "auto"
   }
+=======
+    "ore_total": 603.0,
+    "pending": 0,
+    "speza_offers": 249
+  },
+  "db": {
+    "expenses": 344,
+    "expenses_total": 15293.97,
+    "ore_lucrate": 65,
+    "ore_total": 603.0,
+    "pending": 0,
+    "speza_offers": 249
+  },
+  "system_health": {
+    "gateway": "up",
+    "model": "GLM-5.2 Cloud",
+    "wifi": "D-Link DWA-125",
+    "wifi_adapter": "D-Link DWA-125",
+    "dns": "8.8.8.8 / 8.8.4.4",
+    "whatsapp": "active",
+    "ollama": "local"
+  },
+  "system": {
+    "model": "GLM-5.2 Cloud",
+    "version": "OpenClaw 2026.7.1",
+    "platform": "Windows 10",
+    "node": "DESKTOP-IOHKTKV"
+  },
+  "andrei": {
+    "status": "activ",
+    "last_activity": "2026-09-04T07:48:46.678979"
+  },
+  "backup": {
+    "last_backup": "—",
+    "next_backup": "02:00 RO"
+  },
+  "agents": [
+    {
+      "name": "Lola",
+      "emoji": "🧭",
+      "role": "Coordonare",
+      "active": true,
+      "model": "GLM-5.2"
+    },
+    {
+      "name": "Guda",
+      "emoji": "💰",
+      "role": "Finanțe",
+      "active": true,
+      "model": "GLM-5.2"
+    },
+    {
+      "name": "Atlas",
+      "emoji": "🏗",
+      "role": "Lucrări",
+      "active": true,
+      "model": "GLM-5.2"
+    },
+    {
+      "name": "Spesa",
+      "emoji": "🛒",
+      "role": "Oferte & Cumpărături",
+      "active": true,
+      "model": "GLM-5.2"
+    },
+    {
+      "name": "Echo",
+      "emoji": "👥",
+      "role": "Social",
+      "active": false,
+      "model": "—"
+    },
+    {
+      "name": "Prof",
+      "emoji": "🎓",
+      "role": "Documentare",
+      "active": false,
+      "model": "—"
+    }
+  ],
+  "lastUpdate": "2026-09-04T07:48:46.679028"
+>>>>>>> 054d5ae (Auto-sync 04 Sep 07:48: ore_lucrate: 62 → 65, ore_total: 574.0 → 603.0)
 }
