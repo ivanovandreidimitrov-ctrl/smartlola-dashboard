@@ -1,6 +1,15 @@
 {
   "expenses": [
     {
+      "date": "2026-09-04",
+      "description": "Pizza/focaccia + pancetta affumicata",
+      "amount": 5.24,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "CONAD Settimo Vittone"
+    },
+    {
       "date": "2026-09-03",
       "description": "Gustul de Acasa Ivrea — negro icre sarate (caviar 10%)",
       "amount": 5.5,
@@ -3880,16 +3889,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 344,
-    "expenses_total": 15293.97,
+    "expenses": 345,
+    "expenses_total": 15299.21,
     "ore_lucrate": 65,
     "ore_total": 603.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 344,
-    "expenses_total": 15293.97,
+    "expenses": 345,
+    "expenses_total": 15299.21,
     "ore_lucrate": 65,
     "ore_total": 603.0,
     "pending": 0,
@@ -3912,7 +3921,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-04T07:50:43.201905"
+    "last_activity": "2026-09-04T13:50:57.050342"
   },
   "backup": {
     "last_backup": "—",
@@ -3962,5 +3971,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-04T07:50:43.201952"
+  "lastUpdate": "2026-09-04T13:50:57.050380"
 }
