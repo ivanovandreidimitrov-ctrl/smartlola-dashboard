@@ -52,6 +52,7 @@ td.cap { color: #b0bdd1; white-space: nowrap; }
 
 <div class="tab-bar">
   <div class="tab active" onclick="showTab('overview')">📊 Overview proiecte</div>
+  <div class="tab" onclick="showTab('gabriel')">🏗️ Gabriel 9 — Ivrea</div>
   <div class="tab" onclick="showTab('saas')">🚀 SaaS — 16 capitole</div>
 </div>
 
@@ -433,6 +434,138 @@ td.cap { color: #b0bdd1; white-space: nowrap; }
 </div>
 </div>
 
+<!-- TAB 3: GABRIEL 9 -->
+<div id="gabriel" class="gantt" style="display:none;">
+<div class="progress-row">
+  <span>Progres Gabriel 9:</span>
+  <div class="progress-bar-bg"><div class="progress-bar-fill" id="gabrielProgress" style="width:5%;"></div></div>
+  <span class="progress-pct" id="gabrielProgressPct">5%</span>
+</div>
+
+<table>
+<tr>
+  <th>Fază / Activitate</th>
+  <th class="week-col">Sep</th>
+  <th class="week-col">Oct</th>
+  <th class="week-col">Nov</th>
+  <th class="week-col">Dec</th>
+  <th class="week-col">Ian '27</th>
+  <th class="week-col">Feb</th>
+</tr>
+
+<tr><td colspan="7" class="phase-header">🔍 Faza 0 — Verificare stare legittimo (1-2 săpt.)</td></tr>
+<tr>
+  <td class="cap">Verificare titlu edilitar existent (acceso documentale Comune Ivrea)</td>
+  <td class="bar-cell" colspan="6"><div class="bar active" data-id="g0-titlu" style="left:0%; width:8%;" onclick="cycleStatus(this)">Sep S1-S2</div></td>
+</tr>
+<tr>
+  <td class="cap">Verificare "principio di prova" pentru titluri dispersate</td>
+  <td class="bar-cell" colspan="6"><div class="bar active" data-id="g0-prova" style="left:2%; width:6%;" onclick="cycleStatus(this)">Sep S2</div></td>
+</tr>
+<tr>
+  <td class="cap">Verificare diformități (toleranță 6% Salva Casa)</td>
+  <td class="bar-cell" colspan="6"><div class="bar planned" data-id="g0-difform" style="left:4%; width:5%;" onclick="cycleStatus(this)">Sep S2-S3</div></td>
+</tr>
+<tr>
+  <td class="cap">Verificare vincoli (paesaggistico, idrogeologico, sismico, archaeologico)</td>
+  <td class="bar-cell" colspan="6"><div class="bar planned" data-id="g0-vincoli" style="left:5%; width:6%;" onclick="cycleStatus(this)">Sep S2-S3</div></td>
+</tr>
+
+<tr><td colspan="7" class="phase-header">📄 Faza 1 — Pregătire SCIA (2-3 săpt.)</td></tr>
+<tr>
+  <td class="cap">Actualizare proiect ICSM (verificare actualitate DWG)</td>
+  <td class="bar-cell" colspan="6"><div class="bar planned" data-id="g1-icsm" style="left:8%; width:6%;" onclick="cycleStatus(this)">Sep S3-S4</div></td>
+</tr>
+<tr>
+  <td class="cap">Relazione tecnica integrata (consolidare + ristrutturazione)</td>
+  <td class="bar-cell" colspan="6"><div class="bar planned" data-id="g1-relazione" style="left:10%; width:7%;" onclick="cycleStatus(this)">Sep S4 — Oct S1</div></td>
+</tr>
+<tr>
+  <td class="cap">Calcolo strutturale NTC 2018 (consolidamento)</td>
+  <td class="bar-cell" colspan="6"><div class="bar planned" data-id="g1-calcolo" style="left:10%; width:8%;" onclick="cycleStatus(this)">Sep S4 — Oct S1</div></td>
+</tr>
+<tr>
+  <td class="cap">Certificato di Agibilità (SCA)</td>
+  <td class="bar-cell" colspan="6"><div class="bar planned" data-id="g1-sca" style="left:14%; width:5%;" onclick="cycleStatus(this)">Oct S1-S2</div></td>
+</tr>
+<tr>
+  <td class="cap">Documentazione fotografica stato attuale</td>
+  <td class="bar-cell" colspan="6"><div class="bar planned" data-id="g1-foto" style="left:8%; width:4%;" onclick="cycleStatus(this)">Sep S3</div></td>
+</tr>
+<tr>
+  <td class="cap">Setup acces digital (SPID + firma .p7m + PEC + MUDE)</td>
+  <td class="bar-cell" colspan="6"><div class="bar active" data-id="g1-digital" style="left:6%; width:6%;" onclick="cycleStatus(this)">Sep S2-S3</div></td>
+</tr>
+
+<tr><td colspan="7" class="phase-header">🏛️ Faza 2 — Autorizzazione Paesaggistica (30-60 zile)</td></tr>
+<tr>
+  <td class="cap">Relazione paesaggistica per Soprintendenza</td>
+  <td class="bar-cell" colspan="6"><div class="bar planned" data-id="g2-relpaes" style="left:14%; width:6%;" onclick="cycleStatus(this)">Oct S2-S3</div></td>
+</tr>
+<tr>
+  <td class="cap">Depunere domanda Soprintendenza</td>
+  <td class="bar-cell" colspan="6"><div class="bar planned" data-id="g2-deposito" style="left:16%; width:4%;" onclick="cycleStatus(this)">Oct S3</div></td>
+</tr>
+<tr>
+  <td class="cap">Attesa parere vincolante Soprintendenza (30-60 zile)</td>
+  <td class="bar-cell" colspan="6"><div class="bar future" data-id="g2-attesa" style="left:18%; width:15%;" onclick="cycleStatus(this)">Oct S4 — Dec S1</div></td>
+</tr>
+
+<tr><td colspan="7" class="phase-header">🏗️ Faza 3 — Genio Civile (30-60 zile, paralel cu Faza 2)</td></tr>
+<tr>
+  <td class="cap">Progetto consolidamento (depozit tehnic)</td>
+  <td class="bar-cell" colspan="6"><div class="bar planned" data-id="g3-progetto" style="left:14%; width:6%;" onclick="cycleStatus(this)">Oct S2-S3 (paralel)</div></td>
+</tr>
+<tr>
+  <td class="cap">Depozit la Genio Civile</td>
+  <td class="bar-cell" colspan="6"><div class="bar planned" data-id="g3-deposito" style="left:16%; width:4%;" onclick="cycleStatus(this)">Oct S3 (paralel)</div></td>
+</tr>
+<tr>
+  <td class="cap">Attesa aprobare Genio Civile (30-60 zile)</td>
+  <td class="bar-cell" colspan="6"><div class="bar future" data-id="g3-attesa" style="left:18%; width:15%;" onclick="cycleStatus(this)">Oct S4 — Dec S1 (paralel)</div></td>
+</tr>
+
+<tr><td colspan="7" class="phase-header">📋 Faza 4 — SCIA prin MUDE (30 zile)</td></tr>
+<tr>
+  <td class="cap">Assemblare dosar SCIA (toate documentele A+B)</td>
+  <td class="bar-cell" colspan="6"><div class="bar future" data-id="g4-assemble" style="left:32%; width:5%;" onclick="cycleStatus(this)">Dec S1-S2</div></td>
+</tr>
+<tr>
+  <td class="cap">Upload MUDE (PDF/A + firma .p7m + GEEDI)</td>
+  <td class="bar-cell" colspan="6"><div class="bar future" data-id="g4-upload" style="left:35%; width:3%;" onclick="cycleStatus(this)">Dec S2</div></td>
+</tr>
+<tr>
+  <td class="cap">Attesa silenzio-assenso (30 zile)</td>
+  <td class="bar-cell" colspan="6"><div class="bar future" data-id="g4-attesa" style="left:37%; width:8%;" onclick="cycleStatus(this)">Dec S2 — Ian S1</div></td>
+</tr>
+
+<tr><td colspan="7" class="phase-header">🚀 Faza 5 — Început lucrări</td></tr>
+<tr>
+  <td class="cap">SCIA obtinută → început deconsolidare</td>
+  <td class="bar-cell" colspan="6"><div class="bar future" data-id="g5-start" style="left:45%; width:5%;" onclick="cycleStatus(this)">Ian S1-S2 '27</div></td>
+</tr>
+
+</table>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#4caf50"></div>Gata</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#42a5f5"></div>În progres</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ab47bc"></div>Planificat</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ff9800"></div>Viitor</div>
+</div>
+
+<div style="margin-top:16px; padding:12px; background:#111726; border-radius:8px; font-size:0.8rem; color:#8b9bb5;">
+  <strong style="color:#64ffda;">Proiect:</strong> Deconsolidare Strada Vicinale Gabriel 9, Ivrea (TO)<br>
+  <strong style="color:#64ffda;">Tip:</strong> Ristrutturazione edilizia + consolidamento strutturale<br>
+  <strong style="color:#64ffda;">Normative:</strong> Salva Casa (L. 105/2024), Autotutela 6 luni (L. 182/2025), TUE art. 9-bis<br>
+  <strong style="color:#64ffda;">Vincoli:</strong> Paesaggistico (Soprintendenza), Genio Civile (consolidamento)<br>
+  <strong style="color:#64ffda;">Canal SCIA:</strong> MUDE Piemonte (online, SPID + firma .p7m)<br>
+  <strong style="color:#64ffda;">Estimare totală:</strong> 3-5 luni (Sep 2026 — Ian/Feb 2027)<br>
+  <strong style="color:#64ffda;">Documente existente:</strong> Proiect ICSM (DWG), catasto, rogito, CE, NdA 2021<br>
+  <strong style="color:#64ffda;">Blocări:</strong> ① Titlu edilitar necunoscut ② SPID/firma digitală ③ Geometra/architetto
+</div>
+</div>
+
 <div class="toast" id="toast"></div>
 
 <script>
@@ -496,23 +629,40 @@ function getCurrentStatusFromBar(bar) {
 
 // Calculate SaaS progress (only c1xx-c16xx)
 function updateProgress() {
-  const bars = document.querySelectorAll('#saas .bar[data-id]');
-  if (!bars.length) return;
-  let total = 0, doneCount = 0, activeCount = 0;
-  bars.forEach(bar => {
-    const id = bar.dataset.id;
-    // Only count sub-chapters (have a letter suffix like c1a, c2b)
-    if (!/^c\d+[a-d]$/.test(id)) return;
-    total++;
-    const status = loadStatuses()[id] || getCurrentStatusFromBar(bar);
-    if (status === 'done') doneCount++;
-    else if (status === 'active') activeCount += 0.5; // half credit for in-progress
-  });
-  const pct = total > 0 ? Math.round(((doneCount + activeCount) / total) * 100) : 0;
-  const fill = document.getElementById('saasProgress');
-  const pctEl = document.getElementById('saasProgressPct');
-  if (fill) fill.style.width = pct + '%';
-  if (pctEl) pctEl.textContent = pct + '%';
+  // SaaS progress
+  const saasBars = document.querySelectorAll('#saas .bar[data-id]');
+  if (saasBars.length) {
+    let total = 0, doneCount = 0, activeCount = 0;
+    saasBars.forEach(bar => {
+      const id = bar.dataset.id;
+      if (!/^c\d+[a-d]$/.test(id)) return;
+      total++;
+      const status = loadStatuses()[id] || getCurrentStatusFromBar(bar);
+      if (status === 'done') doneCount++;
+      else if (status === 'active') activeCount += 0.5;
+    });
+    const pct = total > 0 ? Math.round(((doneCount + activeCount) / total) * 100) : 0;
+    const fill = document.getElementById('saasProgress');
+    const pctEl = document.getElementById('saasProgressPct');
+    if (fill) fill.style.width = pct + '%';
+    if (pctEl) pctEl.textContent = pct + '%';
+  }
+  // Gabriel 9 progress
+  const gabrielBars = document.querySelectorAll('#gabriel .bar[data-id]');
+  if (gabrielBars.length) {
+    let gTotal = 0, gDone = 0, gActive = 0;
+    gabrielBars.forEach(bar => {
+      gTotal++;
+      const status = loadStatuses()[bar.dataset.id] || getCurrentStatusFromBar(bar);
+      if (status === 'done') gDone++;
+      else if (status === 'active') gActive += 0.5;
+    });
+    const gPct = gTotal > 0 ? Math.round(((gDone + gActive) / gTotal) * 100) : 0;
+    const gFill = document.getElementById('gabrielProgress');
+    const gPctEl = document.getElementById('gabrielProgressPct');
+    if (gFill) gFill.style.width = gPct + '%';
+    if (gPctEl) gPctEl.textContent = gPct + '%';
+  }
 }
 
 // Update timestamp
