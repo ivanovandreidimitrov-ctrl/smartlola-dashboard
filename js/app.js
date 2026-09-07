@@ -486,6 +486,45 @@ function renderAtlas() {
       `;
     }).join('');
   }
+
+  // === Programme Cantieri ===
+  const progEl = document.getElementById('atlas-programme');
+  if (progEl) {
+    const programmes = state.status?.programme_cantieri || {};
+    const dates = Object.keys(programmes).sort();
+    if (dates.length === 0) {
+      progEl.innerHTML = '<div class="empty-state">Niciun program de șantier</div>';
+    } else {
+      let progHtml = '';
+      for (const date of dates) {
+        const entries = programmes[date] || [];
+        const dParts = date.split('-');
+        const dateLabel = dParts[2] + '/' + dParts[1] + '/' + dParts[0];
+        progHtml += `<div class="programme-date-header" style="margin-top:12px;font-weight:bold;color:var(--accent);font-size:0.9rem;">📅 ${dateLabel}</div>`;
+        for (const e of entries) {
+          progHtml += `
+            <div class="event-item programme-entry" style="padding:10px;border-left:3px solid var(--accent);margin:4px 0;background:var(--card-bg);border-radius:6px;">
+              <div style="display:flex;justify-content:space-between;align-items:start;">
+                <div style="flex:1;">
+                  <div style="font-weight:600;color:var(--text);font-size:0.95rem;">${escapeHtml(e.locatie || '')} — ${escapeHtml(e.condominio || '')}</div>
+                  ${e.descriere ? `<div style="color:var(--text-dim);font-size:0.85rem;margin-top:2px;">${escapeHtml(e.descriere)}</div>` : ''}
+                  <div style="margin-top:4px;font-size:0.8rem;color:var(--text-dim);">
+                    ${e.ora_start ? `⏰ ${escapeHtml(e.ora_start)}` : ''}
+                    ${e.mezzo ? ` | 🚗 ${escapeHtml(e.mezzo)}` : ''}
+                    ${e.colegi ? ` | 👥 ${escapeHtml(e.colegi)}` : ''}
+                    ${e.mutua ? ` | 🏥 ${escapeHtml(e.mutua)}` : ''}
+                    ${e.permesso ? ` | 📋 ${escapeHtml(e.permesso)}` : ''}
+                  </div>
+                </div>
+                <span style="background:var(--accent);color:#fff;font-size:0.7rem;padding:2px 8px;border-radius:10px;">#${e.ordine || 1}</span>
+              </div>
+            </div>
+          `;
+        }
+      }
+      progEl.innerHTML = progHtml;
+    }
+  }
 }
 
 function renderAgents() {
