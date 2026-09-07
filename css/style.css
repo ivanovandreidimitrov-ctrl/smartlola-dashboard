@@ -104,6 +104,8 @@ body {
 
 /* Event list */
 .event-list, .work-list { display: flex; flex-direction: column; gap: 8px; }
+#atlas-recent { max-height: 500px; overflow-y: auto; padding-right: 4px; }
+#atlas-programme { max-height: 400px; overflow-y: auto; padding-right: 4px; }
 .expense-list { display: flex; flex-direction: column; gap: 8px; }
 .event-item {
   display: flex; gap: 10px; padding: 10px 12px; background: var(--bg-card);
