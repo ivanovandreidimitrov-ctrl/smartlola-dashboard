@@ -1,11 +1,28 @@
 {
   "expenses": [
     {
+<<<<<<< HEAD
       "date": "2026-09-07",
       "amount": 6.99,
       "category": "imbracaminte",
       "description": "SHORTS NERO M",
       "store": "Lidl Ivrea",
+=======
+      "date": "2026-09-08",
+      "description": "Tigros Ivrea — latte fresco, pane ai cereali, mix orientale, cetrioli, banane, 2x shopper bio",
+      "amount": 6.52,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Tigros - Ivrea"
+    },
+    {
+      "date": "2026-09-05",
+      "description": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
+      "amount": 29.8,
+      "category": "salute",
+      "split": "shared",
+>>>>>>> e6bf04c (Auto-sync 09 Sep 01:50: expenses: 348 → 349, expenses_total: 15336.02 → 15342.54, ore_lucrate: 65 → 66)
       "source": "andrei",
       "split": "shared"
     },
@@ -903,6 +920,7 @@
   ],
   "ore_lucrate": [
     {
+<<<<<<< HEAD
       "date": "2026-09-07",
       "santier": "Valtournenche / Cond Maison du Sapin",
       "ora_start": "06:30",
@@ -925,6 +943,18 @@
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
+=======
+      "date": "2026-09-08",
+      "santier": "Brosso Starbox",
+      "ora_start": "06:30",
+      "ora_end": "17:00",
+      "ore_efective": 9.5,
+      "mezzo": "Renault-529",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Sergiu"
+>>>>>>> e6bf04c (Auto-sync 09 Sep 01:50: expenses: 348 → 349, expenses_total: 15336.02 → 15342.54, ore_lucrate: 65 → 66)
     },
     {
       "date": "2026-09-04",
@@ -1708,18 +1738,32 @@
     }
   ],
   "db_stats": {
+<<<<<<< HEAD
     "expenses": 348,
     "expenses_total": 15336.02,
     "ore_lucrate": 65,
     "ore_total": 603,
+=======
+    "expenses": 349,
+    "expenses_total": 15342.54,
+    "ore_lucrate": 66,
+    "ore_total": 612.5,
+>>>>>>> e6bf04c (Auto-sync 09 Sep 01:50: expenses: 348 → 349, expenses_total: 15336.02 → 15342.54, ore_lucrate: 65 → 66)
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
+<<<<<<< HEAD
     "expenses": 348,
     "expenses_total": 15336.02,
     "ore_lucrate": 65,
     "ore_total": 603,
+=======
+    "expenses": 349,
+    "expenses_total": 15342.54,
+    "ore_lucrate": 66,
+    "ore_total": 612.5,
+>>>>>>> e6bf04c (Auto-sync 09 Sep 01:50: expenses: 348 → 349, expenses_total: 15336.02 → 15342.54, ore_lucrate: 65 → 66)
     "pending": 0,
     "speza_offers": 249
   },
@@ -1740,7 +1784,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-05T19:48:53.776497"
+    "last_activity": "2026-09-09T01:50:29.969872"
   },
   "backup": {
     "last_backup": "—",
@@ -1790,6 +1834,7 @@
       "model": "—"
     }
   ],
+<<<<<<< HEAD
   "lastUpdate": "2026-09-07T21:10:37.564Z",
   "programme_cantieri": {
     "2026-09-07": [
@@ -1852,4 +1897,7 @@
       }
     ]
   }
+=======
+  "lastUpdate": "2026-09-09T01:50:29.969906"
+>>>>>>> e6bf04c (Auto-sync 09 Sep 01:50: expenses: 348 → 349, expenses_total: 15336.02 → 15342.54, ore_lucrate: 65 → 66)
 }
