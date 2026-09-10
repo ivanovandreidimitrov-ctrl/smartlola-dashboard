@@ -28,6 +28,15 @@
       "store": "Ottica Vis A Vis - Burolo (Carrefour)"
     },
     {
+      "date": "2026-09-05",
+      "description": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
+      "amount": 29.8,
+      "category": "salute",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Ottica Vis A Vis - Burolo (Carrefour)"
+    },
+    {
       "date": "2026-09-04",
       "description": "Pane pita + pesto basilico + pesche nettarine + shopper bio",
       "amount": 5.13,
@@ -3982,16 +3991,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 350,
-    "expenses_total": 15372.34,
+    "expenses": 351,
+    "expenses_total": 15402.14,
     "ore_lucrate": 69,
     "ore_total": 643.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 350,
-    "expenses_total": 15372.34,
+    "expenses": 351,
+    "expenses_total": 15402.14,
     "ore_lucrate": 69,
     "ore_total": 643.0,
     "pending": 0,
@@ -4014,7 +4023,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-10T19:44:18.060345"
+    "last_activity": "2026-09-10T19:51:25.457846"
   },
   "backup": {
     "last_backup": "—",
@@ -4064,5 +4073,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-10T19:44:18.060380"
+  "lastUpdate": "2026-09-10T19:51:25.457883"
 }
