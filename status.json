@@ -3300,6 +3300,18 @@
       "colegi": "Tahiru"
     },
     {
+      "date": "2026-08-26",
+      "santier": "Valtournenche",
+      "ora_start": "07:00",
+      "ora_end": "18:30",
+      "ore_efective": 10.5,
+      "mezzo": "Renault 529",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Tahiru"
+    },
+    {
       "date": "2026-08-24",
       "santier": "Biella",
       "ora_start": "06:30",
@@ -3963,16 +3975,16 @@
   "db_stats": {
     "expenses": 349,
     "expenses_total": 15342.54,
-    "ore_lucrate": 68,
-    "ore_total": 633.5,
+    "ore_lucrate": 69,
+    "ore_total": 644.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
     "expenses": 349,
     "expenses_total": 15342.54,
-    "ore_lucrate": 68,
-    "ore_total": 633.5,
+    "ore_lucrate": 69,
+    "ore_total": 644.0,
     "pending": 0,
     "speza_offers": 249
   },
@@ -3993,7 +4005,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-10T07:49:10.698873"
+    "last_activity": "2026-09-10T17:51:44.990658"
   },
   "backup": {
     "last_backup": "—",
@@ -4043,5 +4055,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-10T07:49:10.698909"
+  "lastUpdate": "2026-09-10T17:51:44.990694"
 }
