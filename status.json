@@ -19,6 +19,15 @@
       "store": "Ottica Vis A Vis - Burolo (Carrefour)"
     },
     {
+      "date": "2026-09-05",
+      "description": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
+      "amount": 29.8,
+      "category": "salute",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Ottica Vis A Vis - Burolo (Carrefour)"
+    },
+    {
       "date": "2026-09-04",
       "description": "Pane pita + pesto basilico + pesche nettarine + shopper bio",
       "amount": 5.13,
@@ -3144,6 +3153,30 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-09-10",
+      "santier": "Morgex/La Vache Rit",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 10.5,
+      "mezzo": "Iveco",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Ivanov + Leonardo - Incapsulante, nylon+nastro"
+    },
+    {
+      "date": "2026-09-09",
+      "santier": "Brosso/Starbox/Morgex/La Vache Rit",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 10.5,
+      "mezzo": "Renault 529",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Ivanov - Brosso-Starbox-Morgex/La Vache Rit"
+    },
+    {
       "date": "2026-09-08",
       "santier": "Brosso Starbox",
       "ora_start": "06:30",
@@ -3154,6 +3187,18 @@
       "ore_guida": 0.0,
       "ore_extra": 0.0,
       "colegi": "Sergiu"
+    },
+    {
+      "date": "2026-09-08",
+      "santier": "Brosso/Starbox",
+      "ora_start": "06:30",
+      "ora_end": "17:00",
+      "ore_efective": 9.5,
+      "mezzo": "Renault 529",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Ivanov - cargar materiale, passare da Giono"
     },
     {
       "date": "2026-09-04",
@@ -3274,42 +3319,6 @@
       "ore_guida": 0.0,
       "ore_extra": 0.0,
       "colegi": null
-    },
-    {
-      "date": "2026-08-26",
-      "santier": "Valtournenche",
-      "ora_start": "07:00",
-      "ora_end": "18:30",
-      "ore_efective": 10.5,
-      "mezzo": "Renault 529",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
-      "colegi": "Tahiru"
-    },
-    {
-      "date": "2026-08-26",
-      "santier": "Valtournenche",
-      "ora_start": "07:00",
-      "ora_end": "18:30",
-      "ore_efective": 10.5,
-      "mezzo": "Renault 529",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
-      "colegi": "Tahiru"
-    },
-    {
-      "date": "2026-08-26",
-      "santier": "Valtournenche",
-      "ora_start": "07:00",
-      "ora_end": "18:30",
-      "ore_efective": 10.5,
-      "mezzo": "Renault 529",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
-      "colegi": "Tahiru"
     },
     {
       "date": "2026-08-24",
@@ -3973,18 +3982,18 @@
     }
   ],
   "db_stats": {
-    "expenses": 349,
-    "expenses_total": 15342.54,
+    "expenses": 350,
+    "expenses_total": 15372.34,
     "ore_lucrate": 69,
-    "ore_total": 644.0,
+    "ore_total": 643.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 349,
-    "expenses_total": 15342.54,
+    "expenses": 350,
+    "expenses_total": 15372.34,
     "ore_lucrate": 69,
-    "ore_total": 644.0,
+    "ore_total": 643.0,
     "pending": 0,
     "speza_offers": 249
   },
@@ -4005,7 +4014,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-10T17:51:44.990658"
+    "last_activity": "2026-09-10T19:44:18.060345"
   },
   "backup": {
     "last_backup": "—",
@@ -4055,5 +4064,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-10T17:51:44.990694"
+  "lastUpdate": "2026-09-10T19:44:18.060380"
 }
