@@ -3162,6 +3162,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-09-12",
+      "santier": "MORGEX / LA VACHE RIT",
+      "ora_start": "06:00",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": "FISSO 613",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Giovanni, Florin, Ivanov, Tahiru"
+    },
+    {
       "date": "2026-09-10",
       "santier": "Morgex/La Vache Rit",
       "ora_start": "06:30",
@@ -3993,7 +4005,7 @@
   "db_stats": {
     "expenses": 351,
     "expenses_total": 15402.14,
-    "ore_lucrate": 69,
+    "ore_lucrate": 70,
     "ore_total": 643.0,
     "pending": 0,
     "speza_offers": 249
@@ -4001,7 +4013,7 @@
   "db": {
     "expenses": 351,
     "expenses_total": 15402.14,
-    "ore_lucrate": 69,
+    "ore_lucrate": 70,
     "ore_total": 643.0,
     "pending": 0,
     "speza_offers": 249
@@ -4023,7 +4035,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-10T19:51:25.457846"
+    "last_activity": "2026-09-11T19:49:08.823500"
   },
   "backup": {
     "last_backup": "—",
@@ -4073,5 +4085,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-10T19:51:25.457883"
+  "lastUpdate": "2026-09-11T19:49:08.823536"
 }
