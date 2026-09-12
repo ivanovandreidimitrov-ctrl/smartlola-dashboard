@@ -1,6 +1,33 @@
 {
   "expenses": [
     {
+      "date": "2026-09-12",
+      "description": "Muraturi varza + Icre sarate + Toba Matache + punga",
+      "amount": 25.92,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "GUSTUL DE ACASA Ivrea"
+    },
+    {
+      "date": "2026-09-12",
+      "description": "Prosecco Doc Rose + Greek Yogurt + Polenta Flour + Schwarzbier Beer",
+      "amount": 11.76,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "D Più Samone"
+    },
+    {
+      "date": "2026-09-12",
+      "description": "Latte fresco + Santhè limone + Pane ciabatte",
+      "amount": 3.52,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "FAMILA Morgex"
+    },
+    {
       "date": "2026-09-08",
       "description": "Tigros Ivrea — latte fresco, pane ai cereali, mix orientale, cetrioli, banane, 2x shopper bio",
       "amount": 6.52,
@@ -3165,8 +3192,8 @@
       "date": "2026-09-12",
       "santier": "MORGEX / LA VACHE RIT",
       "ora_start": "06:00",
-      "ora_end": null,
-      "ore_efective": null,
+      "ora_end": "15:00",
+      "ore_efective": 8.0,
       "mezzo": "FISSO 613",
       "ore_normal": 0.0,
       "ore_guida": 0.0,
@@ -4003,18 +4030,18 @@
     }
   ],
   "db_stats": {
-    "expenses": 351,
-    "expenses_total": 15402.14,
+    "expenses": 354,
+    "expenses_total": 15443.34,
     "ore_lucrate": 70,
-    "ore_total": 643.0,
+    "ore_total": 651.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 351,
-    "expenses_total": 15402.14,
+    "expenses": 354,
+    "expenses_total": 15443.34,
     "ore_lucrate": 70,
-    "ore_total": 643.0,
+    "ore_total": 651.0,
     "pending": 0,
     "speza_offers": 249
   },
@@ -4035,7 +4062,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-11T19:49:08.823500"
+    "last_activity": "2026-09-12T19:49:38.951152"
   },
   "backup": {
     "last_backup": "—",
@@ -4085,5 +4112,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-11T19:49:08.823536"
+  "lastUpdate": "2026-09-12T19:49:38.951189"
 }
