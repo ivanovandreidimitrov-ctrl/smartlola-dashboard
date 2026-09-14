@@ -13,44 +13,7 @@
       "person": "Andrei",
       "created_at": "2026-09-14 19:04:56",
       "updated_at": "2026-09-14 19:04:56",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Succo ananas",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Latte kefir 3pz",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Shopper biodegrad",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Banane 0.96kg",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Sacch ortofr 2pz",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Pomodori grappolo 1.58kg",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Acqua efferv 12pz",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
       "id": 415,
@@ -65,14 +28,7 @@
       "person": "Andrei",
       "created_at": "2026-09-14 19:02:40",
       "updated_at": "2026-09-14 19:02:40",
-      "split": "andrei-only",
-      "receipt_items": [
-        {
-          "product_name": "Scopa regolab. acciaio",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "andrei-only"
     },
     {
       "id": 414,
@@ -87,226 +43,7 @@
       "person": "Andrei",
       "created_at": "2026-09-14 19:02:31",
       "updated_at": "2026-09-14 19:02:31",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Prosciutto cotto",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Latte fresco integrale",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Mele gala",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Pane ai cereali",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Uova medie 10pz",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Shopper cassa self",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 412,
-      "date": "2026-09-14",
-      "amount": 4.2,
-      "currency": "EUR",
-      "category": "alte",
-      "subcategory": null,
-      "description": "Cappuccino + 2x Caffe",
-      "store": "GASOLINE CAFE Settimo Vittone",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-09-14 18:59:51",
-      "updated_at": "2026-09-14 18:59:51",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Cappuccino",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "2x Caffe",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 411,
-      "date": "2026-09-14",
-      "amount": 4.22,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "Wudy al formaggio + Latte fresco Monte B + Filoncino integrale",
-      "store": "FAMILA Morgex",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-09-14 10:12:07",
-      "updated_at": "2026-09-14 10:12:07",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Wudy al formaggio",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Latte fresco Monte B",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Filoncino integrale",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 410,
-      "date": "2026-09-14",
-      "amount": 7.65,
-      "currency": "EUR",
-      "category": "alte",
-      "subcategory": null,
-      "description": "Dacă cauți pe bonul aferent  olio nu l-am cumpărat cu 7.65, există aconto, probabil trecut cu minus. La lapte trebuie făcută diferența între fresco sau uht, intre intero sau PS (parzialmente scremato)",
-      "store": null,
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-09-14 07:28:22",
-      "updated_at": "2026-09-14 07:28:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Dacă cauți pe bonul aferent  olio nu l-am cumpărat cu 7.65, există aconto, probabil trecut cu minus. La lapte trebuie făcută diferența între fresco sau uht, intre intero sau PS (parzialmente scremato)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 409,
-      "date": "2026-09-12",
-      "amount": 25.92,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "Muraturi varza + Icre sarate + Toba Matache + punga",
-      "store": "GUSTUL DE ACASA Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-09-12 17:32:33",
-      "updated_at": "2026-09-12 17:32:33",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Muraturi varza",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Icre sarate",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Toba Matache",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "punga",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 408,
-      "date": "2026-09-12",
-      "amount": 11.76,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "Prosecco Doc Rose + Greek Yogurt + Polenta Flour + Schwarzbier Beer",
-      "store": "D Più Samone",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-09-12 17:32:24",
-      "updated_at": "2026-09-12 17:32:24",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Prosecco Doc Rose",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Greek Yogurt",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Polenta Flour",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Schwarzbier Beer",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 407,
-      "date": "2026-09-12",
-      "amount": 3.52,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "Latte fresco + Santhè limone + Pane ciabatte",
-      "store": "FAMILA Morgex",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-09-12 17:32:24",
-      "updated_at": "2026-09-12 17:32:24",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Latte fresco",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Santhè limone",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Pane ciabatte",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
       "id": 413,
@@ -321,36 +58,82 @@
       "person": "Andrei",
       "created_at": "2026-09-14 19:00:12",
       "updated_at": "2026-09-14 19:00:12",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "2x Caffe",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
-      "id": 404,
-      "date": "2026-09-08",
-      "amount": 6.52,
+      "id": 412,
+      "date": "2026-09-14",
+      "amount": 4.2,
+      "currency": "EUR",
+      "category": "alte",
+      "subcategory": null,
+      "description": "Cappuccino + 2x Caffe",
+      "store": "GASOLINE CAFE Settimo Vittone",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-14 18:59:51",
+      "updated_at": "2026-09-14 18:59:51",
+      "split": "shared"
+    },
+    {
+      "id": 411,
+      "date": "2026-09-14",
+      "amount": 4.22,
       "currency": "EUR",
       "category": "alimente",
       "subcategory": null,
-      "description": "Tigros Ivrea — latte fresco, pane ai cereali, mix orientale, cetrioli, banane, 2x shopper bio",
-      "store": "Tigros - Ivrea",
+      "description": "Wudy al formaggio + Latte fresco Monte B + Filoncino integrale",
+      "store": "FAMILA Morgex",
       "source": "andrei",
       "person": "Andrei",
-      "created_at": "2026-09-08 19:13:41",
-      "updated_at": "2026-09-08 19:13:41",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Tigros Ivrea — latte fresco, pane ai cereali, mix orientale, cetrioli, banane, 2x shopper bio",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "created_at": "2026-09-14 10:12:07",
+      "updated_at": "2026-09-14 10:12:07",
+      "split": "shared"
+    },
+    {
+      "id": 409,
+      "date": "2026-09-12",
+      "amount": 25.92,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "Muraturi varza + Icre sarate + Toba Matache + punga",
+      "store": "GUSTUL DE ACASA Ivrea",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-12 17:32:33",
+      "updated_at": "2026-09-12 17:32:33",
+      "split": "shared"
+    },
+    {
+      "id": 408,
+      "date": "2026-09-12",
+      "amount": 11.76,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "Prosecco Doc Rose + Greek Yogurt + Polenta Flour + Schwarzbier Beer",
+      "store": "D Più Samone",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-12 17:32:24",
+      "updated_at": "2026-09-12 17:32:24",
+      "split": "shared"
+    },
+    {
+      "id": 407,
+      "date": "2026-09-12",
+      "amount": 3.52,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "Latte fresco + Santhè limone + Pane ciabatte",
+      "store": "FAMILA Morgex",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-12 17:32:24",
+      "updated_at": "2026-09-12 17:32:24",
+      "split": "shared"
     },
     {
       "id": 406,
@@ -365,14 +148,7 @@
       "person": "Andrei",
       "created_at": "2026-09-10 17:50:01",
       "updated_at": "2026-09-10 17:50:01",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
       "id": 405,
@@ -387,14 +163,22 @@
       "person": "Andrei",
       "created_at": "2026-09-10 16:05:14",
       "updated_at": "2026-09-10 16:05:14",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
+    },
+    {
+      "id": 404,
+      "date": "2026-09-08",
+      "amount": 6.52,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "Tigros Ivrea — latte fresco, pane ai cereali, mix orientale, cetrioli, banane, 2x shopper bio",
+      "store": "Tigros - Ivrea",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-08 19:13:41",
+      "updated_at": "2026-09-08 19:13:41",
+      "split": "shared"
     },
     {
       "id": 403,
@@ -409,14 +193,7 @@
       "person": "Andrei",
       "created_at": "2026-09-05 12:59:03",
       "updated_at": "2026-09-05 12:59:03",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
       "id": 402,
@@ -431,29 +208,7 @@
       "person": "Andrei",
       "created_at": "2026-09-04 16:16:57",
       "updated_at": "2026-09-04 16:16:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Pane pita",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "pesto basilico",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "pesche nettarine",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "shopper bio",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
       "id": 401,
@@ -468,19 +223,7 @@
       "person": "Andrei",
       "created_at": "2026-09-04 15:18:33",
       "updated_at": "2026-09-04 15:18:33",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Pop corn Carrefour",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "Cincișor metodo lento",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
       "id": 400,
@@ -495,19 +238,7 @@
       "person": "Andrei",
       "created_at": "2026-09-04 09:20:14",
       "updated_at": "2026-09-04 09:20:14",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Pizza/focaccia",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "pancetta affumicata",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
       "id": 399,
@@ -522,14 +253,7 @@
       "person": "Andrei",
       "created_at": "2026-09-03 17:08:17",
       "updated_at": "2026-09-03 17:08:17",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Gustul de Acasa Ivrea — negro icre sarate (caviar 10%)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
       "id": 398,
@@ -544,1498 +268,7 @@
       "person": "Andrei",
       "created_at": "2026-09-03 17:08:17",
       "updated_at": "2026-09-03 17:08:17",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Tigros Ivrea — carta igienica, uova, succo limone, fettine coppa, salsiccia, latte, melanzane, peperoni, misticanza, mix orientale, pomodoro, shopper bio x3",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 395,
-      "date": "2026-08-28",
-      "amount": 2.76,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "PANE PITA x4 @0.69",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-28T20:12:00",
-      "updated_at": "2026-08-28 18:13:24",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PANE PITA x4 @0.69",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 394,
-      "date": "2026-08-28",
-      "amount": 5.61,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "ACQUA MIN.EFFERV. 1.62, PROSECCO SPUMANTE 3.99",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-28T19:57:00",
-      "updated_at": "2026-08-28 17:58:54",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "ACQUA MIN.EFFERV. 1.62, PROSECCO SPUMANTE 3.99",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 393,
-      "date": "2026-08-27",
-      "amount": 5.21,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "Lidl Ivrea 27/08: birra lager, acqua effervesc., prosciutto cotto",
-      "store": null,
-      "source": "manual",
-      "person": "Andrei",
-      "created_at": "2026-08-27 16:37:02",
-      "updated_at": "2026-08-27 16:37:02",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Lidl Ivrea 27/08: birra lager, acqua effervesc., prosciutto cotto",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 391,
-      "date": "2026-08-27",
-      "amount": 6.67,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "CONAD 27/08: latte, pizza/focaccia, nettare, salam mil",
-      "store": null,
-      "source": "manual",
-      "person": "Andrei",
-      "created_at": "2026-08-27 11:52:57",
-      "updated_at": "2026-08-27 11:52:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "CONAD 27/08: latte, pizza/focaccia, nettare, salam mil",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 390,
-      "date": "2026-08-26",
-      "amount": 49.2,
-      "currency": "EUR",
-      "category": "muncă",
-      "subcategory": null,
-      "description": "DdT #9531 — Domus Edilizia, SR Scorrevole PVC 100mm x2 + SR Ispezione Lineare PVC 100mm x2 (Baltea Group)",
-      "store": null,
-      "source": "manual",
-      "person": "Andrei",
-      "created_at": "2026-08-26 17:57:35",
-      "updated_at": "2026-08-26 17:57:35",
-      "split": "andrei-only",
-      "receipt_items": [
-        {
-          "product_name": "DdT #9531 — Domus Edilizia, SR Scorrevole PVC 100mm x2",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "SR Ispezione Lineare PVC 100mm x2 (Baltea Group)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 388,
-      "date": "2026-08-26",
-      "amount": 3.08,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "Tigros Ivrea — pane a fette ai cereali, latte fres.in",
-      "store": null,
-      "source": "manual",
-      "person": "Andrei",
-      "created_at": "2026-08-26 17:05:32",
-      "updated_at": "2026-08-26 17:05:32",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Tigros Ivrea — pane a fette ai cereali, latte fres.in",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 387,
-      "date": "2026-08-25",
-      "amount": 58.32,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "Tigros Ivrea - bifteck, pomodoro, prosciutto cotto, salsiccia, peperoni, cetrioli, insalata, uova, mele gala, shopper bio",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-25 17:45:48",
-      "updated_at": "2026-08-25 17:45:48",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Tigros Ivrea - bifteck, pomodoro, prosciutto cotto, salsiccia, peperoni, cetrioli, insalata, uova, mele gala, shopper bio",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 386,
-      "date": "2026-08-24",
-      "amount": -1.56,
-      "currency": "EUR",
-      "category": "casa",
-      "subcategory": "sconturi",
-      "description": "Sconto Lidl Plus (feta + uva)",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:36",
-      "updated_at": "2026-08-24 18:55:36",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Sconto Lidl Plus (feta",
-          "price": null,
-          "quantity": 1
-        },
-        {
-          "product_name": "uva)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 385,
-      "date": "2026-08-24",
-      "amount": 1.16,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "fructe",
-      "description": "Banane 1.182kg",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Banane 1.182kg",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 384,
-      "date": "2026-08-24",
-      "amount": 1.19,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "legume",
-      "description": "Carote XXL 1250g",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Carote XXL 1250g",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 383,
-      "date": "2026-08-24",
-      "amount": 0.02,
-      "currency": "EUR",
-      "category": "casa",
-      "subcategory": "consumabili",
-      "description": "Sacch. ortofr. biograd x2",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Sacch. ortofr. biograd x2",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 382,
-      "date": "2026-08-24",
-      "amount": 3.61,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "fructe",
-      "description": "Uva red globe 1.208kg",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Uva red globe 1.208kg",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 381,
-      "date": "2026-08-24",
-      "amount": 1.29,
-      "currency": "EUR",
-      "category": "casa",
-      "subcategory": "consumabili",
-      "description": "Sacchetti congel. 3L",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Sacchetti congel. 3L",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 380,
-      "date": "2026-08-24",
-      "amount": 1.89,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "snacks",
-      "description": "Mirtilli rossi essic.",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Mirtilli rossi essic.",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 379,
-      "date": "2026-08-24",
-      "amount": 2.15,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "gustari",
-      "description": "Preparato per paella",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Preparato per paella",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 378,
-      "date": "2026-08-24",
-      "amount": 2.76,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "panificatie",
-      "description": "Pane pita x4",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Pane pita x4",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 377,
-      "date": "2026-08-24",
-      "amount": 1.59,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "gastronomie",
-      "description": "Pate funghi melavza",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Pate funghi melavza",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 376,
-      "date": "2026-08-24",
-      "amount": 2.49,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "lactate",
-      "description": "Gorgonzola piccante",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Gorgonzola piccante",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 375,
-      "date": "2026-08-24",
-      "amount": 5.49,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "lactate",
-      "description": "Mozzarella multipack",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Mozzarella multipack",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 374,
-      "date": "2026-08-24",
-      "amount": 2.39,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "lactate",
-      "description": "Feta greca DOP",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Feta greca DOP",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 373,
-      "date": "2026-08-24",
-      "amount": 9.98,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "snacks",
-      "description": "Noci sgusciate XXL x2",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Noci sgusciate XXL x2",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 372,
-      "date": "2026-08-24",
-      "amount": 3.24,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "bauturi",
-      "description": "Acqua min. effervesc. x12",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Acqua min. effervesc. x12",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 371,
-      "date": "2026-08-24",
-      "amount": 0.2,
-      "currency": "EUR",
-      "category": "casa",
-      "subcategory": "consumabili",
-      "description": "Shopper biodegradabile x2",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 18:55:22",
-      "updated_at": "2026-08-24 18:55:22",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Shopper biodegradabile x2",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 370,
-      "date": "2026-08-24",
-      "amount": 7.3,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "diverse",
-      "description": "Patate spicchi, involtini pollo, kefir bianco 480g, rusticone olio EVO",
-      "store": "Penny Market Biella",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 13:24:50",
-      "updated_at": "2026-08-24 13:24:50",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Patate spicchi, involtini pollo, kefir bianco 480g, rusticone olio EVO",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 369,
-      "date": "2026-08-24",
-      "amount": 0.98,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "panificatie",
-      "description": "Ciambella 55g x2",
-      "store": "Penny Market Biella",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 08:22:32",
-      "updated_at": "2026-08-24 08:22:32",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Ciambella 55g x2",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 368,
-      "date": "2026-08-24",
-      "amount": 1.25,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "lactate",
-      "description": "Latte int. fresco val",
-      "store": "Penny Market Biella",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-24 08:22:32",
-      "updated_at": "2026-08-24 08:22:32",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Latte int. fresco val",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 367,
-      "date": "2026-08-22",
-      "amount": 0.3,
-      "currency": "EUR",
-      "category": "casa",
-      "subcategory": "sacchetti",
-      "description": "Shopper biodegrad. 3pz",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-23T08:45:37.449Z",
-      "updated_at": "2026-08-23T08:45:37.449Z",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Shopper biodegrad. 3pz",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 366,
-      "date": "2026-08-22",
-      "amount": 1.64,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "frutta",
-      "description": "Melone retato 1.382kg x1.59 (sconto Lidl Plus -0.56)",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-23T08:45:37.449Z",
-      "updated_at": "2026-08-23T08:45:37.449Z",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Melone retato 1.382kg x1.59 (sconto Lidl Plus -0.56)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 365,
-      "date": "2026-08-22",
-      "amount": 1.99,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "frutta",
-      "description": "Pesche noci XXL",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-23T08:45:37.449Z",
-      "updated_at": "2026-08-23T08:45:37.449Z",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Pesche noci XXL",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 364,
-      "date": "2026-08-22",
-      "amount": 2.7,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "verdura",
-      "description": "Melanzane 1.598kg x1.69",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-23T08:45:37.449Z",
-      "updated_at": "2026-08-23T08:45:37.449Z",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Melanzane 1.598kg x1.69",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 363,
-      "date": "2026-08-22",
-      "amount": 2.81,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "frutta",
-      "description": "Ananas 2.836kg x1.19 (sconto Lidl Plus -0.56)",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-23T08:45:37.449Z",
-      "updated_at": "2026-08-23T08:45:37.449Z",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Ananas 2.836kg x1.19 (sconto Lidl Plus -0.56)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 362,
-      "date": "2026-08-22",
-      "amount": 4.16,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "verdura",
-      "description": "Melanzane 2.462kg x1.69",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-23T08:45:37.449Z",
-      "updated_at": "2026-08-23T08:45:37.449Z",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Melanzane 2.462kg x1.69",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 361,
-      "date": "2026-08-22",
-      "amount": 0.99,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "pane",
-      "description": "Pagnottina",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-23T08:45:37.449Z",
-      "updated_at": "2026-08-23T08:45:37.449Z",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Pagnottina",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 360,
-      "date": "2026-08-22",
-      "amount": 2.97,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "latticini",
-      "description": "Kefir XXL 3pz",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-23T08:45:37.449Z",
-      "updated_at": "2026-08-23T08:45:37.449Z",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Kefir XXL 3pz",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 359,
-      "date": "2026-08-22",
-      "amount": 5.3,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": "pesce",
-      "description": "Merluzzetti atlantici 2pz",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "andrei",
-      "created_at": "2026-08-23T08:45:37.446Z",
-      "updated_at": "2026-08-23T08:45:37.449Z",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Merluzzetti atlantici 2pz",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 349,
-      "date": "2026-08-21",
-      "amount": 36.15,
-      "currency": "EUR",
-      "category": "sanatate",
-      "subcategory": null,
-      "description": "POS OSPEDALE IVREA DEA IVREA (spital)",
-      "store": "Ospedale Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS OSPEDALE IVREA DEA IVREA (spital)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 307,
-      "date": "2026-08-21",
-      "amount": 1.29,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "CIPOLLOTTI GR.200",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 03:27:28",
-      "updated_at": "2026-08-22 03:27:28",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "CIPOLLOTTI GR.200",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 306,
-      "date": "2026-08-21",
-      "amount": 7.1,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "COTOLETTE DI SUINO",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 03:27:28",
-      "updated_at": "2026-08-22 03:27:28",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "COTOLETTE DI SUINO",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 304,
-      "date": "2026-08-21",
-      "amount": 1.43,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "MELANZANE LUNGHE",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 03:27:28",
-      "updated_at": "2026-08-22 03:27:28",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "MELANZANE LUNGHE",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 303,
-      "date": "2026-08-21",
-      "amount": 0.01,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "SHOPPER BIO OF 60PER",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 03:27:28",
-      "updated_at": "2026-08-22 03:27:28",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "SHOPPER BIO OF 60PER",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 302,
-      "date": "2026-08-21",
-      "amount": 2.27,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "FINOCCHI",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 03:27:28",
-      "updated_at": "2026-08-22 03:27:28",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "FINOCCHI",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 301,
-      "date": "2026-08-21",
-      "amount": 1.09,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "TIGROS LATTE FRES.IN",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 03:27:28",
-      "updated_at": "2026-08-22 03:27:28",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "TIGROS LATTE FRES.IN",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 348,
-      "date": "2026-08-20",
-      "amount": 998,
-      "currency": "EUR",
-      "category": "transfer",
-      "subcategory": null,
-      "description": "DISPOSIZIONE RIF:226095832 BEN. Andrei Elena Intesa giroconto (transfer Elena)",
-      "store": "Intesa (giroconto)",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "DISPOSIZIONE RIF:226095832 BEN. Andrei Elena Intesa giroconto (transfer Elena)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 347,
-      "date": "2026-08-20",
-      "amount": 1.99,
-      "currency": "EUR",
-      "category": "servicii",
-      "subcategory": null,
-      "description": "POS PAYPAL *GOOGLE GOOGLE Dublin",
-      "store": "PayPal Google",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS PAYPAL *GOOGLE GOOGLE Dublin",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 346,
-      "date": "2026-08-20",
-      "amount": 70.84,
-      "currency": "EUR",
-      "category": "divertisment",
-      "subcategory": null,
-      "description": "POS Amazon.it LUXEMBOURG",
-      "store": "Amazon.it",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS Amazon.it LUXEMBOURG",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 345,
-      "date": "2026-08-20",
-      "amount": 26,
-      "currency": "EUR",
-      "category": "divertisment",
-      "subcategory": null,
-      "description": "POS Amazon.it LUXEMBOURG",
-      "store": "Amazon.it",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS Amazon.it LUXEMBOURG",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 300,
-      "date": "2026-08-20",
-      "amount": 50,
-      "currency": "EUR",
-      "category": "auto",
-      "subcategory": null,
-      "description": "RICAMBI/ACCESSORI AUTO",
-      "store": "CAPELLARORICAMBI SNC Banchette (TO)",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-20 15:37:45",
-      "updated_at": "2026-08-20 15:37:45",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "RICAMBI/ACCESSORI AUTO",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 299,
-      "date": "2026-08-20",
-      "amount": 12,
-      "currency": "EUR",
-      "category": "casa",
-      "subcategory": null,
-      "description": "SCOPA REGOLAB. ACCIAIO",
-      "store": "DOMUS EDILIZIA S.R.L. Montalto Dora",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-20 07:55:00",
-      "updated_at": "2026-08-20 07:55:00",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "SCOPA REGOLAB. ACCIAIO",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 344,
-      "date": "2026-08-19",
-      "amount": 3.8,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "POS UNICOOP TIRRENO S.C.",
-      "store": "Unicoop Tirreno",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS UNICOOP TIRRENO S.C.",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 343,
-      "date": "2026-08-19",
-      "amount": 12.48,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "POS ESSELUNGA CARRARA TU",
-      "store": "Esselunga Carrara",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS ESSELUNGA CARRARA TU",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 342,
-      "date": "2026-08-19",
-      "amount": 14.1,
-      "currency": "EUR",
-      "category": "transport",
-      "subcategory": null,
-      "description": "POS 12CDT-CDT TRATTA A (tren)",
-      "store": "12CDT-CDT Tratta A",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS 12CDT-CDT TRATTA A (tren)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 341,
-      "date": "2026-08-19",
-      "amount": 19.38,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "POS IN'S MERCATO SPA CDC",
-      "store": "IN'S MERCATO SPA",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS IN'S MERCATO SPA CDC",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 340,
-      "date": "2026-08-19",
-      "amount": 19.2,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "POS IVREA",
-      "store": "Ivrea (POS)",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS IVREA",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 339,
-      "date": "2026-08-19",
-      "amount": 4.4,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "POS SILARIO NORD MYCHEF",
-      "store": "Silario Nord MyChef",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS SILARIO NORD MYCHEF",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 338,
-      "date": "2026-08-19",
-      "amount": 3,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "POS SILARIO NORD MYCHEF",
-      "store": "Silario Nord MyChef",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS SILARIO NORD MYCHEF",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 337,
-      "date": "2026-08-19",
-      "amount": 10.5,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "POS LAVAGNA COMMERC.",
-      "store": "Lavagna Comm.",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS LAVAGNA COMMERC.",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 336,
-      "date": "2026-08-19",
-      "amount": 7.5,
-      "currency": "EUR",
-      "category": "transport",
-      "subcategory": null,
-      "description": "POS ASPIT SARZANA (autostrada)",
-      "store": "Aspit Sarzana",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS ASPIT SARZANA (autostrada)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 335,
-      "date": "2026-08-19",
-      "amount": 75.01,
-      "currency": "EUR",
-      "category": "auto",
-      "subcategory": null,
-      "description": "POS ENI 34305 (carburant)",
-      "store": "ENI 34305",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS ENI 34305 (carburant)",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 275,
-      "date": "2026-08-19",
-      "amount": 2.07,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "PANE PITA",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T17:49:17.864710",
-      "updated_at": "2026-08-19T17:49:17.864710",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PANE PITA",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 274,
-      "date": "2026-08-19",
-      "amount": 1.62,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "ACQUA MIN.EFFERV.",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T17:49:17.864710",
-      "updated_at": "2026-08-19T17:49:17.864710",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "ACQUA MIN.EFFERV.",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 273,
-      "date": "2026-08-19",
-      "amount": 2.69,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "SALAMETTO CACCIATORE",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T17:49:17.864710",
-      "updated_at": "2026-08-19T17:49:17.864710",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "SALAMETTO CACCIATORE",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 272,
-      "date": "2026-08-19",
-      "amount": 1.89,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "SALAMETTO PICCANTE",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T17:49:17.864710",
-      "updated_at": "2026-08-19T17:49:17.864710",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "SALAMETTO PICCANTE",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 271,
-      "date": "2026-08-19",
-      "amount": 5.94,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "KEFIR XXL",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T17:49:17.864710",
-      "updated_at": "2026-08-19T17:49:17.864710",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "KEFIR XXL",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 270,
-      "date": "2026-08-19",
-      "amount": 4.58,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "MSC FISH BURGER",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T17:49:17.864710",
-      "updated_at": "2026-08-19T17:49:17.864710",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "MSC FISH BURGER",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 269,
-      "date": "2026-08-19",
-      "amount": 7.58,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "PAELLA",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T17:49:17.864710",
-      "updated_at": "2026-08-19T17:49:17.864710",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PAELLA",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 268,
-      "date": "2026-08-19",
-      "amount": 2.99,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "YOGURT GRECA CREMOSO",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T17:49:17.864710",
-      "updated_at": "2026-08-19T17:49:17.864710",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "YOGURT GRECA CREMOSO",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 267,
-      "date": "2026-08-19",
-      "amount": 0.2,
-      "currency": "EUR",
-      "category": "casa",
-      "subcategory": null,
-      "description": "SHOPPER BIODEGRAD.",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T17:49:17.864710",
-      "updated_at": "2026-08-19T17:49:17.864710",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "SHOPPER BIODEGRAD.",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
       "id": 397,
@@ -2050,14 +283,7 @@
       "person": "Andrei",
       "created_at": "2026-09-01 05:04:42",
       "updated_at": "2026-09-01 05:04:42",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "Caffe Espresso",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
       "id": 396,
@@ -2072,306 +298,588 @@
       "person": "Andrei",
       "created_at": "2026-09-01 05:04:41",
       "updated_at": "2026-09-01 05:04:41",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PAN SOFFIOUF EDAMER FETTE 150GP PROSC. COTTO GRANGUSTILATTE FRESCO AQU DIGINGER DI",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "split": "shared"
     },
     {
-      "id": 334,
-      "date": "2026-08-18",
-      "amount": 2.2,
+      "id": 395,
+      "date": "2026-08-28",
+      "amount": 2.76,
       "currency": "EUR",
-      "category": "divertisment",
+      "category": "alimente",
       "subcategory": null,
-      "description": "POS ASSOCIAZIONE DI PUBB",
-      "store": "Associazione di Pubb",
+      "description": "PANE PITA x4 @0.69",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-28T20:12:00",
+      "updated_at": "2026-08-28 18:13:24",
+      "split": "shared"
+    },
+    {
+      "id": 394,
+      "date": "2026-08-28",
+      "amount": 5.61,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "ACQUA MIN.EFFERV. 1.62, PROSECCO SPUMANTE 3.99",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-28T19:57:00",
+      "updated_at": "2026-08-28 17:58:54",
+      "split": "shared"
+    },
+    {
+      "id": 393,
+      "date": "2026-08-27",
+      "amount": 5.21,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "Lidl Ivrea 27/08: birra lager, acqua effervesc., prosciutto cotto",
+      "store": null,
+      "source": "manual",
+      "person": "Andrei",
+      "created_at": "2026-08-27 16:37:02",
+      "updated_at": "2026-08-27 16:37:02",
+      "split": "shared"
+    },
+    {
+      "id": 391,
+      "date": "2026-08-27",
+      "amount": 6.67,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "CONAD 27/08: latte, pizza/focaccia, nettare, salam mil",
+      "store": null,
+      "source": "manual",
+      "person": "Andrei",
+      "created_at": "2026-08-27 11:52:57",
+      "updated_at": "2026-08-27 11:52:57",
+      "split": "shared"
+    },
+    {
+      "id": 390,
+      "date": "2026-08-26",
+      "amount": 49.2,
+      "currency": "EUR",
+      "category": "muncă",
+      "subcategory": null,
+      "description": "DdT #9531 — Domus Edilizia, SR Scorrevole PVC 100mm x2 + SR Ispezione Lineare PVC 100mm x2 (Baltea Group)",
+      "store": null,
+      "source": "manual",
+      "person": "Andrei",
+      "created_at": "2026-08-26 17:57:35",
+      "updated_at": "2026-08-26 17:57:35",
+      "split": "andrei-only"
+    },
+    {
+      "id": 388,
+      "date": "2026-08-26",
+      "amount": 3.08,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "Tigros Ivrea — pane a fette ai cereali, latte fres.in",
+      "store": null,
+      "source": "manual",
+      "person": "Andrei",
+      "created_at": "2026-08-26 17:05:32",
+      "updated_at": "2026-08-26 17:05:32",
+      "split": "shared"
+    },
+    {
+      "id": 387,
+      "date": "2026-08-25",
+      "amount": 58.32,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "Tigros Ivrea - bifteck, pomodoro, prosciutto cotto, salsiccia, peperoni, cetrioli, insalata, uova, mele gala, shopper bio",
+      "store": "Tigros Ivrea",
       "source": "andrei",
       "person": "Andrei",
-      "created_at": "2026-08-22 05:17:57",
-      "updated_at": "2026-08-22 05:17:57",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POS ASSOCIAZIONE DI PUBB",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "created_at": "2026-08-25 17:45:48",
+      "updated_at": "2026-08-25 17:45:48",
+      "split": "shared"
     },
     {
-      "id": 298,
-      "date": "2026-08-18",
+      "id": 386,
+      "date": "2026-08-24",
+      "amount": -1.56,
+      "currency": "EUR",
+      "category": "casa",
+      "subcategory": "sconturi",
+      "description": "Sconto Lidl Plus (feta + uva)",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:36",
+      "updated_at": "2026-08-24 18:55:36",
+      "split": "shared"
+    },
+    {
+      "id": 385,
+      "date": "2026-08-24",
+      "amount": 1.16,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "fructe",
+      "description": "Banane 1.182kg",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 384,
+      "date": "2026-08-24",
+      "amount": 1.19,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "legume",
+      "description": "Carote XXL 1250g",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 383,
+      "date": "2026-08-24",
+      "amount": 0.02,
+      "currency": "EUR",
+      "category": "casa",
+      "subcategory": "consumabili",
+      "description": "Sacch. ortofr. biograd x2",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 382,
+      "date": "2026-08-24",
+      "amount": 3.61,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "fructe",
+      "description": "Uva red globe 1.208kg",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 381,
+      "date": "2026-08-24",
+      "amount": 1.29,
+      "currency": "EUR",
+      "category": "casa",
+      "subcategory": "consumabili",
+      "description": "Sacchetti congel. 3L",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 380,
+      "date": "2026-08-24",
+      "amount": 1.89,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "snacks",
+      "description": "Mirtilli rossi essic.",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 379,
+      "date": "2026-08-24",
+      "amount": 2.15,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "gustari",
+      "description": "Preparato per paella",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 378,
+      "date": "2026-08-24",
+      "amount": 2.76,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "panificatie",
+      "description": "Pane pita x4",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 377,
+      "date": "2026-08-24",
+      "amount": 1.59,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "gastronomie",
+      "description": "Pate funghi melavza",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 376,
+      "date": "2026-08-24",
+      "amount": 2.49,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "lactate",
+      "description": "Gorgonzola piccante",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 375,
+      "date": "2026-08-24",
+      "amount": 5.49,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "lactate",
+      "description": "Mozzarella multipack",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 374,
+      "date": "2026-08-24",
+      "amount": 2.39,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "lactate",
+      "description": "Feta greca DOP",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 373,
+      "date": "2026-08-24",
+      "amount": 9.98,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "snacks",
+      "description": "Noci sgusciate XXL x2",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 372,
+      "date": "2026-08-24",
+      "amount": 3.24,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "bauturi",
+      "description": "Acqua min. effervesc. x12",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
+    },
+    {
+      "id": 371,
+      "date": "2026-08-24",
       "amount": 0.2,
       "currency": "EUR",
       "category": "casa",
-      "subcategory": null,
-      "description": "SHOPPER CASSE SELF",
-      "store": "Tigros Ivrea",
+      "subcategory": "consumabili",
+      "description": "Shopper biodegradabile x2",
+      "store": "Lidl Ivrea",
       "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "SHOPPER CASSE SELF",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
+      "split": "shared"
     },
     {
-      "id": 297,
-      "date": "2026-08-18",
-      "amount": 3.98,
+      "id": 370,
+      "date": "2026-08-24",
+      "amount": 7.3,
       "currency": "EUR",
       "category": "alimente",
-      "subcategory": null,
-      "description": "UVA BIANCA",
-      "store": "Tigros Ivrea",
+      "subcategory": "diverse",
+      "description": "Patate spicchi, involtini pollo, kefir bianco 480g, rusticone olio EVO",
+      "store": "Penny Market Biella",
       "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "UVA BIANCA",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "person": "andrei",
+      "created_at": "2026-08-24 13:24:50",
+      "updated_at": "2026-08-24 13:24:50",
+      "split": "shared"
     },
     {
-      "id": 296,
-      "date": "2026-08-18",
-      "amount": 0.01,
+      "id": 369,
+      "date": "2026-08-24",
+      "amount": 0.98,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "panificatie",
+      "description": "Ciambella 55g x2",
+      "store": "Penny Market Biella",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 08:22:32",
+      "updated_at": "2026-08-24 08:22:32",
+      "split": "shared"
+    },
+    {
+      "id": 368,
+      "date": "2026-08-24",
+      "amount": 1.25,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "lactate",
+      "description": "Latte int. fresco val",
+      "store": "Penny Market Biella",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 08:22:32",
+      "updated_at": "2026-08-24 08:22:32",
+      "split": "shared"
+    },
+    {
+      "id": 367,
+      "date": "2026-08-22",
+      "amount": 0.3,
       "currency": "EUR",
       "category": "casa",
-      "subcategory": null,
-      "description": "SHOPPER BIO",
-      "store": "Tigros Ivrea",
+      "subcategory": "sacchetti",
+      "description": "Shopper biodegrad. 3pz",
+      "store": "Lidl Ivrea",
       "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "SHOPPER BIO",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
+      "split": "shared"
     },
     {
-      "id": 295,
-      "date": "2026-08-18",
-      "amount": 2.1,
+      "id": 366,
+      "date": "2026-08-22",
+      "amount": 1.64,
       "currency": "EUR",
       "category": "alimente",
-      "subcategory": null,
-      "description": "POMODORO OBLUNGO ROS",
-      "store": "Tigros Ivrea",
+      "subcategory": "frutta",
+      "description": "Melone retato 1.382kg x1.59 (sconto Lidl Plus -0.56)",
+      "store": "Lidl Ivrea",
       "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "POMODORO OBLUNGO ROS",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
+      "split": "shared"
     },
     {
-      "id": 294,
-      "date": "2026-08-18",
-      "amount": 1.99,
-      "currency": "EUR",
-      "category": "casa",
-      "subcategory": null,
-      "description": "PRIMIA CARTA IGIENICA",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PRIMIA CARTA IGIENICA",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 293,
-      "date": "2026-08-18",
-      "amount": 3.49,
-      "currency": "EUR",
-      "category": "casa",
-      "subcategory": null,
-      "description": "PRIMIA BOBINA ASCIUG",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PRIMIA BOBINA ASCIUG",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 292,
-      "date": "2026-08-18",
-      "amount": 1,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "PRIMIA INSALATA MIXTA",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PRIMIA INSALATA MIXTA",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 291,
-      "date": "2026-08-18",
-      "amount": 1,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "PRIMIA MIX ORIENTALE",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PRIMIA MIX ORIENTALE",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 290,
-      "date": "2026-08-18",
+      "id": 365,
+      "date": "2026-08-22",
       "amount": 1.99,
       "currency": "EUR",
       "category": "alimente",
-      "subcategory": null,
-      "description": "PAGNOTTA VARESINA",
-      "store": "Tigros Ivrea",
+      "subcategory": "frutta",
+      "description": "Pesche noci XXL",
+      "store": "Lidl Ivrea",
       "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PAGNOTTA VARESINA",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
+      "split": "shared"
     },
     {
-      "id": 289,
-      "date": "2026-08-18",
-      "amount": 1.29,
+      "id": 364,
+      "date": "2026-08-22",
+      "amount": 2.7,
       "currency": "EUR",
       "category": "alimente",
-      "subcategory": null,
-      "description": "CIPOLLOTTI GR.200",
-      "store": "Tigros Ivrea",
+      "subcategory": "verdura",
+      "description": "Melanzane 1.598kg x1.69",
+      "store": "Lidl Ivrea",
       "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "CIPOLLOTTI GR.200",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 288,
-      "date": "2026-08-18",
-      "amount": 2.5,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "PROSCIUTTO COTTO",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PROSCIUTTO COTTO",
-          "price": null,
-          "quantity": 1
-        }
-      ]
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
+      "split": "shared"
     }
   ],
   "ore_lucrate": [
     {
-      "date": "2026-09-07",
-      "santier": "Valtournenche / Cond Maison du Sapin",
+      "id": 74,
+      "date": "2026-09-14",
+      "santier": "Morgex La Vache Rit",
+      "ora_start": "07:00",
+      "ora_end": "18:00",
+      "ore_efective": 10,
+      "mezzo": "Fisso 613",
+      "colegi": "Giovanni, Ilie, Tahiru",
+      "note": "Pauză prânz 1h",
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-09-14 20:42:02",
+      "updated_at": "2026-09-14 20:42:02",
+      "ore_normal": 8,
+      "ore_guida": 1,
+      "ore_extra": 1
+    },
+    {
+      "id": 72,
+      "date": "2026-09-12",
+      "santier": "MORGEX / LA VACHE RIT",
+      "ora_start": "06:00",
+      "ora_end": "15:00",
+      "ore_efective": 8,
+      "mezzo": "FISSO 613",
+      "colegi": "Giovanni, Florin, Ivanov, Tahiru",
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "1789148547835.0",
+      "updated_at": "2026-09-12 17:29:50",
+      "ore_normal": 0,
+      "ore_guida": 0,
+      "ore_extra": 0
+    },
+    {
+      "id": 73,
+      "date": "2026-09-12",
+      "santier": "Morgex La Vache Rit",
+      "ora_start": "07:00",
+      "ora_end": "15:00",
+      "ore_efective": 8,
+      "mezzo": "Fisso 613",
+      "colegi": "Giovanni, Florin, Ivanov, Tahiru",
+      "note": "Sâmbătă — program continuu fără pauză de masă",
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-09-14 20:42:02",
+      "updated_at": "2026-09-14 20:42:02",
+      "ore_normal": 8,
+      "ore_guida": 0,
+      "ore_extra": 0
+    },
+    {
+      "id": 71,
+      "date": "2026-09-10",
+      "santier": "Morgex/La Vache Rit",
       "ora_start": "06:30",
       "ora_end": "18:00",
       "ore_efective": 10.5,
-      "mezzo": "Renault-529",
-      "colegi": "Sergiu",
+      "mezzo": "Iveco",
+      "colegi": "Ivanov + Leonardo - Incapsulante, nylon+nastro",
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-09-10 15:49:03",
+      "updated_at": "2026-09-10 15:49:03",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
-      "date": "2026-09-05",
-      "santier": "Settimo Vittone Castello",
+      "id": 70,
+      "date": "2026-09-09",
+      "santier": "Brosso/Starbox/Morgex/La Vache Rit",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 10.5,
+      "mezzo": "Renault 529",
+      "colegi": "Ivanov - Brosso-Starbox-Morgex/La Vache Rit",
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-09-10 05:01:44",
+      "updated_at": "2026-09-10 05:01:44",
+      "ore_normal": 0,
+      "ore_guida": 0,
+      "ore_extra": 0
+    },
+    {
+      "id": 68,
+      "date": "2026-09-08",
+      "santier": "Brosso Starbox",
       "ora_start": "06:30",
       "ora_end": "17:00",
       "ore_efective": 9.5,
-      "mezzo": "Iveco",
+      "mezzo": "Renault-529",
       "colegi": "Sergiu",
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-09-08 19:26:51",
+      "updated_at": "2026-09-08 19:26:51",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 69,
+      "date": "2026-09-08",
+      "santier": "Brosso/Starbox",
+      "ora_start": "06:30",
+      "ora_end": "17:00",
+      "ore_efective": 9.5,
+      "mezzo": "Renault 529",
+      "colegi": "Ivanov - cargar materiale, passare da Giono",
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-09-10 05:01:44",
+      "updated_at": "2026-09-10 05:01:44",
+      "ore_normal": 0,
+      "ore_guida": 0,
+      "ore_extra": 0
+    },
+    {
+      "id": 67,
       "date": "2026-09-04",
       "santier": "Settimo Vittone Castello",
       "ora_start": "06:30",
@@ -2379,11 +887,17 @@
       "ore_efective": 10,
       "mezzo": "Iveco",
       "colegi": "Sergiu",
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-09-04 03:33:21",
+      "updated_at": "2026-09-04 03:33:21",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 66,
       "date": "2026-09-03",
       "santier": "Settimo Vittone Castello",
       "ora_start": "07:00",
@@ -2391,11 +905,17 @@
       "ore_efective": 9.5,
       "mezzo": "Iveco",
       "colegi": "Sergiu",
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-09-04 03:33:21",
+      "updated_at": "2026-09-04 03:33:21",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 64,
       "date": "2026-09-02",
       "santier": "Settimo Vittone - Castello",
       "ora_start": "06:30",
@@ -2403,11 +923,17 @@
       "ore_efective": 10.5,
       "mezzo": "Iveco",
       "colegi": "Sergiu",
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-09-03 19:41:57",
+      "updated_at": "2026-09-03 19:41:57",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 65,
       "date": "2026-09-01",
       "santier": "Aosta Cond Sorreley",
       "ora_start": "06:30",
@@ -2415,11 +941,17 @@
       "ore_efective": 9.5,
       "mezzo": "Iveco",
       "colegi": "Tahiru",
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-09-04 03:33:21",
+      "updated_at": "2026-09-04 03:33:21",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 63,
       "date": "2026-08-31",
       "santier": "Pre-Saint-Didier (Cond Les Ancolies)",
       "ora_start": "06:30",
@@ -2427,11 +959,17 @@
       "ore_efective": 10.5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-31 18:16:44",
+      "updated_at": "2026-08-31 18:16:44",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 62,
       "date": "2026-08-30",
       "santier": "D deposit / magazin",
       "ora_start": "07:00",
@@ -2439,11 +977,17 @@
       "ore_efective": 5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-31 06:25:59",
+      "updated_at": "2026-08-31 06:25:59",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 61,
       "date": "2026-08-29",
       "santier": "Morgex / La Vache Rit",
       "ora_start": "07:00",
@@ -2451,11 +995,17 @@
       "ore_efective": 10,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-31 06:25:59",
+      "updated_at": "2026-08-31 06:25:59",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 60,
       "date": "2026-08-27",
       "santier": "Valtournenche",
       "ora_start": "07:00",
@@ -2463,11 +1013,17 @@
       "ore_efective": 11,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-27 16:38:03",
+      "updated_at": "2026-08-27 16:38:03",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 58,
       "date": "2026-08-26",
       "santier": "Valtournenche",
       "ora_start": "07:00",
@@ -2475,11 +1031,17 @@
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
       "colegi": "Tahiru",
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-26 17:59:12",
+      "updated_at": "2026-08-26 17:59:12",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 59,
       "date": "2026-08-26",
       "santier": "Valtournenche",
       "ora_start": "07:00",
@@ -2487,11 +1049,17 @@
       "ore_efective": 11.5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-27 16:38:03",
+      "updated_at": "2026-08-27 16:38:03",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 57,
       "date": "2026-08-24",
       "santier": "Biella",
       "ora_start": "06:30",
@@ -2499,11 +1067,17 @@
       "ore_efective": 11,
       "mezzo": "auto",
       "colegi": "Leonardo",
+      "note": "Curatare generala (Programme Cantieri 24/08)",
+      "sursa": "andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-24 19:17:47",
+      "updated_at": "2026-08-24 19:17:47",
       "ore_normal": 8,
       "ore_guida": 2,
       "ore_extra": 1
     },
     {
+      "id": 56,
       "date": "2026-08-22",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "07:00",
@@ -2511,11 +1085,17 @@
       "ore_efective": 8,
       "mezzo": null,
       "colegi": null,
+      "note": "Mesaj vocal Andrei: Biella Cond Miramonti, 7:00-16:00.",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-22 20:14:59",
+      "updated_at": "2026-08-22 20:14:59",
       "ore_normal": 8,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 55,
       "date": "2026-08-21",
       "santier": "Magazzino San Lorenzo",
       "ora_start": "07:30",
@@ -2523,11 +1103,17 @@
       "ore_efective": 8.5,
       "mezzo": "--colegi",
       "colegi": null,
+      "note": "Programme Cantieri 21/08. Ivanov+Leonardo+Marcello la Magazzino San Lorenzo, start 07:30. Ora final provizorie 17:00 (pattern). Astept confirmare.",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-21 04:20:40",
+      "updated_at": "2026-08-21 04:20:40",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
     },
     {
+      "id": 54,
       "date": "2026-08-20",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "06:30",
@@ -2535,11 +1121,17 @@
       "ore_efective": 9.5,
       "mezzo": null,
       "colegi": null,
+      "note": "Mesaj vocal Andrei: Biella Cond Miramonti, terminat 17:00.",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-21 04:20:02",
+      "updated_at": "2026-08-21 04:26:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
     },
     {
+      "id": 53,
       "date": "2026-08-19",
       "santier": "Cossato Ritorcitura Buzio",
       "ora_start": "06:30",
@@ -2547,11 +1139,17 @@
       "ore_efective": 9.5,
       "mezzo": "Fisso - 613",
       "colegi": "Leonardo, Ivanov",
+      "note": "Programme Cantieri 19/08. Start 06:30, terminat 17:00.",
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-08-19T20:27:41.484893",
+      "updated_at": "2026-08-19T20:27:41.484930",
       "ore_normal": 8,
       "ore_guida": 0,
       "ore_extra": 1.5
     },
     {
+      "id": 52,
       "date": "2026-08-18",
       "santier": "Cossato Ritorcitura Buzio",
       "ora_start": "06:30",
@@ -2559,11 +1157,17 @@
       "ore_efective": 10.5,
       "mezzo": "",
       "colegi": "Ilie, Tahiru, Leonardo, Ivanov, Marcello",
+      "note": null,
+      "sursa": "confirmare_andrei",
+      "confirmat": 0,
+      "created_at": "2026-08-18 18:05:16",
+      "updated_at": "2026-08-18 18:05:16",
       "ore_normal": 8,
       "ore_guida": 0,
       "ore_extra": 1.5
     },
     {
+      "id": 51,
       "date": "2026-08-12",
       "santier": "Cossato Ritorcitura Buzio",
       "ora_start": "06:00",
@@ -2571,11 +1175,17 @@
       "ore_efective": 8,
       "mezzo": "Fisso - 613",
       "colegi": null,
+      "note": "Program continuu fara pauza. Astept confirmare ora final. Inregistrat la ora 06:00 start",
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-08-11 16:59:36",
+      "updated_at": "2026-08-12T14:41:26.297Z",
       "ore_normal": 8,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 50,
       "date": "2026-08-11",
       "santier": "Cossato Ritorcitura Buzio",
       "ora_start": "06:00",
@@ -2583,11 +1193,17 @@
       "ore_efective": 10,
       "mezzo": "Fisso - 613",
       "colegi": null,
+      "note": "Program continuu fara pauza",
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-08-11 16:59:36",
+      "updated_at": "2026-08-11 16:59:36",
       "ore_normal": 8,
       "ore_guida": 2,
       "ore_extra": 0
     },
     {
+      "id": 49,
       "date": "2026-08-10",
       "santier": "Cossato Ritorcitura Buzio",
       "ora_start": "06:00",
@@ -2595,11 +1211,17 @@
       "ore_efective": 10,
       "mezzo": "Fisso - 613",
       "colegi": null,
+      "note": "Program continuu fara pauza. Nylon e nastro per coprire le macchine",
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-08-11 16:59:36",
+      "updated_at": "2026-08-11 16:59:36",
       "ore_normal": 8,
       "ore_guida": 2,
       "ore_extra": 0
     },
     {
+      "id": 47,
       "date": "2026-08-08",
       "santier": "Depozitul firmei",
       "ora_start": "06:00",
@@ -2607,11 +1229,17 @@
       "ore_efective": 6,
       "mezzo": null,
       "colegi": null,
+      "note": "Mesaj vocal Andrei. Sambata, depozitul firmei. Inceput 6:00, terminat 12:00.",
+      "sursa": "voice_andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-10 17:25:27",
+      "updated_at": "2026-08-10 17:25:27",
       "ore_normal": 6,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 46,
       "date": "2026-08-07",
       "santier": "Cossato - Ritorcitura Buzio",
       "ora_start": "06:00",
@@ -2619,11 +1247,17 @@
       "ore_efective": 9,
       "mezzo": "FISSO - 613",
       "colegi": "Ilie, Sergiu, Tahiru, Marcello",
+      "note": null,
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-07 04:21:57",
+      "updated_at": "2026-08-07 04:21:57",
       "ore_normal": 9,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 45,
       "date": "2026-08-06",
       "santier": null,
       "ora_start": "07:30",
@@ -2631,11 +1265,17 @@
       "ore_efective": 9.5,
       "mezzo": null,
       "colegi": null,
+      "note": "Andrei a lucrat pana la 17:00. Confirmat verbal prin mesaj vocal.",
+      "sursa": "voice_andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-06 17:54:32",
+      "updated_at": "2026-08-06 17:54:32",
       "ore_normal": 8,
       "ore_guida": 0,
       "ore_extra": 1.5
     },
     {
+      "id": 44,
       "date": "2026-08-04",
       "santier": "Cossato - Ritorcitura Buzio",
       "ora_start": "06:30",
@@ -2643,11 +1283,17 @@
       "ore_efective": 10.5,
       "mezzo": "Iveco",
       "colegi": null,
+      "note": "Programme Cantieri 4 Aug. Ivanov, scarico lamiere. Locatie Borgomanero/Gozzano la 13:08 (tranzit?). Confirmat implicit de Andrei.",
+      "sursa": "voice_andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-04 20:19:03",
+      "updated_at": "2026-08-04 20:19:03",
       "ore_normal": 8,
       "ore_guida": 1.5,
       "ore_extra": 1
     },
     {
+      "id": 43,
       "date": "2026-08-03",
       "santier": "Cossato - Ritorcitura Buzio",
       "ora_start": "06:30",
@@ -2655,11 +1301,17 @@
       "ore_efective": 13,
       "mezzo": "Iveco",
       "colegi": null,
+      "note": "Programme Cantieri 3 Aug. Ivanov, scarico lamiere. Confirmat de Andrei prin mesaj vocal: terminat 20:30.",
+      "sursa": "voice_andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-04 20:19:03",
+      "updated_at": "2026-08-04 20:19:03",
       "ore_normal": 8,
       "ore_guida": 4,
       "ore_extra": 1
     },
     {
+      "id": 42,
       "date": "2026-08-01",
       "santier": "Biella",
       "ora_start": "07:00",
@@ -2667,11 +1319,17 @@
       "ore_efective": 4.5,
       "mezzo": null,
       "colegi": null,
+      "note": "Sambata 1 Aug. Mesaj vocal Andrei. Biella 7:00-11:30.",
+      "sursa": "voice_andrei",
+      "confirmat": 1,
+      "created_at": "2026-08-02 18:08:45",
+      "updated_at": "2026-08-02 18:08:45",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 4.5
     },
     {
+      "id": 40,
       "date": "2026-07-31",
       "santier": "Settimo Vittone - Abeyta",
       "ora_start": "06:30",
@@ -2679,11 +1337,17 @@
       "ore_efective": 10,
       "mezzo": "Renault 529",
       "colegi": "Sergiu, Tahiru",
+      "note": "Programma Cantieri 31 Luglio. Ivanov+Sergiu+Tahiru, Settimo Vittone Abeyta, pulizia + posa travi (ritirare ore 10 Gelmini). Ora final NEconfirmata.",
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-31 03:39:45",
+      "updated_at": "2026-07-31 03:42:52",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1
     },
     {
+      "id": 39,
       "date": "2026-07-30",
       "santier": "Settimo Vittone - Castello",
       "ora_start": "06:30",
@@ -2691,11 +1355,17 @@
       "ore_efective": 10,
       "mezzo": "Iveco",
       "colegi": "Sergiu",
+      "note": "Programma Cantieri 30 Luglio. Ivanov+Sergiu, Settimo Vittone Castello, pulizia. Ora final 17:30 confirmata de Andrei.",
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-31 03:39:01",
+      "updated_at": "2026-07-31 03:39:01",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1
     },
     {
+      "id": 38,
       "date": "2026-07-29",
       "santier": "Banchette - Cond Mont Revel poi Biella",
       "ora_start": "06:30",
@@ -2703,11 +1373,17 @@
       "ore_efective": 9.5,
       "mezzo": "Fisso 613",
       "colegi": null,
+      "note": "Programme Cantieri 29 Luglio. Ivanov: Banchette Cond Mont Revel poi Settimo Vittone Castello, pulizia. Corectat de Andrei prin mesaj vocal: a fost Banchette si Biella. Ora final 17:00 confirmata.",
+      "sursa": "voice_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-29 22:37:12",
+      "updated_at": "2026-07-29 22:38:17",
       "ore_normal": 8,
       "ore_guida": 0.5,
       "ore_extra": 1
     },
     {
+      "id": 37,
       "date": "2026-07-28",
       "santier": "Pont-Saint-Martin - Cond La Residence",
       "ora_start": "07:00",
@@ -2715,11 +1391,17 @@
       "ore_efective": 9.5,
       "mezzo": "Cestello",
       "colegi": "Tahiru",
+      "note": "Ora final 17:30 confirmata de Andrei. Santier presumabil Pont-Saint-Martin (acelasi ca 27 Iul).",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-29 08:34:02",
+      "updated_at": "2026-07-29 08:34:02",
       "ore_normal": 8,
       "ore_guida": 0.5,
       "ore_extra": 1
     },
     {
+      "id": 36,
       "date": "2026-07-27",
       "santier": "Pont-Saint-Martin - Cond La Residence",
       "ora_start": "07:00",
@@ -2727,11 +1409,17 @@
       "ore_efective": 10,
       "mezzo": "Cestello",
       "colegi": "Tahiru",
+      "note": "Programme Cantieri 27 Luglio. Ivanov + Tahiru, Pont-Saint-Martin, Cestello. Ora final 18:00 confirmata de Andrei.",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-29 07:13:38",
+      "updated_at": "2026-07-29 07:13:38",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1
     },
     {
+      "id": 35,
       "date": "2026-07-24",
       "santier": "Pont-Saint-Martin - Cond La Residence",
       "ora_start": "07:00",
@@ -2739,11 +1427,17 @@
       "ore_efective": 10,
       "mezzo": "Cestello",
       "colegi": "Tahiru",
+      "note": "Programma Cantieri 24 Iulie. Pont-Saint-Martin Cond La Residence, Ivanov+Tahiru, Cestello. 8:00 consegnare infissi Cond San Giuseppe. Ora final 18:00 confirmata de Andrei prin mesaj vocal.",
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-24 04:07:18",
+      "updated_at": "2026-07-24 17:46:03",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1
     },
     {
+      "id": 34,
       "date": "2026-07-23",
       "santier": "Vigliano",
       "ora_start": "07:00",
@@ -2751,11 +1445,17 @@
       "ore_efective": 10.5,
       "mezzo": null,
       "colegi": "Tahiru",
+      "note": "Cestello (ritirare cestello). Ora final 18:30 confirmata de Andrei prin mesaj vocal.",
+      "sursa": "voice_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-23 17:22:28",
+      "updated_at": "2026-07-23 17:22:28",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
     },
     {
+      "id": 33,
       "date": "2026-07-22",
       "santier": "Aosta - Cond Sorreley",
       "ora_start": "06:30",
@@ -2763,11 +1463,17 @@
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
       "colegi": null,
+      "note": "Programma Cantieri 22 Iul: Ivanov+Sergiu+Leonardo, Aosta Cond Sorreley, 6:30. Mesaj vocal: terminat 18:00. Pauza 1h.",
+      "sursa": "voice_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-22 21:09:51",
+      "updated_at": "2026-07-22 21:09:51",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
     },
     {
+      "id": 31,
       "date": "2026-07-21",
       "santier": "Aosta - Cond Sorreley",
       "ora_start": "06:30",
@@ -2775,11 +1481,17 @@
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
       "colegi": "Sergiu, Leonardo",
+      "note": "Posa davanzali? Nu — programma nu specifica materiale/lucrari pt Sorreley. Confirmat de Andrei: lucrat pana la 18:00.",
+      "sursa": "voice_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-21 17:50:03",
+      "updated_at": "2026-07-21 17:59:11",
       "ore_normal": 10.5,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 30,
       "date": "2026-07-20",
       "santier": "Aosta - Cond Sorreley",
       "ora_start": "07:00",
@@ -2787,11 +1499,17 @@
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
       "colegi": "Sergiu+Leonardo (Aosta Cond Sorreley, cu Ivanov). Alte echipe: Florin+Marcello Champorcher (Fisso 613), Giovanni+Tahiru Aosta Cond Sorreley & Ancien Bazaar (3 posti 645, ZTL)",
+      "note": "Programma Cantieri 20 Iulie. 3 santiere. Ivanov pe Cond Sorreley cu Sergiu+Leonardo. Ora final 18:00 confirmata de Andrei prin mesaj vocal 23 Iulie.",
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-20 05:03:15",
+      "updated_at": "2026-07-23 13:11:36",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
     },
     {
+      "id": 32,
       "date": "2026-07-19",
       "santier": "Santhia",
       "ora_start": "10:00",
@@ -2799,11 +1517,17 @@
       "ore_efective": 3,
       "mezzo": "Renault 529",
       "colegi": null,
+      "note": "Sambata 19 Iulie. Santhia — preluat marfa pentru magazin. 3 ore extra. Confirmat prin mesaj vocal 24 Iulie.",
+      "sursa": "voice_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-21 17:50:03",
+      "updated_at": "2026-07-24 04:06:00",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 3
     },
     {
+      "id": 29,
       "date": "2026-07-17",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "06:30",
@@ -2811,11 +1535,17 @@
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
       "colegi": "Singur",
+      "note": "Ilie ferie, Florin permesso. Sergiu+Marcello Settimo Vittone Abeyta, Giovanni+Tahiru+Leonardo Aosta Cond Ancien Bazar.",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-17 18:30:12",
+      "updated_at": "2026-07-17 18:30:12",
       "ore_normal": 8,
       "ore_guida": 0.5,
       "ore_extra": 2
     },
     {
+      "id": 28,
       "date": "2026-07-16",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "06:30",
@@ -2823,11 +1553,17 @@
       "ore_efective": 10,
       "mezzo": "Renault 529",
       "colegi": "Ivanov",
+      "note": "Posa lattoneria + ritiro fornitura Galvani. Ilie in ferie.",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-16 20:04:48",
+      "updated_at": "2026-07-16 20:04:48",
       "ore_normal": 8,
       "ore_guida": 0.5,
       "ore_extra": 1.5
     },
     {
+      "id": 27,
       "date": "2026-07-15",
       "santier": "Aosta - Cond Ancien Bazar - Cilea",
       "ora_start": "06:30",
@@ -2835,11 +1571,17 @@
       "ore_efective": 9.5,
       "mezzo": "Renault 529",
       "colegi": "Florin+Leonard (Trausella), Sergiu+Marcello (Settimo Vittone), Giovanni+Tahiru (Aosta) | Ferie: Ilie",
+      "note": "Prima zi dupa concediu. Pana la 17 confirmat de Andrei.",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-16 03:21:17",
+      "updated_at": "2026-07-16 03:21:17",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
     },
     {
+      "id": 26,
       "date": "2026-06-23",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "07:00",
@@ -2847,11 +1589,17 @@
       "ore_efective": null,
       "mezzo": "Iveco",
       "colegi": null,
+      "note": "Ilie+Serghiu+Tahiru Gressan-Cond Brenva (Renault 529), Florin+Giovanni+Marcello Cervinia (Fisso 613)",
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 25,
       "date": "2026-06-22",
       "santier": "Biella - Cond Miramonti",
       "ora_start": "07:00",
@@ -2859,11 +1607,17 @@
       "ore_efective": null,
       "mezzo": "Iveco",
       "colegi": null,
+      "note": "Ilie+Serghiu Valtournenche-Les Marcs (Renault 529), Florin+Tahiru Cervinia (Fisso 613), Giovanni vizita medicala 8:30 apoi Cervinia, Marcello vizita medicala Ivrea 11:30",
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 0,
       "ore_guida": 0,
       "ore_extra": 0
     },
     {
+      "id": 24,
       "date": "2026-06-19",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -2871,11 +1625,17 @@
       "ore_efective": 11,
       "mezzo": null,
       "colegi": "Florin, Giovanni, Tahiru, Sergiu",
+      "note": "Cervinia - Cond Cielo Alto. Confirmat de Andrei prin mesaj vocal: terminat 18:30. Colegi: Florin, Giovanni, Tahiru, Sergiu.",
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-08-04 20:33:40",
       "ore_normal": 8,
       "ore_guida": 0,
       "ore_extra": 3
     },
     {
+      "id": 23,
       "date": "2026-06-18",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -2883,11 +1643,17 @@
       "ore_efective": 9.5,
       "mezzo": "Iveco",
       "colegi": null,
+      "note": null,
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
     },
     {
+      "id": 22,
       "date": "2026-06-17",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -2895,11 +1661,17 @@
       "ore_efective": 9.5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "mesaj_vocal_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
     },
     {
+      "id": 21,
       "date": "2026-06-16",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -2907,11 +1679,17 @@
       "ore_efective": 9.5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
     },
     {
+      "id": 20,
       "date": "2026-06-15",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -2919,11 +1697,17 @@
       "ore_efective": 9.5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
     },
     {
+      "id": 19,
       "date": "2026-06-13",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -2931,11 +1715,17 @@
       "ore_efective": 10,
       "mezzo": "Iveco 645",
       "colegi": "Giovanni, Sergiu",
+      "note": "Sâmbătă",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1
     },
     {
+      "id": 18,
       "date": "2026-06-12",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -2943,11 +1733,17 @@
       "ore_efective": 9,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0
     },
     {
+      "id": 17,
       "date": "2026-06-11",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -2955,11 +1751,17 @@
       "ore_efective": 9.5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
     },
     {
+      "id": 16,
       "date": "2026-06-10",
       "santier": "Gaglianico - Vetreria Biellese",
       "ora_start": "07:00",
@@ -2967,11 +1769,17 @@
       "ore_efective": 10,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "captura_ecran",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 0.5,
       "ore_extra": 1.5
     },
     {
+      "id": 15,
       "date": "2026-06-05",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -2979,11 +1787,17 @@
       "ore_efective": 10.5,
       "mezzo": "3 Posti 645",
       "colegi": null,
+      "note": "Portare massetto Castello Settimo",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
     },
     {
+      "id": 14,
       "date": "2026-06-04",
       "santier": "Gaglianico - Vetreria Biellese",
       "ora_start": "07:00",
@@ -2991,11 +1805,17 @@
       "ore_efective": 9,
       "mezzo": "Renault 529",
       "colegi": "Livio, Tahiru, Sergiu",
+      "note": null,
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 0.5,
       "ore_extra": 0.5
     },
     {
+      "id": 13,
       "date": "2026-06-03",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -3003,11 +1823,17 @@
       "ore_efective": 11,
       "mezzo": "Iveco",
       "colegi": null,
+      "note": "Șantier propriu",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 2
     },
     {
+      "id": 12,
       "date": "2026-05-29",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "06:30",
@@ -3015,11 +1841,17 @@
       "ore_efective": 10.5,
       "mezzo": "Iveco",
       "colegi": null,
+      "note": "Propriul șantier, Iveco start 6:30",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
     },
     {
+      "id": 11,
       "date": "2026-05-28",
       "santier": "Gaglianico - Vetreria Biellese",
       "ora_start": "07:00",
@@ -3027,11 +1859,17 @@
       "ore_efective": 10,
       "mezzo": "Renault 529",
       "colegi": "Livio, Ilie, Tahiru, Sergiu",
+      "note": null,
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 0.5,
       "ore_extra": 1.5
     },
     {
+      "id": 10,
       "date": "2026-05-27",
       "santier": "Chatillon - Cond Les Cles",
       "ora_start": "07:00",
@@ -3039,11 +1877,17 @@
       "ore_efective": 9.5,
       "mezzo": "Fisso 613",
       "colegi": null,
+      "note": "În locul lui Giovanni",
+      "sursa": "confirmare_andrei",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
     },
     {
+      "id": 9,
       "date": "2026-05-20",
       "santier": "Gaglianico",
       "ora_start": "07:00",
@@ -3051,11 +1895,17 @@
       "ore_efective": 7.5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 7,
       "ore_guida": 0.5,
       "ore_extra": 0
     },
     {
+      "id": 8,
       "date": "2026-05-19",
       "santier": "Settimo Vittone/Gaglianico",
       "ora_start": "07:00",
@@ -3063,11 +1913,17 @@
       "ore_efective": 8,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 7.5,
       "ore_guida": 0.5,
       "ore_extra": 0
     },
     {
+      "id": 7,
       "date": "2026-05-18",
       "santier": "Gaglianico - Vetreria Biellese",
       "ora_start": "07:00",
@@ -3075,11 +1931,17 @@
       "ore_efective": 10,
       "mezzo": null,
       "colegi": "Livio, Ilie, Tahiru, Sergiu",
+      "note": null,
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 0.5,
       "ore_extra": 1.5
     },
     {
+      "id": 6,
       "date": "2026-05-16",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -3087,11 +1949,17 @@
       "ore_efective": 7,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 6,
       "ore_guida": 1,
       "ore_extra": 0
     },
     {
+      "id": 5,
       "date": "2026-05-15",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -3099,11 +1967,17 @@
       "ore_efective": 10.5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
     },
     {
+      "id": 4,
       "date": "2026-05-14",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -3111,11 +1985,17 @@
       "ore_efective": 10.5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
     },
     {
+      "id": 3,
       "date": "2026-05-13",
       "santier": "Gressoney",
       "ora_start": "07:00",
@@ -3123,11 +2003,17 @@
       "ore_efective": 10.5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
     },
     {
+      "id": 2,
       "date": "2026-05-12",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -3135,11 +2021,17 @@
       "ore_efective": 10.5,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
     },
     {
+      "id": 1,
       "date": "2026-05-11",
       "santier": "Cervinia - Cond Cielo Alto",
       "ora_start": "07:00",
@@ -3147,25 +2039,29 @@
       "ore_efective": 11,
       "mezzo": null,
       "colegi": null,
+      "note": null,
+      "sursa": "programme_cantieri",
+      "confirmat": 1,
+      "created_at": "2026-07-14 15:37:50",
+      "updated_at": "2026-07-14 15:37:50",
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 2
     }
   ],
   "db_stats": {
-    "expenses": 348,
-    "expenses_total": 15336.02,
-    "ore_lucrate": 65,
-    "ore_total": 603,
+    "expenses": 360,
+    "expenses_total": 15490.77,
+    "ore_lucrate": 72,
+    "ore_total": 669,
     "pending": 0,
-    "speza_offers": 249,
-    "receipt_items": 374
+    "speza_offers": 249
   },
   "db": {
-    "expenses": 348,
-    "expenses_total": 15336.02,
-    "ore_lucrate": 65,
-    "ore_total": 603,
+    "expenses": 360,
+    "expenses_total": 15490.77,
+    "ore_lucrate": 72,
+    "ore_total": 669,
     "pending": 0,
     "speza_offers": 249
   },
@@ -3173,7 +2069,6 @@
     "gateway": "up",
     "model": "GLM-5.2 Cloud",
     "wifi": "D-Link DWA-125",
-    "wifi_adapter": "D-Link DWA-125",
     "dns": "8.8.8.8 / 8.8.4.4",
     "whatsapp": "active",
     "ollama": "local"
@@ -3186,10 +2081,10 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-05T19:48:53.776497"
+    "last_activity": "2026-09-14T20:47:08.446Z"
   },
   "backup": {
-    "last_backup": "—",
+    "last_backup": "auto",
     "next_backup": "02:00 RO"
   },
   "agents": [
@@ -3236,65 +2131,120 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-14T10:39:10.847Z",
+  "lastUpdate": "2026-09-14T20:47:08.448Z",
   "programme_cantieri": {
-    "2026-09-07": [
+    "2026-09-14": [
       {
-        "data": "2026-09-07",
-        "locatie": "SAINT-CHRISTOPHE",
-        "condominio": "COND SORRELEY",
-        "colegi": "Florin, Tahiru, Ilie",
-        "descriere": "Balconi lato Nord + Montaggio staffe lato Sud",
-        "mezzo": "Fisso-613",
-        "ora_start": "6:30",
-        "mutua": "Giovanni",
-        "permesso": "Leonardo"
+        "id": 8,
+        "data": "2026-09-14",
+        "cantiere": "SAINT-CHRISTOPHE COND SORRELEY",
+        "operai": "Florin, Leonardo, Aldo",
+        "ora": "07:00",
+        "mezzo": "RENAULT 529",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-09-14 20:03:34"
       },
       {
-        "data": "2026-09-07",
-        "locatie": "VALTOURNENCHE",
-        "condominio": "COND MAISON DU SAPIN",
-        "colegi": "Ivanov, Sergiu",
-        "descriere": "Montaggio parapetti 26m + Carrucola per ponteggio + Tavole + Imbraghi + linea vita provv",
+        "id": 9,
+        "data": "2026-09-14",
+        "cantiere": "MORGEX LA VACHE RIT",
+        "operai": "Giovanni, Ivanov, Ilie, Tahiru",
+        "ora": "07:00",
+        "mezzo": "FISSO 613",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-09-14 20:03:34"
+      }
+    ],
+    "2026-09-09": [
+      {
+        "id": 6,
+        "data": "2026-09-09",
+        "cantiere": "Valtournenche Cond Autorimesse",
+        "operai": "Giovanni, Sergiu",
+        "ora": "7.00",
+        "mezzo": "Fisso-613",
+        "lavori": "Geolite da struktura / Flex grosso + prolunghe",
+        "mutua": "",
+        "permesso": "",
+        "created_at": "2026-09-08 15:56:32"
+      },
+      {
+        "id": 4,
+        "data": "2026-09-09",
+        "cantiere": "Saint-Christophe Cond Sorreley",
+        "operai": "Florin, Leonardo",
+        "ora": "7.00",
+        "mezzo": "Mitsubishi",
+        "lavori": "Recuperare 3 posti da Fausto / Caricare pietre da Marello",
+        "mutua": "",
+        "permesso": "",
+        "created_at": "2026-09-08 15:56:32"
+      },
+      {
+        "id": 5,
+        "data": "2026-09-09",
+        "cantiere": "Cossato Ritorcitura Buzio",
+        "operai": "Ilie, Tahiru",
+        "ora": "7.00",
+        "mezzo": "3 Posti-645",
+        "lavori": "Recuperare 3 posti da Fausto",
+        "mutua": "",
+        "permesso": "",
+        "created_at": "2026-09-08 15:56:32"
+      },
+      {
+        "id": 7,
+        "data": "2026-09-09",
+        "cantiere": "Brosso Starbox poi Morgex La Vache Rit",
+        "operai": "Ivanov",
+        "ora": "7.00",
         "mezzo": "Renault-529",
-        "ora_start": "6:30",
-        "mutua": "Giovanni",
-        "permesso": "Leonardo"
+        "lavori": "",
+        "mutua": "",
+        "permesso": "",
+        "created_at": "2026-09-08 15:56:32"
       }
     ],
     "2026-09-08": [
       {
+        "id": 1,
         "data": "2026-09-08",
-        "locatie": "SAINT-CHRISTOPHE",
-        "condominio": "COND SORRELEY",
-        "colegi": "Florin, Leonardo",
-        "descriere": "Balconi lato Nord + Montaggio staffe lato Sud",
+        "cantiere": "Saint-Christophe Cond Sorreley",
+        "operai": "Florin, Leonardo",
+        "ora": "6.30",
         "mezzo": "Fisso-613",
-        "ora_start": "6:30",
+        "lavori": "Balconi lato Nord / Montaggio staffe lato Sud",
         "mutua": "Giovanni",
-        "permesso": null
+        "permesso": "",
+        "created_at": "2026-09-08 15:56:32"
       },
       {
+        "id": 2,
         "data": "2026-09-08",
-        "locatie": "COSSATO",
-        "condominio": "RITORCITURA BUZIO",
-        "colegi": "Ilie, Tahiru",
-        "descriere": null,
+        "cantiere": "Cossato Ritorcitura Buzio",
+        "operai": "Ilie, Tahiru",
+        "ora": "6.30",
         "mezzo": "3 Posti-645",
-        "ora_start": "6:30",
+        "lavori": "",
         "mutua": "Giovanni",
-        "permesso": null
+        "permesso": "",
+        "created_at": "2026-09-08 15:56:32"
       },
       {
+        "id": 3,
         "data": "2026-09-08",
-        "locatie": "BROSSO",
-        "condominio": "STARBOX",
-        "colegi": "Ivanov, Sergiu",
-        "descriere": "Caricare materiale vedi foglio + Passare da Giono",
+        "cantiere": "Brosso Starbox",
+        "operai": "Ivanov, Sergiu",
+        "ora": "6.30",
         "mezzo": "Renault-529",
-        "ora_start": "6:30",
+        "lavori": "Caricare materiale vedi foglio / Passare da Giono",
         "mutua": "Giovanni",
-        "permesso": null
+        "permesso": "",
+        "created_at": "2026-09-08 15:56:32"
       }
     ]
   }
