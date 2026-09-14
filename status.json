@@ -35,6 +35,19 @@
     {
       "id": 410,
       "date": "2026-09-14",
+<<<<<<< HEAD
+=======
+      "description": "Wudy al formaggio + Latte fresco Monte B + Filoncino integrale",
+      "amount": 4.22,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "FAMILA Morgex"
+    },
+    {
+      "date": "2026-09-14",
+      "description": "Dacă cauți pe bonul aferent  olio nu l-am cumpărat cu 7.65, există aconto, probabil trecut cu minus. La lapte trebuie făcută diferența între fresco sau uht, intre intero sau PS (parzialmente scremato)",
+>>>>>>> 64b04cf (Auto-sync 14 Sep 13:49: expenses: 355 → 356, expenses_total: 15450.99 → 15455.21)
       "amount": 7.65,
       "currency": "EUR",
       "category": "alte",
@@ -3093,19 +3106,33 @@
     }
   ],
   "db_stats": {
+<<<<<<< HEAD
     "expenses": 348,
     "expenses_total": 15336.02,
     "ore_lucrate": 65,
     "ore_total": 603,
+=======
+    "expenses": 356,
+    "expenses_total": 15455.21,
+    "ore_lucrate": 70,
+    "ore_total": 651.0,
+>>>>>>> 64b04cf (Auto-sync 14 Sep 13:49: expenses: 355 → 356, expenses_total: 15450.99 → 15455.21)
     "pending": 0,
     "speza_offers": 249,
     "receipt_items": 374
   },
   "db": {
+<<<<<<< HEAD
     "expenses": 348,
     "expenses_total": 15336.02,
     "ore_lucrate": 65,
     "ore_total": 603,
+=======
+    "expenses": 356,
+    "expenses_total": 15455.21,
+    "ore_lucrate": 70,
+    "ore_total": 651.0,
+>>>>>>> 64b04cf (Auto-sync 14 Sep 13:49: expenses: 355 → 356, expenses_total: 15450.99 → 15455.21)
     "pending": 0,
     "speza_offers": 249
   },
@@ -3126,7 +3153,11 @@
   },
   "andrei": {
     "status": "activ",
+<<<<<<< HEAD
     "last_activity": "2026-09-05T19:48:53.776497"
+=======
+    "last_activity": "2026-09-14T13:49:48.588104"
+>>>>>>> 64b04cf (Auto-sync 14 Sep 13:49: expenses: 355 → 356, expenses_total: 15450.99 → 15455.21)
   },
   "backup": {
     "last_backup": "—",
@@ -3176,6 +3207,7 @@
       "model": "—"
     }
   ],
+<<<<<<< HEAD
   "lastUpdate": "2026-09-14T10:39:10.847Z",
   "programme_cantieri": {
     "2026-09-07": [
@@ -3238,4 +3270,7 @@
       }
     ]
   }
+=======
+  "lastUpdate": "2026-09-14T13:49:48.588141"
+>>>>>>> 64b04cf (Auto-sync 14 Sep 13:49: expenses: 355 → 356, expenses_total: 15450.99 → 15455.21)
 }
