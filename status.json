@@ -1,188 +1,266 @@
 {
   "expenses": [
     {
-      "date": "2026-09-07",
-      "amount": 6.99,
-      "category": "imbracaminte",
-      "description": "SHORTS NERO M",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "SHORTS NERO M",
-          "price": 6.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "amount": 3.99,
-      "category": "imbracaminte",
-      "description": "LEGGINGS NERI M",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "LEGGINGS NERI M",
-          "price": 3.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "amount": 1.62,
-      "category": "casa",
-      "description": "ACQUA MIN. EFFERV. 6pz",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "ACQUA MIN. EFFERV. 6pz",
-          "price": 1.62,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "amount": 0.99,
+      "id": 411,
+      "date": "2026-09-14",
+      "amount": 4.22,
+      "currency": "EUR",
       "category": "alimente",
-      "description": "MERENDINA AL LATTE",
-      "store": "Lidl Ivrea",
+      "subcategory": null,
+      "description": "Wudy al formaggio + Latte fresco Monte B + Filoncino integrale",
+      "store": "FAMILA Morgex",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-14 10:12:07",
+      "updated_at": "2026-09-14 10:12:07",
       "split": "shared",
       "receipt_items": [
         {
-          "product_name": "MERENDINA AL LATTE",
-          "price": 0.99,
+          "product_name": "Wudy al formaggio",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Latte fresco Monte B",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Filoncino integrale",
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
-      "date": "2026-09-07",
-      "amount": 2.76,
+      "id": 410,
+      "date": "2026-09-14",
+      "amount": 7.65,
+      "currency": "EUR",
+      "category": "alte",
+      "subcategory": null,
+      "description": "Dacă cauți pe bonul aferent  olio nu l-am cumpărat cu 7.65, există aconto, probabil trecut cu minus. La lapte trebuie făcută diferența între fresco sau uht, intre intero sau PS (parzialmente scremato)",
+      "store": null,
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-14 07:28:22",
+      "updated_at": "2026-09-14 07:28:22",
+      "split": "shared",
+      "receipt_items": [
+        {
+          "product_name": "Dacă cauți pe bonul aferent  olio nu l-am cumpărat cu 7.65, există aconto, probabil trecut cu minus. La lapte trebuie făcută diferența între fresco sau uht, intre intero sau PS (parzialmente scremato)",
+          "price": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "date": "2026-09-12",
+      "amount": 25.92,
+      "currency": "EUR",
       "category": "alimente",
-      "description": "PANE PITA 4pz",
-      "store": "Lidl Ivrea",
+      "subcategory": null,
+      "description": "Muraturi varza + Icre sarate + Toba Matache + punga",
+      "store": "GUSTUL DE ACASA Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-12 17:32:33",
+      "updated_at": "2026-09-12 17:32:33",
       "split": "shared",
       "receipt_items": [
         {
-          "product_name": "PANE PITA 4pz",
-          "price": 2.76,
+          "product_name": "Muraturi varza",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Icre sarate",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Toba Matache",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "punga",
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
-      "date": "2026-09-07",
-      "amount": 1.49,
+      "id": 408,
+      "date": "2026-09-12",
+      "amount": 11.76,
+      "currency": "EUR",
       "category": "alimente",
-      "description": "NETTARE DI ANANAS",
-      "store": "Lidl Ivrea",
+      "subcategory": null,
+      "description": "Prosecco Doc Rose + Greek Yogurt + Polenta Flour + Schwarzbier Beer",
+      "store": "D Più Samone",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-12 17:32:24",
+      "updated_at": "2026-09-12 17:32:24",
       "split": "shared",
       "receipt_items": [
         {
-          "product_name": "NETTARE DI ANANAS",
-          "price": 1.49,
+          "product_name": "Prosecco Doc Rose",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Greek Yogurt",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Polenta Flour",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Schwarzbier Beer",
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
-      "date": "2026-09-07",
-      "amount": 2.99,
+      "id": 407,
+      "date": "2026-09-12",
+      "amount": 3.52,
+      "currency": "EUR",
       "category": "alimente",
-      "description": "OLIVE KALAM. RONDELLE",
-      "store": "Lidl Ivrea",
+      "subcategory": null,
+      "description": "Latte fresco + Santhè limone + Pane ciabatte",
+      "store": "FAMILA Morgex",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-12 17:32:24",
+      "updated_at": "2026-09-12 17:32:24",
       "split": "shared",
       "receipt_items": [
         {
-          "product_name": "OLIVE KALAM. RONDELLE",
-          "price": 2.99,
+          "product_name": "Latte fresco",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Santhè limone",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Pane ciabatte",
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
-      "date": "2026-09-07",
-      "amount": 1.19,
+      "id": 404,
+      "date": "2026-09-08",
+      "amount": 6.52,
+      "currency": "EUR",
       "category": "alimente",
-      "description": "CIPOLLE ROSSE 1KG",
-      "store": "Lidl Ivrea",
+      "subcategory": null,
+      "description": "Tigros Ivrea — latte fresco, pane ai cereali, mix orientale, cetrioli, banane, 2x shopper bio",
+      "store": "Tigros - Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-08 19:13:41",
+      "updated_at": "2026-09-08 19:13:41",
       "split": "shared",
       "receipt_items": [
         {
-          "product_name": "CIPOLLE ROSSE 1KG",
-          "price": 1.19,
+          "product_name": "Tigros Ivrea — latte fresco, pane ai cereali, mix orientale, cetrioli, banane, 2x shopper bio",
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
-      "date": "2026-09-07",
-      "amount": 1.19,
-      "category": "alimente",
-      "description": "CIPOLLE DORATE 1KG",
-      "store": "Lidl Ivrea",
-      "source": "andrei",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "CIPOLLE DORATE 1KG",
-          "price": 1.19,
-          "quantity": 1
-        }
-      ]
-    },
-    {
+      "id": 406,
       "date": "2026-09-05",
       "amount": 29.8,
-      "category": "sanatate",
-      "description": "2 lenti a contatto con sconto",
-      "store": "Ottica Vis A Vis Simoro (Carrefour Burolo)",
-      "source": "andrei",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "2 lenti a contatto con sconto",
-          "price": 29.8,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "date": "2026-09-05",
-      "amount": 29.8,
+      "currency": "EUR",
       "category": "salute",
+      "subcategory": null,
       "description": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
       "store": "Ottica Vis A Vis - Burolo (Carrefour)",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-10 17:50:01",
+      "updated_at": "2026-09-10 17:50:01",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
-          "price": 29.8,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 405,
+      "date": "2026-09-05",
+      "amount": 29.8,
+      "currency": "EUR",
+      "category": "salute",
+      "subcategory": null,
+      "description": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
+      "store": "Ottica Vis A Vis - Burolo (Carrefour)",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-10 16:05:14",
+      "updated_at": "2026-09-10 16:05:14",
+      "split": "shared",
+      "receipt_items": [
+        {
+          "product_name": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
+          "price": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "date": "2026-09-05",
+      "amount": 29.8,
+      "currency": "EUR",
+      "category": "salute",
+      "subcategory": null,
+      "description": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
+      "store": "Ottica Vis A Vis - Burolo (Carrefour)",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-05 12:59:03",
+      "updated_at": "2026-09-05 12:59:03",
+      "split": "shared",
+      "receipt_items": [
+        {
+          "product_name": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
+          "price": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 402,
       "date": "2026-09-04",
       "amount": 5.13,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "Pane pita + pesto basilico + pesche nettarine + shopper bio",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-04 16:16:57",
+      "updated_at": "2026-09-04 16:16:57",
       "split": "shared",
       "receipt_items": [
         {
@@ -208,12 +286,18 @@
       ]
     },
     {
+      "id": 401,
       "date": "2026-09-04",
       "amount": 1.88,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "Pop corn Carrefour + Cincișor metodo lento",
       "store": "Carrefour Market Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-04 15:18:33",
+      "updated_at": "2026-09-04 15:18:33",
       "split": "shared",
       "receipt_items": [
         {
@@ -229,12 +313,18 @@
       ]
     },
     {
+      "id": 400,
       "date": "2026-09-04",
       "amount": 5.24,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "Pizza/focaccia + pancetta affumicata",
       "store": "CONAD Settimo Vittone",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-04 09:20:14",
+      "updated_at": "2026-09-04 09:20:14",
       "split": "shared",
       "receipt_items": [
         {
@@ -250,108 +340,150 @@
       ]
     },
     {
+      "id": 399,
       "date": "2026-09-03",
       "amount": 5.5,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "Gustul de Acasa Ivrea — negro icre sarate (caviar 10%)",
       "store": "Gustul de Acasa Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-03 17:08:17",
+      "updated_at": "2026-09-03 17:08:17",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Gustul de Acasa Ivrea — negro icre sarate (caviar 10%)",
-          "price": 5.5,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 398,
       "date": "2026-09-03",
       "amount": 24.39,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "Tigros Ivrea — carta igienica, uova, succo limone, fettine coppa, salsiccia, latte, melanzane, peperoni, misticanza, mix orientale, pomodoro, shopper bio x3",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-03 17:08:17",
+      "updated_at": "2026-09-03 17:08:17",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Tigros Ivrea — carta igienica, uova, succo limone, fettine coppa, salsiccia, latte, melanzane, peperoni, misticanza, mix orientale, pomodoro, shopper bio x3",
-          "price": 24.39,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 395,
       "date": "2026-08-28",
       "amount": 2.76,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "PANE PITA x4 @0.69",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-28T20:12:00",
+      "updated_at": "2026-08-28 18:13:24",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PANE PITA x4 @0.69",
-          "price": 2.76,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 394,
       "date": "2026-08-28",
       "amount": 5.61,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "ACQUA MIN.EFFERV. 1.62, PROSECCO SPUMANTE 3.99",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-28T19:57:00",
+      "updated_at": "2026-08-28 17:58:54",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "ACQUA MIN.EFFERV. 1.62, PROSECCO SPUMANTE 3.99",
-          "price": 5.61,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 393,
       "date": "2026-08-27",
       "amount": 5.21,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "Lidl Ivrea 27/08: birra lager, acqua effervesc., prosciutto cotto",
       "store": null,
       "source": "manual",
+      "person": "Andrei",
+      "created_at": "2026-08-27 16:37:02",
+      "updated_at": "2026-08-27 16:37:02",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Lidl Ivrea 27/08: birra lager, acqua effervesc., prosciutto cotto",
-          "price": 5.21,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 391,
       "date": "2026-08-27",
       "amount": 6.67,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "CONAD 27/08: latte, pizza/focaccia, nettare, salam mil",
       "store": null,
       "source": "manual",
+      "person": "Andrei",
+      "created_at": "2026-08-27 11:52:57",
+      "updated_at": "2026-08-27 11:52:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "CONAD 27/08: latte, pizza/focaccia, nettare, salam mil",
-          "price": 6.67,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 390,
       "date": "2026-08-26",
       "amount": 49.2,
+      "currency": "EUR",
       "category": "muncă",
+      "subcategory": null,
       "description": "DdT #9531 — Domus Edilizia, SR Scorrevole PVC 100mm x2 + SR Ispezione Lineare PVC 100mm x2 (Baltea Group)",
       "store": null,
       "source": "manual",
+      "person": "Andrei",
+      "created_at": "2026-08-26 17:57:35",
+      "updated_at": "2026-08-26 17:57:35",
       "split": "andrei-only",
       "receipt_items": [
         {
@@ -367,44 +499,62 @@
       ]
     },
     {
+      "id": 388,
       "date": "2026-08-26",
       "amount": 3.08,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "Tigros Ivrea — pane a fette ai cereali, latte fres.in",
       "store": null,
       "source": "manual",
+      "person": "Andrei",
+      "created_at": "2026-08-26 17:05:32",
+      "updated_at": "2026-08-26 17:05:32",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Tigros Ivrea — pane a fette ai cereali, latte fres.in",
-          "price": 3.08,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 387,
       "date": "2026-08-25",
       "amount": 58.32,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "Tigros Ivrea - bifteck, pomodoro, prosciutto cotto, salsiccia, peperoni, cetrioli, insalata, uova, mele gala, shopper bio",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-25 17:45:48",
+      "updated_at": "2026-08-25 17:45:48",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Tigros Ivrea - bifteck, pomodoro, prosciutto cotto, salsiccia, peperoni, cetrioli, insalata, uova, mele gala, shopper bio",
-          "price": 58.32,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 386,
       "date": "2026-08-24",
       "amount": -1.56,
+      "currency": "EUR",
       "category": "casa",
+      "subcategory": "sconturi",
       "description": "Sconto Lidl Plus (feta + uva)",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:36",
+      "updated_at": "2026-08-24 18:55:36",
       "split": "shared",
       "receipt_items": [
         {
@@ -420,1217 +570,1717 @@
       ]
     },
     {
+      "id": 385,
       "date": "2026-08-24",
       "amount": 1.16,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "fructe",
       "description": "Banane 1.182kg",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Banane 1.182kg",
-          "price": 1.16,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 384,
       "date": "2026-08-24",
       "amount": 1.19,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "legume",
       "description": "Carote XXL 1250g",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Carote XXL 1250g",
-          "price": 1.19,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 383,
       "date": "2026-08-24",
       "amount": 0.02,
+      "currency": "EUR",
       "category": "casa",
+      "subcategory": "consumabili",
       "description": "Sacch. ortofr. biograd x2",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Sacch. ortofr. biograd x2",
-          "price": 0.02,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 382,
       "date": "2026-08-24",
       "amount": 3.61,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "fructe",
       "description": "Uva red globe 1.208kg",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Uva red globe 1.208kg",
-          "price": 3.61,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 381,
       "date": "2026-08-24",
       "amount": 1.29,
+      "currency": "EUR",
       "category": "casa",
+      "subcategory": "consumabili",
       "description": "Sacchetti congel. 3L",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Sacchetti congel. 3L",
-          "price": 1.29,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 380,
       "date": "2026-08-24",
       "amount": 1.89,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "snacks",
       "description": "Mirtilli rossi essic.",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Mirtilli rossi essic.",
-          "price": 1.89,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 379,
       "date": "2026-08-24",
       "amount": 2.15,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "gustari",
       "description": "Preparato per paella",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Preparato per paella",
-          "price": 2.15,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 378,
       "date": "2026-08-24",
       "amount": 2.76,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "panificatie",
       "description": "Pane pita x4",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Pane pita x4",
-          "price": 2.76,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 377,
       "date": "2026-08-24",
       "amount": 1.59,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "gastronomie",
       "description": "Pate funghi melavza",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Pate funghi melavza",
-          "price": 1.59,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 376,
       "date": "2026-08-24",
       "amount": 2.49,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "lactate",
       "description": "Gorgonzola piccante",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Gorgonzola piccante",
-          "price": 2.49,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 375,
       "date": "2026-08-24",
       "amount": 5.49,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "lactate",
       "description": "Mozzarella multipack",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Mozzarella multipack",
-          "price": 5.49,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 374,
       "date": "2026-08-24",
       "amount": 2.39,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "lactate",
       "description": "Feta greca DOP",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Feta greca DOP",
-          "price": 2.39,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 373,
       "date": "2026-08-24",
       "amount": 9.98,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "snacks",
       "description": "Noci sgusciate XXL x2",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Noci sgusciate XXL x2",
-          "price": 9.98,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 372,
       "date": "2026-08-24",
       "amount": 3.24,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "bauturi",
       "description": "Acqua min. effervesc. x12",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Acqua min. effervesc. x12",
-          "price": 3.24,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 371,
       "date": "2026-08-24",
       "amount": 0.2,
+      "currency": "EUR",
       "category": "casa",
+      "subcategory": "consumabili",
       "description": "Shopper biodegradabile x2",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 18:55:22",
+      "updated_at": "2026-08-24 18:55:22",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Shopper biodegradabile x2",
-          "price": 0.2,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 370,
       "date": "2026-08-24",
       "amount": 7.3,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "diverse",
       "description": "Patate spicchi, involtini pollo, kefir bianco 480g, rusticone olio EVO",
       "store": "Penny Market Biella",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 13:24:50",
+      "updated_at": "2026-08-24 13:24:50",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Patate spicchi, involtini pollo, kefir bianco 480g, rusticone olio EVO",
-          "price": 7.3,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 369,
       "date": "2026-08-24",
       "amount": 0.98,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "panificatie",
       "description": "Ciambella 55g x2",
       "store": "Penny Market Biella",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 08:22:32",
+      "updated_at": "2026-08-24 08:22:32",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Ciambella 55g x2",
-          "price": 0.98,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 368,
       "date": "2026-08-24",
       "amount": 1.25,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "lactate",
       "description": "Latte int. fresco val",
       "store": "Penny Market Biella",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-24 08:22:32",
+      "updated_at": "2026-08-24 08:22:32",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Latte int. fresco val",
-          "price": 1.25,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 367,
       "date": "2026-08-22",
       "amount": 0.3,
+      "currency": "EUR",
       "category": "casa",
+      "subcategory": "sacchetti",
       "description": "Shopper biodegrad. 3pz",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Shopper biodegrad. 3pz",
-          "price": 0.3,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 366,
       "date": "2026-08-22",
       "amount": 1.64,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "frutta",
       "description": "Melone retato 1.382kg x1.59 (sconto Lidl Plus -0.56)",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Melone retato 1.382kg x1.59 (sconto Lidl Plus -0.56)",
-          "price": 1.64,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 365,
       "date": "2026-08-22",
       "amount": 1.99,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "frutta",
       "description": "Pesche noci XXL",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Pesche noci XXL",
-          "price": 1.99,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 364,
       "date": "2026-08-22",
       "amount": 2.7,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "verdura",
       "description": "Melanzane 1.598kg x1.69",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Melanzane 1.598kg x1.69",
-          "price": 2.7,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 363,
       "date": "2026-08-22",
       "amount": 2.81,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "frutta",
       "description": "Ananas 2.836kg x1.19 (sconto Lidl Plus -0.56)",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Ananas 2.836kg x1.19 (sconto Lidl Plus -0.56)",
-          "price": 2.81,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 362,
       "date": "2026-08-22",
       "amount": 4.16,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "verdura",
       "description": "Melanzane 2.462kg x1.69",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Melanzane 2.462kg x1.69",
-          "price": 4.16,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 361,
       "date": "2026-08-22",
       "amount": 0.99,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "pane",
       "description": "Pagnottina",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Pagnottina",
-          "price": 0.99,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 360,
       "date": "2026-08-22",
       "amount": 2.97,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "latticini",
       "description": "Kefir XXL 3pz",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Kefir XXL 3pz",
-          "price": 2.97,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 359,
       "date": "2026-08-22",
       "amount": 5.3,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": "pesce",
       "description": "Merluzzetti atlantici 2pz",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.446Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Merluzzetti atlantici 2pz",
-          "price": 5.3,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 349,
       "date": "2026-08-21",
       "amount": 36.15,
+      "currency": "EUR",
       "category": "sanatate",
+      "subcategory": null,
       "description": "POS OSPEDALE IVREA DEA IVREA (spital)",
       "store": "Ospedale Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS OSPEDALE IVREA DEA IVREA (spital)",
-          "price": 36.15,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 307,
       "date": "2026-08-21",
       "amount": 1.29,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "CIPOLLOTTI GR.200",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 03:27:28",
+      "updated_at": "2026-08-22 03:27:28",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "CIPOLLOTTI GR.200",
-          "price": 1.29,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 306,
       "date": "2026-08-21",
       "amount": 7.1,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "COTOLETTE DI SUINO",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 03:27:28",
+      "updated_at": "2026-08-22 03:27:28",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "COTOLETTE DI SUINO",
-          "price": 7.1,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 304,
       "date": "2026-08-21",
       "amount": 1.43,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "MELANZANE LUNGHE",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 03:27:28",
+      "updated_at": "2026-08-22 03:27:28",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "MELANZANE LUNGHE",
-          "price": 1.43,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 303,
       "date": "2026-08-21",
       "amount": 0.01,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "SHOPPER BIO OF 60PER",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 03:27:28",
+      "updated_at": "2026-08-22 03:27:28",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "SHOPPER BIO OF 60PER",
-          "price": 0.01,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 302,
       "date": "2026-08-21",
       "amount": 2.27,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "FINOCCHI",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 03:27:28",
+      "updated_at": "2026-08-22 03:27:28",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "FINOCCHI",
-          "price": 2.27,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 301,
       "date": "2026-08-21",
       "amount": 1.09,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "TIGROS LATTE FRES.IN",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 03:27:28",
+      "updated_at": "2026-08-22 03:27:28",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "TIGROS LATTE FRES.IN",
-          "price": 1.09,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 348,
       "date": "2026-08-20",
       "amount": 998,
+      "currency": "EUR",
       "category": "transfer",
+      "subcategory": null,
       "description": "DISPOSIZIONE RIF:226095832 BEN. Andrei Elena Intesa giroconto (transfer Elena)",
       "store": "Intesa (giroconto)",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "DISPOSIZIONE RIF:226095832 BEN. Andrei Elena Intesa giroconto (transfer Elena)",
-          "price": 998,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 347,
       "date": "2026-08-20",
       "amount": 1.99,
+      "currency": "EUR",
       "category": "servicii",
+      "subcategory": null,
       "description": "POS PAYPAL *GOOGLE GOOGLE Dublin",
       "store": "PayPal Google",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS PAYPAL *GOOGLE GOOGLE Dublin",
-          "price": 1.99,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 346,
       "date": "2026-08-20",
       "amount": 70.84,
+      "currency": "EUR",
       "category": "divertisment",
+      "subcategory": null,
       "description": "POS Amazon.it LUXEMBOURG",
       "store": "Amazon.it",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS Amazon.it LUXEMBOURG",
-          "price": 70.84,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 345,
       "date": "2026-08-20",
       "amount": 26,
+      "currency": "EUR",
       "category": "divertisment",
+      "subcategory": null,
       "description": "POS Amazon.it LUXEMBOURG",
       "store": "Amazon.it",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS Amazon.it LUXEMBOURG",
-          "price": 26,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 300,
       "date": "2026-08-20",
       "amount": 50,
+      "currency": "EUR",
       "category": "auto",
+      "subcategory": null,
       "description": "RICAMBI/ACCESSORI AUTO",
       "store": "CAPELLARORICAMBI SNC Banchette (TO)",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-20 15:37:45",
+      "updated_at": "2026-08-20 15:37:45",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "RICAMBI/ACCESSORI AUTO",
-          "price": 50,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 299,
       "date": "2026-08-20",
       "amount": 12,
+      "currency": "EUR",
       "category": "casa",
+      "subcategory": null,
       "description": "SCOPA REGOLAB. ACCIAIO",
       "store": "DOMUS EDILIZIA S.R.L. Montalto Dora",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-20 07:55:00",
+      "updated_at": "2026-08-20 07:55:00",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "SCOPA REGOLAB. ACCIAIO",
-          "price": 12,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 344,
       "date": "2026-08-19",
       "amount": 3.8,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "POS UNICOOP TIRRENO S.C.",
       "store": "Unicoop Tirreno",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS UNICOOP TIRRENO S.C.",
-          "price": 3.8,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 343,
       "date": "2026-08-19",
       "amount": 12.48,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "POS ESSELUNGA CARRARA TU",
       "store": "Esselunga Carrara",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS ESSELUNGA CARRARA TU",
-          "price": 12.48,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 342,
       "date": "2026-08-19",
       "amount": 14.1,
+      "currency": "EUR",
       "category": "transport",
+      "subcategory": null,
       "description": "POS 12CDT-CDT TRATTA A (tren)",
       "store": "12CDT-CDT Tratta A",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS 12CDT-CDT TRATTA A (tren)",
-          "price": 14.1,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 341,
       "date": "2026-08-19",
       "amount": 19.38,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "POS IN'S MERCATO SPA CDC",
       "store": "IN'S MERCATO SPA",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS IN'S MERCATO SPA CDC",
-          "price": 19.38,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 340,
       "date": "2026-08-19",
       "amount": 19.2,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "POS IVREA",
       "store": "Ivrea (POS)",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS IVREA",
-          "price": 19.2,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 339,
       "date": "2026-08-19",
       "amount": 4.4,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "POS SILARIO NORD MYCHEF",
       "store": "Silario Nord MyChef",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS SILARIO NORD MYCHEF",
-          "price": 4.4,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 338,
       "date": "2026-08-19",
       "amount": 3,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "POS SILARIO NORD MYCHEF",
       "store": "Silario Nord MyChef",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS SILARIO NORD MYCHEF",
-          "price": 3,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 337,
       "date": "2026-08-19",
       "amount": 10.5,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "POS LAVAGNA COMMERC.",
       "store": "Lavagna Comm.",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS LAVAGNA COMMERC.",
-          "price": 10.5,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 336,
       "date": "2026-08-19",
       "amount": 7.5,
+      "currency": "EUR",
       "category": "transport",
+      "subcategory": null,
       "description": "POS ASPIT SARZANA (autostrada)",
       "store": "Aspit Sarzana",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS ASPIT SARZANA (autostrada)",
-          "price": 7.5,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 335,
       "date": "2026-08-19",
       "amount": 75.01,
+      "currency": "EUR",
       "category": "auto",
+      "subcategory": null,
       "description": "POS ENI 34305 (carburant)",
       "store": "ENI 34305",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS ENI 34305 (carburant)",
-          "price": 75.01,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 275,
       "date": "2026-08-19",
       "amount": 2.07,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "PANE PITA",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T17:49:17.864710",
+      "updated_at": "2026-08-19T17:49:17.864710",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PANE PITA",
-          "price": 2.07,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 274,
       "date": "2026-08-19",
       "amount": 1.62,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "ACQUA MIN.EFFERV.",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T17:49:17.864710",
+      "updated_at": "2026-08-19T17:49:17.864710",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "ACQUA MIN.EFFERV.",
-          "price": 1.62,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 273,
       "date": "2026-08-19",
       "amount": 2.69,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "SALAMETTO CACCIATORE",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T17:49:17.864710",
+      "updated_at": "2026-08-19T17:49:17.864710",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "SALAMETTO CACCIATORE",
-          "price": 2.69,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 272,
       "date": "2026-08-19",
       "amount": 1.89,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "SALAMETTO PICCANTE",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T17:49:17.864710",
+      "updated_at": "2026-08-19T17:49:17.864710",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "SALAMETTO PICCANTE",
-          "price": 1.89,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 271,
       "date": "2026-08-19",
       "amount": 5.94,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "KEFIR XXL",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T17:49:17.864710",
+      "updated_at": "2026-08-19T17:49:17.864710",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "KEFIR XXL",
-          "price": 5.94,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 270,
       "date": "2026-08-19",
       "amount": 4.58,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "MSC FISH BURGER",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T17:49:17.864710",
+      "updated_at": "2026-08-19T17:49:17.864710",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "MSC FISH BURGER",
-          "price": 4.58,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 269,
       "date": "2026-08-19",
       "amount": 7.58,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "PAELLA",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T17:49:17.864710",
+      "updated_at": "2026-08-19T17:49:17.864710",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PAELLA",
-          "price": 7.58,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 268,
       "date": "2026-08-19",
       "amount": 2.99,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "YOGURT GRECA CREMOSO",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T17:49:17.864710",
+      "updated_at": "2026-08-19T17:49:17.864710",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "YOGURT GRECA CREMOSO",
-          "price": 2.99,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 267,
       "date": "2026-08-19",
       "amount": 0.2,
+      "currency": "EUR",
       "category": "casa",
+      "subcategory": null,
       "description": "SHOPPER BIODEGRAD.",
       "store": "Lidl Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T17:49:17.864710",
+      "updated_at": "2026-08-19T17:49:17.864710",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "SHOPPER BIODEGRAD.",
-          "price": 0.2,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 397,
       "date": "2026-08-18",
       "amount": 7.1,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "Caffe Espresso",
       "store": "Tabaccheria",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-01 05:04:42",
+      "updated_at": "2026-09-01 05:04:42",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "Caffe Espresso",
-          "price": 7.1,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 396,
       "date": "2026-08-18",
       "amount": 7.76,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "PAN SOFFIOUF EDAMER FETTE 150GP PROSC. COTTO GRANGUSTILATTE FRESCO AQU DIGINGER DI",
       "store": "UNES - VICINI DI SPESA",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-01 05:04:41",
+      "updated_at": "2026-09-01 05:04:41",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PAN SOFFIOUF EDAMER FETTE 150GP PROSC. COTTO GRANGUSTILATTE FRESCO AQU DIGINGER DI",
-          "price": 7.76,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 334,
       "date": "2026-08-18",
       "amount": 2.2,
+      "currency": "EUR",
       "category": "divertisment",
+      "subcategory": null,
       "description": "POS ASSOCIAZIONE DI PUBB",
       "store": "Associazione di Pubb",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-22 05:17:57",
+      "updated_at": "2026-08-22 05:17:57",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POS ASSOCIAZIONE DI PUBB",
-          "price": 2.2,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 298,
       "date": "2026-08-18",
       "amount": 0.2,
+      "currency": "EUR",
       "category": "casa",
+      "subcategory": null,
       "description": "SHOPPER CASSE SELF",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "SHOPPER CASSE SELF",
-          "price": 0.2,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 297,
       "date": "2026-08-18",
       "amount": 3.98,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "UVA BIANCA",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "UVA BIANCA",
-          "price": 3.98,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 296,
       "date": "2026-08-18",
       "amount": 0.01,
+      "currency": "EUR",
       "category": "casa",
+      "subcategory": null,
       "description": "SHOPPER BIO",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "SHOPPER BIO",
-          "price": 0.01,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 295,
       "date": "2026-08-18",
       "amount": 2.1,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "POMODORO OBLUNGO ROS",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "POMODORO OBLUNGO ROS",
-          "price": 2.1,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 294,
       "date": "2026-08-18",
       "amount": 1.99,
+      "currency": "EUR",
       "category": "casa",
+      "subcategory": null,
       "description": "PRIMIA CARTA IGIENICA",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PRIMIA CARTA IGIENICA",
-          "price": 1.99,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 293,
       "date": "2026-08-18",
       "amount": 3.49,
+      "currency": "EUR",
       "category": "casa",
+      "subcategory": null,
       "description": "PRIMIA BOBINA ASCIUG",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PRIMIA BOBINA ASCIUG",
-          "price": 3.49,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 292,
       "date": "2026-08-18",
       "amount": 1,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "PRIMIA INSALATA MIXTA",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PRIMIA INSALATA MIXTA",
-          "price": 1,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 291,
       "date": "2026-08-18",
       "amount": 1,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "PRIMIA MIX ORIENTALE",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PRIMIA MIX ORIENTALE",
-          "price": 1,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 290,
       "date": "2026-08-18",
       "amount": 1.99,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "PAGNOTTA VARESINA",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PAGNOTTA VARESINA",
-          "price": 1.99,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 289,
       "date": "2026-08-18",
       "amount": 1.29,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "CIPOLLOTTI GR.200",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "CIPOLLOTTI GR.200",
-          "price": 1.29,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 288,
       "date": "2026-08-18",
       "amount": 2.5,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "PROSCIUTTO COTTO",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PROSCIUTTO COTTO",
-          "price": 2.5,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 287,
       "date": "2026-08-18",
       "amount": 1.29,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "PRIMIA CACIOTTA GR.1",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PRIMIA CACIOTTA GR.1",
-          "price": 1.29,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 286,
       "date": "2026-08-18",
       "amount": 1.69,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "PRIMIA ANANAS LT.1",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PRIMIA ANANAS LT.1",
-          "price": 1.69,
+          "price": null,
           "quantity": 1
         }
       ]
     },
     {
+      "id": 285,
       "date": "2026-08-18",
       "amount": 1.69,
+      "currency": "EUR",
       "category": "alimente",
+      "subcategory": null,
       "description": "PRIMIA ARANCIA LT.1",
       "store": "Tigros Ivrea",
       "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
       "split": "shared",
       "receipt_items": [
         {
           "product_name": "PRIMIA ARANCIA LT.1",
-          "price": 1.69,
+          "price": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "date": "2026-08-18",
+      "amount": -3.26,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "SCONTO VALORE OLIO",
+      "store": "Tigros Ivrea",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
+      "split": "shared",
+      "receipt_items": [
+        {
+          "product_name": "SCONTO VALORE OLIO",
+          "price": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "date": "2026-08-18",
+      "amount": 7.65,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "DESANTIS OLIO EV CL",
+      "store": "Tigros Ivrea",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-08-19T18:47:49.925911",
+      "updated_at": "2026-08-19T18:47:49.925911",
+      "split": "shared",
+      "receipt_items": [
+        {
+          "product_name": "DESANTIS OLIO EV CL",
+          "price": null,
           "quantity": 1
         }
       ]
@@ -2526,7 +3176,7 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-14T07:39:05.497Z",
+  "lastUpdate": "2026-09-14T10:39:10.847Z",
   "programme_cantieri": {
     "2026-09-07": [
       {
