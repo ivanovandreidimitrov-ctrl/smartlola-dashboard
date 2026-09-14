@@ -136,36 +136,6 @@
       "split": "shared"
     },
     {
-      "id": 406,
-      "date": "2026-09-05",
-      "amount": 29.8,
-      "currency": "EUR",
-      "category": "salute",
-      "subcategory": null,
-      "description": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
-      "store": "Ottica Vis A Vis - Burolo (Carrefour)",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-09-10 17:50:01",
-      "updated_at": "2026-09-10 17:50:01",
-      "split": "shared"
-    },
-    {
-      "id": 405,
-      "date": "2026-09-05",
-      "amount": 29.8,
-      "currency": "EUR",
-      "category": "salute",
-      "subcategory": null,
-      "description": "OTTICA Vis A Vis Burolo — 2x lenti a contatto (sconto -13.10 cad.)",
-      "store": "Ottica Vis A Vis - Burolo (Carrefour)",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-09-10 16:05:14",
-      "updated_at": "2026-09-10 16:05:14",
-      "split": "shared"
-    },
-    {
       "id": 404,
       "date": "2026-09-08",
       "amount": 6.52,
@@ -743,6 +713,36 @@
       "category": "alimente",
       "subcategory": "verdura",
       "description": "Melanzane 1.598kg x1.69",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
+      "split": "shared"
+    },
+    {
+      "id": 363,
+      "date": "2026-08-22",
+      "amount": 2.81,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "frutta",
+      "description": "Ananas 2.836kg x1.19 (sconto Lidl Plus -0.56)",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "andrei",
+      "created_at": "2026-08-23T08:45:37.449Z",
+      "updated_at": "2026-08-23T08:45:37.449Z",
+      "split": "shared"
+    },
+    {
+      "id": 362,
+      "date": "2026-08-22",
+      "amount": 4.16,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": "verdura",
+      "description": "Melanzane 2.462kg x1.69",
       "store": "Lidl Ivrea",
       "source": "andrei",
       "person": "andrei",
@@ -2050,16 +2050,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 360,
-    "expenses_total": 15490.77,
+    "expenses": 358,
+    "expenses_total": 15431.17,
     "ore_lucrate": 72,
     "ore_total": 669,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 360,
-    "expenses_total": 15490.77,
+    "expenses": 358,
+    "expenses_total": 15431.17,
     "ore_lucrate": 72,
     "ore_total": 669,
     "pending": 0,
@@ -2081,7 +2081,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-14T20:49:21.441Z"
+    "last_activity": "2026-09-14T21:03:03.744Z"
   },
   "backup": {
     "last_backup": "auto",
@@ -2131,7 +2131,7 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-14T20:49:21.443Z",
+  "lastUpdate": "2026-09-14T21:03:03.746Z",
   "programme_cantieri": {
     "2026-09-14": [
       {
