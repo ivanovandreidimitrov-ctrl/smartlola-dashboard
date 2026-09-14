@@ -1,6 +1,15 @@
 {
   "expenses": [
     {
+      "date": "2026-09-14",
+      "description": "Dacă cauți pe bonul aferent  olio nu l-am cumpărat cu 7.65, există aconto, probabil trecut cu minus. La lapte trebuie făcută diferența între fresco sau uht, intre intero sau PS (parzialmente scremato)",
+      "amount": 7.65,
+      "category": "alte",
+      "split": "shared",
+      "source": "andrei",
+      "store": null
+    },
+    {
       "date": "2026-09-12",
       "description": "Muraturi varza + Icre sarate + Toba Matache + punga",
       "amount": 25.92,
@@ -4030,16 +4039,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 354,
-    "expenses_total": 15443.34,
+    "expenses": 355,
+    "expenses_total": 15450.99,
     "ore_lucrate": 70,
     "ore_total": 651.0,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 354,
-    "expenses_total": 15443.34,
+    "expenses": 355,
+    "expenses_total": 15450.99,
     "ore_lucrate": 70,
     "ore_total": 651.0,
     "pending": 0,
@@ -4062,7 +4071,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-12T19:49:38.951152"
+    "last_activity": "2026-09-14T09:28:23.250934"
   },
   "backup": {
     "last_backup": "—",
@@ -4112,5 +4121,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-12T19:49:38.951189"
+  "lastUpdate": "2026-09-14T09:28:23.250972"
 }
