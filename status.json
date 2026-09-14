@@ -1,6 +1,154 @@
 {
   "expenses": [
     {
+      "id": 416,
+      "date": "2026-09-14",
+      "amount": 14.38,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "Succo ananas + Latte kefir 3pz + Shopper biodegrad + Banane 0.96kg + Sacch ortofr 2pz + Pomodori grappolo 1.58kg + Acqua efferv 12pz",
+      "store": "Lidl Ivrea",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-14 19:04:56",
+      "updated_at": "2026-09-14 19:04:56",
+      "split": "shared",
+      "receipt_items": [
+        {
+          "product_name": "Succo ananas",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Latte kefir 3pz",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Shopper biodegrad",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Banane 0.96kg",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Sacch ortofr 2pz",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Pomodori grappolo 1.58kg",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Acqua efferv 12pz",
+          "price": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 415,
+      "date": "2026-09-14",
+      "amount": 12,
+      "currency": "EUR",
+      "category": "casa",
+      "subcategory": null,
+      "description": "Scopa regolab. acciaio",
+      "store": "DOMUS EDILIZIA Montalto Dora",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-14 19:02:40",
+      "updated_at": "2026-09-14 19:02:40",
+      "split": "andrei-only",
+      "receipt_items": [
+        {
+          "product_name": "Scopa regolab. acciaio",
+          "price": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 414,
+      "date": "2026-09-14",
+      "amount": 10.03,
+      "currency": "EUR",
+      "category": "alimente",
+      "subcategory": null,
+      "description": "Prosciutto cotto + Latte fresco integrale + Mele gala + Pane ai cereali + Uova medie 10pz + Shopper cassa self",
+      "store": "TIGROS Ivrea",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-14 19:02:31",
+      "updated_at": "2026-09-14 19:02:31",
+      "split": "shared",
+      "receipt_items": [
+        {
+          "product_name": "Prosciutto cotto",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Latte fresco integrale",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Mele gala",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Pane ai cereali",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Uova medie 10pz",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "Shopper cassa self",
+          "price": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 412,
+      "date": "2026-09-14",
+      "amount": 4.2,
+      "currency": "EUR",
+      "category": "alte",
+      "subcategory": null,
+      "description": "Cappuccino + 2x Caffe",
+      "store": "GASOLINE CAFE Settimo Vittone",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-14 18:59:51",
+      "updated_at": "2026-09-14 18:59:51",
+      "split": "shared",
+      "receipt_items": [
+        {
+          "product_name": "Cappuccino",
+          "price": null,
+          "quantity": 1
+        },
+        {
+          "product_name": "2x Caffe",
+          "price": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
       "id": 411,
       "date": "2026-09-14",
       "amount": 4.22,
@@ -155,6 +303,28 @@
         },
         {
           "product_name": "Pane ciabatte",
+          "price": null,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 413,
+      "date": "2026-09-08",
+      "amount": 2.6,
+      "currency": "EUR",
+      "category": "alte",
+      "subcategory": null,
+      "description": "2x Caffe",
+      "store": "BAR LO SCOIATTOLO Val di Chy",
+      "source": "andrei",
+      "person": "Andrei",
+      "created_at": "2026-09-14 19:00:12",
+      "updated_at": "2026-09-14 19:00:12",
+      "split": "shared",
+      "receipt_items": [
+        {
+          "product_name": "2x Caffe",
           "price": null,
           "quantity": 1
         }
@@ -2170,116 +2340,6 @@
       "receipt_items": [
         {
           "product_name": "PROSCIUTTO COTTO",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 287,
-      "date": "2026-08-18",
-      "amount": 1.29,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "PRIMIA CACIOTTA GR.1",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PRIMIA CACIOTTA GR.1",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 286,
-      "date": "2026-08-18",
-      "amount": 1.69,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "PRIMIA ANANAS LT.1",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PRIMIA ANANAS LT.1",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 285,
-      "date": "2026-08-18",
-      "amount": 1.69,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "PRIMIA ARANCIA LT.1",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "PRIMIA ARANCIA LT.1",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 284,
-      "date": "2026-08-18",
-      "amount": -3.26,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "SCONTO VALORE OLIO",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "SCONTO VALORE OLIO",
-          "price": null,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 283,
-      "date": "2026-08-18",
-      "amount": 7.65,
-      "currency": "EUR",
-      "category": "alimente",
-      "subcategory": null,
-      "description": "DESANTIS OLIO EV CL",
-      "store": "Tigros Ivrea",
-      "source": "andrei",
-      "person": "Andrei",
-      "created_at": "2026-08-19T18:47:49.925911",
-      "updated_at": "2026-08-19T18:47:49.925911",
-      "split": "shared",
-      "receipt_items": [
-        {
-          "product_name": "DESANTIS OLIO EV CL",
           "price": null,
           "quantity": 1
         }
