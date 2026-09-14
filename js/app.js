@@ -36,6 +36,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Receipt modal: close on click outside
+  document.getElementById('receipt-modal').addEventListener('click', (ev) => {
+    if (ev.target.id === 'receipt-modal') closeReceiptModal();
+  });
+
   // Load data
   loadData();
   // Refresh every 60s
@@ -302,8 +307,9 @@ function renderGuda() {
       const store = e.store || (e.description || '').split(' ')[0].replace(/[^a-zA-Z0-9]/g, '');
       const d = (e.date || '').split('-');
       const dayMonth = d[2] + '/' + d[1];
+      const idx = sortedExp.indexOf(e);
       return `
-      <div class="expense-item">
+      <div class="expense-item" data-expense-idx="${idx}" onclick="openReceiptDetail(${idx})">
         <div class="expense-left">
           <div class="expense-desc">${escapeHtml(e.description || '')}</div>
           <div class="expense-meta">
@@ -317,6 +323,80 @@ function renderGuda() {
       </div>
     `;}).join('');
   }
+}
+
+// === RECEIPT DETAIL MODAL ===
+function openReceiptDetail(idx) {
+  // Get the expense from the currently filtered+sorted guda view
+  const filtered = getGudaFilteredExpenses();
+  const sortedExp = [...filtered].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  const e = sortedExp[idx];
+  if (!e) return;
+
+  // Build receipt items list
+  let items = e.receipt_items || [];
+  
+  // Fallback: parse from description if no receipt_items
+  if (!items || items.length === 0) {
+    const desc = e.description || '';
+    if (desc.includes('+')) {
+      items = desc.split('+').map(p => p.trim()).filter(p => p.length > 0).map(p => ({
+        product_name: p, price: null, quantity: 1
+      }));
+    } else {
+      items = [{ product_name: desc, price: e.amount, quantity: 1 }];
+    }
+  }
+
+  // Build meta badges
+  const badges = [];
+  if (e.category) badges.push(`<span class="badge ${e.split || 'shared'}">${escapeHtml(e.category)}</span>`);
+  if (e.split) badges.push(`<span class="badge ${e.split}">${e.split}</span>`);
+  if (e.source) badges.push(`<span class="badge ${e.source}">${e.source}</span>`);
+
+  // Date formatting
+  const d = (e.date || '').split('-');
+  const dateLabel = d[2] ? d[2] + '/' + d[1] + '/' + d[0] : (e.date || '');
+
+  // Products HTML
+  const productsHtml = items.map(item => {
+    const price = item.price != null ? '€' + item.price.toFixed(2) : '—';
+    const priceClass = item.price != null ? 'receipt-product-price has-price' : 'receipt-product-price';
+    return `
+      <div class="receipt-product">
+        <span class="receipt-product-name">${escapeHtml(item.product_name || '')}</span>
+        <span class="${priceClass}">${price}</span>
+      </div>
+    `;
+  }).join('');
+
+  // Modal HTML
+  const html = `
+    <div class="receipt-header">
+      <div class="receipt-header-info">
+        <div class="receipt-store">${escapeHtml(e.store || 'Bon')}</div>
+        <div class="receipt-date">📅 ${dateLabel}</div>
+      </div>
+      <div class="receipt-total-badge">€${e.amount.toFixed(2)}</div>
+      <button class="receipt-close" onclick="closeReceiptModal()">✕</button>
+    </div>
+    <div class="receipt-meta">${badges.join('')}</div>
+    <div class="receipt-products-title">📦 Produse (${items.length})</div>
+    <div class="receipt-products">${productsHtml}</div>
+    <div class="receipt-summary">
+      <span class="receipt-summary-label">Total bon</span>
+      <span class="receipt-summary-value">€${e.amount.toFixed(2)}</span>
+    </div>
+  `;
+
+  const modal = document.getElementById('receipt-modal');
+  const content = document.getElementById('receipt-modal-content');
+  content.innerHTML = html;
+  modal.classList.remove('hidden');
+}
+
+function closeReceiptModal() {
+  document.getElementById('receipt-modal').classList.add('hidden');
 }
 
 function getAtlasFilteredOre() {

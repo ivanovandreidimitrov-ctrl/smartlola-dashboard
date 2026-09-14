@@ -7,7 +7,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
   <title>SmartLola 🧭</title>
 </head>
 <body>
@@ -279,6 +279,11 @@
       </div>
     </div>
 
+    <!-- Receipt Detail Modal -->
+    <div id="receipt-modal" class="receipt-modal hidden">
+      <div class="receipt-content" id="receipt-modal-content"></div>
+    </div>
+
     <!-- Hidden file inputs for media capture -->
     <input type="file" id="hidden-file-input" accept="image/*" capture="environment" style="display:none">
     <input type="file" id="hidden-audio-input" accept="audio/*" capture style="display:none">
@@ -289,6 +294,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
-  <script src="js/app.js?v=16"></script>
+  <script src="js/app.js?v=17"></script>
 </body>
 </html>
