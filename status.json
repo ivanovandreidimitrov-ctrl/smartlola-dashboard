@@ -3216,6 +3216,42 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-09-17",
+      "santier": "Valtournenche Cond Maison Du Sapin",
+      "ora_start": "06:30",
+      "ora_end": "17:30",
+      "ore_efective": 10.0,
+      "mezzo": "IVECO",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.0,
+      "colegi": "Ilie"
+    },
+    {
+      "date": "2026-09-16",
+      "santier": "Valtournenche Cond Maison Du Sapin",
+      "ora_start": "06:30",
+      "ora_end": "18:30",
+      "ore_efective": 11.0,
+      "mezzo": "IVECO",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 3.0,
+      "colegi": "Ilie"
+    },
+    {
+      "date": "2026-09-15",
+      "santier": "Valtournenche Cond Maison Du Sapin",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 10.5,
+      "mezzo": "IVECO",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.5,
+      "colegi": "Ilie"
+    },
+    {
       "date": "2026-09-14",
       "santier": "Morgex La Vache Rit",
       "ora_start": "07:00",
@@ -4083,16 +4119,16 @@
   "db_stats": {
     "expenses": 357,
     "expenses_total": 15419.17,
-    "ore_lucrate": 72,
-    "ore_total": 669.0,
+    "ore_lucrate": 75,
+    "ore_total": 700.5,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
     "expenses": 357,
     "expenses_total": 15419.17,
-    "ore_lucrate": 72,
-    "ore_total": 669.0,
+    "ore_lucrate": 75,
+    "ore_total": 700.5,
     "pending": 0,
     "speza_offers": 249
   },
@@ -4113,7 +4149,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-16T07:48:54.618028"
+    "last_activity": "2026-09-17T23:09:10.030930"
   },
   "backup": {
     "last_backup": "—",
@@ -4163,5 +4199,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-16T07:48:54.618065"
+  "lastUpdate": "2026-09-17T23:09:10.030982"
 }
