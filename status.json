@@ -3225,6 +3225,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-09-18",
+      "santier": "Valtournenche Cond Maison Du Sapin",
+      "ora_start": "06:30",
+      "ora_end": "17:30",
+      "ore_efective": 10.0,
+      "mezzo": "RENAULT 529",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.0,
+      "colegi": "Florin, Ilie, Tahiru"
+    },
+    {
       "date": "2026-09-17",
       "santier": "Valtournenche Cond Maison Du Sapin",
       "ora_start": "06:30",
@@ -4128,16 +4140,16 @@
   "db_stats": {
     "expenses": 358,
     "expenses_total": 15428.46,
-    "ore_lucrate": 75,
-    "ore_total": 703.5,
+    "ore_lucrate": 76,
+    "ore_total": 713.5,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
     "expenses": 358,
     "expenses_total": 15428.46,
-    "ore_lucrate": 75,
-    "ore_total": 703.5,
+    "ore_lucrate": 76,
+    "ore_total": 713.5,
     "pending": 0,
     "speza_offers": 249
   },
@@ -4158,7 +4170,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-18T17:09:19.211109"
+    "last_activity": "2026-09-18T19:48:49.471148"
   },
   "backup": {
     "last_backup": "—",
@@ -4208,5 +4220,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-18T17:09:19.211163"
+  "lastUpdate": "2026-09-18T19:48:49.471196"
 }
