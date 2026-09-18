@@ -3265,18 +3265,6 @@
     },
     {
       "date": "2026-09-12",
-      "santier": "MORGEX / LA VACHE RIT",
-      "ora_start": "06:00",
-      "ora_end": "15:00",
-      "ore_efective": 8.0,
-      "mezzo": "FISSO 613",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
-      "colegi": "Giovanni, Florin, Ivanov, Tahiru"
-    },
-    {
-      "date": "2026-09-12",
       "santier": "Morgex La Vache Rit",
       "ora_start": "07:00",
       "ora_end": "15:00",
@@ -3288,15 +3276,27 @@
       "colegi": "Giovanni, Florin, Ivanov, Tahiru"
     },
     {
+      "date": "2026-09-11",
+      "santier": "Morgex La Vache Rit",
+      "ora_start": "06:00",
+      "ora_end": "18:00",
+      "ore_efective": 11.0,
+      "mezzo": "Fisso 613",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.0,
+      "colegi": "Giovanni, Florin, Ivanov, Tahiru"
+    },
+    {
       "date": "2026-09-10",
       "santier": "Morgex/La Vache Rit",
       "ora_start": "06:30",
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Iveco",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5,
       "colegi": "Ivanov + Leonardo - Incapsulante, nylon+nastro"
     },
     {
@@ -4120,7 +4120,7 @@
     "expenses": 357,
     "expenses_total": 15419.17,
     "ore_lucrate": 75,
-    "ore_total": 700.5,
+    "ore_total": 703.5,
     "pending": 0,
     "speza_offers": 249
   },
@@ -4128,7 +4128,7 @@
     "expenses": 357,
     "expenses_total": 15419.17,
     "ore_lucrate": 75,
-    "ore_total": 700.5,
+    "ore_total": 703.5,
     "pending": 0,
     "speza_offers": 249
   },
@@ -4149,7 +4149,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-17T23:09:10.030930"
+    "last_activity": "2026-09-18T11:09:08.919347"
   },
   "backup": {
     "last_backup": "—",
@@ -4199,5 +4199,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-17T23:09:10.030982"
+  "lastUpdate": "2026-09-18T11:09:08.919400"
 }
