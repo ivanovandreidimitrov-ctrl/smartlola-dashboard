@@ -1,6 +1,15 @@
 {
   "expenses": [
     {
+      "date": "2026-09-19",
+      "description": "Panetteria Borgesio — prodotti 4%",
+      "amount": 10.33,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Panetteria Borgesio Banclette"
+    },
+    {
       "date": "2026-09-18",
       "description": "Pita x3 + Mele fuji 0.608kg + Banane 0.894kg + Latte fresco + Wafer vaniglia + Kefir bianco + Prosciutto cotto + Shopper",
       "amount": 9.29,
@@ -4138,16 +4147,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 358,
-    "expenses_total": 15428.46,
+    "expenses": 359,
+    "expenses_total": 15438.79,
     "ore_lucrate": 76,
     "ore_total": 713.5,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 358,
-    "expenses_total": 15428.46,
+    "expenses": 359,
+    "expenses_total": 15438.79,
     "ore_lucrate": 76,
     "ore_total": 713.5,
     "pending": 0,
@@ -4170,7 +4179,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-18T19:48:49.471148"
+    "last_activity": "2026-09-19T11:09:40.745493"
   },
   "backup": {
     "last_backup": "—",
@@ -4220,5 +4229,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-18T19:48:49.471196"
+  "lastUpdate": "2026-09-19T11:09:40.745545"
 }
