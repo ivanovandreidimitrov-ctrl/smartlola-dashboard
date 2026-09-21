@@ -297,33 +297,78 @@ function renderGuda() {
     `).join('');
   }
 
-  // Recent expenses — sortat descrescător după dată (cea mai recentă prima)
+  // Recent expenses — grupate pe zile cu total/zi (BY DATE)
   const recentEl = document.getElementById('guda-recent');
   if (filtered.length === 0) {
     recentEl.innerHTML = '<div class="empty-state">Nicio cheltuială</div>';
   } else {
     const sortedExp = [...filtered].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-    recentEl.innerHTML = sortedExp.slice(0, 50).map(e => {
-      const store = e.store || (e.description || '').split(' ')[0].replace(/[^a-zA-Z0-9]/g, '');
-      const d = (e.date || '').split('-');
-      const dayMonth = d[2] + '/' + d[1];
-      const idx = sortedExp.indexOf(e);
-      return `
-      <div class="expense-item" data-expense-idx="${idx}" onclick="openReceiptDetail(${idx})">
-        <div class="expense-left">
-          <div class="expense-desc">${escapeHtml(e.description || '')}</div>
-          <div class="expense-meta">
-            <span class="expense-date">${dayMonth}</span>
-            ${store ? `<span class="expense-store">${escapeHtml(store)}</span>` : ''}
-            <span class="badge ${e.split}">${e.split}</span>
-            ${e.source ? `<span class="badge ${e.source}">${e.source}</span>` : ''}
+    // Grupează pe zile
+    const grouped = {};
+    sortedExp.forEach(e => {
+      const d = e.date || '—';
+      if (!grouped[d]) grouped[d] = [];
+      grouped[d].push(e);
+    });
+    const dayNames = ['Duminică','Luni','Marți','Miercuri','Joi','Vineri','Sâmbătă'];
+    const monthNames = ['ian','feb','mar','apr','mai','iun','iul','aug','sep','oct','noi','dec'];
+    let html = '';
+    let globalIdx = 0;
+    Object.keys(grouped).sort((a, b) => b.localeCompare(a)).slice(0, 30).forEach(date => {
+      const items = grouped[date];
+      const dayTotal = items.reduce((s, e) => s + e.amount, 0);
+      // Format data
+      let dayLabel = date;
+      if (date !== '—') {
+        const parts = date.split('-');
+        const dt = new Date(parseInt(parts[0]), parseInt(parts[1])-1, parseInt(parts[2]));
+        const today = new Date();
+        today.setHours(0,0,0,0);
+        const yesterday = new Date(today); yesterday.setDate(yesterday.getDate()-1);
+        if (dt.getTime() === today.getTime()) {
+          dayLabel = 'Astăzi';
+        } else if (dt.getTime() === yesterday.getTime()) {
+          dayLabel = 'Ieri';
+        } else {
+          dayLabel = dayNames[dt.getDay()] + ', ' + parseInt(parts[2]) + ' ' + monthNames[parseInt(parts[1])-1];
+        }
+      }
+      html += `<div class="day-group">`;
+      html += `<div class="day-header"><span class="day-label">${dayLabel}</span><span class="day-total">€${dayTotal.toFixed(2)}</span></div>`;
+      items.forEach(e => {
+        const store = e.store || (e.description || '').split(' ')[0].replace(/[^a-zA-Z0-9]/g, '');
+        const idx = globalIdx++;
+        html += `
+        <div class="expense-item" data-expense-idx="${idx}" onclick="openReceiptDetailFromGroup(${idx})">
+          <div class="expense-left">
+            <div class="expense-desc">${escapeHtml(e.description || '')}</div>
+            <div class="expense-meta">
+              ${store ? `<span class="expense-store">${escapeHtml(store)}</span>` : ''}
+              <span class="badge ${e.split}">${e.split}</span>
+              ${e.source ? `<span class="badge ${e.source}">${e.source}</span>` : ''}
+            </div>
           </div>
-        </div>
-        <div class="expense-amount">€${e.amount.toFixed(2)}</div>
-      </div>
-    `;}).join('');
+          <div class="expense-amount">€${e.amount.toFixed(2)}</div>
+        </div>`;
+      });
+      html += `</div>`;
+    });
+    // Salvează lista globală pentru openReceiptDetailFromGroup
+    state._groupedExpenses = sortedExp.slice(0, 50);
+    recentEl.innerHTML = html;
   }
 }
+
+// === Receipt detail from grouped view ===
+function openReceiptDetailFromGroup(idx) {
+  const sortedExp = state._groupedExpenses;
+  if (!sortedExp || !sortedExp[idx]) return;
+  const e = sortedExp[idx];
+  // Reutilizează openReceiptDetail cu index corect
+  const filtered = getGudaFilteredExpenses();
+  const fullSorted = [...filtered].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  const realIdx = fullSorted.indexOf(e);
+  if (realIdx >= 0) openReceiptDetail(realIdx);
 
 // === RECEIPT DETAIL MODAL ===
 function openReceiptDetail(idx) {

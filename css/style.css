@@ -138,7 +138,7 @@ body {
 
 /* Expense list — scrollable */
 .expense-list {
-  max-height: 420px;
+  max-height: 520px;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   touch-action: pan-y;
@@ -148,6 +148,16 @@ body {
 .expense-list::-webkit-scrollbar { width: 4px; }
 .expense-list::-webkit-scrollbar-track { background: transparent; }
 .expense-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+/* Day group — BY DATE layout */
+.day-group { margin-bottom: 12px; }
+.day-header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 6px 4px 8px; border-bottom: 1px solid var(--border);
+  margin-bottom: 6px;
+}
+.day-label { font-size: 13px; font-weight: 700; color: var(--text); }
+.day-total { font-size: 14px; font-weight: 700; color: var(--accent, #3b82f6); }
 
 .expense-item {
   display: flex; justify-content: space-between; align-items: center;
