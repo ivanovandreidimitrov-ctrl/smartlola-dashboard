@@ -2,6 +2,15 @@
   "expenses": [
     {
       "date": "2026-09-19",
+      "description": "2x FS17 cablu electric (maro+albastru) €25.90 + 10A plug €1.49",
+      "amount": 53.29,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Bricofer"
+    },
+    {
+      "date": "2026-09-19",
       "description": "Panetteria Borgesio — prodotti 4%",
       "amount": 10.33,
       "category": "alimente",
@@ -4147,16 +4156,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 359,
-    "expenses_total": 15438.79,
+    "expenses": 360,
+    "expenses_total": 15492.08,
     "ore_lucrate": 76,
     "ore_total": 713.5,
     "pending": 0,
     "speza_offers": 249
   },
   "db": {
-    "expenses": 359,
-    "expenses_total": 15438.79,
+    "expenses": 360,
+    "expenses_total": 15492.08,
     "ore_lucrate": 76,
     "ore_total": 713.5,
     "pending": 0,
@@ -4179,7 +4188,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-19T11:09:40.745493"
+    "last_activity": "2026-09-21T07:48:52.003470"
   },
   "backup": {
     "last_backup": "—",
@@ -4229,5 +4238,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-19T11:09:40.745545"
+  "lastUpdate": "2026-09-21T07:48:52.003507"
 }
