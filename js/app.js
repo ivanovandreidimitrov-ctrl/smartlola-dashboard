@@ -58,6 +58,9 @@ async function loadData() {
   } catch (e) {
     console.error('Load error:', e);
     setConnected(false);
+    // Show error on page for debugging
+    const errEl = document.getElementById('connection-status');
+    if (errEl) errEl.textContent = '● Eroare: ' + e.message;
     renderAll();
   }
 }
