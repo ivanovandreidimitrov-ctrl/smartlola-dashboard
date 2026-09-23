@@ -21,18 +21,26 @@ let state = {
 
 // === INIT ===
 document.addEventListener('DOMContentLoaded', () => {
-  // Register service worker (auto-deregisters to clear old caches)
+  // Register service worker — auto-deregisters + clears all caches for clean refresh
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').catch(e => console.error('SW:', e));
+    navigator.serviceWorker.register('sw.js?v=final').catch(e => console.error('SW:', e));
+    // Also deregister any existing SW immediately to clear stale caches on mobile
+    navigator.serviceWorker.getRegistrations().then(regs => {
+      regs.forEach(r => r.unregister());
+    }).catch(() => {});
   }
 
   // Tab navigation
   document.querySelectorAll('.tab').forEach(tab => {
     tab.addEventListener('click', () => {
+      // Tabs wrapped in <a> (growth, gantt, speza) navigate to other pages — skip DOM switch
+      const tabId = tab.dataset.tab;
+      const target = document.getElementById('tab-' + tabId);
+      if (!target) return; // External page tab — let <a> handle navigation
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
       document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
       tab.classList.add('active');
-      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+      target.classList.add('active');
     });
   });
 
@@ -58,7 +66,9 @@ async function loadData() {
   } catch (e) {
     console.error('Load error:', e);
     setConnected(false);
-    renderAll();
+    // Render in separate try — if renderAll() threw in the try block,
+    // calling it again in catch would re-throw and leave "Conectare..." stuck
+    try { renderAll(); } catch (e2) { console.error('Render error:', e2); }
   }
 }
 
@@ -76,7 +86,10 @@ function setConnected(connected) {
 
 async function loadStatusJson() {
   // Fetch status.json with cache-busting
-  const resp = await fetch('status.json?t=' + Date.now());
+  // Use relative path derived from current page (works on GitHub Pages subpaths and local)
+  const basePath = window.location.pathname.replace(/\/[^\/]*$/, '/');
+  const url = basePath + 'status.json?t=' + Date.now();
+  const resp = await fetch(url);
   if (!resp.ok) throw new Error('status.json HTTP ' + resp.status);
   const data = await resp.json();
   state.status = data;
@@ -819,12 +832,14 @@ async function processReceipt() {
           // Încearcă categorie din transcript
           const catMap = { 'alimente': 'alimente', 'cafea': 'cafea', 'motorina': 'motorină', 'benzina': 'motorină', 'munca': 'muncă', 'lidl': 'alimente', 'conad': 'alimente', 'penny': 'alimente', 'ikea': 'casă' };
           const lowerTranscript = transcript.toLowerCase();
-          for (const [key, val] of Object.entries(catMap)) {
-            if (lowerTranscript.includes(key)) {
-              for (let i = 0; i < catEl.options.length; i++) {
-                if (catEl.options[i].value === val) { catEl.selectedIndex = i; break; }
+          if (catEl) {
+            for (const [key, val] of Object.entries(catMap)) {
+              if (lowerTranscript.includes(key)) {
+                for (let i = 0; i < catEl.options.length; i++) {
+                  if (catEl.options[i].value === val) { catEl.selectedIndex = i; break; }
+                }
+                break;
               }
-              break;
             }
           }
         } else if (procData.ocr.error) {
@@ -1214,7 +1229,8 @@ function escapeHtml(s) {
 function formatDate(d) {
   if (!d) return '';
   const parts = d.split('-');
-  return parts[2] + '/' + parts[1] || d;
+  if (parts.length >= 3) return parts[2] + '/' + parts[1];
+  return d;
 }
 
 function formatTime(t) {
