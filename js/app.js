@@ -563,10 +563,11 @@ function renderAtlas() {
     const sortedOre = [...filtered].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
     recentEl.innerHTML = sortedOre.map(o => {
       const d = (o.date || '').split('-');
+      const dayName = dayShort(o.date);
       return `
         <div class="work-item">
           <div class="work-date">
-            <div class="work-day">${d[2] || '?'}</div>
+            <div class="work-day">${dayName ? dayName + ' ' : ''}${d[2] || '?'}</div>
             <div class="work-month">${monthShort(d[1])}</div>
           </div>
           <div class="work-info">
@@ -1241,6 +1242,15 @@ function formatTime(t) {
 function monthShort(m) {
   const months = ['', 'Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Noi', 'Dec'];
   return months[parseInt(m)] || '';
+}
+
+function dayShort(dateStr) {
+  if (!dateStr) return '';
+  const parts = dateStr.split('-');
+  if (parts.length < 3) return '';
+  const dt = new Date(parseInt(parts[0]), parseInt(parts[1])-1, parseInt(parts[2]));
+  const days = ['Dum', 'Lun', 'Mar', 'Mie', 'Joi', 'Vin', 'Sâm'];
+  return days[dt.getDay()] || '';
 }
 
 // === REPORT TYPE (expenses vs hours) ===
