@@ -3291,6 +3291,18 @@
       "colegi": "Tahiru"
     },
     {
+      "date": "2026-09-22",
+      "santier": "Ivrea Cond Farfalla",
+      "ora_start": "07:00",
+      "ora_end": "17:00",
+      "ore_efective": 9.0,
+      "mezzo": "645",
+      "ore_normal": 8.0,
+      "ore_guida": 0.0,
+      "ore_extra": 1.0,
+      "colegi": "Tahiru"
+    },
+    {
       "date": "2026-09-21",
       "santier": "Valtournenche Cond Maison Du Sapin",
       "ora_start": "06:30",
@@ -4218,16 +4230,16 @@
   "db_stats": {
     "expenses": 360,
     "expenses_total": 15492.08,
-    "ore_lucrate": 81,
-    "ore_total": 759.5,
+    "ore_lucrate": 82,
+    "ore_total": 768.5,
     "pending": 0,
     "speza_offers": 482
   },
   "db": {
     "expenses": 360,
     "expenses_total": 15492.08,
-    "ore_lucrate": 81,
-    "ore_total": 759.5,
+    "ore_lucrate": 82,
+    "ore_total": 768.5,
     "pending": 0,
     "speza_offers": 482
   },
@@ -4248,7 +4260,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-09-26T19:48:38.525394"
+    "last_activity": "2026-09-27T01:48:41.596055"
   },
   "backup": {
     "last_backup": "—",
@@ -4298,5 +4310,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-09-26T19:48:38.525434"
+  "lastUpdate": "2026-09-27T01:48:41.596093"
 }
