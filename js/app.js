@@ -1194,14 +1194,14 @@ function exportAtlasPDF() {
     bodyStyles: { fontSize: 8 },
     alternateRowStyles: { fillColor: [240, 242, 248] },
     columnStyles: {
-      0: { cellWidth: 18 },
+      0: { cellWidth: 18, fontStyle: 'bold' },
       1: { cellWidth: 'auto' },
       2: { cellWidth: 14 },
       3: { cellWidth: 14 },
-      4: { cellWidth: 14, halign: 'right' },
-      5: { cellWidth: 16, halign: 'right' },
-      6: { cellWidth: 14, halign: 'right' },
-      7: { cellWidth: 14, halign: 'right' },
+      4: { cellWidth: 14, halign: 'right', fontStyle: 'bold' },
+      5: { cellWidth: 16, halign: 'right', fontStyle: 'bold' },
+      6: { cellWidth: 14, halign: 'right', fontStyle: 'bold' },
+      7: { cellWidth: 14, halign: 'right', fontStyle: 'bold' },
       8: { cellWidth: 18 },
       9: { cellWidth: 'auto' }
     }
