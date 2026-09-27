@@ -1178,26 +1178,32 @@ function exportAtlasPDF() {
     o.ora_start || '',
     o.ora_end || '',
     (o.ore_efective || 0).toFixed(1) + 'h',
+    (o.ore_normal || 0).toFixed(1) + 'h',
+    (o.ore_guida || 0).toFixed(1) + 'h',
+    (o.ore_extra || 0).toFixed(1) + 'h',
     o.mezzo || '',
     o.colegi || ''
   ]);
 
   doc.autoTable({
     startY: 61,
-    head: [['Data', 'Santier', 'Start', 'Final', 'Ore', 'Masina', 'Colegi']],
+    head: [['Data', 'Santier', 'Start', 'Final', 'Ore', 'Normale', 'Guida', 'Extra', 'Masina', 'Colegi']],
     body: rows,
     theme: 'striped',
-    headStyles: { fillColor: [79, 158, 255], fontSize: 9 },
-    bodyStyles: { fontSize: 9 },
+    headStyles: { fillColor: [79, 158, 255], fontSize: 8 },
+    bodyStyles: { fontSize: 8 },
     alternateRowStyles: { fillColor: [240, 242, 248] },
     columnStyles: {
-      0: { cellWidth: 20 },
+      0: { cellWidth: 18 },
       1: { cellWidth: 'auto' },
-      2: { cellWidth: 16 },
-      3: { cellWidth: 16 },
-      4: { cellWidth: 16, halign: 'right' },
-      5: { cellWidth: 22 },
-      6: { cellWidth: 'auto' }
+      2: { cellWidth: 14 },
+      3: { cellWidth: 14 },
+      4: { cellWidth: 14, halign: 'right' },
+      5: { cellWidth: 16, halign: 'right' },
+      6: { cellWidth: 14, halign: 'right' },
+      7: { cellWidth: 14, halign: 'right' },
+      8: { cellWidth: 18 },
+      9: { cellWidth: 'auto' }
     }
   });
 
