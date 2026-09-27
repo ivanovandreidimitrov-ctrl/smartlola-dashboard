@@ -540,7 +540,7 @@ function renderAtlas() {
   const maxMonth = Math.max(...Object.values(months).map(m => m.total), 1);
 
   const monthEl = document.getElementById('atlas-monthly');
-  monthEl.innerHTML = Object.entries(months).sort().map(([month, m]) => {
+  monthEl.innerHTML = Object.entries(months).sort().reverse().map(([month, m]) => {
     const isCurrent = state.atlasView === 'current-month' && month === new Date().toISOString().slice(0, 7);
     return `
     <div class="month-bar ${isCurrent ? 'highlighted' : ''}">
@@ -1184,7 +1184,7 @@ function exportAtlasPDF() {
 
   doc.autoTable({
     startY: 61,
-    head: [['Data', '\u0218antier', 'Start', 'Final', 'Ore', 'Ma\u0219in\u0103', 'Colegi']],
+    head: [['Data', 'Santier', 'Start', 'Final', 'Ore', 'Masina', 'Colegi']],
     body: rows,
     theme: 'striped',
     headStyles: { fillColor: [79, 158, 255], fontSize: 9 },
@@ -1667,7 +1667,7 @@ function exportPeriodPDF() {
     ]);
     doc.autoTable({
       startY: y,
-      head: [['Data', '\u0218antier', 'Start', 'Final', 'Ore']],
+      head: [['Data', 'Santier', 'Start', 'Final', 'Ore']],
       body: oreRows,
       theme: 'striped',
       headStyles: { fillColor: [245, 158, 11], fontSize: 9 },
