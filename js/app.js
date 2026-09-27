@@ -585,7 +585,7 @@ function renderAtlas() {
   const progEl = document.getElementById('atlas-programme');
   if (progEl) {
     const programmes = state.status?.programme_cantieri || {};
-    const dates = Object.keys(programmes).sort();
+    const dates = Object.keys(programmes).sort().reverse(); // cele mai recente sus
     if (dates.length === 0) {
       progEl.innerHTML = '<div class="empty-state">Niciun program de șantier</div>';
     } else {
