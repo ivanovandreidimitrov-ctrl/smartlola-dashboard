@@ -886,6 +886,7 @@
       "ora_end": "17:30",
       "ore_efective": 10,
       "mezzo": "IVECO",
+<<<<<<< HEAD
       "colegi": "Ilie",
       "note": "Pauză prânz 1h",
       "sursa": "andrei",
@@ -895,6 +896,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.0,
+      "colegi": "Ilie"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 76,
@@ -904,6 +911,7 @@
       "ora_end": "18:30",
       "ore_efective": 11,
       "mezzo": "IVECO",
+<<<<<<< HEAD
       "colegi": "Ilie",
       "note": "Pauză prânz 1h",
       "sursa": "andrei",
@@ -913,6 +921,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 2
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.0,
+      "colegi": "Ilie"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 75,
@@ -922,6 +936,7 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "IVECO",
+<<<<<<< HEAD
       "colegi": "Ilie",
       "note": "Pauză prânz 1h",
       "sursa": "andrei",
@@ -931,6 +946,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5,
+      "colegi": "Ilie"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 74,
@@ -1012,6 +1033,7 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
+<<<<<<< HEAD
       "colegi": "Ivanov - Brosso-Starbox-Morgex/La Vache Rit",
       "note": null,
       "sursa": "andrei",
@@ -1021,6 +1043,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5,
+      "colegi": "Ivanov - Brosso-Starbox-Morgex/La Vache Rit"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 68,
@@ -1030,6 +1058,7 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "Renault-529",
+<<<<<<< HEAD
       "colegi": "Sergiu",
       "note": null,
       "sursa": "andrei",
@@ -1039,6 +1068,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5,
+      "colegi": "Sergiu"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 69,
@@ -1048,6 +1083,7 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "Renault 529",
+<<<<<<< HEAD
       "colegi": "Ivanov - cargar materiale, passare da Giono",
       "note": null,
       "sursa": "andrei",
@@ -1057,6 +1093,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5,
+      "colegi": "Ivanov - cargar materiale, passare da Giono"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 67,
@@ -1066,6 +1108,7 @@
       "ora_end": "17:30",
       "ore_efective": 10,
       "mezzo": "Iveco",
+<<<<<<< HEAD
       "colegi": "Sergiu",
       "note": null,
       "sursa": "andrei",
@@ -1075,6 +1118,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.0,
+      "colegi": "Sergiu"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 66,
@@ -1084,6 +1133,7 @@
       "ora_end": "17:30",
       "ore_efective": 9.5,
       "mezzo": "Iveco",
+<<<<<<< HEAD
       "colegi": "Sergiu",
       "note": null,
       "sursa": "andrei",
@@ -1093,6 +1143,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5,
+      "colegi": "Sergiu"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 64,
@@ -1102,6 +1158,7 @@
       "ora_end": "17:30",
       "ore_efective": 10.5,
       "mezzo": "Iveco",
+<<<<<<< HEAD
       "colegi": "Sergiu",
       "note": null,
       "sursa": "andrei",
@@ -1111,6 +1168,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5,
+      "colegi": "Sergiu"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 65,
@@ -1120,6 +1183,7 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "Iveco",
+<<<<<<< HEAD
       "colegi": "Tahiru",
       "note": null,
       "sursa": "andrei",
@@ -1129,6 +1193,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5,
+      "colegi": "Tahiru"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 63,
@@ -1138,6 +1208,7 @@
       "ora_end": "17:30",
       "ore_efective": 10.5,
       "mezzo": null,
+<<<<<<< HEAD
       "colegi": null,
       "note": null,
       "sursa": "andrei",
@@ -1147,6 +1218,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5,
+      "colegi": null
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 62,
@@ -1156,6 +1233,7 @@
       "ora_end": "12:00",
       "ore_efective": 5,
       "mezzo": null,
+<<<<<<< HEAD
       "colegi": null,
       "note": null,
       "sursa": "andrei",
@@ -1165,6 +1243,12 @@
       "ore_normal": 5,
       "ore_guida": 0,
       "ore_extra": 0
+=======
+      "ore_normal": 5.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 61,
@@ -1174,6 +1258,7 @@
       "ora_end": "17:00",
       "ore_efective": 10,
       "mezzo": null,
+<<<<<<< HEAD
       "colegi": null,
       "note": null,
       "sursa": "andrei",
@@ -1183,6 +1268,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.0,
+      "colegi": null
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 60,
@@ -1192,6 +1283,7 @@
       "ora_end": "18:00",
       "ore_efective": 11,
       "mezzo": null,
+<<<<<<< HEAD
       "colegi": null,
       "note": null,
       "sursa": "andrei",
@@ -1201,6 +1293,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 2
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.0,
+      "colegi": null
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 58,
@@ -1210,6 +1308,7 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
+<<<<<<< HEAD
       "colegi": "Tahiru",
       "note": null,
       "sursa": "andrei",
@@ -1219,6 +1318,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5,
+      "colegi": "Tahiru"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 59,
@@ -1228,6 +1333,7 @@
       "ora_end": "18:30",
       "ore_efective": 11.5,
       "mezzo": null,
+<<<<<<< HEAD
       "colegi": null,
       "note": null,
       "sursa": "andrei",
@@ -1237,6 +1343,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 2.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.5,
+      "colegi": null
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 57,
@@ -1282,6 +1394,7 @@
       "ora_end": "17:00",
       "ore_efective": 8.5,
       "mezzo": "--colegi",
+<<<<<<< HEAD
       "colegi": null,
       "note": "Programme Cantieri 21/08. Ivanov+Leonardo+Marcello la Magazzino San Lorenzo, start 07:30. Ora final provizorie 17:00 (pattern). Astept confirmare.",
       "sursa": "confirmare_andrei",
@@ -1291,6 +1404,12 @@
       "ore_normal": 8,
       "ore_guida": 0.5,
       "ore_extra": 0
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 0.5,
+      "ore_extra": 0.0,
+      "colegi": null
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 54,
@@ -1300,6 +1419,7 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": null,
+<<<<<<< HEAD
       "colegi": null,
       "note": "Mesaj vocal Andrei: Biella Cond Miramonti, terminat 17:00.",
       "sursa": "confirmare_andrei",
@@ -1309,6 +1429,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 0.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 0.5,
+      "colegi": null
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 53,
@@ -1336,6 +1462,7 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "",
+<<<<<<< HEAD
       "colegi": "Ilie, Tahiru, Leonardo, Ivanov, Marcello",
       "note": null,
       "sursa": "confirmare_andrei",
@@ -1345,6 +1472,12 @@
       "ore_normal": 8,
       "ore_guida": 1,
       "ore_extra": 1.5
+=======
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5,
+      "colegi": "Ilie, Tahiru, Leonardo, Ivanov, Marcello"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
     },
     {
       "id": 51,
@@ -2235,7 +2368,7 @@
     "ore_lucrate": 82,
     "ore_total": 768.5,
     "pending": 0,
-    "speza_offers": 482
+    "speza_offers": 724
   },
   "db": {
     "expenses": 360,
@@ -2243,7 +2376,7 @@
     "ore_lucrate": 82,
     "ore_total": 768.5,
     "pending": 0,
-    "speza_offers": 482
+    "speza_offers": 724
   },
   "system_health": {
     "gateway": "up",
@@ -2261,7 +2394,11 @@
   },
   "andrei": {
     "status": "activ",
+<<<<<<< HEAD
     "last_activity": "2026-09-27T07:07:08.776Z"
+=======
+    "last_activity": "2026-09-29T01:48:51.917645"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
   },
   "backup": {
     "last_backup": "auto",
@@ -2311,6 +2448,7 @@
       "model": "—"
     }
   ],
+<<<<<<< HEAD
   "lastUpdate": "2026-09-27T07:07:08.778Z",
   "programme_cantieri": {
     "2026-09-14": [
@@ -2428,4 +2566,7 @@
       }
     ]
   }
+=======
+  "lastUpdate": "2026-09-29T01:48:51.917683"
+>>>>>>> e54bb57 (Auto-sync 29 Sep 01:48: speza_offers: 482 → 724)
 }
