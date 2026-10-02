@@ -2315,7 +2315,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-02T05:56:30.839Z"
+    "last_activity": "2026-10-02T06:00:59.994Z"
   },
   "backup": {
     "last_backup": "auto",
@@ -2365,8 +2365,364 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-02T05:56:30.842Z",
+  "lastUpdate": "2026-10-02T06:00:59.996Z",
   "programme_cantieri": {
+    "2026-10-02": [
+      {
+        "id": 35,
+        "data": "2026-10-02",
+        "cantiere": "VALTOURNENCHE COND AUTORIMESSE",
+        "operai": "Giovanni, Leonardo",
+        "ora": "06:30",
+        "mezzo": "3 POSTI 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 36,
+        "data": "2026-10-02",
+        "cantiere": "SAINT-CHRISTOPHE COND SORRELEY",
+        "operai": "Florin, Aldo, Tahiru, Godwin",
+        "ora": "06:30",
+        "mezzo": "FISSO 613",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 37,
+        "data": "2026-10-02",
+        "cantiere": "CERVINIA COND SAINT THEUDULLE",
+        "operai": "Ivanov, Ilie",
+        "ora": "06:30",
+        "mezzo": "RENAULT 529 + CESTELLO",
+        "lavori": "Passare da Nolover a ritirare cestello, nr. 2 imbraghi",
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      }
+    ],
+    "2026-10-01": [
+      {
+        "id": 33,
+        "data": "2026-10-01",
+        "cantiere": "SAINT-CHRISTOPHE COND SORRELEY",
+        "operai": "Florin",
+        "ora": "06:30",
+        "mezzo": "RENAULT 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 34,
+        "data": "2026-10-01",
+        "cantiere": "MORGEX-VACHE",
+        "operai": "",
+        "ora": "06:30",
+        "mezzo": null,
+        "lavori": "Ritiro puntelli (da confermare)",
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 32,
+        "data": "2026-10-01",
+        "cantiere": "CHALLAND-SAINT-ANSELME COND DAMES DE CHALLAND",
+        "operai": "Giovanni, Ilie, Leonardo",
+        "ora": "06:30",
+        "mezzo": "FISSO 613",
+        "lavori": "Lasciare 3 posti da Razzano per revisione, passare da Struktura per calcestruzzo",
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      }
+    ],
+    "2026-09-30": [
+      {
+        "id": 31,
+        "data": "2026-09-30",
+        "cantiere": "SAINT-CHRISTOPHE COND SORRELEY",
+        "operai": "Florin, Aldo",
+        "ora": "06:30",
+        "mezzo": "RENAULT 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 30,
+        "data": "2026-09-30",
+        "cantiere": "CHALLAND-SAINT-ANSELME COND DAMES DE CHALLAND",
+        "operai": "Giovanni, Tahiru, Ilie",
+        "ora": "06:30",
+        "mezzo": "3 POSTI 645",
+        "lavori": "Puntelli, ritiro ferro, spatola, pistola, casseri",
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      }
+    ],
+    "2026-09-29": [
+      {
+        "id": 29,
+        "data": "2026-09-29",
+        "cantiere": "VALTOURNENCHE-DEVIDE COND PETIT MONT FLEURY",
+        "operai": "Ivanov",
+        "ora": "06:30",
+        "mezzo": "IVECO",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 28,
+        "data": "2026-09-29",
+        "cantiere": "SAINT-CHRISTOPHE COND SORRELEY",
+        "operai": "Florin, Aldo",
+        "ora": "06:30",
+        "mezzo": "3 POSTI 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 27,
+        "data": "2026-09-29",
+        "cantiere": "CHALLAND-SAINT-ANSELME COND DAMES DE CHALLAND",
+        "operai": "Giovanni, Tahiru, Ilie, Leonardo",
+        "ora": "06:30",
+        "mezzo": "FISSO 613",
+        "lavori": "Puntelli, ritiro barotti da Tecnolegnami",
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      }
+    ],
+    "2026-09-26": [
+      {
+        "id": 25,
+        "data": "2026-09-26",
+        "cantiere": "MAGAZZINO",
+        "operai": "Ivanov, Leonardo",
+        "ora": "07:00",
+        "mezzo": null,
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 26,
+        "data": "2026-09-26",
+        "cantiere": "GABELLIERA poi UFFICIO TEMPOZERO",
+        "operai": "Ilie, Tahiru",
+        "ora": "07:00",
+        "mezzo": null,
+        "lavori": "Trancia, rete filo 6, pala e picco, carotatrice, demolitore con punta 40",
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      }
+    ],
+    "2026-09-25": [
+      {
+        "id": 24,
+        "data": "2026-09-25",
+        "cantiere": "VALTOURNENCHE COND MAISON DU SAPIN",
+        "operai": "Ilie, Ivanov, Tahiru",
+        "ora": "06:30",
+        "mezzo": "RENAULT 529",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 23,
+        "data": "2026-09-25",
+        "cantiere": "SAINT-CHRISTOPHE COND SORRELEY",
+        "operai": "Florin, Leonardo",
+        "ora": "06:30",
+        "mezzo": "RENAULT 529",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 22,
+        "data": "2026-09-25",
+        "cantiere": "CERVINIA COND AUTORIMESSE",
+        "operai": "Giovanni, Aldo",
+        "ora": "06:30",
+        "mezzo": "3 POSTI 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      }
+    ],
+    "2026-09-24": [
+      {
+        "id": 20,
+        "data": "2026-09-24",
+        "cantiere": "VALTOURNENCHE COND MAISON DU SAPIN",
+        "operai": "Ilie, Leonardo, Giovanni, Aldo",
+        "ora": "06:30",
+        "mezzo": "FISSO 613",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 19,
+        "data": "2026-09-24",
+        "cantiere": "MORGEX LA VACHE RIT poi SAINT-CHRISTOPHE",
+        "operai": "Florin",
+        "ora": "06:30",
+        "mezzo": "RENAULT 529",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 21,
+        "data": "2026-09-24",
+        "cantiere": "IVREA COND FARFALLA",
+        "operai": "Ivanov, Tahiru",
+        "ora": "07:00",
+        "mezzo": "3 POSTI 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      }
+    ],
+    "2026-09-23": [
+      {
+        "id": 17,
+        "data": "2026-09-23",
+        "cantiere": "VALTOURNENCHE COND MAISON DU SAPIN",
+        "operai": "Ilie, Leonardo, Tahiru",
+        "ora": "06:30",
+        "mezzo": "RENAULT 529",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 18,
+        "data": "2026-09-23",
+        "cantiere": "IVREA COND FARFALLA",
+        "operai": "Ivanov, Tahiru",
+        "ora": "07:00",
+        "mezzo": "3 POSTI 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 16,
+        "data": "2026-09-23",
+        "cantiere": "CERVINIA COND AUTORIMESSE",
+        "operai": "Giovanni, Aldo",
+        "ora": "06:30",
+        "mezzo": "3 POSTI 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      }
+    ],
+    "2026-09-22": [
+      {
+        "id": 14,
+        "data": "2026-09-22",
+        "cantiere": "VALTOURNENCHE COND MAISON DU SAPIN",
+        "operai": "Florin, Ilie, Leonardo",
+        "ora": "06:30",
+        "mezzo": "RENAULT 529",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 15,
+        "data": "2026-09-22",
+        "cantiere": "IVREA COND FARFALLA",
+        "operai": "Ivanov, Tahiru",
+        "ora": "07:00",
+        "mezzo": "3 POSTI 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 13,
+        "data": "2026-09-22",
+        "cantiere": "CERVINIA COND AUTORIMESSE",
+        "operai": "Giovanni, Aldo",
+        "ora": "06:30",
+        "mezzo": "3 POSTI 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      }
+    ],
+    "2026-09-21": [
+      {
+        "id": 11,
+        "data": "2026-09-21",
+        "cantiere": "VALTOURNENCHE COND MAISON DU SAPIN",
+        "operai": "Florin, Ilie, Leonardo",
+        "ora": "06:30",
+        "mezzo": "RENAULT 529",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 12,
+        "data": "2026-09-21",
+        "cantiere": "IVREA COND FARFALLA",
+        "operai": "Ivanov, Tahiru",
+        "ora": "07:00",
+        "mezzo": "3 POSTI 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      },
+      {
+        "id": 10,
+        "data": "2026-09-21",
+        "cantiere": "CERVINIA COND AUTORIMESSE",
+        "operai": "Giovanni, Aldo",
+        "ora": "06:30",
+        "mezzo": "3 POSTI 645",
+        "lavori": null,
+        "mutua": null,
+        "permesso": null,
+        "created_at": "2026-10-02 08:10:00"
+      }
+    ],
     "2026-09-14": [
       {
         "id": 8,
