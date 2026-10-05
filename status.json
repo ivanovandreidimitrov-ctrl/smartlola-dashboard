@@ -3243,6 +3243,30 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-10-05",
+      "santier": "Cervinia Cond Saint Theudulle",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 11.5,
+      "mezzo": "RENAULT 529",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.5,
+      "colegi": "Ilie"
+    },
+    {
+      "date": "2026-10-02",
+      "santier": "Cervinia Cond Saint Theudulle",
+      "ora_start": "06:30",
+      "ora_end": "18:30",
+      "ore_efective": 12.0,
+      "mezzo": "RENAULT 529 + CESTELLO",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 3.0,
+      "colegi": "Ilie"
+    },
+    {
       "date": "2026-10-01",
       "santier": "Challand-Saint-Anselme Cond Dames de Challand",
       "ora_start": "06:30",
@@ -4266,16 +4290,16 @@
   "db_stats": {
     "expenses": 360,
     "expenses_total": 15492.08,
-    "ore_lucrate": 85,
-    "ore_total": 800.5,
+    "ore_lucrate": 87,
+    "ore_total": 824.0,
     "pending": 0,
     "speza_offers": 724
   },
   "db": {
     "expenses": 360,
     "expenses_total": 15492.08,
-    "ore_lucrate": 85,
-    "ore_total": 800.5,
+    "ore_lucrate": 87,
+    "ore_total": 824.0,
     "pending": 0,
     "speza_offers": 724
   },
@@ -4296,7 +4320,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-02T13:49:01.221352"
+    "last_activity": "2026-10-06T01:48:55.086714"
   },
   "backup": {
     "last_backup": "—",
@@ -4346,5 +4370,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-02T13:49:01.221400"
+  "lastUpdate": "2026-10-06T01:48:55.086751"
 }
