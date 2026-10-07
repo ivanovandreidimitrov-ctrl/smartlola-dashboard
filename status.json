@@ -3243,6 +3243,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-10-06",
+      "santier": "Valtournenche Cond Petit Mont Fleury",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 11.5,
+      "mezzo": "FISSO 613",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.5,
+      "colegi": "Tahiru"
+    },
+    {
       "date": "2026-10-05",
       "santier": "Cervinia Cond Saint Theudulle",
       "ora_start": "06:30",
@@ -4290,16 +4302,16 @@
   "db_stats": {
     "expenses": 360,
     "expenses_total": 15492.08,
-    "ore_lucrate": 87,
-    "ore_total": 824.0,
+    "ore_lucrate": 88,
+    "ore_total": 835.5,
     "pending": 0,
     "speza_offers": 724
   },
   "db": {
     "expenses": 360,
     "expenses_total": 15492.08,
-    "ore_lucrate": 87,
-    "ore_total": 824.0,
+    "ore_lucrate": 88,
+    "ore_total": 835.5,
     "pending": 0,
     "speza_offers": 724
   },
@@ -4320,7 +4332,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-06T01:48:55.086714"
+    "last_activity": "2026-10-07T13:48:53.832759"
   },
   "backup": {
     "last_backup": "—",
@@ -4370,5 +4382,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-06T01:48:55.086751"
+  "lastUpdate": "2026-10-07T13:48:53.832814"
 }
