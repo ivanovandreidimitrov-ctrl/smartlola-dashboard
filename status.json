@@ -3243,6 +3243,30 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-10-09",
+      "santier": "Valtournenche Cond Petit Mont Fleury",
+      "ora_start": "06:30",
+      "ora_end": "19:30",
+      "ore_efective": 13.0,
+      "mezzo": "RENAULT 529",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 4.0,
+      "colegi": "Godwin"
+    },
+    {
+      "date": "2026-10-07",
+      "santier": "Montalto Dora Momo",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 11.5,
+      "mezzo": "3 POSTI 645",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.5,
+      "colegi": "Florin"
+    },
+    {
       "date": "2026-10-06",
       "santier": "Valtournenche Cond Petit Mont Fleury",
       "ora_start": "06:30",
@@ -4302,16 +4326,16 @@
   "db_stats": {
     "expenses": 360,
     "expenses_total": 15492.08,
-    "ore_lucrate": 88,
-    "ore_total": 835.5,
+    "ore_lucrate": 90,
+    "ore_total": 860.0,
     "pending": 0,
     "speza_offers": 724
   },
   "db": {
     "expenses": 360,
     "expenses_total": 15492.08,
-    "ore_lucrate": 88,
-    "ore_total": 835.5,
+    "ore_lucrate": 90,
+    "ore_total": 860.0,
     "pending": 0,
     "speza_offers": 724
   },
@@ -4332,7 +4356,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-07T13:48:53.832759"
+    "last_activity": "2026-10-10T01:48:58.146753"
   },
   "backup": {
     "last_backup": "—",
@@ -4382,5 +4406,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-07T13:48:53.832814"
+  "lastUpdate": "2026-10-10T01:48:58.146794"
 }
