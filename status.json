@@ -1,6 +1,15 @@
 {
   "expenses": [
     {
+      "date": "2026-10-12",
+      "description": "CENTRO DANZA ARABESQUE\n\nImporto: -110,00 EUR\nConto di addebito: Conto n. \n\nData di contabilizzazione: 06 FEB. 2026\nDescrizione: CENTRO DANZA ARABESQUE PIAZ05/02-17:00 - Carta n.4471 XXXX XXXX XX06ABI ",
+      "amount": 110.0,
+      "category": "alte",
+      "split": "shared",
+      "source": "andrei",
+      "store": null
+    },
+    {
       "date": "2026-09-19",
       "description": "2x FS17 cablu electric (maro+albastru) €25.90 + 10A plug €1.49",
       "amount": 53.29,
@@ -4324,16 +4333,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 360,
-    "expenses_total": 15492.08,
+    "expenses": 361,
+    "expenses_total": 15602.08,
     "ore_lucrate": 90,
     "ore_total": 860.0,
     "pending": 0,
     "speza_offers": 724
   },
   "db": {
-    "expenses": 360,
-    "expenses_total": 15492.08,
+    "expenses": 361,
+    "expenses_total": 15602.08,
     "ore_lucrate": 90,
     "ore_total": 860.0,
     "pending": 0,
@@ -4356,7 +4365,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-10T01:48:58.146753"
+    "last_activity": "2026-10-12T23:10:01.352497"
   },
   "backup": {
     "last_backup": "—",
@@ -4406,5 +4415,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-10T01:48:58.146794"
+  "lastUpdate": "2026-10-12T23:10:01.352555"
 }
