@@ -1,15 +1,6 @@
 {
   "expenses": [
     {
-      "date": "2026-10-12",
-      "description": "CENTRO DANZA ARABESQUE\n\nImporto: -110,00 EUR\nConto di addebito: Conto n. \n\nData di contabilizzazione: 06 FEB. 2026\nDescrizione: CENTRO DANZA ARABESQUE PIAZ05/02-17:00 - Carta n.4471 XXXX XXXX XX06ABI ",
-      "amount": 110.0,
-      "category": "alte",
-      "split": "shared",
-      "source": "andrei",
-      "store": null
-    },
-    {
       "date": "2026-09-19",
       "description": "2x FS17 cablu electric (maro+albastru) €25.90 + 10A plug €1.49",
       "amount": 53.29,
@@ -2908,6 +2899,15 @@
       "store": null
     },
     {
+      "date": "2026-02-06",
+      "description": "CENTRO DANZA ARABESQUE — carte Intesa n.4471 (contabilizat 06.02.2026, poz. 05/02 17:00)",
+      "amount": 110.0,
+      "category": "danza",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Centro Danza Arabesque"
+    },
+    {
       "date": "2026-02-05",
       "description": "Pagam. POS - PAGAMENTO POS 401,58 EUR DEL 03.02.2026 A (ITA) PRIMA ASSICURAZIONI               CARTA ****2575 CAU 98105 NDS 835679112",
       "amount": 401.58,
@@ -4338,7 +4338,7 @@
     "ore_lucrate": 90,
     "ore_total": 860.0,
     "pending": 0,
-    "speza_offers": 724
+    "speza_offers": 1108
   },
   "db": {
     "expenses": 361,
@@ -4346,7 +4346,7 @@
     "ore_lucrate": 90,
     "ore_total": 860.0,
     "pending": 0,
-    "speza_offers": 724
+    "speza_offers": 1108
   },
   "system_health": {
     "gateway": "up",
@@ -4365,7 +4365,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-12T23:10:01.352497"
+    "last_activity": "2026-10-13T13:48:47.380644"
   },
   "backup": {
     "last_backup": "—",
@@ -4415,5 +4415,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-12T23:10:01.352555"
+  "lastUpdate": "2026-10-13T13:48:47.380681"
 }
