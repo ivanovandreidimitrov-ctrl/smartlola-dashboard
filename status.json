@@ -3252,6 +3252,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-10-14",
+      "santier": "Valtournenche Cond Petit Mont Fleury",
+      "ora_start": "06:30",
+      "ora_end": null,
+      "ore_efective": 12.0,
+      "mezzo": "613",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 3.0,
+      "colegi": "Godwin, Ayad"
+    },
+    {
       "date": "2026-10-09",
       "santier": "Valtournenche Cond Petit Mont Fleury",
       "ora_start": "06:30",
@@ -4335,16 +4347,16 @@
   "db_stats": {
     "expenses": 361,
     "expenses_total": 15602.08,
-    "ore_lucrate": 90,
-    "ore_total": 860.0,
+    "ore_lucrate": 91,
+    "ore_total": 872.0,
     "pending": 0,
     "speza_offers": 1108
   },
   "db": {
     "expenses": 361,
     "expenses_total": 15602.08,
-    "ore_lucrate": 90,
-    "ore_total": 860.0,
+    "ore_lucrate": 91,
+    "ore_total": 872.0,
     "pending": 0,
     "speza_offers": 1108
   },
@@ -4365,7 +4377,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-13T13:48:47.380644"
+    "last_activity": "2026-10-14T19:49:45.655803"
   },
   "backup": {
     "last_backup": "—",
@@ -4415,5 +4427,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-13T13:48:47.380681"
+  "lastUpdate": "2026-10-14T19:49:45.655838"
 }
