@@ -3255,7 +3255,7 @@
       "date": "2026-10-14",
       "santier": "Valtournenche Cond Petit Mont Fleury",
       "ora_start": "06:30",
-      "ora_end": null,
+      "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "613",
       "ore_normal": 8.0,
@@ -3267,7 +3267,7 @@
       "date": "2026-10-13",
       "santier": "Cervinia Cond Petit Mont Fleury",
       "ora_start": "06:30",
-      "ora_end": null,
+      "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "613",
       "ore_normal": 8.0,
@@ -3279,12 +3279,12 @@
       "date": "2026-10-12",
       "santier": "Cervinia Cond Petit Mont Fleury",
       "ora_start": "06:30",
-      "ora_end": null,
-      "ore_efective": 12.0,
+      "ora_end": "18:00",
+      "ore_efective": 11.5,
       "mezzo": "613",
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 3.0,
+      "ore_extra": 2.5,
       "colegi": "Leonardo, Godwin"
     },
     {
@@ -4372,7 +4372,7 @@
     "expenses": 361,
     "expenses_total": 15602.08,
     "ore_lucrate": 93,
-    "ore_total": 896.0,
+    "ore_total": 895.5,
     "pending": 0,
     "speza_offers": 1108
   },
@@ -4380,7 +4380,7 @@
     "expenses": 361,
     "expenses_total": 15602.08,
     "ore_lucrate": 93,
-    "ore_total": 896.0,
+    "ore_total": 895.5,
     "pending": 0,
     "speza_offers": 1108
   },
@@ -4401,7 +4401,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-14T20:02:35.588388"
+    "last_activity": "2026-10-15T01:49:06.426708"
   },
   "backup": {
     "last_backup": "—",
@@ -4451,5 +4451,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-14T20:02:35.588424"
+  "lastUpdate": "2026-10-15T01:49:06.426747"
 }
