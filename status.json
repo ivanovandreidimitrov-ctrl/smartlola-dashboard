@@ -3252,6 +3252,30 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-10-16",
+      "santier": "Avigliana (con il lago)",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 11.5,
+      "mezzo": "Camion mare (Nolover cassonato)",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.5,
+      "colegi": "Tahiru"
+    },
+    {
+      "date": "2026-10-15",
+      "santier": "Valtournenche Cond Petit Mont Fleury",
+      "ora_start": "06:30",
+      "ora_end": "18:30",
+      "ore_efective": 12.0,
+      "mezzo": "Camion mare Iveco",
+      "ore_normal": 3.0,
+      "ore_guida": "2026-10-16 17:19:41",
+      "ore_extra": "2026-10-16 17:19:41",
+      "colegi": "Godwin"
+    },
+    {
       "date": "2026-10-14",
       "santier": "Valtournenche Cond Petit Mont Fleury",
       "ora_start": "06:30",
@@ -4371,16 +4395,16 @@
   "db_stats": {
     "expenses": 361,
     "expenses_total": 15602.08,
-    "ore_lucrate": 93,
-    "ore_total": 895.5,
+    "ore_lucrate": 95,
+    "ore_total": 919.0,
     "pending": 0,
     "speza_offers": 1108
   },
   "db": {
     "expenses": 361,
     "expenses_total": 15602.08,
-    "ore_lucrate": 93,
-    "ore_total": 895.5,
+    "ore_lucrate": 95,
+    "ore_total": 919.0,
     "pending": 0,
     "speza_offers": 1108
   },
@@ -4401,7 +4425,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-15T01:49:06.426708"
+    "last_activity": "2026-10-16T19:49:15.865691"
   },
   "backup": {
     "last_backup": "—",
@@ -4451,5 +4475,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-15T01:49:06.426747"
+  "lastUpdate": "2026-10-16T19:49:15.865738"
 }
