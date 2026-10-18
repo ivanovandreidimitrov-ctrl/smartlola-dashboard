@@ -2,6 +2,15 @@
   "expenses": [
     {
       "date": "2026-10-18",
+      "description": "Bennet Ivrea — vitamina C gummies + vitamine Disney + biscotti Beretta + prezzemolo + borsa (totale €21.92, pagamento elettronico)",
+      "amount": 21.92,
+      "category": "alimente",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Bennet Ivrea"
+    },
+    {
+      "date": "2026-10-18",
       "description": "Decathlon Burolo — mini pilates band €4.99 + MF bicolor €7.99 + MF compact lila €7.99 + cotton print vibes €8.99 + borraccia 500ml €7.99 (totale €37.95, Mastercard)",
       "amount": 37.95,
       "category": "sport",
@@ -4438,16 +4447,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 366,
-    "expenses_total": 15707.96,
+    "expenses": 367,
+    "expenses_total": 15729.88,
     "ore_lucrate": 95,
     "ore_total": 919.0,
     "pending": 0,
     "speza_offers": 1108
   },
   "db": {
-    "expenses": 366,
-    "expenses_total": 15707.96,
+    "expenses": 367,
+    "expenses_total": 15729.88,
     "ore_lucrate": 95,
     "ore_total": 919.0,
     "pending": 0,
@@ -4470,7 +4479,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-18T16:34:59.455897"
+    "last_activity": "2026-10-18T19:01:45.480604"
   },
   "backup": {
     "last_backup": "—",
@@ -4520,5 +4529,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-18T16:34:59.455935"
+  "lastUpdate": "2026-10-18T19:01:45.480664"
 }
