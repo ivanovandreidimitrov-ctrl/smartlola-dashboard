@@ -11,8 +11,8 @@
     },
     {
       "date": "2026-10-18",
-      "description": "Action Burolo — maschera LED €11.95 + barattolo acacia €1.99 + nastro kinesio €1.98 + presa Legrand USB €11.95 + calzini 3paia €1.99 + caricabatteria (totale estimat €30.85, DE CONFIRMAT)",
-      "amount": 30.85,
+      "description": "Action Burolo — maschera LED €11.95 + barattolo acacia €1.99 + nastro kinesio €1.98 + presa Legrand USB €11.95 + calzini 3paia €1.99 + caricabatteria solare 8-pin €9.95 (totale €39.81, CONFIRMAT)",
+      "amount": 39.81,
       "category": "casa",
       "split": "shared",
       "source": "andrei",
@@ -4439,7 +4439,7 @@
   ],
   "db_stats": {
     "expenses": 366,
-    "expenses_total": 15699.0,
+    "expenses_total": 15707.96,
     "ore_lucrate": 95,
     "ore_total": 919.0,
     "pending": 0,
@@ -4447,7 +4447,7 @@
   },
   "db": {
     "expenses": 366,
-    "expenses_total": 15699.0,
+    "expenses_total": 15707.96,
     "ore_lucrate": 95,
     "ore_total": 919.0,
     "pending": 0,
@@ -4470,7 +4470,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-18T16:29:50.315916"
+    "last_activity": "2026-10-18T16:34:59.455897"
   },
   "backup": {
     "last_backup": "—",
@@ -4520,5 +4520,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-18T16:29:50.315970"
+  "lastUpdate": "2026-10-18T16:34:59.455935"
 }
