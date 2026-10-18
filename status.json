@@ -2,6 +2,24 @@
   "expenses": [
     {
       "date": "2026-10-18",
+      "description": "Decathlon Burolo — mini pilates band €4.99 + MF bicolor €7.99 + MF compact lila €7.99 + cotton print vibes €8.99 + borraccia 500ml €7.99 (totale €37.95, Mastercard)",
+      "amount": 37.95,
+      "category": "sport",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Decathlon Burolo"
+    },
+    {
+      "date": "2026-10-18",
+      "description": "Action Burolo — maschera LED €11.95 + barattolo acacia €1.99 + nastro kinesio €1.98 + presa Legrand USB €11.95 + calzini 3paia €1.99 + caricabatteria (totale estimat €30.85, DE CONFIRMAT)",
+      "amount": 30.85,
+      "category": "casa",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Action Burolo"
+    },
+    {
+      "date": "2026-10-18",
       "description": "Nova Coop Ivrea — caffè menu colazione €1.30 + caffè ginseng €2.10 + articolo €1.50 (totale €4.90, Mastercard)",
       "amount": 4.9,
       "category": "alimente",
@@ -4420,16 +4438,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 364,
-    "expenses_total": 15630.2,
+    "expenses": 366,
+    "expenses_total": 15699.0,
     "ore_lucrate": 95,
     "ore_total": 919.0,
     "pending": 0,
     "speza_offers": 1108
   },
   "db": {
-    "expenses": 364,
-    "expenses_total": 15630.2,
+    "expenses": 366,
+    "expenses_total": 15699.0,
     "ore_lucrate": 95,
     "ore_total": 919.0,
     "pending": 0,
@@ -4452,7 +4470,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-18T13:49:06.025641"
+    "last_activity": "2026-10-18T16:29:50.315916"
   },
   "backup": {
     "last_backup": "—",
@@ -4502,5 +4520,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-18T13:49:06.025688"
+  "lastUpdate": "2026-10-18T16:29:50.315970"
 }
