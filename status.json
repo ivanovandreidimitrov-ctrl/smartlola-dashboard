@@ -3315,6 +3315,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-10-20",
+      "santier": "Cervinia Cond Autorimesse",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 11.5,
+      "mezzo": "Fisso-613",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.5,
+      "colegi": "Giovanni, Aldo"
+    },
+    {
       "date": "2026-10-16",
       "santier": "Avigliana (con il lago)",
       "ora_start": "06:30",
@@ -4458,16 +4470,16 @@
   "db_stats": {
     "expenses": 368,
     "expenses_total": 15742.59,
-    "ore_lucrate": 95,
-    "ore_total": 919.0,
+    "ore_lucrate": 96,
+    "ore_total": 930.5,
     "pending": 0,
     "speza_offers": 1352
   },
   "db": {
     "expenses": 368,
     "expenses_total": 15742.59,
-    "ore_lucrate": 95,
-    "ore_total": 919.0,
+    "ore_lucrate": 96,
+    "ore_total": 930.5,
     "pending": 0,
     "speza_offers": 1352
   },
@@ -4488,7 +4500,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-20T18:53:43.605296"
+    "last_activity": "2026-10-20T18:56:44.652408"
   },
   "backup": {
     "last_backup": "—",
@@ -4538,5 +4550,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-20T18:53:43.605334"
+  "lastUpdate": "2026-10-20T18:56:44.652445"
 }
