@@ -3327,6 +3327,18 @@
       "colegi": "Giovanni, Aldo"
     },
     {
+      "date": "2026-10-19",
+      "santier": "Cervinia Cond Petit Mont Fleury",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 11.5,
+      "mezzo": "Camion mare Iveco",
+      "ore_normal": 8.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.5,
+      "colegi": "Godwin"
+    },
+    {
       "date": "2026-10-16",
       "santier": "Avigliana (con il lago)",
       "ora_start": "06:30",
@@ -4470,16 +4482,16 @@
   "db_stats": {
     "expenses": 368,
     "expenses_total": 15742.59,
-    "ore_lucrate": 96,
-    "ore_total": 930.5,
+    "ore_lucrate": 97,
+    "ore_total": 942.0,
     "pending": 0,
     "speza_offers": 1352
   },
   "db": {
     "expenses": 368,
     "expenses_total": 15742.59,
-    "ore_lucrate": 96,
-    "ore_total": 930.5,
+    "ore_lucrate": 97,
+    "ore_total": 942.0,
     "pending": 0,
     "speza_offers": 1352
   },
@@ -4500,7 +4512,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-20T18:56:44.652408"
+    "last_activity": "2026-10-20T19:05:17.301349"
   },
   "backup": {
     "last_backup": "—",
@@ -4550,5 +4562,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-20T18:56:44.652445"
+  "lastUpdate": "2026-10-20T19:05:17.301386"
 }
