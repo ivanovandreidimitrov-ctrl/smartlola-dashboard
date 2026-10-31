@@ -504,11 +504,12 @@ function setAtlasView(view) {
 
 function renderAtlas() {
   try {
+  const num = v => { const n = Number(v); return isNaN(n) ? 0 : n; };
   const filtered = getAtlasFilteredOre();
-  const totalOre = filtered.reduce((s, o) => s + (o.ore_efective || 0), 0);
-  const totalNormal = filtered.reduce((s, o) => s + (o.ore_normal || 0), 0);
-  const totalGuida = filtered.reduce((s, o) => s + (o.ore_guida || 0), 0);
-  const totalExtra = filtered.reduce((s, o) => s + (o.ore_extra || 0), 0);
+  const totalOre = filtered.reduce((s, o) => s + num(o.ore_efective), 0);
+  const totalNormal = filtered.reduce((s, o) => s + num(o.ore_normal), 0);
+  const totalGuida = filtered.reduce((s, o) => s + num(o.ore_guida), 0);
+  const totalExtra = filtered.reduce((s, o) => s + num(o.ore_extra), 0);
   const confirmedDays = filtered.filter(o => o.ore_efective).length;
   document.getElementById('atlas-total-hours').textContent = totalOre.toFixed(1) + 'h';
   document.getElementById('atlas-days').textContent = confirmedDays + ' zile confirmate';
@@ -544,17 +545,19 @@ function renderAtlas() {
   });
 
   // Monthly (always show all months for context) — with split
+  const num = v => { const n = Number(v); return isNaN(n) ? 0 : n; };
   const months = {};
   state.ore_lucrate.forEach(o => {
     const m = (o.date || '').substring(0, 7);
     if (!m) return;
     if (!months[m]) months[m] = { normal: 0, guida: 0, extra: 0, total: 0 };
-    months[m].normal += (o.ore_normal || 0);
-    months[m].guida += (o.ore_guida || 0);
-    months[m].extra += (o.ore_extra || 0);
-    months[m].total += (o.ore_efective || 0);
+    months[m].normal += num(o.ore_normal);
+    months[m].guida += num(o.ore_guida);
+    months[m].extra += num(o.ore_extra);
+    months[m].total += num(o.ore_efective);
   });
-  const maxMonth = Math.max(...Object.values(months).map(m => m.total), 1);
+  const maxMonth = Math.max(...Object.values(months).map(m => num(m.total)), 1);
+  months && Object.values(months).forEach(m => { m.normal = num(m.normal); m.guida = num(m.guida); m.extra = num(m.extra); m.total = num(m.total); });
 
   const monthEl = document.getElementById('atlas-monthly');
   try {
