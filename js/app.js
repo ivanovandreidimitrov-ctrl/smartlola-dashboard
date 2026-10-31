@@ -122,10 +122,10 @@ function loadAgents() {
 
 // === RENDERING ===
 function renderAll() {
-  renderDashboard();
-  renderGuda();
-  renderAtlas();
-  renderAgents();
+  const fns = [renderDashboard, renderGuda, renderAtlas, renderAgents];
+  for (const fn of fns) {
+    try { fn(); } catch (e) { console.error(fn.name + ' failed:', e); }
+  }
 }
 
 function renderDashboard() {
@@ -544,7 +544,8 @@ function renderAtlas() {
   const maxMonth = Math.max(...Object.values(months).map(m => m.total), 1);
 
   const monthEl = document.getElementById('atlas-monthly');
-  monthEl.innerHTML = Object.entries(months).sort().reverse().map(([month, m]) => {
+  try {
+    monthEl.innerHTML = Object.entries(months).sort().reverse().map(([month, m]) => {
     const isCurrent = state.atlasView === 'current-month' && month === new Date().toISOString().slice(0, 7);
     return `
     <div class="month-bar ${isCurrent ? 'highlighted' : ''}">
@@ -558,12 +559,17 @@ function renderAtlas() {
     </div>
   `;
   }).join('') || '<div class="empty-state">Nicio dată</div>';
+  } catch (e) {
+    console.error('atlas-monthly failed:', e);
+    monthEl.innerHTML = '<div class="empty-state">Eroare afișare luni</div>';
+  }
 
   // Recent work (from filtered set)
   const recentEl = document.getElementById('atlas-recent');
-  if (filtered.length === 0) {
-    recentEl.innerHTML = '<div class="empty-state">Niciun entry pentru luna curentă</div>';
-  } else {
+  try {
+    if (filtered.length === 0) {
+      recentEl.innerHTML = '<div class="empty-state">Niciun entry pentru luna curentă</div>';
+    } else {
     const sortedOre = [...filtered].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
     recentEl.innerHTML = sortedOre.map(o => {
       const d = (o.date || '').split('-');
@@ -583,6 +589,10 @@ function renderAtlas() {
         </div>
       `;
     }).join('');
+  }
+  } catch (e) {
+    console.error('atlas-recent failed:', e);
+    recentEl.innerHTML = '<div class="empty-state">Eroare afișare zile</div>';
   }
 
   // === Programme Cantieri ===
