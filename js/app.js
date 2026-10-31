@@ -6,6 +6,18 @@ const API = {
   worker: 'https://smartlola-guda.smartlola.workers.dev'
 };
 
+// === GLOBAL ERROR OVERLAY (vizibil pe mobil) ===
+window.addEventListener('error', (e) => {
+  let ov = document.getElementById('err-overlay');
+  if (!ov) {
+    ov = document.createElement('div');
+    ov.id = 'err-overlay';
+    ov.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:#b91c1c;color:#fff;font:11px monospace;padding:6px 8px;z-index:99999;max-height:30vh;overflow:auto;white-space:pre-wrap;';
+    document.body.appendChild(ov);
+  }
+  ov.textContent += '\n⚠ ' + (e.message || e.type) + ' @ ' + (e.filename || '').split('/').pop() + ':' + e.lineno;
+});
+
 // === STATE ===
 let state = {
   expenses: [],
@@ -491,6 +503,7 @@ function setAtlasView(view) {
 }
 
 function renderAtlas() {
+  try {
   const filtered = getAtlasFilteredOre();
   const totalOre = filtered.reduce((s, o) => s + (o.ore_efective || 0), 0);
   const totalNormal = filtered.reduce((s, o) => s + (o.ore_normal || 0), 0);
@@ -632,6 +645,16 @@ function renderAtlas() {
       }
       progEl.innerHTML = progHtml;
     }
+  }
+  } catch (err) {
+    console.error('renderAtlas failed:', err);
+    const ov = document.getElementById('err-overlay');
+    if (ov) ov.textContent += '\n⚠ renderAtlas: ' + err.message;
+    // fallback minim: afișează ceva în toate secțiunile goale
+    ['atlas-monthly','atlas-recent','atlas-programme'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el && el.textContent.includes('Se încarcă')) el.innerHTML = '<div class="empty-state">Eroare: ' + String(err.message).slice(0,80) + '</div>';
+    });
   }
 }
 
