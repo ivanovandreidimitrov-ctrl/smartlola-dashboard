@@ -134,6 +134,10 @@ function renderDashboard() {
     const sys = state.status.system_health || state.status.system || {};
     document.getElementById('sys-status').textContent = sys.gateway === 'up' ? 'Online' : (sys.gateway ? 'Probleme' : '—');
     document.getElementById('sys-detail').textContent = `${sys.model || '—'} | WiFi: ${sys.wifi || sys.wifi_adapter || '—'}`;
+    const badge = document.getElementById('model-badge');
+    if (badge && sys.model) badge.textContent = sys.model;
+    const conn = document.getElementById('connection-status');
+    if (conn) { conn.textContent = '● Online'; conn.className = 'subtitle connected'; }
     
     // Andrei status
     const andrei = state.status.andrei || {};

@@ -4497,7 +4497,7 @@
   },
   "system_health": {
     "gateway": "up",
-    "model": "GLM-5.2 Cloud",
+    "model": "mistral-large-4 Cloud",
     "wifi": "D-Link DWA-125",
     "wifi_adapter": "D-Link DWA-125",
     "dns": "8.8.8.8 / 8.8.4.4",
@@ -4505,14 +4505,14 @@
     "ollama": "local"
   },
   "system": {
-    "model": "GLM-5.2 Cloud",
+    "model": "mistral-large-4 Cloud",
     "version": "OpenClaw 2026.7.1",
     "platform": "Windows 10",
     "node": "DESKTOP-IOHKTKV"
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-20T19:05:17.301349"
+    "last_activity": "2026-10-31T11:40:36.046111"
   },
   "backup": {
     "last_backup": "—",
@@ -4524,28 +4524,28 @@
       "emoji": "🧭",
       "role": "Coordonare",
       "active": true,
-      "model": "GLM-5.2"
+      "model": "mistral-large-4 Cloud"
     },
     {
       "name": "Guda",
       "emoji": "💰",
       "role": "Finanțe",
       "active": true,
-      "model": "GLM-5.2"
+      "model": "mistral-large-4 Cloud"
     },
     {
       "name": "Atlas",
       "emoji": "🏗",
       "role": "Lucrări",
       "active": true,
-      "model": "GLM-5.2"
+      "model": "mistral-large-4 Cloud"
     },
     {
       "name": "Spesa",
       "emoji": "🛒",
       "role": "Oferte & Cumpărături",
       "active": true,
-      "model": "GLM-5.2"
+      "model": "mistral-large-4 Cloud"
     },
     {
       "name": "Echo",
@@ -4562,5 +4562,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-20T19:05:17.301386"
+  "lastUpdate": "2026-10-31T11:40:36.046149"
 }
