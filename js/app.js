@@ -552,7 +552,6 @@ function renderAtlas() {
   });
 
   // Monthly (always show all months for context) — with split
-  const num = v => { const n = Number(v); return isNaN(n) ? 0 : n; };
   const months = {};
   state.ore_lucrate.forEach(o => {
     const m = (o.date || '').substring(0, 7);
