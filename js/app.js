@@ -101,7 +101,14 @@ async function loadStatusJson() {
   // Use relative path derived from current page (works on GitHub Pages subpaths and local)
   const basePath = window.location.pathname.replace(/\/[^\/]*$/, '/');
   const url = basePath + 'status.json?t=' + Date.now();
-  const resp = await fetch(url);
+  const ctrl = new AbortController();
+  const to = setTimeout(() => ctrl.abort(), 20000); // 20s timeout — pe semnal slab afișează Offline, nu blocat
+  let resp;
+  try {
+    resp = await fetch(url, { signal: ctrl.signal });
+  } finally {
+    clearTimeout(to);
+  }
   if (!resp.ok) throw new Error('status.json HTTP ' + resp.status);
   const data = await resp.json();
   state.status = data;
