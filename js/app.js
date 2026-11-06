@@ -691,8 +691,8 @@ function renderAgents() {
       ['DNS', sys.dns || '—'],
       ['WhatsApp', sys.whatsapp || '—'],
       ['Ollama', sys.ollama || '—'],
-      ['Expenses', `${db.expenses || 0} entries · €${(db.expenses_total || 0).toFixed(2)}`],
-      ['Ore lucrate', `${db.ore_lucrate || 0} entries · ${(db.ore_total || 0).toFixed(1)}h`],
+      ['Expenses', `${db.expenses || 0} entries · €${Number(db.expenses_total || 0).toFixed(2)}`],
+      ['Ore lucrate', `${db.ore_lucrate || 0} entries · ${Number(db.ore_total || 0).toFixed(1)}h`],
       ['Backup', bk.last_backup || '—'],
       ['Următorul backup', bk.next_backup || '—'],
     ].map(([k, v]) => `<div class="sys-row"><span class="sys-key">${k}</span><span class="sys-val">${v}</span></div>`).join('');
@@ -1204,10 +1204,11 @@ function exportAtlasPDF() {
   doc.text('Raport ore lucrate \u2014 ' + getAtlasViewLabel(), 14, 28);
 
   // Summary
-  const totalOre = filtered.reduce((s, o) => s + (o.ore_efective || 0), 0);
-  const totalNormal = filtered.reduce((s, o) => s + (o.ore_normal || 0), 0);
-  const totalGuida = filtered.reduce((s, o) => s + (o.ore_guida || 0), 0);
-  const totalExtra = filtered.reduce((s, o) => s + (o.ore_extra || 0), 0);
+  const num = v => { const n = Number(v); return isNaN(n) ? 0 : n; };
+  const totalOre = filtered.reduce((s, o) => s + num(o.ore_efective), 0);
+  const totalNormal = filtered.reduce((s, o) => s + num(o.ore_normal), 0);
+  const totalGuida = filtered.reduce((s, o) => s + num(o.ore_guida), 0);
+  const totalExtra = filtered.reduce((s, o) => s + num(o.ore_extra), 0);
   const days = filtered.filter(o => o.ore_efective).length;
 
   doc.setFontSize(12);
