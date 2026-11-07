@@ -1224,10 +1224,10 @@ function exportAtlasPDF() {
     o.santier || '',
     o.ora_start || '',
     o.ora_end || '',
-    (o.ore_efective || 0).toFixed(1) + 'h',
-    (o.ore_normal || 0).toFixed(1) + 'h',
-    (o.ore_guida || 0).toFixed(1) + 'h',
-    (o.ore_extra || 0).toFixed(1) + 'h',
+    Number(o.ore_efective || 0).toFixed(1) + 'h',
+    Number(o.ore_normal || 0).toFixed(1) + 'h',
+    Number(o.ore_guida || 0).toFixed(1) + 'h',
+    Number(o.ore_extra || 0).toFixed(1) + 'h',
     o.mezzo || '',
     o.colegi || ''
   ]);
