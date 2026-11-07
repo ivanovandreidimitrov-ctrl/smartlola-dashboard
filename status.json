@@ -1,6 +1,15 @@
 {
   "expenses": [
     {
+      "date": "2026-11-05",
+      "description": "Farmacia Marchesini - bon fiscal 05/11/26 (farmaco cod 0472655020)",
+      "amount": 13.89,
+      "category": "salute",
+      "split": "shared",
+      "source": "andrei",
+      "store": "Farmacia Marchesini"
+    },
+    {
       "date": "2026-10-20",
       "description": "Tigros Ivrea — igienic toilet paper + paper towels + latte + formaggio affettato + 10 uova medie + prosciutto cotto (totale €12.71, EPTS card)",
       "amount": 12.71,
@@ -4480,16 +4489,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 368,
-    "expenses_total": 15742.59,
+    "expenses": 369,
+    "expenses_total": 15756.48,
     "ore_lucrate": 97,
     "ore_total": 942.0,
     "pending": 0,
     "speza_offers": 1352
   },
   "db": {
-    "expenses": 368,
-    "expenses_total": 15742.59,
+    "expenses": 369,
+    "expenses_total": 15756.48,
     "ore_lucrate": 97,
     "ore_total": 942.0,
     "pending": 0,
@@ -4512,7 +4521,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-10-31T11:40:36.046111"
+    "last_activity": "2026-11-07T12:49:02.993852"
   },
   "backup": {
     "last_backup": "—",
@@ -4562,5 +4571,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-10-31T11:40:36.046149"
+  "lastUpdate": "2026-11-07T12:49:02.993890"
 }
