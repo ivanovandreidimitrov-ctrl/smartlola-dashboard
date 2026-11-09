@@ -6,7 +6,8 @@
       "amount": 1.62,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-11-05",
@@ -14,7 +15,8 @@
       "amount": 13.89,
       "category": "salute",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Farmacia Marchesini"
     },
     {
       "date": "2026-10-20",
@@ -22,7 +24,8 @@
       "amount": 12.71,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-10-18",
@@ -30,7 +33,8 @@
       "amount": 21.92,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Bennet Ivrea"
     },
     {
       "date": "2026-10-18",
@@ -38,7 +42,8 @@
       "amount": 37.95,
       "category": "sport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Decathlon Burolo"
     },
     {
       "date": "2026-10-18",
@@ -46,7 +51,8 @@
       "amount": 39.81,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Action Burolo"
     },
     {
       "date": "2026-10-18",
@@ -54,7 +60,8 @@
       "amount": 4.9,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Nova Coop Ivrea"
     },
     {
       "date": "2026-10-13",
@@ -62,7 +69,8 @@
       "amount": 11.61,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "SUPERMERCATO CONAD"
     },
     {
       "date": "2026-10-13",
@@ -70,7 +78,8 @@
       "amount": 11.61,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad Chatillon"
     },
     {
       "date": "2026-09-19",
@@ -78,7 +87,8 @@
       "amount": 53.29,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Bricofer"
     },
     {
       "date": "2026-09-19",
@@ -86,7 +96,8 @@
       "amount": 10.33,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Panetteria Borgesio Banclette"
     },
     {
       "date": "2026-09-18",
@@ -94,7 +105,8 @@
       "amount": 9.29,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Penny Market Borgofranco d'Ivrea"
     },
     {
       "date": "2026-09-14",
@@ -102,7 +114,8 @@
       "amount": 14.38,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-09-14",
@@ -110,7 +123,8 @@
       "amount": 10.03,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "TIGROS Ivrea"
     },
     {
       "date": "2026-09-14",
@@ -118,7 +132,8 @@
       "amount": 4.2,
       "category": "alte",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "GASOLINE CAFE Settimo Vittone"
     },
     {
       "date": "2026-09-14",
@@ -126,7 +141,8 @@
       "amount": 4.22,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "FAMILA Morgex"
     },
     {
       "date": "2026-09-12",
@@ -134,7 +150,8 @@
       "amount": 25.92,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "GUSTUL DE ACASA Ivrea"
     },
     {
       "date": "2026-09-12",
@@ -142,7 +159,8 @@
       "amount": 11.76,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "D Più Samone"
     },
     {
       "date": "2026-09-12",
@@ -150,7 +168,8 @@
       "amount": 3.52,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "FAMILA Morgex"
     },
     {
       "date": "2026-09-08",
@@ -158,7 +177,8 @@
       "amount": 2.6,
       "category": "alte",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "BAR LO SCOIATTOLO Val di Chy"
     },
     {
       "date": "2026-09-08",
@@ -166,7 +186,8 @@
       "amount": 6.52,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros - Ivrea"
     },
     {
       "date": "2026-09-05",
@@ -174,7 +195,8 @@
       "amount": 29.8,
       "category": "salute",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Ottica Vis A Vis - Burolo (Carrefour)"
     },
     {
       "date": "2026-09-04",
@@ -182,7 +204,8 @@
       "amount": 5.13,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-09-04",
@@ -190,7 +213,8 @@
       "amount": 1.88,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Carrefour Market Ivrea"
     },
     {
       "date": "2026-09-04",
@@ -198,7 +222,8 @@
       "amount": 5.24,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "CONAD Settimo Vittone"
     },
     {
       "date": "2026-09-03",
@@ -206,7 +231,8 @@
       "amount": 5.5,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Gustul de Acasa Ivrea"
     },
     {
       "date": "2026-09-03",
@@ -214,7 +240,8 @@
       "amount": 24.39,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-28",
@@ -222,7 +249,8 @@
       "amount": 2.76,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-28",
@@ -230,7 +258,8 @@
       "amount": 5.61,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-27",
@@ -238,7 +267,8 @@
       "amount": 5.21,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-27",
@@ -246,7 +276,8 @@
       "amount": 6.67,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-26",
@@ -254,7 +285,8 @@
       "amount": 49.2,
       "category": "muncă",
       "split": "andrei-only",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-26",
@@ -262,7 +294,8 @@
       "amount": 3.08,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-25",
@@ -270,7 +303,8 @@
       "amount": 58.32,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -278,7 +312,8 @@
       "amount": -1.56,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -286,7 +321,8 @@
       "amount": 1.16,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -294,7 +330,8 @@
       "amount": 1.19,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -302,7 +339,8 @@
       "amount": 0.02,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -310,7 +348,8 @@
       "amount": 3.61,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -318,7 +357,8 @@
       "amount": 1.29,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -326,7 +366,8 @@
       "amount": 1.89,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -334,7 +375,8 @@
       "amount": 2.15,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -342,7 +384,8 @@
       "amount": 2.76,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -350,7 +393,8 @@
       "amount": 1.59,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -358,7 +402,8 @@
       "amount": 2.49,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -366,7 +411,8 @@
       "amount": 5.49,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -374,7 +420,8 @@
       "amount": 2.39,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -382,7 +429,8 @@
       "amount": 9.98,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -390,7 +438,8 @@
       "amount": 3.24,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -398,7 +447,8 @@
       "amount": 0.2,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-24",
@@ -406,7 +456,8 @@
       "amount": 7.3,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Penny Market Biella"
     },
     {
       "date": "2026-08-24",
@@ -414,7 +465,8 @@
       "amount": 0.98,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Penny Market Biella"
     },
     {
       "date": "2026-08-24",
@@ -422,7 +474,8 @@
       "amount": 1.25,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Penny Market Biella"
     },
     {
       "date": "2026-08-22",
@@ -430,7 +483,8 @@
       "amount": 0.3,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-22",
@@ -438,7 +492,8 @@
       "amount": 1.64,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-22",
@@ -446,7 +501,8 @@
       "amount": 1.99,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-22",
@@ -454,7 +510,8 @@
       "amount": 2.7,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-22",
@@ -462,7 +519,8 @@
       "amount": 2.81,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-22",
@@ -470,7 +528,8 @@
       "amount": 4.16,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-22",
@@ -478,7 +537,8 @@
       "amount": 0.99,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-22",
@@ -486,7 +546,8 @@
       "amount": 2.97,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-22",
@@ -494,7 +555,8 @@
       "amount": 5.3,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-21",
@@ -502,7 +564,8 @@
       "amount": 36.15,
       "category": "sanatate",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Ospedale Ivrea"
     },
     {
       "date": "2026-08-21",
@@ -510,7 +573,8 @@
       "amount": 1.29,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-21",
@@ -518,7 +582,8 @@
       "amount": 7.1,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-21",
@@ -526,7 +591,8 @@
       "amount": 1.43,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-21",
@@ -534,7 +600,8 @@
       "amount": 0.01,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-21",
@@ -542,7 +609,8 @@
       "amount": 2.27,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-21",
@@ -550,7 +618,8 @@
       "amount": 1.09,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-20",
@@ -558,7 +627,8 @@
       "amount": 998.0,
       "category": "transfer",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Intesa (giroconto)"
     },
     {
       "date": "2026-08-20",
@@ -566,7 +636,8 @@
       "amount": 1.99,
       "category": "servicii",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "PayPal Google"
     },
     {
       "date": "2026-08-20",
@@ -574,7 +645,8 @@
       "amount": 70.84,
       "category": "divertisment",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Amazon.it"
     },
     {
       "date": "2026-08-20",
@@ -582,7 +654,8 @@
       "amount": 26.0,
       "category": "divertisment",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Amazon.it"
     },
     {
       "date": "2026-08-20",
@@ -590,7 +663,8 @@
       "amount": 50.0,
       "category": "auto",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "CAPELLARORICAMBI SNC Banchette (TO)"
     },
     {
       "date": "2026-08-20",
@@ -598,7 +672,8 @@
       "amount": 12.0,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "DOMUS EDILIZIA S.R.L. Montalto Dora"
     },
     {
       "date": "2026-08-19",
@@ -606,7 +681,8 @@
       "amount": 3.8,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Unicoop Tirreno"
     },
     {
       "date": "2026-08-19",
@@ -614,7 +690,8 @@
       "amount": 12.48,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Esselunga Carrara"
     },
     {
       "date": "2026-08-19",
@@ -622,7 +699,8 @@
       "amount": 14.1,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "12CDT-CDT Tratta A"
     },
     {
       "date": "2026-08-19",
@@ -630,7 +708,8 @@
       "amount": 19.38,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "IN'S MERCATO SPA"
     },
     {
       "date": "2026-08-19",
@@ -638,7 +717,8 @@
       "amount": 19.2,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Ivrea (POS)"
     },
     {
       "date": "2026-08-19",
@@ -646,7 +726,8 @@
       "amount": 4.4,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Silario Nord MyChef"
     },
     {
       "date": "2026-08-19",
@@ -654,7 +735,8 @@
       "amount": 3.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Silario Nord MyChef"
     },
     {
       "date": "2026-08-19",
@@ -662,7 +744,8 @@
       "amount": 10.5,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lavagna Comm."
     },
     {
       "date": "2026-08-19",
@@ -670,7 +753,8 @@
       "amount": 7.5,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Aspit Sarzana"
     },
     {
       "date": "2026-08-19",
@@ -678,7 +762,8 @@
       "amount": 75.01,
       "category": "auto",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "ENI 34305"
     },
     {
       "date": "2026-08-19",
@@ -686,7 +771,8 @@
       "amount": 2.07,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-19",
@@ -694,7 +780,8 @@
       "amount": 1.62,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-19",
@@ -702,7 +789,8 @@
       "amount": 2.69,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-19",
@@ -710,7 +798,8 @@
       "amount": 1.89,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-19",
@@ -718,7 +807,8 @@
       "amount": 5.94,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-19",
@@ -726,7 +816,8 @@
       "amount": 4.58,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-19",
@@ -734,7 +825,8 @@
       "amount": 7.58,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-19",
@@ -742,7 +834,8 @@
       "amount": 2.99,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-19",
@@ -750,7 +843,8 @@
       "amount": 0.2,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -758,7 +852,8 @@
       "amount": 7.1,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tabaccheria"
     },
     {
       "date": "2026-08-18",
@@ -766,7 +861,8 @@
       "amount": 7.76,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "UNES - VICINI DI SPESA"
     },
     {
       "date": "2026-08-18",
@@ -774,7 +870,8 @@
       "amount": 2.2,
       "category": "divertisment",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Associazione di Pubb"
     },
     {
       "date": "2026-08-18",
@@ -782,7 +879,8 @@
       "amount": 0.2,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -790,7 +888,8 @@
       "amount": 3.98,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -798,7 +897,8 @@
       "amount": 0.01,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -806,7 +906,8 @@
       "amount": 2.1,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -814,7 +915,8 @@
       "amount": 1.99,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -822,7 +924,8 @@
       "amount": 3.49,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -830,7 +933,8 @@
       "amount": 1.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -838,7 +942,8 @@
       "amount": 1.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -846,7 +951,8 @@
       "amount": 1.99,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -854,7 +960,8 @@
       "amount": 1.29,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -862,7 +969,8 @@
       "amount": 2.5,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -870,7 +978,8 @@
       "amount": 1.29,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -878,7 +987,8 @@
       "amount": 1.69,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -886,7 +996,8 @@
       "amount": 1.69,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -894,7 +1005,8 @@
       "amount": -3.26,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -902,7 +1014,8 @@
       "amount": 7.65,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-08-18",
@@ -910,7 +1023,8 @@
       "amount": 21.3,
       "category": "muncă",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Bricook Bollengo"
     },
     {
       "date": "2026-08-17",
@@ -918,7 +1032,8 @@
       "amount": 6.0,
       "category": "servicii",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Bluesky"
     },
     {
       "date": "2026-08-17",
@@ -926,7 +1041,8 @@
       "amount": 30.69,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Supermercato Margher"
     },
     {
       "date": "2026-08-17",
@@ -934,7 +1050,8 @@
       "amount": 2.5,
       "category": "divertisment",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Associazione di Pubb"
     },
     {
       "date": "2026-08-17",
@@ -942,7 +1059,8 @@
       "amount": 3.7,
       "category": "divertisment",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Associazione di Pubb"
     },
     {
       "date": "2026-08-17",
@@ -950,7 +1068,8 @@
       "amount": 10.43,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Bricofer"
     },
     {
       "date": "2026-08-17",
@@ -958,7 +1077,8 @@
       "amount": 1.9,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "CARREFOR MARKET"
     },
     {
       "date": "2026-08-17",
@@ -966,7 +1086,8 @@
       "amount": 26.67,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lodi"
     },
     {
       "date": "2026-08-17",
@@ -974,7 +1095,8 @@
       "amount": 9.9,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Bricofer"
     },
     {
       "date": "2026-08-14",
@@ -982,7 +1104,8 @@
       "amount": 1.99,
       "category": "servicii",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "PayPal Very Mobile"
     },
     {
       "date": "2026-08-14",
@@ -990,7 +1113,8 @@
       "amount": 28.0,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "SAT Genova Ovest"
     },
     {
       "date": "2026-08-14",
@@ -998,7 +1122,8 @@
       "amount": 3.9,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Nuova Sidap SRL"
     },
     {
       "date": "2026-08-14",
@@ -1006,7 +1131,8 @@
       "amount": 1.7,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Genova Food Kiosk"
     },
     {
       "date": "2026-08-14",
@@ -1014,7 +1140,8 @@
       "amount": 1.8,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Genova Food Co Worke"
     },
     {
       "date": "2026-08-14",
@@ -1022,7 +1149,8 @@
       "amount": 12.25,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Genova Food Kiosk"
     },
     {
       "date": "2026-08-14",
@@ -1030,7 +1158,8 @@
       "amount": 12.9,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Aspit Santhia"
     },
     {
       "date": "2026-08-14",
@@ -1038,7 +1167,8 @@
       "amount": 3.78,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Carrefour 0752"
     },
     {
       "date": "2026-08-14",
@@ -1046,7 +1176,8 @@
       "amount": 15.0,
       "category": "divertisment",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Techshop"
     },
     {
       "date": "2026-08-14",
@@ -1054,7 +1185,8 @@
       "amount": 20.0,
       "category": "divertisment",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Techshop"
     },
     {
       "date": "2026-08-14",
@@ -1062,7 +1194,8 @@
       "amount": 63.62,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Distributore Conad"
     },
     {
       "date": "2026-08-14",
@@ -1070,7 +1203,8 @@
       "amount": 0.5,
       "category": "sănătate",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Farmacia Travaglini"
     },
     {
       "date": "2026-08-14",
@@ -1078,7 +1212,8 @@
       "amount": 23.8,
       "category": "sănătate",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Farmacia Travaglini"
     },
     {
       "date": "2026-08-14",
@@ -1086,7 +1221,8 @@
       "amount": 9.9,
       "category": "casă",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": "Bricofer Banchette"
     },
     {
       "date": "2026-08-14",
@@ -1094,7 +1230,8 @@
       "amount": 10.43,
       "category": "casă",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": "Bricofer Banchette"
     },
     {
       "date": "2026-08-12",
@@ -1102,7 +1239,8 @@
       "amount": 2.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Bar Fante di Cuori"
     },
     {
       "date": "2026-08-12",
@@ -1110,7 +1248,8 @@
       "amount": 27.39,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros"
     },
     {
       "date": "2026-08-12",
@@ -1118,7 +1257,8 @@
       "amount": 3.91,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl"
     },
     {
       "date": "2026-08-11",
@@ -1126,7 +1266,8 @@
       "amount": 1.99,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "D+"
     },
     {
       "date": "2026-08-11",
@@ -1134,7 +1275,8 @@
       "amount": 1.99,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Penny Market Borgofranco"
     },
     {
       "date": "2026-08-11",
@@ -1142,7 +1284,8 @@
       "amount": 1.59,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Penny Market Borgofranco"
     },
     {
       "date": "2026-08-11",
@@ -1150,7 +1293,8 @@
       "amount": -0.26,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Penny Market Borgofranco"
     },
     {
       "date": "2026-08-11",
@@ -1158,7 +1302,8 @@
       "amount": 1.25,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Penny Market Borgofranco"
     },
     {
       "date": "2026-08-11",
@@ -1166,7 +1311,8 @@
       "amount": 1.39,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Penny Market Borgofranco"
     },
     {
       "date": "2026-08-10",
@@ -1174,7 +1320,8 @@
       "amount": 4.59,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "D+"
     },
     {
       "date": "2026-08-10",
@@ -1182,7 +1329,8 @@
       "amount": 0.01,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -1190,7 +1338,8 @@
       "amount": 0.49,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -1198,7 +1347,8 @@
       "amount": 0.82,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -1206,7 +1356,8 @@
       "amount": 1.69,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -1214,7 +1365,8 @@
       "amount": 1.49,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -1222,7 +1374,8 @@
       "amount": 2.76,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -1230,7 +1383,8 @@
       "amount": 3.79,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -1238,7 +1392,8 @@
       "amount": 3.99,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -1246,7 +1401,8 @@
       "amount": 2.19,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -1254,7 +1410,8 @@
       "amount": 0.58,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-10",
@@ -1262,7 +1419,8 @@
       "amount": 1.19,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-08-09",
@@ -1270,7 +1428,8 @@
       "amount": 12.81,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-08",
@@ -1278,7 +1437,8 @@
       "amount": 4.59,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-08",
@@ -1286,7 +1446,8 @@
       "amount": 26.67,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-07",
@@ -1294,7 +1455,8 @@
       "amount": 8.32,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-07",
@@ -1302,7 +1464,8 @@
       "amount": 22.68,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-06",
@@ -1310,7 +1473,8 @@
       "amount": 500.0,
       "category": "numerar",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Banca Sella SPA"
     },
     {
       "date": "2026-08-06",
@@ -1318,7 +1482,8 @@
       "amount": 1.8,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-06",
@@ -1326,7 +1491,8 @@
       "amount": 9.0,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-08-06",
@@ -1334,7 +1500,8 @@
       "amount": 4.39,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-06",
@@ -1342,7 +1509,8 @@
       "amount": 1.8,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-06",
@@ -1350,7 +1518,8 @@
       "amount": 9.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-05",
@@ -1358,7 +1527,8 @@
       "amount": 25.25,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-05",
@@ -1366,7 +1536,8 @@
       "amount": 6.31,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Bennet Vigliano Biellese"
     },
     {
       "date": "2026-08-04",
@@ -1374,7 +1545,8 @@
       "amount": 2.81,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Biella"
     },
     {
       "date": "2026-08-03",
@@ -1382,7 +1554,8 @@
       "amount": 4.22,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl 565"
     },
     {
       "date": "2026-08-03",
@@ -1390,7 +1563,8 @@
       "amount": 2.6,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Gasoline Cafe"
     },
     {
       "date": "2026-08-03",
@@ -1398,7 +1572,8 @@
       "amount": 5.64,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad City"
     },
     {
       "date": "2026-08-03",
@@ -1406,7 +1581,8 @@
       "amount": 1.74,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad City"
     },
     {
       "date": "2026-08-03",
@@ -1414,7 +1590,8 @@
       "amount": 9.27,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad City"
     },
     {
       "date": "2026-08-03",
@@ -1422,7 +1599,8 @@
       "amount": 30.68,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros SPA"
     },
     {
       "date": "2026-08-03",
@@ -1430,7 +1608,8 @@
       "amount": 3.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-03",
@@ -1438,7 +1617,8 @@
       "amount": 11.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-03",
@@ -1446,7 +1626,8 @@
       "amount": 2.39,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-03",
@@ -1454,7 +1635,8 @@
       "amount": 27.73,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-03",
@@ -1462,7 +1644,8 @@
       "amount": 13.51,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-03",
@@ -1470,7 +1653,8 @@
       "amount": 148.66,
       "category": "divertisment",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-08-02",
@@ -1478,7 +1662,8 @@
       "amount": 31.86,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Action Burolo"
     },
     {
       "date": "2026-08-02",
@@ -1486,7 +1671,8 @@
       "amount": 5.88,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Maxi Di Samone"
     },
     {
       "date": "2026-08-01",
@@ -1494,7 +1680,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Mediobanca Premier"
     },
     {
       "date": "2026-08-01",
@@ -1502,7 +1689,8 @@
       "amount": 31.82,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-31",
@@ -1510,7 +1698,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-31",
@@ -1518,7 +1707,8 @@
       "amount": 9.27,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-31",
@@ -1526,7 +1716,8 @@
       "amount": 30.68,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Tigros Ivrea"
     },
     {
       "date": "2026-07-31",
@@ -1534,7 +1725,8 @@
       "amount": 1.74,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad Settimo Vittone"
     },
     {
       "date": "2026-07-30",
@@ -1542,7 +1734,8 @@
       "amount": 4.22,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-30",
@@ -1550,7 +1743,8 @@
       "amount": 2.6,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-30",
@@ -1558,7 +1752,8 @@
       "amount": 5.64,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad Settimo Vittone"
     },
     {
       "date": "2026-07-29",
@@ -1566,7 +1761,8 @@
       "amount": 10.48,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-07-28",
@@ -1574,7 +1770,8 @@
       "amount": 6.84,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad Pont Saint Martin"
     },
     {
       "date": "2026-07-28",
@@ -1582,7 +1779,8 @@
       "amount": 21.97,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-07-28",
@@ -1590,7 +1788,8 @@
       "amount": 45.48,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl Ivrea"
     },
     {
       "date": "2026-07-28",
@@ -1598,7 +1797,8 @@
       "amount": 1.99,
       "category": "imbracaminte",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-28",
@@ -1606,7 +1806,8 @@
       "amount": 24.97,
       "category": "divertisment",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-28",
@@ -1614,7 +1815,8 @@
       "amount": 13.78,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-27",
@@ -1622,7 +1824,8 @@
       "amount": 6.38,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Maxi Di Samone"
     },
     {
       "date": "2026-07-27",
@@ -1630,7 +1833,8 @@
       "amount": 0.77,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad Pont Saint Martin"
     },
     {
       "date": "2026-07-27",
@@ -1638,7 +1842,8 @@
       "amount": 6.3,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Conad Pont Saint Martin"
     },
     {
       "date": "2026-07-26",
@@ -1646,7 +1851,8 @@
       "amount": 1.49,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "iN's mercato Cavaglià"
     },
     {
       "date": "2026-07-26",
@@ -1654,7 +1860,8 @@
       "amount": 12.99,
       "category": "imbracaminte",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "iN's mercato Banchette"
     },
     {
       "date": "2026-07-26",
@@ -1662,7 +1869,8 @@
       "amount": 31.82,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "iN's mercato Banchette"
     },
     {
       "date": "2026-07-25",
@@ -1670,7 +1878,8 @@
       "amount": 4.69,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-25",
@@ -1678,7 +1887,8 @@
       "amount": 8.97,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-25",
@@ -1686,7 +1896,8 @@
       "amount": 1.78,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-25",
@@ -1694,7 +1905,8 @@
       "amount": 5.2,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -1702,7 +1914,8 @@
       "amount": 17.5,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -1710,7 +1923,8 @@
       "amount": 14.0,
       "category": "imbracaminte",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -1718,7 +1932,8 @@
       "amount": 1.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -1726,7 +1941,8 @@
       "amount": 2.49,
       "category": "divertisment",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -1734,7 +1950,8 @@
       "amount": 5.41,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -1742,7 +1959,8 @@
       "amount": 36.3,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-24",
@@ -1750,7 +1968,8 @@
       "amount": 7.81,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": "Conad"
     },
     {
       "date": "2026-07-23",
@@ -1758,7 +1977,8 @@
       "amount": 7.0,
       "category": "îmbrăcăminte",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "OVS"
     },
     {
       "date": "2026-07-23",
@@ -1766,7 +1986,8 @@
       "amount": 5.57,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-22",
@@ -1774,7 +1995,8 @@
       "amount": 3.6,
       "category": "cafea",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "Bar Castoro"
     },
     {
       "date": "2026-07-21",
@@ -1782,7 +2004,8 @@
       "amount": 31.51,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-20",
@@ -1790,7 +2013,8 @@
       "amount": 1.99,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "Google"
     },
     {
       "date": "2026-07-20",
@@ -1798,7 +2022,8 @@
       "amount": 2.6,
       "category": "cafea",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "Gasoline Cafe"
     },
     {
       "date": "2026-07-20",
@@ -1806,7 +2031,8 @@
       "amount": 10.99,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-19",
@@ -1814,7 +2040,8 @@
       "amount": 4.8,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "TorinoNord"
     },
     {
       "date": "2026-07-19",
@@ -1822,7 +2049,8 @@
       "amount": 3.9,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-19",
@@ -1830,7 +2058,8 @@
       "amount": 15.3,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-19",
@@ -1838,7 +2067,8 @@
       "amount": 198.29,
       "category": "casa",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-19",
@@ -1846,7 +2076,8 @@
       "amount": 9.75,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-18",
@@ -1854,7 +2085,8 @@
       "amount": 18.18,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": "Ollama"
     },
     {
       "date": "2026-07-18",
@@ -1862,7 +2094,8 @@
       "amount": 1.49,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-18",
@@ -1870,7 +2103,8 @@
       "amount": 97.25,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-18",
@@ -1878,7 +2112,8 @@
       "amount": 16.0,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-18",
@@ -1886,7 +2121,8 @@
       "amount": 17.41,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-17",
@@ -1894,7 +2130,8 @@
       "amount": 1.25,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Penny Biella"
     },
     {
       "date": "2026-07-17",
@@ -1902,7 +2139,8 @@
       "amount": 1.25,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-17",
@@ -1910,7 +2148,8 @@
       "amount": 8.0,
       "category": "divertisment",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-17",
@@ -1918,7 +2157,8 @@
       "amount": 1.25,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-17",
@@ -1926,7 +2166,8 @@
       "amount": 25.36,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-16",
@@ -1934,7 +2175,8 @@
       "amount": 439.97,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-16",
@@ -1942,7 +2184,8 @@
       "amount": 7.48,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-16",
@@ -1950,7 +2193,8 @@
       "amount": 3.21,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-16",
@@ -1958,7 +2202,8 @@
       "amount": 7.47,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-16",
@@ -1966,7 +2211,8 @@
       "amount": 43.54,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-15",
@@ -1974,7 +2220,8 @@
       "amount": 2.11,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-15",
@@ -1982,7 +2229,8 @@
       "amount": 2.24,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-15",
@@ -1990,7 +2238,8 @@
       "amount": 27.3,
       "category": "sanatate",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-15",
@@ -1998,7 +2247,8 @@
       "amount": 12.08,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-07-14",
@@ -2006,7 +2256,8 @@
       "amount": 3.4,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-14",
@@ -2014,7 +2265,8 @@
       "amount": 17.97,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-14",
@@ -2022,7 +2274,8 @@
       "amount": 18.8,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-07-13",
@@ -2030,7 +2283,8 @@
       "amount": 23.05,
       "category": "divertisment",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-13",
@@ -2038,7 +2292,8 @@
       "amount": 57.64,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-09",
@@ -2046,7 +2301,8 @@
       "amount": 3.92,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-07",
@@ -2054,7 +2310,8 @@
       "amount": 7.29,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-06",
@@ -2062,7 +2319,8 @@
       "amount": 18.37,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-06",
@@ -2070,7 +2328,8 @@
       "amount": 50.07,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-02",
@@ -2078,7 +2337,8 @@
       "amount": 2.59,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-02",
@@ -2086,7 +2346,8 @@
       "amount": 15.97,
       "category": "casa",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-02",
@@ -2094,7 +2355,8 @@
       "amount": 4.78,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-02",
@@ -2102,7 +2364,8 @@
       "amount": 2.73,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-01",
@@ -2110,7 +2373,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-01",
@@ -2118,7 +2382,8 @@
       "amount": 0.58,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-07-01",
@@ -2126,7 +2391,8 @@
       "amount": 9.0,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-06-25",
@@ -2134,7 +2400,8 @@
       "amount": 1.59,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-22",
@@ -2142,7 +2409,8 @@
       "amount": 120.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-06-20",
@@ -2150,7 +2418,8 @@
       "amount": 4.6,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-19",
@@ -2158,7 +2427,8 @@
       "amount": 55.0,
       "category": "educatie",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-06-19",
@@ -2166,7 +2436,8 @@
       "amount": 20.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-06-17",
@@ -2174,7 +2445,8 @@
       "amount": 4.65,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-16",
@@ -2182,7 +2454,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-06-16",
@@ -2190,7 +2463,8 @@
       "amount": 7.48,
       "category": "munca",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-16",
@@ -2198,7 +2472,8 @@
       "amount": 41.72,
       "category": "servicii",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-11",
@@ -2206,7 +2481,8 @@
       "amount": 16.11,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-06-09",
@@ -2214,7 +2490,8 @@
       "amount": 15.06,
       "category": "alimente",
       "split": "shared",
-      "source": "manual"
+      "source": "manual",
+      "store": null
     },
     {
       "date": "2026-06-09",
@@ -2222,7 +2499,8 @@
       "amount": 43.0,
       "category": "divertisment",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-08",
@@ -2230,7 +2508,8 @@
       "amount": 16.0,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-08",
@@ -2238,7 +2517,8 @@
       "amount": 50.0,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-07",
@@ -2246,7 +2526,8 @@
       "amount": 221.94,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-06",
@@ -2254,7 +2535,8 @@
       "amount": 2.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-06",
@@ -2262,7 +2544,8 @@
       "amount": 3.69,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-06",
@@ -2270,7 +2553,8 @@
       "amount": 7.8,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-06",
@@ -2278,7 +2562,8 @@
       "amount": 8.23,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-04",
@@ -2286,7 +2571,8 @@
       "amount": 9.5,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-04",
@@ -2294,7 +2580,8 @@
       "amount": 6.99,
       "category": "imbracaminte",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-06-03",
@@ -2302,7 +2589,8 @@
       "amount": 28.0,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-06-01",
@@ -2310,7 +2598,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-05-29",
@@ -2318,7 +2607,8 @@
       "amount": 139.09,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-05-25",
@@ -2326,7 +2616,8 @@
       "amount": 181.68,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-05-21",
@@ -2334,7 +2625,8 @@
       "amount": 462.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-05-21",
@@ -2342,7 +2634,8 @@
       "amount": 180.18,
       "category": "servicii",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-05-20",
@@ -2350,7 +2643,8 @@
       "amount": 236.0,
       "category": "sanatate",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-05-19",
@@ -2358,7 +2652,8 @@
       "amount": 21.43,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-05-18",
@@ -2366,7 +2661,8 @@
       "amount": 7.88,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-05-17",
@@ -2374,7 +2670,8 @@
       "amount": 0.94,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-05-10",
@@ -2382,7 +2679,8 @@
       "amount": 9.09,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-05-01",
@@ -2390,7 +2688,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-04-29",
@@ -2398,7 +2697,8 @@
       "amount": 199.32,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-04-28",
@@ -2406,7 +2706,8 @@
       "amount": 20.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-04-27",
@@ -2414,7 +2715,8 @@
       "amount": 115.9,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-04-20",
@@ -2422,7 +2724,8 @@
       "amount": 189.98,
       "category": "sanatate",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-04-02",
@@ -2430,7 +2733,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-04-02",
@@ -2438,7 +2742,8 @@
       "amount": 4.0,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-04-02",
@@ -2446,7 +2751,8 @@
       "amount": 7.95,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-04-01",
@@ -2454,7 +2760,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-03-31",
@@ -2462,7 +2769,8 @@
       "amount": 136.48,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-03-30",
@@ -2470,7 +2778,8 @@
       "amount": 52.03,
       "category": "alimente",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-03-26",
@@ -2478,7 +2787,8 @@
       "amount": 100.0,
       "category": "transport",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-26",
@@ -2486,7 +2796,8 @@
       "amount": 9.0,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-26",
@@ -2494,7 +2805,8 @@
       "amount": 17.59,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-26",
@@ -2502,7 +2814,8 @@
       "amount": 2.5,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-25",
@@ -2510,7 +2823,8 @@
       "amount": 3.8,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-25",
@@ -2518,7 +2832,8 @@
       "amount": 10.5,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-25",
@@ -2526,7 +2841,8 @@
       "amount": 5.5,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-24",
@@ -2534,7 +2850,8 @@
       "amount": 12.5,
       "category": "munca",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-24",
@@ -2542,7 +2859,8 @@
       "amount": 2.5,
       "category": "munca",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Ribes"
     },
     {
       "date": "2026-03-24",
@@ -2550,7 +2868,8 @@
       "amount": 2.5,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-24",
@@ -2558,7 +2877,8 @@
       "amount": 7.5,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-23",
@@ -2566,7 +2886,8 @@
       "amount": 132.58,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-03-23",
@@ -2574,7 +2895,8 @@
       "amount": 59.79,
       "category": "utilitati",
       "split": "shared",
-      "source": "elena"
+      "source": "elena",
+      "store": null
     },
     {
       "date": "2026-03-23",
@@ -2582,7 +2904,8 @@
       "amount": 2.6,
       "category": "cafea",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-23",
@@ -2590,7 +2913,8 @@
       "amount": 8.29,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "DPiu"
     },
     {
       "date": "2026-03-23",
@@ -2598,7 +2922,8 @@
       "amount": 15.0,
       "category": "imbracaminte",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     },
     {
       "date": "2026-03-23",
@@ -2606,7 +2931,8 @@
       "amount": 51.5,
       "category": "alimente",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Lidl"
     },
     {
       "date": "2026-03-05",
@@ -2614,7 +2940,8 @@
       "amount": 2300.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-03-01",
@@ -2622,7 +2949,8 @@
       "amount": 0.08,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-03-01",
@@ -2630,7 +2958,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-02-23",
@@ -2638,7 +2967,8 @@
       "amount": 132.84,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-02-09",
@@ -2646,7 +2976,8 @@
       "amount": 236.0,
       "category": "sanatate",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-02-06",
@@ -2654,7 +2985,8 @@
       "amount": 110.0,
       "category": "danza",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": "Centro Danza Arabesque"
     },
     {
       "date": "2026-02-05",
@@ -2662,7 +2994,8 @@
       "amount": 401.58,
       "category": "sanatate",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-02-04",
@@ -2670,7 +3003,8 @@
       "amount": 124.34,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-02-01",
@@ -2678,7 +3012,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-01-20",
@@ -2686,7 +3021,8 @@
       "amount": 146.55,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-01-05",
@@ -2694,7 +3030,8 @@
       "amount": 145.2,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-01-02",
@@ -2702,7 +3039,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2026-01-01",
@@ -2710,7 +3048,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-31",
@@ -2718,7 +3057,8 @@
       "amount": 0.59,
       "category": "transport",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-30",
@@ -2726,7 +3066,8 @@
       "amount": 212.24,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-29",
@@ -2734,7 +3075,8 @@
       "amount": 159.03,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-29",
@@ -2742,7 +3084,8 @@
       "amount": 165.38,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-29",
@@ -2750,7 +3093,8 @@
       "amount": 200.35,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-12-01",
@@ -2758,7 +3102,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-11-28",
@@ -2766,7 +3111,8 @@
       "amount": 77.45,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-11-20",
@@ -2774,7 +3120,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-11-14",
@@ -2782,7 +3129,8 @@
       "amount": 107.1,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-11-03",
@@ -2790,7 +3138,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-11-01",
@@ -2798,7 +3147,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-10-28",
@@ -2806,7 +3156,8 @@
       "amount": 166.61,
       "category": "alimente",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-10-03",
@@ -2814,7 +3165,8 @@
       "amount": 20.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-10-01",
@@ -2822,7 +3174,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-09-29",
@@ -2830,7 +3183,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-09-29",
@@ -2838,7 +3192,8 @@
       "amount": 154.0,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-09-01",
@@ -2846,7 +3201,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-27",
@@ -2854,7 +3210,8 @@
       "amount": 165.08,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-27",
@@ -2862,7 +3219,8 @@
       "amount": 127.67,
       "category": "taxe",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-19",
@@ -2870,7 +3228,8 @@
       "amount": 267.5,
       "category": "casa",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-15",
@@ -2878,7 +3237,8 @@
       "amount": 134.53,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-04",
@@ -2886,7 +3246,8 @@
       "amount": 44.3,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-08-01",
@@ -2894,7 +3255,8 @@
       "amount": 2.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-28",
@@ -2902,7 +3264,8 @@
       "amount": 100.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-22",
@@ -2910,7 +3273,8 @@
       "amount": 219.11,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-21",
@@ -2918,7 +3282,8 @@
       "amount": 100.0,
       "category": "sanatate",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-21",
@@ -2926,7 +3291,8 @@
       "amount": 154.26,
       "category": "utilitati",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-21",
@@ -2934,7 +3300,8 @@
       "amount": 70.0,
       "category": "altele",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-21",
@@ -2942,7 +3309,8 @@
       "amount": 399.64,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-07-01",
@@ -2950,7 +3318,8 @@
       "amount": 1.0,
       "category": "servicii",
       "split": "shared",
-      "source": "mediobanca"
+      "source": "mediobanca",
+      "store": null
     },
     {
       "date": "2025-04-04",
@@ -2958,7 +3327,8 @@
       "amount": 225.0,
       "category": "sanatate",
       "split": "shared",
-      "source": "andrei"
+      "source": "andrei",
+      "store": null
     }
   ],
   "ore_lucrate": [
@@ -2969,12 +3339,10 @@
       "ora_end": "18:00",
       "ore_efective": 11.5,
       "mezzo": "Fisso-613",
-      "colegi": "Giovanni, Aldo",
-      "note": "Programma Cantieri 20/10 (IVANOV+GIOVANNI+ALDO, start 06:30, Fisso-613) — CONFIRMAT: ora final 18:00",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.5
+      "ore_extra": 2.5,
+      "colegi": "Giovanni, Aldo"
     },
     {
       "date": "2026-10-19",
@@ -2983,12 +3351,10 @@
       "ora_end": "18:00",
       "ore_efective": 11.5,
       "mezzo": "Camion mare Iveco",
-      "colegi": "Godwin",
-      "note": "Programma Cantieri 19/10 (IVANOV+GODWIN, start 06:30, Camion mare Iveco) — CONFIRMAT: ora final 18:00",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.5
+      "ore_extra": 2.5,
+      "colegi": "Godwin"
     },
     {
       "date": "2026-10-16",
@@ -2997,12 +3363,10 @@
       "ora_end": "18:00",
       "ore_efective": 11.5,
       "mezzo": "Camion mare (Nolover cassonato)",
-      "colegi": "Tahiru",
-      "note": "CONFIRMAT: programma 16/10 - IVANOV a mers IN LOCUL lui FLORIN la Avigliana, camion mare, start 06:30, final 18:00. Voice Andrei 17:42.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.5
+      "ore_extra": 2.5,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-10-15",
@@ -3011,12 +3375,10 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "Camion mare Iveco",
-      "colegi": "Godwin",
-      "note": "CONFIRMAT: voice Andrei 17:42 + 19:09 - IVANOV+GODWIN, Petit Mont Fleury, camion mare Iveco, start 06:30, final 18:30",
-      "confirmat": 1,
       "ore_normal": 3.0,
       "ore_guida": "2026-10-16 17:19:41",
-      "ore_extra": "2026-10-16 17:19:41"
+      "ore_extra": "2026-10-16 17:19:41",
+      "colegi": "Godwin"
     },
     {
       "date": "2026-10-14",
@@ -3025,12 +3387,10 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "Iveco",
-      "colegi": "Godwin, Ayad",
-      "note": "Programma cantieri 14/10 (IVANOV+GODWIN+AYAD, start 06:30) - CONFIRMAT: ora final 18:30",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 3.0
+      "ore_extra": 3.0,
+      "colegi": "Godwin, Ayad"
     },
     {
       "date": "2026-10-13",
@@ -3039,12 +3399,10 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "613",
-      "colegi": "Godwin",
-      "note": "Programma 13/10 (IVANOV+GODWIN, FISSO-613, start 06:30) - CONFIRMAT: ora final 18:30",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 3.0
+      "ore_extra": 3.0,
+      "colegi": "Godwin"
     },
     {
       "date": "2026-10-12",
@@ -3053,12 +3411,10 @@
       "ora_end": "18:00",
       "ore_efective": 11.5,
       "mezzo": "613",
-      "colegi": "Leonardo, Godwin",
-      "note": "Programma 12/10 (IVANOV+LEONARDO+GODWIN, FISSO-613, start 06:30) - CONFIRMAT: ora final 18:00",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.5
+      "ore_extra": 2.5,
+      "colegi": "Leonardo, Godwin"
     },
     {
       "date": "2026-10-09",
@@ -3067,12 +3423,10 @@
       "ora_end": "19:30",
       "ore_efective": 13.0,
       "mezzo": "RENAULT 529",
-      "colegi": "Godwin",
-      "note": "Confirmat: programme cantieri 09/10 (IVANOV+GODWIN, Valtournenche Petit Mont Fleury, RENAULT 529, start 06:30) + voce final 19:30",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 4.0
+      "ore_extra": 4.0,
+      "colegi": "Godwin"
     },
     {
       "date": "2026-10-07",
@@ -3081,12 +3435,10 @@
       "ora_end": "18:00",
       "ore_efective": 11.5,
       "mezzo": "3 POSTI 645",
-      "colegi": "Florin",
-      "note": "Confirmat: programme cantieri 07/10 (IVANOV+FLORIN, Montalto Dora Momo, 3 POSTI 645, start 06:30) + voce final 18:00",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.5
+      "ore_extra": 2.5,
+      "colegi": "Florin"
     },
     {
       "date": "2026-10-06",
@@ -3095,12 +3447,10 @@
       "ora_end": "18:00",
       "ore_efective": 11.5,
       "mezzo": "FISSO 613",
-      "colegi": "Tahiru",
-      "note": "Confirmat: programme cantieri 06/10 (IVANOV+TAHIRU, Valtournenche Petit Mont Fleury, FISSO 613, start 06:30) + voce final 18:00",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.5
+      "ore_extra": 2.5,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-10-05",
@@ -3109,12 +3459,10 @@
       "ora_end": "18:00",
       "ore_efective": 11.5,
       "mezzo": "RENAULT 529",
-      "colegi": "Ilie",
-      "note": "Programme Cantieri 05/10 — passare da Nolover, cestello, imbraghi",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.5
+      "ore_extra": 2.5,
+      "colegi": "Ilie"
     },
     {
       "date": "2026-10-02",
@@ -3123,12 +3471,10 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "RENAULT 529 + CESTELLO",
-      "colegi": "Ilie",
-      "note": "Programme Cantieri 02/10 — Passare da Nolover a ritirare cestello, nr. 2 imbraghi",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 3.0
+      "ore_extra": 3.0,
+      "colegi": "Ilie"
     },
     {
       "date": "2026-10-01",
@@ -3137,12 +3483,10 @@
       "ora_end": "17:30",
       "ore_efective": 11.0,
       "mezzo": "FISSO 613",
-      "colegi": "Giovanni, Ilie, Leonardo",
-      "note": "Programme Cantieri 01/10 — lasciare 3 posti da Razzano per revisione, passare da Struktura per calcestruzzo",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.0
+      "ore_extra": 2.0,
+      "colegi": "Giovanni, Ilie, Leonardo"
     },
     {
       "date": "2026-09-30",
@@ -3151,12 +3495,10 @@
       "ora_end": "18:00",
       "ore_efective": 11.5,
       "mezzo": "3 POSTI 645",
-      "colegi": "Giovanni, Tahiru, Ilie",
-      "note": "Programme Cantieri 30/09 — puntelli, ritiro ferro, spatola, pistola, casseri",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.5
+      "ore_extra": 2.5,
+      "colegi": "Giovanni, Tahiru, Ilie"
     },
     {
       "date": "2026-09-29",
@@ -3165,12 +3507,10 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "FISSO 613",
-      "colegi": "Giovanni, Tahiru, Ilie, Leonardo",
-      "note": "Programme Cantieri 29/09 — Puntelli, ritiro barotti da Tecnolegnami",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": "Giovanni, Tahiru, Ilie, Leonardo"
     },
     {
       "date": "2026-09-26",
@@ -3179,12 +3519,10 @@
       "ora_end": "12:30",
       "ore_efective": 5.5,
       "mezzo": "",
-      "colegi": "Leonardo",
-      "note": "Programme Cantieri 26/09 — Magazzino",
-      "confirmat": 1,
       "ore_normal": 5.5,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Leonardo"
     },
     {
       "date": "2026-09-25",
@@ -3193,12 +3531,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "",
-      "colegi": "Ilie, Tahiru",
-      "note": "Programme Cantieri 25/09",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Ilie, Tahiru"
     },
     {
       "date": "2026-09-24",
@@ -3207,12 +3543,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.0,
       "mezzo": "645",
-      "colegi": "Tahiru",
-      "note": "Programme Cantieri 24/09",
-      "confirmat": 1,
       "ore_normal": 8.0,
-      "ore_guida": 0,
-      "ore_extra": 2.0
+      "ore_guida": 0.0,
+      "ore_extra": 2.0,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-09-23",
@@ -3221,12 +3555,10 @@
       "ora_end": "17:30",
       "ore_efective": 9.5,
       "mezzo": "645",
-      "colegi": "Tahiru",
-      "note": "Programme Cantieri 23/09",
-      "confirmat": 1,
       "ore_normal": 8.0,
-      "ore_guida": 0,
-      "ore_extra": 1.5
+      "ore_guida": 0.0,
+      "ore_extra": 1.5,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-09-22",
@@ -3235,12 +3567,10 @@
       "ora_end": "17:00",
       "ore_efective": 9.0,
       "mezzo": "645",
-      "colegi": "Tahiru",
-      "note": "Programme Cantieri 22/09",
-      "confirmat": 1,
       "ore_normal": 8.0,
-      "ore_guida": 0,
-      "ore_extra": 1.0
+      "ore_guida": 0.0,
+      "ore_extra": 1.0,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-09-21",
@@ -3249,12 +3579,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "RENAULT 529",
-      "colegi": "Florin, Ilie, Leonardo",
-      "note": "Programme Cantieri 21/09",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Florin, Ilie, Leonardo"
     },
     {
       "date": "2026-09-18",
@@ -3263,12 +3591,10 @@
       "ora_end": "17:30",
       "ore_efective": 10.0,
       "mezzo": "RENAULT 529",
-      "colegi": "Florin, Ilie, Tahiru",
-      "note": "Programme Cantieri 18/09",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Florin, Ilie, Tahiru"
     },
     {
       "date": "2026-09-17",
@@ -3277,12 +3603,10 @@
       "ora_end": "17:30",
       "ore_efective": 10.0,
       "mezzo": "IVECO",
-      "colegi": "Ilie",
-      "note": "Pauză prânz 1h",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Ilie"
     },
     {
       "date": "2026-09-16",
@@ -3291,12 +3615,10 @@
       "ora_end": "18:30",
       "ore_efective": 11.0,
       "mezzo": "IVECO",
-      "colegi": "Ilie",
-      "note": "Pauză prânz 1h",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.0
+      "ore_extra": 2.0,
+      "colegi": "Ilie"
     },
     {
       "date": "2026-09-15",
@@ -3305,12 +3627,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "IVECO",
-      "colegi": "Ilie",
-      "note": "Pauză prânz 1h",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Ilie"
     },
     {
       "date": "2026-09-14",
@@ -3319,12 +3639,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.0,
       "mezzo": "Fisso 613",
-      "colegi": "Giovanni, Ilie, Tahiru",
-      "note": "Pauză prânz 1h",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Giovanni, Ilie, Tahiru"
     },
     {
       "date": "2026-09-12",
@@ -3333,12 +3651,10 @@
       "ora_end": "15:00",
       "ore_efective": 8.0,
       "mezzo": "Fisso 613",
-      "colegi": "Giovanni, Florin, Ivanov, Tahiru",
-      "note": "Sâmbătă — program continuu fără pauză de masă",
-      "confirmat": 1,
       "ore_normal": 8.0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Giovanni, Florin, Ivanov, Tahiru"
     },
     {
       "date": "2026-09-11",
@@ -3347,12 +3663,10 @@
       "ora_end": "18:00",
       "ore_efective": 11.0,
       "mezzo": "Fisso 613",
-      "colegi": "Giovanni, Florin, Ivanov, Tahiru",
-      "note": "Vineri — 06:00-18:00, pauză 1h",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.0
+      "ore_extra": 2.0,
+      "colegi": "Giovanni, Florin, Ivanov, Tahiru"
     },
     {
       "date": "2026-09-10",
@@ -3361,12 +3675,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Iveco",
-      "colegi": "Ivanov + Leonardo - Incapsulante, nylon+nastro",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Ivanov + Leonardo - Incapsulante, nylon+nastro"
     },
     {
       "date": "2026-09-09",
@@ -3375,12 +3687,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
-      "colegi": "Ivanov - Brosso-Starbox-Morgex/La Vache Rit",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Ivanov - Brosso-Starbox-Morgex/La Vache Rit"
     },
     {
       "date": "2026-09-08",
@@ -3389,12 +3699,10 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "Renault-529",
-      "colegi": "Sergiu",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": "Sergiu"
     },
     {
       "date": "2026-09-08",
@@ -3403,12 +3711,10 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "Renault 529",
-      "colegi": "Ivanov - cargar materiale, passare da Giono",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": "Ivanov - cargar materiale, passare da Giono"
     },
     {
       "date": "2026-09-04",
@@ -3417,12 +3723,10 @@
       "ora_end": "17:30",
       "ore_efective": 10.0,
       "mezzo": "Iveco",
-      "colegi": "Sergiu",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Sergiu"
     },
     {
       "date": "2026-09-03",
@@ -3431,12 +3735,10 @@
       "ora_end": "17:30",
       "ore_efective": 9.5,
       "mezzo": "Iveco",
-      "colegi": "Sergiu",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": "Sergiu"
     },
     {
       "date": "2026-09-02",
@@ -3445,12 +3747,10 @@
       "ora_end": "17:30",
       "ore_efective": 10.5,
       "mezzo": "Iveco",
-      "colegi": "Sergiu",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Sergiu"
     },
     {
       "date": "2026-09-01",
@@ -3459,12 +3759,10 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "Iveco",
-      "colegi": "Tahiru",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-08-31",
@@ -3473,12 +3771,10 @@
       "ora_end": "17:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-08-30",
@@ -3487,12 +3783,10 @@
       "ora_end": "12:00",
       "ore_efective": 5.0,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 5.0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-08-29",
@@ -3501,12 +3795,10 @@
       "ora_end": "17:00",
       "ore_efective": 10.0,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": null
     },
     {
       "date": "2026-08-27",
@@ -3515,12 +3807,10 @@
       "ora_end": "18:00",
       "ore_efective": 11.0,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.0
+      "ore_extra": 2.0,
+      "colegi": null
     },
     {
       "date": "2026-08-26",
@@ -3529,12 +3819,10 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
-      "colegi": "Tahiru",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-08-26",
@@ -3543,12 +3831,10 @@
       "ora_end": "18:30",
       "ore_efective": 11.5,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.5
+      "ore_extra": 2.5,
+      "colegi": null
     },
     {
       "date": "2026-08-24",
@@ -3557,12 +3843,10 @@
       "ora_end": "17:30",
       "ore_efective": 11.0,
       "mezzo": "auto",
-      "colegi": "Leonardo",
-      "note": "Curatare generala (Programme Cantieri 24/08)",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 2.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Leonardo"
     },
     {
       "date": "2026-08-22",
@@ -3571,12 +3855,10 @@
       "ora_end": "16:00",
       "ore_efective": 8.0,
       "mezzo": null,
-      "colegi": null,
-      "note": "Mesaj vocal Andrei: Biella Cond Miramonti, 7:00-16:00.",
-      "confirmat": 1,
       "ore_normal": 8.0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-08-21",
@@ -3585,12 +3867,10 @@
       "ora_end": "17:00",
       "ore_efective": 8.5,
       "mezzo": "--colegi",
-      "colegi": null,
-      "note": "Programme Cantieri 21/08. Ivanov+Leonardo+Marcello la Magazzino San Lorenzo, start 07:30. Ora final provizorie 17:00 (pattern). Astept confirmare.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-08-20",
@@ -3599,12 +3879,10 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": null,
-      "colegi": null,
-      "note": "Mesaj vocal Andrei: Biella Cond Miramonti, terminat 17:00.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-08-19",
@@ -3613,12 +3891,10 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "Fisso - 613",
-      "colegi": "Leonardo, Ivanov",
-      "note": "Programme Cantieri 19/08. Start 06:30, terminat 17:00.",
-      "confirmat": 1,
       "ore_normal": 8.0,
-      "ore_guida": 0,
-      "ore_extra": 1.5
+      "ore_guida": 0.0,
+      "ore_extra": 1.5,
+      "colegi": "Leonardo, Ivanov"
     },
     {
       "date": "2026-08-18",
@@ -3627,12 +3903,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "",
-      "colegi": "Ilie, Tahiru, Leonardo, Ivanov, Marcello",
-      "note": null,
-      "confirmat": 0,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Ilie, Tahiru, Leonardo, Ivanov, Marcello"
     },
     {
       "date": "2026-08-12",
@@ -3641,12 +3915,10 @@
       "ora_end": "15:00",
       "ore_efective": 8.0,
       "mezzo": "Fisso - 613",
-      "colegi": null,
-      "note": "Program continuu fara pauza. Astept confirmare ora final. Inregistrat la ora 06:00 start",
-      "confirmat": 1,
       "ore_normal": 8.0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-08-11",
@@ -3655,12 +3927,10 @@
       "ora_end": "16:00",
       "ore_efective": 10.0,
       "mezzo": "Fisso - 613",
-      "colegi": null,
-      "note": "Program continuu fara pauza",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 2.0,
-      "ore_extra": 0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-08-10",
@@ -3669,12 +3939,10 @@
       "ora_end": "16:00",
       "ore_efective": 10.0,
       "mezzo": "Fisso - 613",
-      "colegi": null,
-      "note": "Program continuu fara pauza. Nylon e nastro per coprire le macchine",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 2.0,
-      "ore_extra": 0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-08-08",
@@ -3683,12 +3951,10 @@
       "ora_end": "12:00",
       "ore_efective": 6.0,
       "mezzo": null,
-      "colegi": null,
-      "note": "Mesaj vocal Andrei. Sambata, depozitul firmei. Inceput 6:00, terminat 12:00.",
-      "confirmat": 1,
       "ore_normal": 6.0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-08-07",
@@ -3697,12 +3963,10 @@
       "ora_end": "15:00",
       "ore_efective": 9.0,
       "mezzo": "FISSO - 613",
-      "colegi": "Ilie, Sergiu, Tahiru, Marcello",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 9.0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Ilie, Sergiu, Tahiru, Marcello"
     },
     {
       "date": "2026-08-06",
@@ -3711,12 +3975,10 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": null,
-      "colegi": null,
-      "note": "Andrei a lucrat pana la 17:00. Confirmat verbal prin mesaj vocal.",
-      "confirmat": 1,
       "ore_normal": 8.0,
-      "ore_guida": 0,
-      "ore_extra": 1.5
+      "ore_guida": 0.0,
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-08-04",
@@ -3725,12 +3987,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Iveco",
-      "colegi": null,
-      "note": "Programme Cantieri 4 Aug. Ivanov, scarico lamiere. Locatie Borgomanero/Gozzano la 13:08 (tranzit?). Confirmat implicit de Andrei.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.5,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": null
     },
     {
       "date": "2026-08-03",
@@ -3739,12 +3999,10 @@
       "ora_end": "20:30",
       "ore_efective": 13.0,
       "mezzo": "Iveco",
-      "colegi": null,
-      "note": "Programme Cantieri 3 Aug. Ivanov, scarico lamiere. Confirmat de Andrei prin mesaj vocal: terminat 20:30.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 4.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": null
     },
     {
       "date": "2026-08-01",
@@ -3753,12 +4011,10 @@
       "ora_end": "11:30",
       "ore_efective": 4.5,
       "mezzo": null,
-      "colegi": null,
-      "note": "Sambata 1 Aug. Mesaj vocal Andrei. Biella 7:00-11:30.",
-      "confirmat": 1,
-      "ore_normal": 0,
-      "ore_guida": 0,
-      "ore_extra": 4.5
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 4.5,
+      "colegi": null
     },
     {
       "date": "2026-07-31",
@@ -3767,12 +4023,10 @@
       "ora_end": "17:30",
       "ore_efective": 10.0,
       "mezzo": "Renault 529",
-      "colegi": "Sergiu, Tahiru",
-      "note": "Programma Cantieri 31 Luglio. Ivanov+Sergiu+Tahiru, Settimo Vittone Abeyta, pulizia + posa travi (ritirare ore 10 Gelmini). Ora final NEconfirmata.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Sergiu, Tahiru"
     },
     {
       "date": "2026-07-30",
@@ -3781,12 +4035,10 @@
       "ora_end": "17:30",
       "ore_efective": 10.0,
       "mezzo": "Iveco",
-      "colegi": "Sergiu",
-      "note": "Programma Cantieri 30 Luglio. Ivanov+Sergiu, Settimo Vittone Castello, pulizia. Ora final 17:30 confirmata de Andrei.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Sergiu"
     },
     {
       "date": "2026-07-29",
@@ -3795,12 +4047,10 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "Fisso 613",
-      "colegi": null,
-      "note": "Programme Cantieri 29 Luglio. Ivanov: Banchette Cond Mont Revel poi Settimo Vittone Castello, pulizia. Corectat de Andrei prin mesaj vocal: a fost Banchette si Biella. Ora final 17:00 confirmata.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": null
     },
     {
       "date": "2026-07-28",
@@ -3809,12 +4059,10 @@
       "ora_end": "17:30",
       "ore_efective": 9.5,
       "mezzo": "Cestello",
-      "colegi": "Tahiru",
-      "note": "Ora final 17:30 confirmata de Andrei. Santier presumabil Pont-Saint-Martin (acelasi ca 27 Iul).",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-07-27",
@@ -3823,12 +4071,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.0,
       "mezzo": "Cestello",
-      "colegi": "Tahiru",
-      "note": "Programme Cantieri 27 Luglio. Ivanov + Tahiru, Pont-Saint-Martin, Cestello. Ora final 18:00 confirmata de Andrei.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-07-24",
@@ -3837,12 +4083,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.0,
       "mezzo": "Cestello",
-      "colegi": "Tahiru",
-      "note": "Programma Cantieri 24 Iulie. Pont-Saint-Martin Cond La Residence, Ivanov+Tahiru, Cestello. 8:00 consegnare infissi Cond San Giuseppe. Ora final 18:00 confirmata de Andrei prin mesaj vocal.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-07-23",
@@ -3851,12 +4095,10 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "colegi": "Tahiru",
-      "note": "Cestello (ritirare cestello). Ora final 18:30 confirmata de Andrei prin mesaj vocal.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Tahiru"
     },
     {
       "date": "2026-07-22",
@@ -3865,12 +4107,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
-      "colegi": null,
-      "note": "Programma Cantieri 22 Iul: Ivanov+Sergiu+Leonardo, Aosta Cond Sorreley, 6:30. Mesaj vocal: terminat 18:00. Pauza 1h.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-07-21",
@@ -3879,12 +4119,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
-      "colegi": "Sergiu, Leonardo",
-      "note": "Posa davanzali? Nu — programma nu specifica materiale/lucrari pt Sorreley. Confirmat de Andrei: lucrat pana la 18:00.",
-      "confirmat": 1,
       "ore_normal": 10.5,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": "Sergiu, Leonardo"
     },
     {
       "date": "2026-07-20",
@@ -3893,12 +4131,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
-      "colegi": "Sergiu+Leonardo (Aosta Cond Sorreley, cu Ivanov). Alte echipe: Florin+Marcello Champorcher (Fisso 613), Giovanni+Tahiru Aosta Cond Sorreley & Ancien Bazaar (3 posti 645, ZTL)",
-      "note": "Programma Cantieri 20 Iulie. 3 santiere. Ivanov pe Cond Sorreley cu Sergiu+Leonardo. Ora final 18:00 confirmata de Andrei prin mesaj vocal 23 Iulie.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Sergiu+Leonardo (Aosta Cond Sorreley, cu Ivanov). Alte echipe: Florin+Marcello Champorcher (Fisso 613), Giovanni+Tahiru Aosta Cond Sorreley & Ancien Bazaar (3 posti 645, ZTL)"
     },
     {
       "date": "2026-07-19",
@@ -3907,12 +4143,10 @@
       "ora_end": "13:00",
       "ore_efective": 3.0,
       "mezzo": "Renault 529",
-      "colegi": null,
-      "note": "Sambata 19 Iulie. Santhia — preluat marfa pentru magazin. 3 ore extra. Confirmat prin mesaj vocal 24 Iulie.",
-      "confirmat": 1,
-      "ore_normal": 0,
-      "ore_guida": 0,
-      "ore_extra": 3.0
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 3.0,
+      "colegi": null
     },
     {
       "date": "2026-07-17",
@@ -3921,12 +4155,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
-      "colegi": "Singur",
-      "note": "Ilie ferie, Florin permesso. Sergiu+Marcello Settimo Vittone Abeyta, Giovanni+Tahiru+Leonardo Aosta Cond Ancien Bazar.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 2.0
+      "ore_extra": 2.0,
+      "colegi": "Singur"
     },
     {
       "date": "2026-07-16",
@@ -3935,12 +4167,10 @@
       "ora_end": "17:30",
       "ore_efective": 10.0,
       "mezzo": "Renault 529",
-      "colegi": "Ivanov",
-      "note": "Posa lattoneria + ritiro fornitura Galvani. Ilie in ferie.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Ivanov"
     },
     {
       "date": "2026-07-15",
@@ -3949,12 +4179,10 @@
       "ora_end": "17:00",
       "ore_efective": 9.5,
       "mezzo": "Renault 529",
-      "colegi": "Florin+Leonard (Trausella), Sergiu+Marcello (Settimo Vittone), Giovanni+Tahiru (Aosta) | Ferie: Ilie",
-      "note": "Prima zi dupa concediu. Pana la 17 confirmat de Andrei.",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": "Florin+Leonard (Trausella), Sergiu+Marcello (Settimo Vittone), Giovanni+Tahiru (Aosta) | Ferie: Ilie"
     },
     {
       "date": "2026-06-23",
@@ -3963,12 +4191,10 @@
       "ora_end": null,
       "ore_efective": null,
       "mezzo": "Iveco",
-      "colegi": null,
-      "note": "Ilie+Serghiu+Tahiru Gressan-Cond Brenva (Renault 529), Florin+Giovanni+Marcello Cervinia (Fisso 613)",
-      "confirmat": 1,
-      "ore_normal": 0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-06-22",
@@ -3977,12 +4203,10 @@
       "ora_end": null,
       "ore_efective": null,
       "mezzo": "Iveco",
-      "colegi": null,
-      "note": "Ilie+Serghiu Valtournenche-Les Marcs (Renault 529), Florin+Tahiru Cervinia (Fisso 613), Giovanni vizita medicala 8:30 apoi Cervinia, Marcello vizita medicala Ivrea 11:30",
-      "confirmat": 1,
-      "ore_normal": 0,
-      "ore_guida": 0,
-      "ore_extra": 0
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-06-19",
@@ -3991,12 +4215,10 @@
       "ora_end": "18:30",
       "ore_efective": 11.0,
       "mezzo": null,
-      "colegi": "Florin, Giovanni, Tahiru, Sergiu",
-      "note": "Cervinia - Cond Cielo Alto. Confirmat de Andrei prin mesaj vocal: terminat 18:30. Colegi: Florin, Giovanni, Tahiru, Sergiu.",
-      "confirmat": 1,
       "ore_normal": 8.0,
-      "ore_guida": 0,
-      "ore_extra": 3.0
+      "ore_guida": 0.0,
+      "ore_extra": 3.0,
+      "colegi": "Florin, Giovanni, Tahiru, Sergiu"
     },
     {
       "date": "2026-06-18",
@@ -4005,12 +4227,10 @@
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": "Iveco",
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-06-17",
@@ -4019,12 +4239,10 @@
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-06-16",
@@ -4033,12 +4251,10 @@
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-06-15",
@@ -4047,12 +4263,10 @@
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-06-13",
@@ -4061,12 +4275,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.0,
       "mezzo": "Iveco 645",
-      "colegi": "Giovanni, Sergiu",
-      "note": "Sâmbătă",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.0
+      "ore_extra": 1.0,
+      "colegi": "Giovanni, Sergiu"
     },
     {
       "date": "2026-06-12",
@@ -4075,12 +4287,10 @@
       "ora_end": "18:00",
       "ore_efective": 9.0,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-06-11",
@@ -4089,12 +4299,10 @@
       "ora_end": "17:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-06-10",
@@ -4103,12 +4311,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.0,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-06-05",
@@ -4117,12 +4323,10 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": "3 Posti 645",
-      "colegi": null,
-      "note": "Portare massetto Castello Settimo",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-06-04",
@@ -4131,12 +4335,10 @@
       "ora_end": "17:00",
       "ore_efective": 9.0,
       "mezzo": "Renault 529",
-      "colegi": "Livio, Tahiru, Sergiu",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": "Livio, Tahiru, Sergiu"
     },
     {
       "date": "2026-06-03",
@@ -4145,12 +4347,10 @@
       "ora_end": "19:00",
       "ore_efective": 11.0,
       "mezzo": "Iveco",
-      "colegi": null,
-      "note": "Șantier propriu",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.0
+      "ore_extra": 2.0,
+      "colegi": null
     },
     {
       "date": "2026-05-29",
@@ -4159,12 +4359,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Iveco",
-      "colegi": null,
-      "note": "Propriul șantier, Iveco start 6:30",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-05-28",
@@ -4173,12 +4371,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.0,
       "mezzo": "Renault 529",
-      "colegi": "Livio, Ilie, Tahiru, Sergiu",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Livio, Ilie, Tahiru, Sergiu"
     },
     {
       "date": "2026-05-27",
@@ -4187,12 +4383,10 @@
       "ora_end": "17:30",
       "ore_efective": 9.5,
       "mezzo": "Fisso 613",
-      "colegi": null,
-      "note": "În locul lui Giovanni",
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 0.5
+      "ore_extra": 0.5,
+      "colegi": null
     },
     {
       "date": "2026-05-20",
@@ -4201,12 +4395,10 @@
       "ora_end": "15:30",
       "ore_efective": 7.5,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 7.0,
       "ore_guida": 0.5,
-      "ore_extra": 0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-05-19",
@@ -4215,12 +4407,10 @@
       "ora_end": "16:00",
       "ore_efective": 8.0,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 7.5,
       "ore_guida": 0.5,
-      "ore_extra": 0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-05-18",
@@ -4229,12 +4419,10 @@
       "ora_end": "18:00",
       "ore_efective": 10.0,
       "mezzo": null,
-      "colegi": "Livio, Ilie, Tahiru, Sergiu",
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 0.5,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": "Livio, Ilie, Tahiru, Sergiu"
     },
     {
       "date": "2026-05-16",
@@ -4243,12 +4431,10 @@
       "ora_end": "15:00",
       "ore_efective": 7.0,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 6.0,
       "ore_guida": 1.0,
-      "ore_extra": 0
+      "ore_extra": 0.0,
+      "colegi": null
     },
     {
       "date": "2026-05-15",
@@ -4257,12 +4443,10 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-05-14",
@@ -4271,12 +4455,10 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-05-13",
@@ -4285,12 +4467,10 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-05-12",
@@ -4299,12 +4479,10 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 1.5
+      "ore_extra": 1.5,
+      "colegi": null
     },
     {
       "date": "2026-05-11",
@@ -4313,41 +4491,27 @@
       "ora_end": "19:00",
       "ore_efective": 11.0,
       "mezzo": null,
-      "colegi": null,
-      "note": null,
-      "confirmat": 1,
       "ore_normal": 8.0,
       "ore_guida": 1.0,
-      "ore_extra": 2.0
+      "ore_extra": 2.0,
+      "colegi": null
     }
   ],
   "db_stats": {
     "expenses": 370,
     "expenses_total": 15758.1,
-    "expenses_month": 2,
-    "expenses_month_total": 15.51,
     "ore_lucrate": 97,
     "ore_total": 942.0,
-    "ore_month": 0,
-    "ore_month_total": 0,
-    "pending": 4,
-    "speza_offers": 1352,
-    "events": 2859,
-    "receipt_items": 383
+    "pending": 0,
+    "speza_offers": 1363
   },
   "db": {
     "expenses": 370,
     "expenses_total": 15758.1,
-    "expenses_month": 2,
-    "expenses_month_total": 15.51,
     "ore_lucrate": 97,
     "ore_total": 942.0,
-    "ore_month": 0,
-    "ore_month_total": 0,
-    "pending": 4,
-    "speza_offers": 1352,
-    "events": 2859,
-    "receipt_items": 383
+    "pending": 0,
+    "speza_offers": 1363
   },
   "system_health": {
     "gateway": "up",
@@ -4366,7 +4530,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-07T20:56:25.850872"
+    "last_activity": "2026-11-10T00:48:55.680330"
   },
   "backup": {
     "last_backup": "—",
@@ -4416,39 +4580,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-07T20:56:25.850872",
-  "categories": {
-    "alimente": 2239.14,
-    "salute": 43.69,
-    "sport": 37.95,
-    "casa": 676.43,
-    "alte": 6.8,
-    "muncă": 70.5,
-    "sanatate": 1452.01,
-    "transfer": 998.0,
-    "servicii": 2982.77,
-    "divertisment": 390.41,
-    "auto": 125.01,
-    "transport": 953.34,
-    "sănătate": 24.3,
-    "casă": 20.33,
-    "numerar": 500.0,
-    "cafea": 25.0,
-    "imbracaminte": 50.97,
-    "îmbrăcăminte": 7.0,
-    "taxe": 1040.22,
-    "altele": 1281.61,
-    "educatie": 55.0,
-    "utilitati": 2645.14,
-    "munca": 22.48,
-    "danza": 110.0
-  },
-  "ore_by_month": {
-    "2026-10": 152.5,
-    "2026-09": 226.0,
-    "2026-08": 196.0,
-    "2026-07": 134.0,
-    "2026-06": 118.0,
-    "2026-05": 115.5
-  }
+  "lastUpdate": "2026-11-10T00:48:55.680366"
 }
