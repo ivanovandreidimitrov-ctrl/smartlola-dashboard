@@ -4527,7 +4527,7 @@
     "ore_lucrate": 99,
     "ore_total": 960.0,
     "pending": 0,
-    "speza_offers": 1363
+    "speza_offers": 1382
   },
   "db": {
     "expenses": 370,
@@ -4535,7 +4535,7 @@
     "ore_lucrate": 99,
     "ore_total": 960.0,
     "pending": 0,
-    "speza_offers": 1363
+    "speza_offers": 1382
   },
   "system_health": {
     "gateway": "up",
@@ -4554,7 +4554,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-15T19:14:57.534044"
+    "last_activity": "2026-11-17T00:49:00.052312"
   },
   "backup": {
     "last_backup": "—",
@@ -4604,5 +4604,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-15T19:14:57.534084"
+  "lastUpdate": "2026-11-17T00:49:00.052366"
 }
