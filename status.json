@@ -3333,11 +3333,23 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-11-16",
+      "santier": "Banchette, Cond Alessandrino",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 11.5,
+      "mezzo": "RENAULT-529",
+      "ore_normal": 8.0,
+      "ore_guida": 0.0,
+      "ore_extra": 3.5,
+      "colegi": ""
+    },
+    {
       "date": "2026-11-14",
       "santier": "Challand-Saint-Anselme, Cond Dames de Challand",
       "ora_start": "06:30",
-      "ora_end": "15:30",
-      "ore_efective": 9.0,
+      "ora_end": "14:00",
+      "ore_efective": 7.5,
       "mezzo": null,
       "ore_normal": 0.0,
       "ore_guida": 0.0,
@@ -3349,12 +3361,24 @@
       "santier": "Settimo Vittone, Castello",
       "ora_start": "06:30",
       "ora_end": "17:00",
-      "ore_efective": 9.0,
+      "ore_efective": 10.5,
       "mezzo": null,
       "ore_normal": 0.0,
       "ore_guida": 0.0,
       "ore_extra": 0.0,
       "colegi": "Ilie"
+    },
+    {
+      "date": "2026-11-12",
+      "santier": "Valtournenche, Dewide-Ristrutturazione",
+      "ora_start": "07:00",
+      "ora_end": "17:30",
+      "ore_efective": 10.5,
+      "mezzo": "FISSO-613",
+      "ore_normal": 8.0,
+      "ore_guida": 0.0,
+      "ore_extra": 2.5,
+      "colegi": "Aldo"
     },
     {
       "date": "2026-10-20",
@@ -4524,16 +4548,16 @@
   "db_stats": {
     "expenses": 370,
     "expenses_total": 15758.1,
-    "ore_lucrate": 99,
-    "ore_total": 960.0,
+    "ore_lucrate": 101,
+    "ore_total": 982.0,
     "pending": 0,
     "speza_offers": 1382
   },
   "db": {
     "expenses": 370,
     "expenses_total": 15758.1,
-    "ore_lucrate": 99,
-    "ore_total": 960.0,
+    "ore_lucrate": 101,
+    "ore_total": 982.0,
     "pending": 0,
     "speza_offers": 1382
   },
@@ -4554,7 +4578,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-17T00:49:00.052312"
+    "last_activity": "2026-11-17T06:48:59.577673"
   },
   "backup": {
     "last_backup": "—",
@@ -4604,5 +4628,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-17T00:49:00.052366"
+  "lastUpdate": "2026-11-17T06:48:59.577724"
 }
