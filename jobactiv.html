@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobActiv — Andrei Ivanov</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; padding: 16px; }
+    h1 { font-size: 20px; margin-bottom: 4px; }
+    .sub { color: #94a3b8; font-size: 13px; margin-bottom: 16px; }
+    .stats { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+    .stat { background: #1e293b; border-radius: 10px; padding: 10px 16px; }
+    .stat .n { font-size: 22px; font-weight: 700; color: #38bdf8; }
+    .stat .l { font-size: 11px; color: #94a3b8; text-transform: uppercase; }
+    .job { background: #1e293b; border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; border-left: 3px solid #38bdf8; }
+    .job h3 { font-size: 15px; margin-bottom: 2px; }
+    .job .co { color: #94a3b8; font-size: 13px; }
+    .job .meta { font-size: 12px; color: #64748b; margin-top: 4px; }
+    .job a { color: #38bdf8; font-size: 12px; text-decoration: none; }
+    .empty { color: #64748b; text-align: center; padding: 40px; }
+    .src { display: inline-block; background: #334155; border-radius: 4px; padding: 1px 6px; font-size: 11px; margin-right: 4px; }
+  </style>
+</head>
+<body>
+  <h1>🎯 JobActiv</h1>
+  <p class="sub">Monitorizare joburi — construction tech / PropTech / AI · Ultima actualizare: <span id="upd">—</span></p>
+  <div class="stats">
+    <div class="stat"><div class="n" id="tot">—</div><div class="l">Joburi</div></div>
+    <div class="stat"><div class="n" id="src">—</div><div class="l">Surse</div></div>
+  </div>
+  <div id="jobs"><div class="empty">Se încarcă…</div></div>
+  <script>
+    fetch('https://raw.githubusercontent.com/ivanovandreidimitrov-ctrl/jobactiv-dashboard/main/jobs.json')
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById('upd').textContent = new Date(d.last_updated).toLocaleString('ro-RO');
+        document.getElementById('tot').textContent = d.total_jobs;
+        document.getElementById('src').textContent = d.sources.join(', ');
+        const el = document.getElementById('jobs');
+        el.innerHTML = '';
+        if (!d.jobs.length) { el.innerHTML = '<div class="empty">Niciun job momentan.</div>'; return; }
+        d.jobs.forEach(j => {
+          const div = document.createElement('div');
+          div.className = 'job';
+          div.innerHTML = `<h3>${j.title}</h3><div class="co">${j.company}</div>
+            <div class="meta"><span class="src">${j.source}</span>${j.location} · ${new Date(j.posted_at).toLocaleDateString('ro-RO')}</div>
+            ${j.url ? `<a href="${j.url}" target="_blank">Vezi oferta →</a>` : ''}`;
+          el.appendChild(div);
+        });
+      })
+      .catch(() => { document.getElementById('jobs').innerHTML = '<div class="empty">Eroare la încărcare.</div>'; });
+  </script>
+</body>
+</html>
