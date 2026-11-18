@@ -3333,6 +3333,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-11-17",
+      "santier": "Valtournenche, Dewide-P.1",
+      "ora_start": "06:30",
+      "ora_end": "19:00",
+      "ore_efective": 12.5,
+      "mezzo": "RENAULT-529",
+      "ore_normal": 8.0,
+      "ore_guida": 0.0,
+      "ore_extra": 4.5,
+      "colegi": "Aldo"
+    },
+    {
       "date": "2026-11-16",
       "santier": "Banchette, Cond Alessandrino",
       "ora_start": "06:30",
@@ -4548,16 +4560,16 @@
   "db_stats": {
     "expenses": 370,
     "expenses_total": 15758.1,
-    "ore_lucrate": 101,
-    "ore_total": 982.0,
+    "ore_lucrate": 102,
+    "ore_total": 994.5,
     "pending": 0,
     "speza_offers": 1382
   },
   "db": {
     "expenses": 370,
     "expenses_total": 15758.1,
-    "ore_lucrate": 101,
-    "ore_total": 982.0,
+    "ore_lucrate": 102,
+    "ore_total": 994.5,
     "pending": 0,
     "speza_offers": 1382
   },
@@ -4578,7 +4590,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-17T06:48:59.577673"
+    "last_activity": "2026-11-18T06:49:18.456473"
   },
   "backup": {
     "last_backup": "—",
@@ -4628,5 +4640,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-17T06:48:59.577724"
+  "lastUpdate": "2026-11-18T06:49:18.456516"
 }
