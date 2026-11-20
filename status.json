@@ -3333,6 +3333,18 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-11-19",
+      "santier": "Cervinia, Cond Petit Mont Fleury",
+      "ora_start": "06:30",
+      "ora_end": "19:00",
+      "ore_efective": 12.5,
+      "mezzo": "RENAULT-529",
+      "ore_normal": 8.0,
+      "ore_guida": 0.0,
+      "ore_extra": 4.5,
+      "colegi": ""
+    },
+    {
       "date": "2026-11-18",
       "santier": "Cervinia, Cond Saint Theudule - Gronde",
       "ora_start": "06:30",
@@ -4572,16 +4584,16 @@
   "db_stats": {
     "expenses": 370,
     "expenses_total": 15758.1,
-    "ore_lucrate": 103,
-    "ore_total": 1006.5,
+    "ore_lucrate": 104,
+    "ore_total": 1019.0,
     "pending": 0,
     "speza_offers": 1382
   },
   "db": {
     "expenses": 370,
     "expenses_total": 15758.1,
-    "ore_lucrate": 103,
-    "ore_total": 1006.5,
+    "ore_lucrate": 104,
+    "ore_total": 1019.0,
     "pending": 0,
     "speza_offers": 1382
   },
@@ -4602,7 +4614,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-19T00:49:35.838560"
+    "last_activity": "2026-11-20T06:49:12.134173"
   },
   "backup": {
     "last_backup": "—",
@@ -4652,5 +4664,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-19T00:49:35.838598"
+  "lastUpdate": "2026-11-20T06:49:12.134211"
 }
