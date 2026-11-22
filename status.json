@@ -2395,6 +2395,33 @@
       "store": null
     },
     {
+      "date": "2026-06-30",
+      "description": "Canone mensile La mia Scelta - giugno",
+      "amount": 7.5,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "mensile"
+    },
+    {
+      "date": "2026-06-29",
+      "description": "POS IN'S Mercato CDC 26/06",
+      "amount": 7.2,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "IN'S"
+    },
+    {
+      "date": "2026-06-29",
+      "description": "POS Pepco Pavone 24/06",
+      "amount": 14.5,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Pepco"
+    },
+    {
       "date": "2026-06-25",
       "description": "Penny Biella — Coca Cola PET 0.45L",
       "amount": 1.59,
@@ -2402,6 +2429,24 @@
       "split": "shared",
       "source": "andrei",
       "store": null
+    },
+    {
+      "date": "2026-06-23",
+      "description": "POS Samone 22/06 16:22",
+      "amount": 1.95,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2026-06-23",
+      "description": "POS IN'S Mercato CDC 22/06",
+      "amount": 15.06,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "IN'S"
     },
     {
       "date": "2026-06-22",
@@ -2423,6 +2468,15 @@
     },
     {
       "date": "2026-06-19",
+      "description": "POS Rossogelato 18/06",
+      "amount": 5.0,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Rossogelato"
+    },
+    {
+      "date": "2026-06-19",
       "description": "Disposizione - RIF:221749821BEN. Alessandro Tioli materiali scuola",
       "amount": 55.0,
       "category": "educatie",
@@ -2440,6 +2494,15 @@
       "store": null
     },
     {
+      "date": "2026-06-18",
+      "description": "POS PagoPA Torino",
+      "amount": 42.22,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PagoPA"
+    },
+    {
       "date": "2026-06-17",
       "description": "Lidl Ivrea — sacchetti ortofrutta bio, pomodoro oblungo, pane pita",
       "amount": 4.65,
@@ -2447,6 +2510,33 @@
       "split": "shared",
       "source": "andrei",
       "store": null
+    },
+    {
+      "date": "2026-06-16",
+      "description": "POS PayPal Very Mobile 12/06",
+      "amount": 6.99,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PayPal"
+    },
+    {
+      "date": "2026-06-16",
+      "description": "Bonifico INPS assegno unico giu 2026",
+      "amount": -203.8,
+      "category": "entrate",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "INPS"
+    },
+    {
+      "date": "2026-06-16",
+      "description": "Bonifico de la Ivanov Andrei (giroconto Elena)",
+      "amount": -700.0,
+      "category": "transfer",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "de"
     },
     {
       "date": "2026-06-16",
@@ -2476,6 +2566,33 @@
       "store": null
     },
     {
+      "date": "2026-06-15",
+      "description": "Pagamento ADUE Agos Ducato",
+      "amount": 128.23,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2026-06-15",
+      "description": "Commissioni ADUE",
+      "amount": 0.8,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2026-06-12",
+      "description": "POS IN'S Mercato CDC 11/06",
+      "amount": 16.11,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "IN'S"
+    },
+    {
       "date": "2026-06-11",
       "description": "Alimente",
       "amount": 16.11,
@@ -2483,6 +2600,24 @@
       "split": "shared",
       "source": "manual",
       "store": null
+    },
+    {
+      "date": "2026-06-09",
+      "description": "POS Tigros 08/06",
+      "amount": 16.4,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Tigros"
+    },
+    {
+      "date": "2026-06-09",
+      "description": "POS WizzAir.com MNCR3G Luqa",
+      "amount": 221.94,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "WizzAir.com"
     },
     {
       "date": "2026-06-09",
@@ -2566,6 +2701,24 @@
       "store": null
     },
     {
+      "date": "2026-06-05",
+      "description": "POS Tezenis Nelly 04/06",
+      "amount": 6.99,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Tezenis"
+    },
+    {
+      "date": "2026-06-04",
+      "description": "Bonifico Alessio Quagliotti - cedolino maggio (Elena)",
+      "amount": -85.5,
+      "category": "entrate",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Alessio"
+    },
+    {
       "date": "2026-06-04",
       "description": "Pizza (Elena)",
       "amount": 9.5,
@@ -2593,6 +2746,51 @@
       "store": null
     },
     {
+      "date": "2026-06-02",
+      "description": "Bonifico Baldán - busta paga mai 2026 (Elena)",
+      "amount": -104.0,
+      "category": "entrate",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Baldán"
+    },
+    {
+      "date": "2026-06-02",
+      "description": "Bonifico Comune di Banchette - scuola estiva Matei 22-26 giu",
+      "amount": 29.95,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Comune"
+    },
+    {
+      "date": "2026-06-02",
+      "description": "Bonifico commissioni Comune di Banchette",
+      "amount": 1.0,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "commissioni"
+    },
+    {
+      "date": "2026-06-01",
+      "description": "POS PayPal Very Mobile 27/05",
+      "amount": 9.99,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PayPal"
+    },
+    {
+      "date": "2026-06-01",
+      "description": "Mutuo rata 08/10985128",
+      "amount": 117.79,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "rata"
+    },
+    {
       "date": "2026-06-01",
       "description": "Addebito canone - Addebito canone conto corrente",
       "amount": 2.0,
@@ -2600,6 +2798,24 @@
       "split": "shared",
       "source": "mediobanca",
       "store": null
+    },
+    {
+      "date": "2026-05-31",
+      "description": "Canone mensile La mia Scelta - mai",
+      "amount": 7.5,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "mensile"
+    },
+    {
+      "date": "2026-05-29",
+      "description": "POS Lidl 2551 28/05",
+      "amount": 3.4,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Lidl"
     },
     {
       "date": "2026-05-29",
@@ -2611,6 +2827,60 @@
       "store": null
     },
     {
+      "date": "2026-05-28",
+      "description": "POS IN'S Mercato CDC 27/05 18:53",
+      "amount": 1.19,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "IN'S"
+    },
+    {
+      "date": "2026-05-28",
+      "description": "POS Bennet Bar Ivrea 27/05",
+      "amount": 1.3,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Bennet"
+    },
+    {
+      "date": "2026-05-28",
+      "description": "POS Lidl 2551 27/05 12:23",
+      "amount": 25.1,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Lidl"
+    },
+    {
+      "date": "2026-05-28",
+      "description": "POS Casa Molinario 27/05",
+      "amount": 18.15,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Casa"
+    },
+    {
+      "date": "2026-05-28",
+      "description": "POS Samone 27/05 13:01",
+      "amount": 11.57,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2026-05-28",
+      "description": "POS Sirio SPA 27/05",
+      "amount": 1.2,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Sirio"
+    },
+    {
       "date": "2026-05-25",
       "description": "Pagam. POS - PAGAMENTO POS 181,68 EUR DEL 21.05.2026 A (ITA) PAGOPA-NEXI CARTA ****2575 CAU 98105 NDS 865863829",
       "amount": 181.68,
@@ -2618,6 +2888,33 @@
       "split": "shared",
       "source": "mediobanca",
       "store": null
+    },
+    {
+      "date": "2026-05-22",
+      "description": "POS IN'S Mercato CDC 21/05",
+      "amount": 26.07,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "IN'S"
+    },
+    {
+      "date": "2026-05-22",
+      "description": "POS Bennet 10 21/05",
+      "amount": 11.84,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Bennet"
+    },
+    {
+      "date": "2026-05-22",
+      "description": "POS Centro Danza Arabesque 21/05",
+      "amount": 110.0,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Centro"
     },
     {
       "date": "2026-05-21",
@@ -2639,6 +2936,24 @@
     },
     {
       "date": "2026-05-20",
+      "description": "Bonifico INPS assegno unico mai 2026",
+      "amount": -203.8,
+      "category": "entrate",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "INPS"
+    },
+    {
+      "date": "2026-05-20",
+      "description": "Bonifico de la Ivanov Andrei (giroconto Elena)",
+      "amount": -300.0,
+      "category": "transfer",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "de"
+    },
+    {
+      "date": "2026-05-20",
       "description": "Mediobanca Premier — Bonific trattamento neuropsicomotorio (fattura 30-2026)",
       "amount": 236.0,
       "category": "sanatate",
@@ -2654,6 +2969,51 @@
       "split": "shared",
       "source": "elena",
       "store": null
+    },
+    {
+      "date": "2026-05-18",
+      "description": "POS IN'S Mercato CDC 16/05",
+      "amount": 25.94,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "IN'S"
+    },
+    {
+      "date": "2026-05-18",
+      "description": "POS Lidl 2551 15/05",
+      "amount": 38.3,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Lidl"
+    },
+    {
+      "date": "2026-05-18",
+      "description": "POS Panetteria Borgesio 16/05",
+      "amount": 9.2,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Panetteria"
+    },
+    {
+      "date": "2026-05-18",
+      "description": "POS Farmacia Travaglini 16/05",
+      "amount": 40.35,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Farmacia"
+    },
+    {
+      "date": "2026-05-18",
+      "description": "POS Fitness Underground 16/05",
+      "amount": 20.0,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Fitness"
     },
     {
       "date": "2026-05-18",
@@ -2674,6 +3034,69 @@
       "store": null
     },
     {
+      "date": "2026-05-15",
+      "description": "Pagamento ADUE Agos Ducato",
+      "amount": 128.23,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2026-05-15",
+      "description": "Commissioni ADUE",
+      "amount": 0.8,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2026-05-15",
+      "description": "POS PayPal Very Mobile 12/05",
+      "amount": 6.99,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PayPal"
+    },
+    {
+      "date": "2026-05-12",
+      "description": "POS IN'S Mercato CDC 11/05",
+      "amount": 16.98,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "IN'S"
+    },
+    {
+      "date": "2026-05-11",
+      "description": "POS Samone 08/05 10:00",
+      "amount": 12.09,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2026-05-11",
+      "description": "POS Panetteria Borgesio 09/05",
+      "amount": 9.5,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Panetteria"
+    },
+    {
+      "date": "2026-05-11",
+      "description": "POS Tigros Ivrea 06/05",
+      "amount": 48.54,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Tigros"
+    },
+    {
       "date": "2026-05-10",
       "description": "iN's mercato — Banchette di Ivrea: patate €2.49, piselli €1.79, latte PET €1.25, kefir x4 €3.56",
       "amount": 9.09,
@@ -2683,6 +3106,87 @@
       "store": null
     },
     {
+      "date": "2026-05-08",
+      "description": "POS Lidl 2551 07/05",
+      "amount": 24.9,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Lidl"
+    },
+    {
+      "date": "2026-05-05",
+      "description": "Bonifico commissioni Liceo Musicale",
+      "amount": 1.0,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "commissioni"
+    },
+    {
+      "date": "2026-05-05",
+      "description": "Bonifico Nuovo Liceo Musicale Ivrea - corso piano",
+      "amount": 100.0,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Nuovo"
+    },
+    {
+      "date": "2026-05-05",
+      "description": "Bonifico Baldán - busta paga aprilie 2026 (Elena)",
+      "amount": -136.0,
+      "category": "entrate",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Baldán"
+    },
+    {
+      "date": "2026-05-04",
+      "description": "POS Lidl 2551 02/05",
+      "amount": 14.12,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Lidl"
+    },
+    {
+      "date": "2026-05-04",
+      "description": "POS IN'S Mercato CDC 02/05",
+      "amount": 13.02,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "IN'S"
+    },
+    {
+      "date": "2026-05-04",
+      "description": "POS Tigros 02/05",
+      "amount": 13.68,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Tigros"
+    },
+    {
+      "date": "2026-05-04",
+      "description": "POS Panetteria Borgesio 02/05",
+      "amount": 9.3,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Panetteria"
+    },
+    {
+      "date": "2026-05-04",
+      "description": "Mutuo rata 08/10985128",
+      "amount": 117.79,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "rata"
+    },
+    {
       "date": "2026-05-01",
       "description": "Addebito canone - Addebito canone conto corrente",
       "amount": 2.0,
@@ -2690,6 +3194,78 @@
       "split": "shared",
       "source": "mediobanca",
       "store": null
+    },
+    {
+      "date": "2026-04-30",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS ,99 EUR DEL 28.04.2026 A (ITA) D+ CARTA ****2575 CAU",
+      "amount": 0.99,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-30",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 4,97 EUR DEL 28.04.2026 A (LUX) WWW.AMAZON. NN7T48G ",
+      "amount": -4.97,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-30",
+      "description": "Canone mensile La mia Scelta - aprilie",
+      "amount": 7.5,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "mensile"
+    },
+    {
+      "date": "2026-04-30",
+      "description": "POS PayPal Very Mobile 27/04",
+      "amount": 9.99,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PayPal"
+    },
+    {
+      "date": "2026-04-29",
+      "description": "Operazione: Addebito Diretto Sepa Controparte: IT52W0608530540000001000264 Azienda Energia e Gas Soc. Cooperativa Mandat",
+      "amount": 199.32,
+      "category": "casa",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-29",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 8,58 EUR DEL 27.04.2026 A (ITA) LIDL 2551 CARTA ****",
+      "amount": 8.58,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "LIDL 2551"
+    },
+    {
+      "date": "2026-04-29",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 2,24 EUR DEL 27.04.2026 A (ITA) LIDL 512 CARTA ****2",
+      "amount": 2.24,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "LIDL 512"
+    },
+    {
+      "date": "2026-04-29",
+      "description": "POS IN'S Mercato CDC 28/04",
+      "amount": 9.8,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "IN'S"
     },
     {
       "date": "2026-04-29",
@@ -2702,12 +3278,102 @@
     },
     {
       "date": "2026-04-28",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 21,93 EUR DEL 26.04.2026 A (ITA) LIDL 2551 CARTA ***",
+      "amount": 21.93,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "LIDL 2551"
+    },
+    {
+      "date": "2026-04-28",
+      "description": "Operazione: Prelievo contanti Circuito Internazionale Causale: PRELIEVO E/C 20,00 EUR DEL 25.04.2026 A (ITA) BCC D'ALBA ",
+      "amount": 20.0,
+      "category": "cash",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-28",
       "description": "Bancomat - PRELIEVO E/C 20,00 EUR DEL 25.04.2026 A (ITA) BCC D'ALBA CARTA ****2575 CAU 98005 NDS 858546752",
       "amount": 20.0,
       "category": "altele",
       "split": "shared",
       "source": "mediobanca",
       "store": null
+    },
+    {
+      "date": "2026-04-27",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 17,74 EUR DEL 25.04.2026 A (CAN) OLLAMA CARTA ****25",
+      "amount": 17.74,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "OLLAMA"
+    },
+    {
+      "date": "2026-04-27",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 10,30 EUR DEL 25.04.2026 A (ITA) SUMUP DUE FRATELLI ",
+      "amount": 10.3,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-27",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 115,90 EUR DEL 25.04.2026 A (ITA) PAGOPA-NEXI CARTA ",
+      "amount": 115.9,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-27",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 5,70 EUR DEL 24.04.2026 A (ITA) CONAD SUPERMERCATO C",
+      "amount": -5.7,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-27",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 28,89 EUR DEL 24.04.2026 A E (ITA) BENNET 19 CARTA *",
+      "amount": 28.89,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-27",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 30,79 EUR DEL 24.04.2026 A E (ITA) FARMACIA TRAVAGLI",
+      "amount": 30.79,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-27",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 1,34 EUR DEL 24.04.2026 A (ITA) LIDL 2551 CARTA ****",
+      "amount": 1.34,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "LIDL 2551"
+    },
+    {
+      "date": "2026-04-27",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 5,76 EUR DEL 23.04.2026 A (ITA) TIGROS SPA CARTA ***",
+      "amount": 5.76,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "TIGROS SPA"
     },
     {
       "date": "2026-04-27",
@@ -2719,6 +3385,168 @@
       "store": null
     },
     {
+      "date": "2026-04-24",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 2,63 EUR DEL 22.04.2026 A (ITA) CONAD SUPERMERCATO C",
+      "amount": -2.63,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-23",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 32,98 EUR DEL 21.04.2026 A (ITA) LIDL 2551 CARTA ***",
+      "amount": 32.98,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "LIDL 2551"
+    },
+    {
+      "date": "2026-04-22",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 7,15 EUR DEL 20.04.2026 A (ITA) TIGROS SPA CARTA ***",
+      "amount": 7.15,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "TIGROS SPA"
+    },
+    {
+      "date": "2026-04-22",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 1,99 EUR DEL 20.04.2026 A (IRL) PAYPAL GOOGLE GOOGL ",
+      "amount": 1.99,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-22",
+      "description": "Bonifico de la Ivanov Andrei (giroconto Elena)",
+      "amount": -300.0,
+      "category": "transfer",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "de"
+    },
+    {
+      "date": "2026-04-21",
+      "description": "Operazione: Bonifico in uscita Controparte: IT82S0306930540100000074393 Andrei Elena Intesa Causale: GIROCONTO Importo: ",
+      "amount": 300.0,
+      "category": "transfer",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-21",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 12,42 EUR DEL 18.04.2026 A (ITA) LIDL 2551 CARTA ***",
+      "amount": 12.42,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "LIDL 2551"
+    },
+    {
+      "date": "2026-04-21",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 10,57 EUR DEL 18.04.2026 A (ITA) TIGROS SPA CARTA **",
+      "amount": 10.57,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "TIGROS SPA"
+    },
+    {
+      "date": "2026-04-21",
+      "description": "POS Bennet 16 20/04",
+      "amount": 32.61,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Bennet"
+    },
+    {
+      "date": "2026-04-20",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 8,95 EUR DEL 18.04.2026 A (ITA) PANETTERIA BORGESIO ",
+      "amount": 8.95,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-20",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 21,86 EUR DEL 17.04.2026 A (ITA) LIDL 2551 CARTA ***",
+      "amount": 21.86,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "LIDL 2551"
+    },
+    {
+      "date": "2026-04-20",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 97,00 EUR DEL 17.04.2026 A (ITA) FITNESS UNDERGROUND",
+      "amount": -97.0,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-20",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 7,75 EUR DEL 17.04.2026 A (ITA) TIGROS SPA CARTA ***",
+      "amount": 7.75,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "TIGROS SPA"
+    },
+    {
+      "date": "2026-04-20",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 4,80 EUR DEL 17.04.2026 A A (ITA) BAR GIULIA CARTA *",
+      "amount": 4.8,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "BAR GIULIA"
+    },
+    {
+      "date": "2026-04-20",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 73,32 EUR DEL 16.04.2026 A E (ITA) BENNET 14 CARTA *",
+      "amount": 73.32,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-20",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 189,98 EUR DEL 16.04.2026 A E (ITA) GRANDVISION CART",
+      "amount": 189.98,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-20",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 7,80 EUR DEL 16.04.2026 A (ITA) BAR SERGIO CARTA ***",
+      "amount": -7.8,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "BAR SERGIO"
+    },
+    {
+      "date": "2026-04-20",
+      "description": "Bonifico INPS assegno unico apr 2026",
+      "amount": -203.8,
+      "category": "entrate",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "INPS"
+    },
+    {
       "date": "2026-04-20",
       "description": "Pagam. POS - PAGAMENTO POS 189,98 EUR DEL 16.04.2026 A E (ITA) GRANDVISION                     CARTA ****2575 CAU 98105 NDS 855666775",
       "amount": 189.98,
@@ -2726,6 +3554,177 @@
       "split": "shared",
       "source": "mediobanca",
       "store": null
+    },
+    {
+      "date": "2026-04-16",
+      "description": "Operazione: Bonifico in entrata Controparte: IT28R0503430541000000000772 BALTEA GROUP S.R.L. Causale: ACCREDITO EMOLUMEN",
+      "amount": -1213.0,
+      "category": "entrate",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-16",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 1,99 EUR DEL 14.04.2026 A (ITA) PAYPAL VERY MOBILE C",
+      "amount": 1.99,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-15",
+      "description": "Operazione: Bonifico in entrata Controparte: IT83Q0538701201000047648091 ENTE PARITETICO EDILE VDA Causale: LIQUIDAZIONE",
+      "amount": -59.83,
+      "category": "entrate",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-15",
+      "description": "Pagamento ADUE Agos Ducato",
+      "amount": 128.23,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2026-04-15",
+      "description": "Commissioni ADUE Agos Ducato",
+      "amount": 0.8,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2026-04-15",
+      "description": "POS PayPal Very Mobile",
+      "amount": 6.99,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PayPal"
+    },
+    {
+      "date": "2026-04-14",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 12,34 EUR DEL 11.04.2026 A (ITA) IN'S MERCATO SPA CD",
+      "amount": 12.34,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-13",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 5,65 EUR DEL 10.04.2026 A (ITA) LIDL 2551 CARTA ****",
+      "amount": 5.65,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "LIDL 2551"
+    },
+    {
+      "date": "2026-04-13",
+      "description": "POS Tigros Corso Vercelli 11/04",
+      "amount": 79.24,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Tigros"
+    },
+    {
+      "date": "2026-04-09",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 5,20 EUR DEL 07.04.2026 A (ITA) CONAD SUPERMERCATO C",
+      "amount": 5.2,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-07",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 7,00 EUR DEL 04.04.2026 A (ITA) PANETTERIA BORGESIO ",
+      "amount": 7.0,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-07",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 18,44 EUR DEL 03.04.2026 A (ITA) LIDL 2551 CARTA ***",
+      "amount": -18.44,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "LIDL 2551"
+    },
+    {
+      "date": "2026-04-07",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 1,46 EUR DEL 03.04.2026 A (ITA) MD IVREA CARTA ****2",
+      "amount": 1.46,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": "MD IVREA"
+    },
+    {
+      "date": "2026-04-07",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 7,95 EUR DEL 02.04.2026 A A (ITA) EUROSPIN SPESA INT",
+      "amount": 7.95,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-07",
+      "description": "Bonifico de la Ivanov Andrei (giroconto Elena)",
+      "amount": -200.0,
+      "category": "transfer",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "de"
+    },
+    {
+      "date": "2026-04-07",
+      "description": "Bonifico Baldán - busta paga martie 2026 (Elena)",
+      "amount": -101.0,
+      "category": "entrate",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Baldán"
+    },
+    {
+      "date": "2026-04-03",
+      "description": "POS Grandvision 02/04 12:17",
+      "amount": 80.0,
+      "category": "spese",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Grandvision"
+    },
+    {
+      "date": "2026-04-03",
+      "description": "Imposta di bollo E/C Q1 2026",
+      "amount": 8.4,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "di"
+    },
+    {
+      "date": "2026-04-02",
+      "description": "Operazione: Bonifico in uscita Controparte: IT82S0306930540100000074393 Andrei Elena Intesa Causale: GIROCONTO Importo: ",
+      "amount": 200.0,
+      "category": "transfer",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
     },
     {
       "date": "2026-04-02",
@@ -2753,6 +3752,24 @@
       "split": "shared",
       "source": "andrei",
       "store": null
+    },
+    {
+      "date": "2026-04-01",
+      "description": "Operazione: Acquisto Circuito Internazionale Causale: PAGAMENTO POS 17,09 EUR DEL 30.03.2026 A (LUX) AMAZON N26GJ0YW4 CA",
+      "amount": 17.09,
+      "category": "spese",
+      "split": "personal",
+      "source": "mediobanca",
+      "store": ""
+    },
+    {
+      "date": "2026-04-01",
+      "description": "Mutuo rata 08/10985128",
+      "amount": 117.79,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "rata"
     },
     {
       "date": "2026-04-01",
@@ -3053,12 +4070,30 @@
     },
     {
       "date": "2025-12-31",
+      "description": "Canone mensile La mia Scelta - decembrie",
+      "amount": 7.5,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "mensile"
+    },
+    {
+      "date": "2025-12-31",
       "description": "Pagam. POS - PAGAMENTO POS 3,00 RON DEL 29.12.2025 A (ROM) STB VALIDATOARE                     CARTA ****2575 CAU 98105 NDS 826089197",
       "amount": 0.59,
       "category": "transport",
       "split": "shared",
       "source": "mediobanca",
       "store": null
+    },
+    {
+      "date": "2025-12-30",
+      "description": "POS PayPal Very Mobile 27/12",
+      "amount": 9.99,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PayPal"
     },
     {
       "date": "2025-12-30",
@@ -3097,6 +4132,150 @@
       "store": null
     },
     {
+      "date": "2025-12-23",
+      "description": "Bonifico de la Ivanov Andrei (giroconto Elena)",
+      "amount": -990.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "de"
+    },
+    {
+      "date": "2025-12-23",
+      "description": "Bonifico Baldán - tredicesima + busta paga dic (Elena)",
+      "amount": -112.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Baldán"
+    },
+    {
+      "date": "2025-12-22",
+      "description": "POS Conad City 20/12 13:55",
+      "amount": 21.59,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Conad"
+    },
+    {
+      "date": "2025-12-18",
+      "description": "POS Amazon* ZE5J74D54 LU 13/12",
+      "amount": 144.07,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon*"
+    },
+    {
+      "date": "2025-12-16",
+      "description": "POS Amazon.it 12/12 17:43",
+      "amount": 99.8,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon.it"
+    },
+    {
+      "date": "2025-12-16",
+      "description": "Bonifico de la Ivanov Andrei (giroconto Elena)",
+      "amount": -995.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "de"
+    },
+    {
+      "date": "2025-12-16",
+      "description": "Bonifico INPS assegno unico dic 2025",
+      "amount": -201.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "INPS"
+    },
+    {
+      "date": "2025-12-15",
+      "description": "Pagamento ADUE Agos Ducato",
+      "amount": 128.23,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2025-12-15",
+      "description": "Commissioni ADUE",
+      "amount": 0.8,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2025-12-10",
+      "description": "POS Amazon.it 07/12 14:55",
+      "amount": 6.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon.it"
+    },
+    {
+      "date": "2025-12-10",
+      "description": "POS Amazon.it 07/12 14:55",
+      "amount": 29.83,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon.it"
+    },
+    {
+      "date": "2025-12-05",
+      "description": "POS Carrefour Iper 0752 04/12",
+      "amount": 21.36,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Carrefour"
+    },
+    {
+      "date": "2025-12-04",
+      "description": "POS Amazon* ZX1MG5HN4 LU 01/12",
+      "amount": 30.47,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon*"
+    },
+    {
+      "date": "2025-12-02",
+      "description": "POS PayPal Very Mobile 27/11",
+      "amount": 9.99,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PayPal"
+    },
+    {
+      "date": "2025-12-02",
+      "description": "Bonifico Baldán - busta paga nov 2025 (Elena)",
+      "amount": -107.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Baldán"
+    },
+    {
+      "date": "2025-12-01",
+      "description": "Mutuo rata 08/10985128",
+      "amount": 117.79,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "rata"
+    },
+    {
       "date": "2025-12-01",
       "description": "Addebito canone - Addebito canone conto corrente",
       "amount": 2.0,
@@ -3104,6 +4283,15 @@
       "split": "shared",
       "source": "mediobanca",
       "store": null
+    },
+    {
+      "date": "2025-11-30",
+      "description": "Canone mensile La mia Scelta - noiembrie",
+      "amount": 7.5,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "mensile"
     },
     {
       "date": "2025-11-28",
@@ -3115,6 +4303,105 @@
       "store": null
     },
     {
+      "date": "2025-11-27",
+      "description": "POS Sirio SPA 26/11 10:54",
+      "amount": 2.6,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Sirio"
+    },
+    {
+      "date": "2025-11-25",
+      "description": "POS Samone 24/11 17:28",
+      "amount": 8.56,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-11-25",
+      "description": "Bonifico de la Ivanov Andrei (giroconto Elena)",
+      "amount": -995.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "de"
+    },
+    {
+      "date": "2025-11-24",
+      "description": "POS Ristorante Borgo Antico 22/11",
+      "amount": 3.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Ristorante"
+    },
+    {
+      "date": "2025-11-24",
+      "description": "POS Peraga SRL 22/11",
+      "amount": 2.5,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Peraga"
+    },
+    {
+      "date": "2025-11-21",
+      "description": "POS Panetteria Borgesio 20/11 12:46",
+      "amount": 4.88,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Panetteria"
+    },
+    {
+      "date": "2025-11-21",
+      "description": "Bonifico de la Ivanov Andrei (giroconto Elena)",
+      "amount": -998.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "de"
+    },
+    {
+      "date": "2025-11-20",
+      "description": "POS Bar Sergio 19/11 10:24",
+      "amount": 3.1,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Bar"
+    },
+    {
+      "date": "2025-11-20",
+      "description": "POS Samone 19/11 11:10",
+      "amount": 11.01,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-11-20",
+      "description": "POS Amazon* 1U3KM6UX5 LU 16/11",
+      "amount": 55.71,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon*"
+    },
+    {
+      "date": "2025-11-20",
+      "description": "POS Amazon.it 15/11 21:27",
+      "amount": 99.8,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon.it"
+    },
+    {
       "date": "2025-11-20",
       "description": "Disposizione - RIF:206602978BEN. Condominio Panorama 5\" acconto condominio 2025 - 2026",
       "amount": 154.0,
@@ -3124,6 +4411,105 @@
       "store": null
     },
     {
+      "date": "2025-11-19",
+      "description": "POS Negozio Prime Video 16/11",
+      "amount": 3.99,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Negozio"
+    },
+    {
+      "date": "2025-11-19",
+      "description": "Bonifico INPS assegno unico nov 2025",
+      "amount": -201.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "INPS"
+    },
+    {
+      "date": "2025-11-18",
+      "description": "POS Samone 17/11 17:33",
+      "amount": 9.64,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-11-18",
+      "description": "POS medico Banchette 14/11",
+      "amount": 25.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "medico"
+    },
+    {
+      "date": "2025-11-17",
+      "description": "POS Conad City 15/11 13:10",
+      "amount": 22.52,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Conad"
+    },
+    {
+      "date": "2025-11-17",
+      "description": "POS Farmacia Travaglini 14/11",
+      "amount": 22.95,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Farmacia"
+    },
+    {
+      "date": "2025-11-17",
+      "description": "Pagamento ADUE Agos Ducato",
+      "amount": 128.23,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2025-11-17",
+      "description": "Commissioni ADUE",
+      "amount": 0.8,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2025-11-17",
+      "description": "POS BENNET 14/11 12:22",
+      "amount": 14.8,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "BENNET"
+    },
+    {
+      "date": "2025-11-14",
+      "description": "POS Fitness Underground 13/11",
+      "amount": 110.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Fitness"
+    },
+    {
+      "date": "2025-11-14",
+      "description": "POS Centro Danza Arabesque 13/11",
+      "amount": 110.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Centro"
+    },
+    {
       "date": "2025-11-14",
       "description": "Pagam. POS - PAGAMENTO POS 107,10 EUR DEL 12.11.2025 A (ITA) PAGOPA-NEXI CARTA ****2575 CAU 98105 NDS 812043162",
       "amount": 107.1,
@@ -3131,6 +4517,186 @@
       "split": "shared",
       "source": "mediobanca",
       "store": null
+    },
+    {
+      "date": "2025-11-12",
+      "description": "POS Samone 11/11 18:53",
+      "amount": 7.16,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-11-12",
+      "description": "POS PEILA SpA 11/11 10:56",
+      "amount": 79.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PEILA"
+    },
+    {
+      "date": "2025-11-12",
+      "description": "POS PV0444 11/11 18:27",
+      "amount": 75.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PV0444"
+    },
+    {
+      "date": "2025-11-12",
+      "description": "Bonifico de la Ivanov Andrei (giroconto Elena)",
+      "amount": -995.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "de"
+    },
+    {
+      "date": "2025-11-11",
+      "description": "POS Samone 10/11 10:27",
+      "amount": 17.1,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-11-10",
+      "description": "POS Panetteria Borgesio 08/11 12:30",
+      "amount": 5.8,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Panetteria"
+    },
+    {
+      "date": "2025-11-10",
+      "description": "POS BENNET 07/11 12:03",
+      "amount": 53.12,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "BENNET"
+    },
+    {
+      "date": "2025-11-07",
+      "description": "POS Samone 06/11 14:26",
+      "amount": 35.71,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-11-06",
+      "description": "POS Autost Milano Ghisolfa/Ivrea 01/11",
+      "amount": 14.2,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Autost"
+    },
+    {
+      "date": "2025-11-05",
+      "description": "POS La Rotonda Cafe 04/11 08:56",
+      "amount": 4.2,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "La"
+    },
+    {
+      "date": "2025-11-05",
+      "description": "POS Amazon.it 02/11 19:45",
+      "amount": 6.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon.it"
+    },
+    {
+      "date": "2025-11-05",
+      "description": "POS Amazon.it 02/11 19:43",
+      "amount": 29.83,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon.it"
+    },
+    {
+      "date": "2025-11-04",
+      "description": "POS SATAP Torino 01/11",
+      "amount": 13.2,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "SATAP"
+    },
+    {
+      "date": "2025-11-03",
+      "description": "POS Milano Est 01/11 20:17",
+      "amount": 3.4,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Milano"
+    },
+    {
+      "date": "2025-11-03",
+      "description": "POS Dalmine 01/11 11:59",
+      "amount": 3.4,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Dalmine"
+    },
+    {
+      "date": "2025-11-03",
+      "description": "POS Samone 02/11 12:46",
+      "amount": 9.55,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-11-03",
+      "description": "POS Amazon* 418AX1LT5 LU 29/10",
+      "amount": 6.4,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon*"
+    },
+    {
+      "date": "2025-11-03",
+      "description": "Bonifico de la Ivanov Andrei (giroconto Elena)",
+      "amount": -200.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "de"
+    },
+    {
+      "date": "2025-11-03",
+      "description": "Bonifico Baldán Massimiliano - busta paga oct 2025 (Elena)",
+      "amount": -123.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Baldán"
+    },
+    {
+      "date": "2025-11-03",
+      "description": "Mutuo rata 08/10985128",
+      "amount": 117.79,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "rata"
     },
     {
       "date": "2025-11-03",
@@ -3151,6 +4717,42 @@
       "store": null
     },
     {
+      "date": "2025-10-31",
+      "description": "Canone mensile La mia Scelta - octombrie",
+      "amount": 7.5,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "mensile"
+    },
+    {
+      "date": "2025-10-30",
+      "description": "POS Samone 29/10 10:36",
+      "amount": 17.08,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-10-30",
+      "description": "POS PayPal Very Mobile",
+      "amount": 9.99,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PayPal"
+    },
+    {
+      "date": "2025-10-28",
+      "description": "POS Negozio Prime Video",
+      "amount": 13.99,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Negozio"
+    },
+    {
       "date": "2025-10-28",
       "description": "Pagam. POS - PAGAMENTO POS 166,61 EUR DEL 25.10.2025 A E (ITA) BENNET 5 CARTA ****2575 CAU 98105 NDS 807335187",
       "amount": 166.61,
@@ -3160,6 +4762,231 @@
       "store": null
     },
     {
+      "date": "2025-10-23",
+      "description": "POS PayPal Google One",
+      "amount": 1.99,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PayPal"
+    },
+    {
+      "date": "2025-10-22",
+      "description": "POS Properkeys.com 19/10",
+      "amount": 5.95,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Properkeys.com"
+    },
+    {
+      "date": "2025-10-21",
+      "description": "POS Amazon* V47VA6BB5 LU 17/10",
+      "amount": 19.64,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon*"
+    },
+    {
+      "date": "2025-10-21",
+      "description": "Bonifico da Ivanov Andrei (giroconto Elena)",
+      "amount": -995.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "da"
+    },
+    {
+      "date": "2025-10-20",
+      "description": "Bonifico INPS assegno unico ott 2025",
+      "amount": -201.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "INPS"
+    },
+    {
+      "date": "2025-10-17",
+      "description": "POS Risparmio Casa Via Uscello 16/10",
+      "amount": 20.18,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Risparmio"
+    },
+    {
+      "date": "2025-10-16",
+      "description": "POS Samone 15/10 12:30",
+      "amount": 4.14,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-10-15",
+      "description": "Pagamento ADUE Agos Ducato",
+      "amount": 128.23,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2025-10-15",
+      "description": "Commissioni ADUE Agos Ducato",
+      "amount": 0.8,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2025-10-15",
+      "description": "POS PayPal Very Mobile",
+      "amount": 6.99,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "PayPal"
+    },
+    {
+      "date": "2025-10-14",
+      "description": "POS Samone 13/10 14:38",
+      "amount": 25.53,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-10-13",
+      "description": "POS Sharm Pizza Kebab 11/10 23:46",
+      "amount": 25.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Sharm"
+    },
+    {
+      "date": "2025-10-13",
+      "description": "POS Amazon.it 07/10 22:59",
+      "amount": 29.83,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon.it"
+    },
+    {
+      "date": "2025-10-13",
+      "description": "POS Amazon.it 07/10 22:59",
+      "amount": 6.0,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Amazon.it"
+    },
+    {
+      "date": "2025-10-10",
+      "description": "POS Samone 08/10 14:29",
+      "amount": 9.65,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-10-10",
+      "description": "POS Samone 09/10 14:51",
+      "amount": 13.55,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-10-10",
+      "description": "POS Samone 08/10 17:20",
+      "amount": 3.78,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-10-10",
+      "description": "POS LIDL 2551 09/10 14:06",
+      "amount": 44.93,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "LIDL"
+    },
+    {
+      "date": "2025-10-08",
+      "description": "POS Samone 08/10 08:50",
+      "amount": 14.3,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Samone"
+    },
+    {
+      "date": "2025-10-07",
+      "description": "POS Action D013 Burolo 03/10 20:13",
+      "amount": 45.42,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "Action"
+    },
+    {
+      "date": "2025-10-07",
+      "description": "POS BENNET Pavone Canavese 05/10 19:23",
+      "amount": 36.34,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "BENNET"
+    },
+    {
+      "date": "2025-10-07",
+      "description": "Pagamento ADUE Agos Ducato",
+      "amount": 128.23,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2025-10-07",
+      "description": "Commissioni ADUE Agos Ducato",
+      "amount": 0.8,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "ADUE"
+    },
+    {
+      "date": "2025-10-06",
+      "description": "POS BENNET 04/10 13:32",
+      "amount": 19.23,
+      "category": "diverse",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "BENNET"
+    },
+    {
+      "date": "2025-10-03",
+      "description": "Imposta di bollo E/C",
+      "amount": 8.6,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "di"
+    },
+    {
       "date": "2025-10-03",
       "description": "Bancomat - PRELIEVO E/C 20,00 EUR DEL 01.10.2025 A E (ITA) ISP 2297-CASTE CARTA ****2575 CAU 98005 NDS 800353102",
       "amount": 20.0,
@@ -3167,6 +4994,24 @@
       "split": "shared",
       "source": "mediobanca",
       "store": null
+    },
+    {
+      "date": "2025-10-01",
+      "description": "Canone mensile La mia Scelta - septembrie",
+      "amount": 7.5,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "mensile"
+    },
+    {
+      "date": "2025-10-01",
+      "description": "Mutuo rata 08/10985128 (cap 74,90 + int 38,89 + arr 4,00)",
+      "amount": 117.79,
+      "category": "banca",
+      "split": "personal",
+      "source": "estratto-conto-intesa",
+      "store": "rata"
     },
     {
       "date": "2025-10-01",
@@ -4606,16 +6451,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 370,
-    "expenses_total": 15758.1,
+    "expenses": 575,
+    "expenses_total": 10618.91,
     "ore_lucrate": 106,
     "ore_total": 1043.5,
     "pending": 0,
     "speza_offers": 1382
   },
   "db": {
-    "expenses": 370,
-    "expenses_total": 15758.1,
+    "expenses": 575,
+    "expenses_total": 10618.91,
     "ore_lucrate": 106,
     "ore_total": 1043.5,
     "pending": 0,
@@ -4638,7 +6483,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-22T06:49:19.958427"
+    "last_activity": "2026-11-22T12:50:06.140216"
   },
   "backup": {
     "last_backup": "—",
@@ -4688,5 +6533,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-22T06:49:19.958463"
+  "lastUpdate": "2026-11-22T12:50:06.140278"
 }
