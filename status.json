@@ -1,6 +1,15 @@
 {
   "expenses": [
     {
+      "date": "2026-11-24",
+      "description": "23 articole",
+      "amount": 41.04,
+      "category": "alimentare",
+      "split": "personal",
+      "source": "bon",
+      "store": "Tigros Ivrea"
+    },
+    {
       "date": "2026-11-07",
       "description": "Acqua min. efferv. x6 @0.27 (Lidl Ivrea, bon 2613-0010)",
       "amount": 1.62,
@@ -5178,11 +5187,23 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-11-25",
+      "santier": "Valtournenche, Cond Petit Mont Fleury",
+      "ora_start": "07:00",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": "NOILOVER CRADLE",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": ""
+    },
+    {
       "date": "2026-11-24",
       "santier": "Cervinia, Cond Saint Theudule",
       "ora_start": "06:30",
-      "ora_end": null,
-      "ore_efective": null,
+      "ora_end": "18:00",
+      "ore_efective": 11.5,
       "mezzo": "RENAULT-529",
       "ore_normal": 0.0,
       "ore_guida": 0.0,
@@ -5191,11 +5212,11 @@
     },
     {
       "date": "2026-11-23",
-      "santier": "???",
+      "santier": "Cervinia, Cond Saint Theudule",
       "ora_start": "06:30",
       "ora_end": "18:00",
       "ore_efective": 11.5,
-      "mezzo": "",
+      "mezzo": "MITSUBISHI",
       "ore_normal": 0.0,
       "ore_guida": 0.0,
       "ore_extra": 0.0,
@@ -6571,18 +6592,18 @@
     }
   ],
   "db_stats": {
-    "expenses": 575,
-    "expenses_total": 10618.91,
-    "ore_lucrate": 116,
-    "ore_total": 1150.5,
+    "expenses": 576,
+    "expenses_total": 10659.95,
+    "ore_lucrate": 117,
+    "ore_total": 1162.0,
     "pending": 0,
     "speza_offers": 1444
   },
   "db": {
-    "expenses": 575,
-    "expenses_total": 10618.91,
-    "ore_lucrate": 116,
-    "ore_total": 1150.5,
+    "expenses": 576,
+    "expenses_total": 10659.95,
+    "ore_lucrate": 117,
+    "ore_total": 1162.0,
     "pending": 0,
     "speza_offers": 1444
   },
@@ -6603,7 +6624,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-24T18:48:58.815000"
+    "last_activity": "2026-11-25T00:49:03.115729"
   },
   "backup": {
     "last_backup": "—",
@@ -6653,5 +6674,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-24T18:48:58.815051"
+  "lastUpdate": "2026-11-25T00:49:03.115767"
 }
