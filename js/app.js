@@ -377,10 +377,10 @@ function openReceiptDetail(idx) {
     const desc = e.description || '';
     if (desc.includes('+')) {
       items = desc.split('+').map(p => p.trim()).filter(p => p.length > 0).map(p => ({
-        product_name: p, price: null, quantity: 1
+        product_name: p, price: null, quantity: 1, unit: null
       }));
     } else {
-      items = [{ product_name: desc, price: e.amount, quantity: 1 }];
+      items = [{ product_name: desc, price: e.amount, quantity: 1, unit: null }];
     }
   }
 
@@ -398,9 +398,12 @@ function openReceiptDetail(idx) {
   const productsHtml = items.map(item => {
     const price = item.price != null ? '€' + item.price.toFixed(2) : '—';
     const priceClass = item.price != null ? 'receipt-product-price has-price' : 'receipt-product-price';
+    const qty = item.quantity != null && item.quantity !== 1 ? ' ×' + item.quantity : '';
+    const unit = item.unit ? ' ' + escapeHtml(item.unit) : '';
+    const qtyLabel = (item.quantity != null && item.quantity !== 1) || unit ? `<span class="receipt-product-qty">(${item.quantity || 1}${unit})</span>` : '';
     return `
       <div class="receipt-product">
-        <span class="receipt-product-name">${escapeHtml(item.product_name || '')}</span>
+        <span class="receipt-product-name">${escapeHtml(item.product_name || '')} ${qtyLabel}</span>
         <span class="${priceClass}">${price}</span>
       </div>
     `;
