@@ -5178,6 +5178,30 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-11-24",
+      "santier": "Cervinia, Cond Saint Theudule",
+      "ora_start": "06:30",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": "RENAULT-529",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": ""
+    },
+    {
+      "date": "2026-11-23",
+      "santier": "???",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 11.5,
+      "mezzo": "",
+      "ore_normal": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.0,
+      "colegi": " "
+    },
+    {
       "date": "2026-11-21",
       "santier": "Cervinia, Cond Saint Theudule",
       "ora_start": "06:30",
@@ -6549,16 +6573,16 @@
   "db_stats": {
     "expenses": 575,
     "expenses_total": 10618.91,
-    "ore_lucrate": 114,
-    "ore_total": 1139.0,
+    "ore_lucrate": 116,
+    "ore_total": 1150.5,
     "pending": 0,
     "speza_offers": 1444
   },
   "db": {
     "expenses": 575,
     "expenses_total": 10618.91,
-    "ore_lucrate": 114,
-    "ore_total": 1139.0,
+    "ore_lucrate": 116,
+    "ore_total": 1150.5,
     "pending": 0,
     "speza_offers": 1444
   },
@@ -6579,7 +6603,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-24T00:49:01.161857"
+    "last_activity": "2026-11-24T18:48:58.815000"
   },
   "backup": {
     "last_backup": "—",
@@ -6629,5 +6653,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-24T00:49:01.161894"
+  "lastUpdate": "2026-11-24T18:48:58.815051"
 }
