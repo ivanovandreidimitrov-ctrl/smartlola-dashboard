@@ -27,7 +27,7 @@ let state = {
   agents: [],
   status: null,
   connected: false,
-  gudaView: 'today',  // 'today' | 'month' | 'total'
+  gudaView: 'week',  // 'today' | 'week' | 'month' | 'total'
   atlasView: 'current-month'  // 'current-month' | 'all'
 };
 
@@ -217,6 +217,12 @@ function getGudaFilteredExpenses() {
     if (dates.length === 0) return [];
     const lastDate = dates[dates.length - 1];
     return state.expenses.filter(e => e.date === lastDate);
+  } else if (state.gudaView === 'week') {
+    // Ultimele 7 zile calendaristice
+    const d = new Date();
+    d.setDate(d.getDate() - 6);
+    const from = d.toISOString().slice(0, 10);
+    return state.expenses.filter(e => (e.date || '') >= from && (e.date || '') <= today);
   } else if (state.gudaView === 'month') {
     return state.expenses.filter(e => (e.date || '').startsWith(thisMonth));
   } else if (state.gudaView === 'prev-month') {
@@ -240,6 +246,10 @@ function getGudaViewLabel() {
     const dates = state.expenses.map(e => e.date).filter(Boolean).sort();
     if (dates.length === 0) return 'Nicio dată';
     return formatDate(dates[dates.length - 1]);
+  } else if (state.gudaView === 'week') {
+    const d = new Date();
+    d.setDate(d.getDate() - 6);
+    return formatDate(d.toISOString().slice(0, 10)) + ' – ' + formatDate(new Date().toISOString().slice(0, 10));
   } else if (state.gudaView === 'month') {
     const now = new Date();
     return monthNames[now.getMonth() + 1] + ' ' + now.getFullYear();
