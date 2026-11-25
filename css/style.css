@@ -27,7 +27,10 @@ body {
   overscroll-behavior: none;
 }
 
-#app { max-width: 600px; margin: 0 auto; min-height: 100vh; padding-bottom: 20px; }
+#app { max-width: 600px; margin: 0 auto; min-height: 100vh; padding-bottom: 20px; overflow-x: hidden; }
+
+/* Permite scroll natural pe mobil când lista e lungă */
+.expense-list { overscroll-behavior: contain; }
 
 /* Header */
 .header {
@@ -540,4 +543,11 @@ body {
   .stats-row { grid-template-columns: 1fr 1fr 1fr; }
   .action-grid { grid-template-columns: 1fr 1fr; }
   .agents-grid { grid-template-columns: 1fr; }
+  .expense-list {
+    max-height: 60vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  /* Asigură scroll pe întreaga pagină dacă lista e în interiorul unui card fix */
+  .card { overflow: visible; }
 }
