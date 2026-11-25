@@ -1,17 +1,13 @@
 {
   "expenses": [
     {
-<<<<<<< HEAD
       "id": 635,
-=======
->>>>>>> 4892a09ec46def44ce11d6c42bbaef1205eddcb6
       "date": "2026-11-24",
       "description": "23 articole",
       "amount": 41.04,
       "category": "alimentare",
       "split": "personal",
       "source": "bon",
-<<<<<<< HEAD
       "store": "Tigros Ivrea",
       "receipt_items": [
         {
@@ -120,11 +116,6 @@
     },
     {
       "id": 429,
-=======
-      "store": "Tigros Ivrea"
-    },
-    {
->>>>>>> 4892a09ec46def44ce11d6c42bbaef1205eddcb6
       "date": "2026-11-07",
       "description": "Acqua min. efferv. x6 @0.27 (Lidl Ivrea, bon 2613-0010)",
       "amount": 1.62,
@@ -10319,11 +10310,7 @@
   },
   "andrei": {
     "status": "activ",
-<<<<<<< HEAD
-    "last_activity": "2026-11-25T05:57:00.459821"
-=======
-    "last_activity": "2026-11-25T00:49:03.115729"
->>>>>>> 4892a09ec46def44ce11d6c42bbaef1205eddcb6
+    "last_activity": "2026-11-25T05:58:31.098182"
   },
   "backup": {
     "last_backup": "—",
@@ -10373,9 +10360,5 @@
       "model": "—"
     }
   ],
-<<<<<<< HEAD
-  "lastUpdate": "2026-11-25T05:57:00.459862"
-=======
-  "lastUpdate": "2026-11-25T00:49:03.115767"
->>>>>>> 4892a09ec46def44ce11d6c42bbaef1205eddcb6
+  "lastUpdate": "2026-11-25T05:58:31.098219"
 }
