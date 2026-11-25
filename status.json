@@ -8891,9 +8891,9 @@
       "ora_end": "18:00",
       "ore_efective": 11.5,
       "mezzo": "RENAULT-529",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 3.0,
+      "ore_extra": 0.5,
       "colegi": ""
     },
     {
@@ -8903,9 +8903,9 @@
       "ora_end": "18:00",
       "ore_efective": 11.5,
       "mezzo": "MITSUBISHI",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 3.0,
+      "ore_extra": 0.5,
       "colegi": " "
     },
     {
@@ -8916,8 +8916,8 @@
       "ore_efective": 11.5,
       "mezzo": "3 POSTI-645",
       "ore_normal": 8.0,
-      "ore_guida": 0.0,
-      "ore_extra": 3.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.5,
       "colegi": "Nicu"
     },
     {
@@ -8928,8 +8928,8 @@
       "ore_efective": 13.0,
       "mezzo": "RENAULT-529",
       "ore_normal": 8.0,
-      "ore_guida": 0.0,
-      "ore_extra": 5.0,
+      "ore_guida": 3.0,
+      "ore_extra": 2.0,
       "colegi": ""
     },
     {
@@ -8940,8 +8940,8 @@
       "ore_efective": 12.5,
       "mezzo": "RENAULT-529",
       "ore_normal": 8.0,
-      "ore_guida": 0.0,
-      "ore_extra": 4.5,
+      "ore_guida": 3.0,
+      "ore_extra": 1.5,
       "colegi": ""
     },
     {
@@ -8952,8 +8952,8 @@
       "ore_efective": 12.0,
       "mezzo": "RENAULT-529",
       "ore_normal": 8.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_guida": 3.0,
+      "ore_extra": 1.0,
       "colegi": ""
     },
     {
@@ -8964,8 +8964,8 @@
       "ore_efective": 12.5,
       "mezzo": "RENAULT-529",
       "ore_normal": 8.0,
-      "ore_guida": 0.0,
-      "ore_extra": 4.5,
+      "ore_guida": 2.5,
+      "ore_extra": 2.0,
       "colegi": "Aldo"
     },
     {
@@ -8976,8 +8976,8 @@
       "ore_efective": 11.5,
       "mezzo": "RENAULT-529",
       "ore_normal": 8.0,
-      "ore_guida": 0.0,
-      "ore_extra": 3.5,
+      "ore_guida": 0.5,
+      "ore_extra": 3.0,
       "colegi": ""
     },
     {
@@ -8987,8 +8987,8 @@
       "ora_end": "14:00",
       "ore_efective": 7.5,
       "mezzo": null,
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
+      "ore_normal": 6.75,
+      "ore_guida": 0.75,
       "ore_extra": 0.0,
       "colegi": "Giovanni, Ivanov, Godwin, Tahiru"
     },
@@ -8999,9 +8999,9 @@
       "ora_end": "17:00",
       "ore_efective": 10.5,
       "mezzo": null,
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 0.5,
+      "ore_extra": 2.0,
       "colegi": "Ilie"
     },
     {
@@ -9012,8 +9012,8 @@
       "ore_efective": 10.5,
       "mezzo": "FISSO-613",
       "ore_normal": 8.0,
-      "ore_guida": 0.0,
-      "ore_extra": 2.5,
+      "ore_guida": 2.5,
+      "ore_extra": 0.0,
       "colegi": "Aldo"
     },
     {
@@ -9023,9 +9023,9 @@
       "ora_end": "18:30",
       "ore_efective": 11.5,
       "mezzo": "FISSO-613",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 3.0,
+      "ore_extra": 0.5,
       "colegi": ""
     },
     {
@@ -9035,9 +9035,9 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "FISSO-613",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 2.5,
+      "ore_extra": 1.5,
       "colegi": "Aldo"
     },
     {
@@ -9047,9 +9047,9 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "FISSO-613",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 2.5,
+      "ore_extra": 1.5,
       "colegi": "Aldo"
     },
     {
@@ -9059,9 +9059,9 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "RENAULT-529",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 2.5,
+      "ore_extra": 1.5,
       "colegi": "Aldo"
     },
     {
@@ -9071,9 +9071,9 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "IVECO",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 3.0,
+      "ore_extra": 1.0,
       "colegi": "Aldo"
     },
     {
@@ -9083,9 +9083,9 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "IVECO",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 3.0,
+      "ore_extra": 1.0,
       "colegi": "Aldo"
     },
     {
@@ -9095,9 +9095,9 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "FISSO-613",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 3.0,
+      "ore_extra": 1.0,
       "colegi": "Godwin"
     },
     {
@@ -9107,9 +9107,9 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "FISSO-613",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 3.0,
+      "ore_extra": 1.0,
       "colegi": "Aldo"
     },
     {
@@ -9120,8 +9120,8 @@
       "ore_efective": 11.5,
       "mezzo": "Fisso-613",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.5,
       "colegi": "Giovanni, Aldo"
     },
     {
@@ -9132,8 +9132,8 @@
       "ore_efective": 11.5,
       "mezzo": "Camion mare Iveco",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.5,
       "colegi": "Godwin"
     },
     {
@@ -9144,8 +9144,8 @@
       "ore_efective": 11.5,
       "mezzo": "Camion mare (Nolover cassonato)",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.5,
+      "ore_guida": 0.0,
+      "ore_extra": 3.5,
       "colegi": "Tahiru"
     },
     {
@@ -9155,9 +9155,9 @@
       "ora_end": "18:30",
       "ore_efective": 12.0,
       "mezzo": "Camion mare Iveco",
-      "ore_normal": 3.0,
-      "ore_guida": "2026-10-16 17:19:41",
-      "ore_extra": "2026-10-16 17:19:41",
+      "ore_normal": 8.0,
+      "ore_guida": 2.5,
+      "ore_extra": 1.5,
       "colegi": "Godwin"
     },
     {
@@ -9168,8 +9168,8 @@
       "ore_efective": 12.0,
       "mezzo": "Iveco",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 3.0,
+      "ore_guida": 2.5,
+      "ore_extra": 1.5,
       "colegi": "Godwin, Ayad"
     },
     {
@@ -9180,8 +9180,8 @@
       "ore_efective": 12.0,
       "mezzo": "613",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 3.0,
+      "ore_guida": 3.0,
+      "ore_extra": 1.0,
       "colegi": "Godwin"
     },
     {
@@ -9192,8 +9192,8 @@
       "ore_efective": 11.5,
       "mezzo": "613",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.5,
       "colegi": "Leonardo, Godwin"
     },
     {
@@ -9204,8 +9204,8 @@
       "ore_efective": 13.0,
       "mezzo": "RENAULT 529",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 4.0,
+      "ore_guida": 2.5,
+      "ore_extra": 2.5,
       "colegi": "Godwin"
     },
     {
@@ -9216,8 +9216,8 @@
       "ore_efective": 11.5,
       "mezzo": "3 POSTI 645",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.5,
+      "ore_guida": 0.0,
+      "ore_extra": 3.5,
       "colegi": "Florin"
     },
     {
@@ -9228,8 +9228,8 @@
       "ore_efective": 11.5,
       "mezzo": "FISSO 613",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.5,
+      "ore_guida": 2.5,
+      "ore_extra": 1.0,
       "colegi": "Tahiru"
     },
     {
@@ -9240,8 +9240,8 @@
       "ore_efective": 11.5,
       "mezzo": "RENAULT 529",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.5,
       "colegi": "Ilie"
     },
     {
@@ -9252,8 +9252,8 @@
       "ore_efective": 12.0,
       "mezzo": "RENAULT 529 + CESTELLO",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 3.0,
+      "ore_guida": 3.0,
+      "ore_extra": 1.0,
       "colegi": "Ilie"
     },
     {
@@ -9264,8 +9264,8 @@
       "ore_efective": 11.0,
       "mezzo": "FISSO 613",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.0,
+      "ore_guida": 0.75,
+      "ore_extra": 2.25,
       "colegi": "Giovanni, Ilie, Leonardo"
     },
     {
@@ -9276,8 +9276,8 @@
       "ore_efective": 11.5,
       "mezzo": "3 POSTI 645",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.5,
+      "ore_guida": 0.75,
+      "ore_extra": 2.75,
       "colegi": "Giovanni, Tahiru, Ilie"
     },
     {
@@ -9288,8 +9288,8 @@
       "ore_efective": 9.5,
       "mezzo": "FISSO 613",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_guida": 0.75,
+      "ore_extra": 0.75,
       "colegi": "Giovanni, Tahiru, Ilie, Leonardo"
     },
     {
@@ -9312,8 +9312,8 @@
       "ore_efective": 10.5,
       "mezzo": "",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 2.5,
+      "ore_extra": 0.0,
       "colegi": "Ilie, Tahiru"
     },
     {
@@ -9360,8 +9360,8 @@
       "ore_efective": 10.5,
       "mezzo": "RENAULT 529",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 2.5,
+      "ore_extra": 0.0,
       "colegi": "Florin, Ilie, Leonardo"
     },
     {
@@ -9371,9 +9371,9 @@
       "ora_end": "17:30",
       "ore_efective": 10.0,
       "mezzo": "RENAULT 529",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.0,
+      "ore_normal": 7.5,
+      "ore_guida": 2.5,
+      "ore_extra": 0.0,
       "colegi": "Florin, Ilie, Tahiru"
     },
     {
@@ -9383,9 +9383,9 @@
       "ora_end": "17:30",
       "ore_efective": 10.0,
       "mezzo": "IVECO",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.0,
+      "ore_normal": 7.5,
+      "ore_guida": 2.5,
+      "ore_extra": 0.0,
       "colegi": "Ilie"
     },
     {
@@ -9396,8 +9396,8 @@
       "ore_efective": 11.0,
       "mezzo": "IVECO",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.0,
+      "ore_guida": 2.5,
+      "ore_extra": 0.5,
       "colegi": "Ilie"
     },
     {
@@ -9408,8 +9408,8 @@
       "ore_efective": 10.5,
       "mezzo": "IVECO",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 2.5,
+      "ore_extra": 0.0,
       "colegi": "Ilie"
     },
     {
@@ -9420,8 +9420,8 @@
       "ore_efective": 10.0,
       "mezzo": "Fisso 613",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.0,
+      "ore_guida": 0.0,
+      "ore_extra": 2.0,
       "colegi": "Giovanni, Ilie, Tahiru"
     },
     {
@@ -9444,8 +9444,8 @@
       "ore_efective": 11.0,
       "mezzo": "Fisso 613",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.0,
+      "ore_guida": 0.0,
+      "ore_extra": 3.0,
       "colegi": "Giovanni, Florin, Ivanov, Tahiru"
     },
     {
@@ -9456,8 +9456,8 @@
       "ore_efective": 10.5,
       "mezzo": "Iveco",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 0.0,
+      "ore_extra": 2.5,
       "colegi": "Ivanov + Leonardo - Incapsulante, nylon+nastro"
     },
     {
@@ -9468,8 +9468,8 @@
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 0.75,
+      "ore_extra": 1.75,
       "colegi": "Ivanov - Brosso-Starbox-Morgex/La Vache Rit"
     },
     {
@@ -9480,8 +9480,8 @@
       "ore_efective": 9.5,
       "mezzo": "Renault-529",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_guida": 0.75,
+      "ore_extra": 0.75,
       "colegi": "Sergiu"
     },
     {
@@ -9492,8 +9492,8 @@
       "ore_efective": 9.5,
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_guida": 0.75,
+      "ore_extra": 0.75,
       "colegi": "Ivanov - cargar materiale, passare da Giono"
     },
     {
@@ -9504,8 +9504,8 @@
       "ore_efective": 10.0,
       "mezzo": "Iveco",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.0,
+      "ore_guida": 0.5,
+      "ore_extra": 1.5,
       "colegi": "Sergiu"
     },
     {
@@ -9516,8 +9516,8 @@
       "ore_efective": 9.5,
       "mezzo": "Iveco",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_guida": 0.5,
+      "ore_extra": 1.0,
       "colegi": "Sergiu"
     },
     {
@@ -9528,8 +9528,8 @@
       "ore_efective": 10.5,
       "mezzo": "Iveco",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 0.5,
+      "ore_extra": 2.0,
       "colegi": "Sergiu"
     },
     {
@@ -9540,8 +9540,8 @@
       "ore_efective": 9.5,
       "mezzo": "Iveco",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_guida": 1.5,
+      "ore_extra": 0.0,
       "colegi": "Tahiru"
     },
     {
@@ -9552,8 +9552,8 @@
       "ore_efective": 10.5,
       "mezzo": null,
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 0.0,
+      "ore_extra": 2.5,
       "colegi": null
     },
     {
@@ -9576,8 +9576,8 @@
       "ore_efective": 10.0,
       "mezzo": null,
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.0,
+      "ore_guida": 0.0,
+      "ore_extra": 2.0,
       "colegi": null
     },
     {
@@ -9588,8 +9588,8 @@
       "ore_efective": 11.0,
       "mezzo": null,
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.0,
+      "ore_guida": 2.5,
+      "ore_extra": 0.5,
       "colegi": null
     },
     {
@@ -9600,8 +9600,8 @@
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 2.5,
+      "ore_extra": 0.0,
       "colegi": "Tahiru"
     },
     {
@@ -9612,8 +9612,8 @@
       "ore_efective": 11.5,
       "mezzo": null,
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.5,
+      "ore_guida": 2.5,
+      "ore_extra": 1.0,
       "colegi": null
     },
     {
@@ -9624,8 +9624,8 @@
       "ore_efective": 11.0,
       "mezzo": "auto",
       "ore_normal": 8.0,
-      "ore_guida": 2.0,
-      "ore_extra": 1.0,
+      "ore_guida": 1.0,
+      "ore_extra": 2.0,
       "colegi": "Leonardo"
     },
     {
@@ -9635,8 +9635,8 @@
       "ora_end": "16:00",
       "ore_efective": 8.0,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 0.0,
+      "ore_normal": 7.0,
+      "ore_guida": 1.0,
       "ore_extra": 0.0,
       "colegi": null
     },
@@ -9648,8 +9648,8 @@
       "ore_efective": 8.5,
       "mezzo": "--colegi",
       "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 0.5,
       "colegi": null
     },
     {
@@ -9684,8 +9684,8 @@
       "ore_efective": 10.5,
       "mezzo": "",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 0.0,
+      "ore_extra": 2.5,
       "colegi": "Ilie, Tahiru, Leonardo, Ivanov, Marcello"
     },
     {
@@ -9708,8 +9708,8 @@
       "ore_efective": 10.0,
       "mezzo": "Fisso - 613",
       "ore_normal": 8.0,
-      "ore_guida": 2.0,
-      "ore_extra": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 2.0,
       "colegi": null
     },
     {
@@ -9720,8 +9720,8 @@
       "ore_efective": 10.0,
       "mezzo": "Fisso - 613",
       "ore_normal": 8.0,
-      "ore_guida": 2.0,
-      "ore_extra": 0.0,
+      "ore_guida": 0.0,
+      "ore_extra": 2.0,
       "colegi": null
     },
     {
@@ -9743,9 +9743,9 @@
       "ora_end": "15:00",
       "ore_efective": 9.0,
       "mezzo": "FISSO - 613",
-      "ore_normal": 9.0,
+      "ore_normal": 8.0,
       "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_extra": 1.0,
       "colegi": "Ilie, Sergiu, Tahiru, Marcello"
     },
     {
@@ -9768,8 +9768,8 @@
       "ore_efective": 10.5,
       "mezzo": "Iveco",
       "ore_normal": 8.0,
-      "ore_guida": 1.5,
-      "ore_extra": 1.0,
+      "ore_guida": 0.0,
+      "ore_extra": 2.5,
       "colegi": null
     },
     {
@@ -9780,8 +9780,8 @@
       "ore_efective": 13.0,
       "mezzo": "Iveco",
       "ore_normal": 8.0,
-      "ore_guida": 4.0,
-      "ore_extra": 1.0,
+      "ore_guida": 0.0,
+      "ore_extra": 5.0,
       "colegi": null
     },
     {
@@ -9791,9 +9791,9 @@
       "ora_end": "11:30",
       "ore_efective": 4.5,
       "mezzo": null,
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 4.5,
+      "ore_normal": 3.5,
+      "ore_guida": 1.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -9804,8 +9804,8 @@
       "ore_efective": 10.0,
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.0,
+      "ore_guida": 0.5,
+      "ore_extra": 1.5,
       "colegi": "Sergiu, Tahiru"
     },
     {
@@ -9816,8 +9816,8 @@
       "ore_efective": 10.0,
       "mezzo": "Iveco",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.0,
+      "ore_guida": 0.5,
+      "ore_extra": 1.5,
       "colegi": "Sergiu"
     },
     {
@@ -9840,8 +9840,8 @@
       "ore_efective": 9.5,
       "mezzo": "Cestello",
       "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 1.0,
+      "ore_guida": 0.0,
+      "ore_extra": 1.5,
       "colegi": "Tahiru"
     },
     {
@@ -9852,8 +9852,8 @@
       "ore_efective": 10.0,
       "mezzo": "Cestello",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.0,
+      "ore_guida": 0.0,
+      "ore_extra": 2.0,
       "colegi": "Tahiru"
     },
     {
@@ -9864,8 +9864,8 @@
       "ore_efective": 10.0,
       "mezzo": "Cestello",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.0,
+      "ore_guida": 0.0,
+      "ore_extra": 2.0,
       "colegi": "Tahiru"
     },
     {
@@ -9876,8 +9876,8 @@
       "ore_efective": 10.5,
       "mezzo": null,
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 0.0,
+      "ore_extra": 2.5,
       "colegi": "Tahiru"
     },
     {
@@ -9888,8 +9888,8 @@
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 1.5,
+      "ore_extra": 1.0,
       "colegi": null
     },
     {
@@ -9899,9 +9899,9 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
-      "ore_normal": 10.5,
-      "ore_guida": 0.0,
-      "ore_extra": 0.0,
+      "ore_normal": 8.0,
+      "ore_guida": 1.5,
+      "ore_extra": 1.0,
       "colegi": "Sergiu, Leonardo"
     },
     {
@@ -9912,8 +9912,8 @@
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 1.5,
+      "ore_extra": 1.0,
       "colegi": "Sergiu+Leonardo (Aosta Cond Sorreley, cu Ivanov). Alte echipe: Florin+Marcello Champorcher (Fisso 613), Giovanni+Tahiru Aosta Cond Sorreley & Ancien Bazaar (3 posti 645, ZTL)"
     },
     {
@@ -9923,9 +9923,9 @@
       "ora_end": "13:00",
       "ore_efective": 3.0,
       "mezzo": "Renault 529",
-      "ore_normal": 0.0,
-      "ore_guida": 0.0,
-      "ore_extra": 3.0,
+      "ore_normal": 2.5,
+      "ore_guida": 0.5,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -9936,8 +9936,8 @@
       "ore_efective": 10.5,
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 2.0,
+      "ore_guida": 1.0,
+      "ore_extra": 1.5,
       "colegi": "Singur"
     },
     {
@@ -9948,8 +9948,8 @@
       "ore_efective": 10.0,
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 1.5,
+      "ore_guida": 1.0,
+      "ore_extra": 1.0,
       "colegi": "Ivanov"
     },
     {
@@ -9960,8 +9960,8 @@
       "ore_efective": 9.5,
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_guida": 1.5,
+      "ore_extra": 0.0,
       "colegi": "Florin+Leonard (Trausella), Sergiu+Marcello (Settimo Vittone), Giovanni+Tahiru (Aosta) | Ferie: Ilie"
     },
     {
@@ -9996,8 +9996,8 @@
       "ore_efective": 11.0,
       "mezzo": null,
       "ore_normal": 8.0,
-      "ore_guida": 0.0,
-      "ore_extra": 3.0,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": "Florin, Giovanni, Tahiru, Sergiu"
     },
     {
@@ -10007,9 +10007,9 @@
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": "Iveco",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_normal": 6.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -10019,9 +10019,9 @@
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_normal": 6.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -10031,9 +10031,9 @@
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_normal": 6.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -10043,9 +10043,9 @@
       "ora_end": "18:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_normal": 6.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -10055,9 +10055,9 @@
       "ora_end": "18:00",
       "ore_efective": 10.0,
       "mezzo": "Iveco 645",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.0,
+      "ore_normal": 7.0,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": "Giovanni, Sergiu"
     },
     {
@@ -10067,8 +10067,8 @@
       "ora_end": "18:00",
       "ore_efective": 9.0,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
+      "ore_normal": 6.0,
+      "ore_guida": 3.0,
       "ore_extra": 0.0,
       "colegi": null
     },
@@ -10079,9 +10079,9 @@
       "ora_end": "17:30",
       "ore_efective": 9.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_normal": 6.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -10092,8 +10092,8 @@
       "ore_efective": 10.0,
       "mezzo": null,
       "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 1.5,
+      "ore_guida": 0.0,
+      "ore_extra": 2.0,
       "colegi": null
     },
     {
@@ -10103,9 +10103,9 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": "3 Posti 645",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_normal": 7.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -10116,8 +10116,8 @@
       "ore_efective": 9.0,
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 0.5,
+      "ore_guida": 0.0,
+      "ore_extra": 1.0,
       "colegi": "Livio, Tahiru, Sergiu"
     },
     {
@@ -10128,8 +10128,8 @@
       "ore_efective": 11.0,
       "mezzo": "Iveco",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.0,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -10139,9 +10139,9 @@
       "ora_end": "18:00",
       "ore_efective": 10.5,
       "mezzo": "Iveco",
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_normal": 7.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -10152,8 +10152,8 @@
       "ore_efective": 10.0,
       "mezzo": "Renault 529",
       "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 1.5,
+      "ore_guida": 0.0,
+      "ore_extra": 2.0,
       "colegi": "Livio, Ilie, Tahiru, Sergiu"
     },
     {
@@ -10164,8 +10164,8 @@
       "ore_efective": 9.5,
       "mezzo": "Fisso 613",
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 0.5,
+      "ore_guida": 0.0,
+      "ore_extra": 1.5,
       "colegi": null
     },
     {
@@ -10175,8 +10175,8 @@
       "ora_end": "15:30",
       "ore_efective": 7.5,
       "mezzo": null,
-      "ore_normal": 7.0,
-      "ore_guida": 0.5,
+      "ore_normal": 7.5,
+      "ore_guida": 0.0,
       "ore_extra": 0.0,
       "colegi": null
     },
@@ -10200,8 +10200,8 @@
       "ore_efective": 10.0,
       "mezzo": null,
       "ore_normal": 8.0,
-      "ore_guida": 0.5,
-      "ore_extra": 1.5,
+      "ore_guida": 0.0,
+      "ore_extra": 2.0,
       "colegi": "Livio, Ilie, Tahiru, Sergiu"
     },
     {
@@ -10211,8 +10211,8 @@
       "ora_end": "15:00",
       "ore_efective": 7.0,
       "mezzo": null,
-      "ore_normal": 6.0,
-      "ore_guida": 1.0,
+      "ore_normal": 4.0,
+      "ore_guida": 3.0,
       "ore_extra": 0.0,
       "colegi": null
     },
@@ -10223,9 +10223,9 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_normal": 7.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -10235,9 +10235,9 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_normal": 7.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -10248,8 +10248,8 @@
       "ore_efective": 10.5,
       "mezzo": null,
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_guida": 0.0,
+      "ore_extra": 2.5,
       "colegi": null
     },
     {
@@ -10259,9 +10259,9 @@
       "ora_end": "18:30",
       "ore_efective": 10.5,
       "mezzo": null,
-      "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 1.5,
+      "ore_normal": 7.5,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     },
     {
@@ -10272,8 +10272,8 @@
       "ore_efective": 11.0,
       "mezzo": null,
       "ore_normal": 8.0,
-      "ore_guida": 1.0,
-      "ore_extra": 2.0,
+      "ore_guida": 3.0,
+      "ore_extra": 0.0,
       "colegi": null
     }
   ],
@@ -10310,7 +10310,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-25T05:58:31.098182"
+    "last_activity": "2026-11-25T06:20:09.811302"
   },
   "backup": {
     "last_backup": "—",
@@ -10360,5 +10360,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-25T05:58:31.098219"
+  "lastUpdate": "2026-11-25T06:20:09.811340"
 }
