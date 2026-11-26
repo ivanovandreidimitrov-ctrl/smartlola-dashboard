@@ -1,6 +1,114 @@
 {
   "expenses": [
     {
+      "id": 636,
+      "date": "2026-11-26",
+      "description": "Lidl Ivrea — cumpărături casă (doc 1357-0637, 20:29)",
+      "amount": 34.44,
+      "category": "alimentari",
+      "split": "personal",
+      "source": "bon-lidl",
+      "store": "Lidl Ivrea",
+      "receipt_items": [
+        {
+          "product_name": "Acqua min. efferv.",
+          "price": 3.24,
+          "quantity": 12.0,
+          "unit": "pz"
+        },
+        {
+          "product_name": "Macinato bovino/suino",
+          "price": 6.99,
+          "quantity": 1.0,
+          "unit": null
+        },
+        {
+          "product_name": "Kefir XXL",
+          "price": 2.97,
+          "quantity": 1.0,
+          "unit": null
+        },
+        {
+          "product_name": "Yog da bere fragola",
+          "price": 1.49,
+          "quantity": 3.0,
+          "unit": "pz"
+        },
+        {
+          "product_name": "Latte fresco intero",
+          "price": 1.25,
+          "quantity": 4.0,
+          "unit": "pz"
+        },
+        {
+          "product_name": "Birra Ichnusa",
+          "price": 2.19,
+          "quantity": 2.0,
+          "unit": "pz"
+        },
+        {
+          "product_name": "Shopper biodegrad.",
+          "price": 0.38,
+          "quantity": 2.0,
+          "unit": "pz"
+        },
+        {
+          "product_name": "Mortadella",
+          "price": 2.99,
+          "quantity": 1.0,
+          "unit": "pz"
+        },
+        {
+          "product_name": "Salmetto caccatore",
+          "price": 1.85,
+          "quantity": 1.0,
+          "unit": null
+        },
+        {
+          "product_name": "Pinot chardonnay",
+          "price": 2.49,
+          "quantity": 1.0,
+          "unit": null
+        },
+        {
+          "product_name": "Salmetto piccante",
+          "price": 1.89,
+          "quantity": 1.0,
+          "unit": null
+        },
+        {
+          "product_name": "Cipolle dorate",
+          "price": 1.07,
+          "quantity": 1.0,
+          "unit": null
+        },
+        {
+          "product_name": "Sacco ortofr. biodegr. (0.898 kg x 1.19 EUR/kg)",
+          "price": 0.83,
+          "quantity": 0.898,
+          "unit": "kg"
+        },
+        {
+          "product_name": "Zucchine (0.81 kg x 1.79 EUR/kg)",
+          "price": 0.73,
+          "quantity": 0.81,
+          "unit": "kg"
+        },
+        {
+          "product_name": "Pomodoro insalato (1.136 kg x 2.99 EUR/kg)",
+          "price": 3.31,
+          "quantity": 1.136,
+          "unit": "kg"
+        },
+        {
+          "product_name": "Crois. albic. liev. mad. (0.55 pz)",
+          "price": 1.65,
+          "quantity": 1.0,
+          "unit": "pz"
+        }
+      ]
+    },
+    {
       "id": 635,
       "date": "2026-11-24",
       "description": "23 articole",
@@ -10278,16 +10386,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 576,
-    "expenses_total": 10659.95,
+    "expenses": 577,
+    "expenses_total": 10694.39,
     "ore_lucrate": 117,
     "ore_total": 1175.2,
     "pending": 0,
     "speza_offers": 1444
   },
   "db": {
-    "expenses": 576,
-    "expenses_total": 10659.95,
+    "expenses": 577,
+    "expenses_total": 10694.39,
     "ore_lucrate": 117,
     "ore_total": 1175.2,
     "pending": 0,
@@ -10310,7 +10418,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-26T06:50:43.800709"
+    "last_activity": "2026-11-26T21:51:59.433625"
   },
   "backup": {
     "last_backup": "—",
@@ -10360,5 +10468,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-26T06:50:43.800750"
+  "lastUpdate": "2026-11-26T21:51:59.433672"
 }
