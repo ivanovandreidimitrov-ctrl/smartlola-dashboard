@@ -8981,6 +8981,30 @@
   ],
   "ore_lucrate": [
     {
+      "date": "2026-11-27",
+      "santier": "Saint-Christophe, Cond Sorreley",
+      "ora_start": "06:30",
+      "ora_end": null,
+      "ore_efective": null,
+      "mezzo": "IVECO",
+      "ore_normal": null,
+      "ore_guida": null,
+      "ore_extra": null,
+      "colegi": "Leonardo"
+    },
+    {
+      "date": "2026-11-26",
+      "santier": "??? (de completat)",
+      "ora_start": "06:30",
+      "ora_end": "18:00",
+      "ore_efective": 11.5,
+      "mezzo": null,
+      "ore_normal": 8.0,
+      "ore_guida": 2.5,
+      "ore_extra": 1.0,
+      "colegi": null
+    },
+    {
       "date": "2026-11-25",
       "santier": "Valtournenche, Cond Petit Mont Fleury",
       "ora_start": "07:00",
@@ -10388,16 +10412,16 @@
   "db_stats": {
     "expenses": 577,
     "expenses_total": 10694.39,
-    "ore_lucrate": 117,
-    "ore_total": 1175.2,
+    "ore_lucrate": 119,
+    "ore_total": 1186.7,
     "pending": 0,
     "speza_offers": 1444
   },
   "db": {
     "expenses": 577,
     "expenses_total": 10694.39,
-    "ore_lucrate": 117,
-    "ore_total": 1175.2,
+    "ore_lucrate": 119,
+    "ore_total": 1186.7,
     "pending": 0,
     "speza_offers": 1444
   },
@@ -10418,7 +10442,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-26T21:51:59.433625"
+    "last_activity": "2026-11-27T06:51:00.066622"
   },
   "backup": {
     "last_backup": "—",
@@ -10468,5 +10492,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-26T21:51:59.433672"
+  "lastUpdate": "2026-11-27T06:51:00.066677"
 }
