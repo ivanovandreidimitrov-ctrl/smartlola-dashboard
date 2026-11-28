@@ -1,6 +1,54 @@
 {
   "expenses": [
     {
+      "id": 638,
+      "date": "2026-11-28",
+      "description": "Supermercato CONAD Ivrea — doc 2584-0031, 11:01. Via della Liberazione 1, Ivrea. Carta Insieme 0226****60. RT 99MEY054235. Plată 10.00 contanti, resto 5.45. Cassa 002.",
+      "amount": 4.55,
+      "category": "alimentari",
+      "split": "personal",
+      "source": "bon",
+      "store": "Supermercato CONAD Ivrea",
+      "receipt_items": [
+        {
+          "product_name": "Latte FR.INT. bot.1L",
+          "price": 1.97,
+          "quantity": 1.0,
+          "unit": "L"
+        },
+        {
+          "product_name": "Patate dolci",
+          "price": 2.56,
+          "quantity": 1.0,
+          "unit": "kg"
+        },
+        {
+          "product_name": "Sacchetto BIO CONAD",
+          "price": 0.02,
+          "quantity": 1.0,
+          "unit": "buc"
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "date": "2026-11-28",
+      "description": "Panetteria Borgesio — doc 2280-0022, 09:15. Via Castellamonte 43A, Banchette. Produse 4% (IVA 0.25). RT 96MBD717982. Plată contanti.",
+      "amount": 6.45,
+      "category": "alimentari",
+      "split": "personal",
+      "source": "bon",
+      "store": "Panetteria Borgesio",
+      "receipt_items": [
+        {
+          "product_name": "PRODOTTI 4%",
+          "price": 6.45,
+          "quantity": 1.0,
+          "unit": "buc"
+        }
+      ]
+    },
+    {
       "id": 636,
       "date": "2026-11-26",
       "description": "Lidl Ivrea — cumpărături casă (doc 1357-0637, 20:29)",
@@ -10410,16 +10458,16 @@
     }
   ],
   "db_stats": {
-    "expenses": 577,
-    "expenses_total": 10694.39,
+    "expenses": 579,
+    "expenses_total": 10705.39,
     "ore_lucrate": 119,
     "ore_total": 1186.7,
     "pending": 0,
     "speza_offers": 1444
   },
   "db": {
-    "expenses": 577,
-    "expenses_total": 10694.39,
+    "expenses": 579,
+    "expenses_total": 10705.39,
     "ore_lucrate": 119,
     "ore_total": 1186.7,
     "pending": 0,
@@ -10442,7 +10490,7 @@
   },
   "andrei": {
     "status": "activ",
-    "last_activity": "2026-11-27T06:51:00.066622"
+    "last_activity": "2026-11-28T11:28:24.380917"
   },
   "backup": {
     "last_backup": "—",
@@ -10492,5 +10540,5 @@
       "model": "—"
     }
   ],
-  "lastUpdate": "2026-11-27T06:51:00.066677"
+  "lastUpdate": "2026-11-28T11:28:24.380960"
 }
